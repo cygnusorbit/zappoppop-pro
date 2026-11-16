@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "author": "ZapPopPop",
     "description": "Real-time math formulas for form fields: the result is shown while the visitor types.",
+    "image": "icon.svg",
     "category": "all-modules",
     "default_active": false,
     "order": 40,

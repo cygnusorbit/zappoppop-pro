@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "author": "ZapPopPop",
     "description": "Quiz scoring with pass and fail canvases.",
+    "image": "icon.svg",
     "category": "all-modules",
     "default_active": false,
     "order": 160,

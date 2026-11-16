@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "author": "ZapPopPop",
     "description": "Create a unique WooCommerce discount coupon for every new subscriber.",
+    "image": "icon.svg",
     "category": "all-modules",
     "default_active": false,
     "order": 140,

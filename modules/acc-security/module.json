@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "author": "ZapPopPop",
     "description": "Technical info, repeated submission (antibot) protection, page scrollbar lock and personal data keys.",
+    "image": "icon.svg",
     "category": "all-modules",
     "default_active": false,
     "order": 120,

@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "author": "ZapPopPop",
     "description": "Video playback listeners: open the popup while a video on the page plays.",
+    "image": "icon.svg",
     "category": "all-modules",
     "default_active": false,
     "order": 80,

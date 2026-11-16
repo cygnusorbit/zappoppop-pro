@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "author": "ZapPopPop",
     "description": "Show-frequency limits: always, once per session or once every X days.",
+    "image": "icon.svg",
     "category": "all-modules",
     "default_active": false,
     "order": 130,

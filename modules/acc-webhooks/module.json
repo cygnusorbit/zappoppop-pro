@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "author": "ZapPopPop",
     "description": "Send submissions to external marketing tools through a webhook URL.",
+    "image": "icon.svg",
     "category": "all-modules",
     "default_active": false,
     "order": 100,

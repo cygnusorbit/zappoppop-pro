@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "author": "ZapPopPop",
     "description": "Give subscribers a protected, single-use download link after they submit.",
+    "image": "icon.svg",
     "category": "all-modules",
     "default_active": false,
     "order": 70,

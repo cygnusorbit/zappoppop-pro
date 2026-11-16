@@ -5,6 +5,7 @@
     "version": "1.0.1",
     "author": "ZapPopPop",
     "description": "Twilio SMS alerts for new submissions.",
+    "image": "icon.svg",
     "category": "all-modules",
     "default_active": false,
     "order": 110,
