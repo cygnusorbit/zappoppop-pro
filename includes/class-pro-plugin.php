@@ -62,7 +62,6 @@ class ZapPopPop_Pro_Plugin {
 
         if (is_admin()) {
             ZapPopPop_Pro_Admin::hooks();
-            add_action('admin_init', array(__CLASS__, 'seed_modules'));
         }
     }
 
@@ -78,26 +77,6 @@ class ZapPopPop_Pro_Plugin {
             $roots[] = array('path' => ZAPPOPPOP_PRO_PATH . 'library-presets', 'url' => ZAPPOPPOP_PRO_URL . 'library-presets/');
         }
         return $roots;
-    }
-
-    /** Switches on the modules flagged "default_active" once per Pro version, never touching a state the user chose. */
-    public static function seed_modules() {
-        if (!current_user_can('manage_options') || !ZapPopPop_Pro_License::is_unlocked()) {
-            return;
-        }
-        if (get_option('zappoppop_pro_seed_ver') === ZAPPOPPOP_PRO_VERSION) {
-            return;
-        }
-        if (!class_exists('ZapPopPop_Modules')) {
-            return;
-        }
-        $states = ZapPopPop_Modules::states();
-        foreach (ZapPopPop_Modules::all() as $slug => $m) {
-            if ($m['source'] === 'pro' && !empty($m['default_active']) && !isset($states[$slug]) && $m['compatible']) {
-                ZapPopPop_Modules::set_state($slug, 'installed');
-            }
-        }
-        update_option('zappoppop_pro_seed_ver', ZAPPOPPOP_PRO_VERSION, false);
     }
 
     /** True when the Plugins screen should flag Pro as only partly active. */
