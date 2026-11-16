@@ -1,0 +1,22 @@
+{
+    "schema": 1,
+    "slug": "acc-popup-overlay",
+    "name": "Popup Overlay",
+    "version": "1.0.0",
+    "author": "ZapPopPop",
+    "description": "Page overlay behind the popup: colour, opacity, image or animation.",
+    "category": "all-modules",
+    "default_active": true,
+    "order": 170,
+    "on_missing": "skip",
+    "requires": [],
+    "accordion": "accordion.html",
+    "allow_edit": true,
+	"allow_delete": false,
+    "data_keys": [
+        "overlay"
+    ],
+    "in_use": [],
+    "min_version": "",
+    "deprecated": false
+}

@@ -1,0 +1,9 @@
+.zappoppop-dopt-root .zappoppop-dopt-check{display:flex;align-items:center;gap:8px;font-weight:600;margin-bottom:10px;}
+.zappoppop-dopt-root .zappoppop-dopt-intro{margin:0 0 10px;}
+.zappoppop-dopt-root .zappoppop-dopt-field{margin:0 0 10px;}
+.zappoppop-dopt-root .zappoppop-dopt-field-last{margin:0;}
+.zappoppop-dopt-root .zappoppop-dopt-lblrow{position:relative;display:flex;align-items:center;gap:6px;margin:0 0 4px;}
+.zappoppop-dopt-root .zappoppop-dopt-lblrow label{font-weight:600;}
+.zappoppop-dopt-root .zappoppop-dopt-from{display:flex;gap:6px;}
+.zappoppop-dopt-root .zappoppop-dopt-help{margin:4px 0 0;}
+.zappoppop-dopt-root .zappoppop-dopt-check label:not(.zappoppop-toggle-switch){margin:0;cursor:pointer;}

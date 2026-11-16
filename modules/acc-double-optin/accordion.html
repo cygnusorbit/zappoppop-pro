@@ -1,0 +1,38 @@
+<div class="zappoppop-dopt-root">
+    <div class="zappoppop-dopt-check"><label class="zappoppop-toggle-switch"><input type="checkbox" id="set-dopt-enable" value="1"><span class="zappoppop-toggle-slider"></span></label><label for="set-dopt-enable">Enable Double Opt-In</label></div>
+    <p class="description zappoppop-dopt-intro">Every submission stays "pending" until the visitor clicks the confirmation link. Notifications set to "After double opt-in confirmation" are sent at that moment.</p>
+
+    <div class="zappoppop-dopt-field">
+        <div class="zappoppop-dopt-lblrow zappoppop-dopt-hastag"><label for="set-dopt-recipient">Recipient</label></div>
+        <input type="text" id="set-dopt-recipient" class="widefat" placeholder="Empty = the visitor email">
+    </div>
+
+    <div class="zappoppop-dopt-field">
+        <div class="zappoppop-dopt-lblrow zappoppop-dopt-hastag"><label for="set-dopt-subject">Subject</label></div>
+        <input type="text" id="set-dopt-subject" class="widefat" value="Please confirm your email address">
+    </div>
+
+    <div class="zappoppop-dopt-field">
+        <div class="zappoppop-dopt-lblrow zappoppop-dopt-hastag"><label for="set-dopt-message">Message</label></div>
+        <textarea id="set-dopt-message" rows="6" class="widefat"></textarea>
+    </div>
+
+    <div class="zappoppop-dopt-field">
+        <div class="zappoppop-dopt-lblrow"><label for="set-dopt-from-email">From</label></div>
+        <div class="zappoppop-dopt-from">
+            <input type="text" id="set-dopt-from-email" class="widefat" value="{{global-from-email}}" placeholder="email">
+            <input type="text" id="set-dopt-from-name" class="widefat" value="{{global-from-name}}" placeholder="name">
+        </div>
+    </div>
+
+    <div class="zappoppop-dopt-field">
+        <div class="zappoppop-dopt-lblrow zappoppop-dopt-hastag"><label for="set-dopt-thank-message">Thank-you message</label></div>
+        <textarea id="set-dopt-thank-message" rows="4" class="widefat"></textarea>
+    </div>
+
+    <div class="zappoppop-dopt-field zappoppop-dopt-field-last">
+        <div class="zappoppop-dopt-lblrow"><label for="set-dopt-thank-url">Thank-you URL</label></div>
+        <input type="url" id="set-dopt-thank-url" class="widefat" placeholder="https://">
+        <p class="description zappoppop-dopt-help">If set, the visitor is redirected here after confirming (instead of the message).</p>
+    </div>
+</div>

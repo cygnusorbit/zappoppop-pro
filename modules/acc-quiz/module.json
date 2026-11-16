@@ -1,0 +1,24 @@
+{
+    "schema": 1,
+    "slug": "acc-quiz",
+    "name": "Quiz",
+    "version": "1.0.0",
+    "author": "ZapPopPop",
+    "description": "Quiz scoring with pass and fail canvases.",
+    "category": "all-modules",
+    "default_active": false,
+    "order": 160,
+    "on_missing": "skip",
+    "requires": [],
+    "accordion": "accordion.html",
+    "allow_edit": true,
+	"allow_delete": false,
+    "data_keys": [
+        "quiz"
+    ],
+    "in_use": [
+        "quiz.enable"
+    ],
+    "min_version": "",
+    "deprecated": false
+}

@@ -1,0 +1,8 @@
+.zappoppop-auto-root .zappoppop-auto-check{display:flex;align-items:center;gap:8px;font-weight:600;margin:0 0 10px;}
+.zappoppop-auto-root .zappoppop-auto-lbl{display:block;font-weight:600;margin:0 0 4px;}
+.zappoppop-auto-root input.widefat{margin:0 0 10px;}
+.zappoppop-auto-root textarea.widefat{margin:0;}
+.zappoppop-auto-root .zappoppop-auto-help{margin:6px 0 0;font-size:11px;color:#64748b;}
+.zappoppop-auto-root .zappoppop-auto-lblrow{position:relative;display:flex;align-items:center;gap:6px;margin:0 0 4px;}
+.zappoppop-auto-root .zappoppop-auto-lblrow .zappoppop-auto-lbl{margin:0;}
+.zappoppop-auto-root .zappoppop-auto-check label:not(.zappoppop-toggle-switch){margin:0;cursor:pointer;}
