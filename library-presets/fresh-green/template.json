@@ -4,20 +4,13 @@
         "title": "Fresh Green",
         "description": "",
         "category": "custom",
-        "tier": "pro"
         "download": false,
         "image": "images/Screenshot-2026-11-08-at-20.22.35.png",
         "assets": [
             "images/Screenshot-2026-11-08-at-20.22.35.png"
         ]
     },
-    "badge": { 
-    
-    "text": "PRO", 
-    "bg": "#ef5f33", 
-    "color": "#ffffff" 
-    
-    },
+ 
     
     "data": {
         "title": "Fresh Green",
