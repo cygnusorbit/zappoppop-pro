@@ -52,18 +52,22 @@ jobs:
           (cd build && zip -rq ../zappoppop-pro.zip zappoppop-pro)
           unzip -l zappoppop-pro.zip | tail -n 5
 
+      - name: Fetch Freemius PHP SDK
+        run: |
+          php -v
+          php -m | grep -qi '^curl$' || { echo "::error::PHP curl extension missing on runner"; exit 1; }
+          git clone --depth 1 https://github.com/Freemius/freemius-php-sdk.git "$RUNNER_TEMP/freemius-php-sdk"
+          test -f "$RUNNER_TEMP/freemius-php-sdk/freemius/Freemius.php"
+
       - name: Deploy to Freemius
-        id: freemius
-        # Third-party action receiving your secret key: pin to a full commit SHA once reviewed.
-        uses: buttonizer/freemius-deploy@v0.1.3
-        with:
-          file_name: zappoppop-pro.zip
-          version: ${{ steps.ver.outputs.version }}
-          release_mode: pending
-          sandbox: ${{ steps.ver.outputs.sandbox }}
         env:
-          PUBLIC_KEY: ${{ secrets.FREEMIUS_PUBLIC_KEY }}
-          SECRET_KEY: ${{ secrets.FREEMIUS_SECRET_KEY }}
-          DEV_ID: ${{ secrets.FREEMIUS_DEV_ID }}
-          PLUGIN_ID: ${{ secrets.FREEMIUS_PLUGIN_ID }}
-          PLUGIN_SLUG: zappoppop-pro
+          FS_DEV_ID: ${{ secrets.FREEMIUS_DEV_ID }}
+          FS_PUBLIC_KEY: ${{ secrets.FREEMIUS_PUBLIC_KEY }}
+          FS_SECRET_KEY: ${{ secrets.FREEMIUS_SECRET_KEY }}
+          FS_PLUGIN_ID: ${{ secrets.FREEMIUS_PLUGIN_ID }}
+          FS_ZIP: zappoppop-pro.zip
+          FS_VERSION: ${{ steps.ver.outputs.version }}
+          FS_SANDBOX: ${{ steps.ver.outputs.sandbox }}
+          FS_RELEASE_MODE: pending
+          FS_SDK_DIR: ${{ runner.temp }}/freemius-php-sdk
+        run: php bin/freemius-deploy.php
