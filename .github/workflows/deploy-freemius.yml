@@ -1,0 +1,69 @@
+name: Deploy Pro to Freemius
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: freemius-deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve version from tag
+        id: ver
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          # Tags containing a hyphen (e.g. v1.0.0-test) deploy to Freemius sandbox.
+          if [[ "$VERSION" == *-* ]]; then
+            echo "sandbox=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "sandbox=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Verify tag matches plugin header version
+        run: |
+          HDR=$(grep -m1 -E '^[[:space:]]*\*?[[:space:]]*Version:' zappoppop-pro.php | sed -E 's/.*Version:[[:space:]]*//' | tr -d '\r' | xargs)
+          echo "Header: '${HDR}'  Tag: '${{ steps.ver.outputs.version }}'"
+          if [ "$HDR" != "${{ steps.ver.outputs.version }}" ]; then
+            echo "::error::Tag version does not match zappoppop-pro.php header version."
+            exit 1
+          fi
+
+      - name: Build plugin zip
+        run: |
+          rm -rf build zappoppop-pro.zip
+          mkdir -p build/zappoppop-pro
+          rsync -a \
+            --exclude='/build' \
+            --exclude='/zappoppop-pro.zip' \
+            --exclude-from=.distignore \
+            ./ build/zappoppop-pro/
+          (cd build && zip -rq ../zappoppop-pro.zip zappoppop-pro)
+          unzip -l zappoppop-pro.zip | tail -n 5
+
+      - name: Deploy to Freemius
+        id: freemius
+        # Third-party action receiving your secret key: pin to a full commit SHA once reviewed.
+        uses: buttonizer/freemius-deploy@v0.1.3
+        with:
+          file_name: zappoppop-pro.zip
+          version: ${{ steps.ver.outputs.version }}
+          release_mode: pending
+          sandbox: ${{ steps.ver.outputs.sandbox }}
+        env:
+          PUBLIC_KEY: ${{ secrets.FREEMIUS_PUBLIC_KEY }}
+          SECRET_KEY: ${{ secrets.FREEMIUS_SECRET_KEY }}
+          DEV_ID: ${{ secrets.FREEMIUS_DEV_ID }}
+          PLUGIN_ID: ${{ secrets.FREEMIUS_PLUGIN_ID }}
+          PLUGIN_SLUG: zappoppop-pro
