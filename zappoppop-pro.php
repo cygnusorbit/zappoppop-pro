@@ -60,7 +60,9 @@ if (!defined('ZAPPOPPOP_PRO_FS_PREMIUM_SLUG')) {
 /*
  * ============================ EASY DIGITAL DOWNLOADS LICENSING ============================
  * Default licence provider. Pro talks to the EDD Software Licensing add-on on your store.
- * Define these in wp-config.php (above "That's all, stop editing!"):
+ * The store URL and Download ID are built in, so customers only enter their licence key.
+ * To override them (for example a staging store), define these in wp-config.php
+ * (above "That's all, stop editing!"); a wp-config.php value always wins:
  *
  *   define( 'ZAPPOPPOP_PRO_EDD_URL', 'https://your-store.com/' );   Store home URL (https).
  *   define( 'ZAPPOPPOP_PRO_EDD_ITEM_ID', 123 );                     Download ID of ZapPopPop Pro.
@@ -69,6 +71,12 @@ if (!defined('ZAPPOPPOP_PRO_FS_PREMIUM_SLUG')) {
  *   define( 'ZAPPOPPOP_PRO_LICENSE_PROVIDER', 'freemius' );
  * ==========================================================================================
  */
+if (!defined('ZAPPOPPOP_PRO_EDD_URL')) {
+    define('ZAPPOPPOP_PRO_EDD_URL', 'https://zappoppop.com/');
+}
+if (!defined('ZAPPOPPOP_PRO_EDD_ITEM_ID')) {
+    define('ZAPPOPPOP_PRO_EDD_ITEM_ID', 3030);
+}
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-freemius.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-edd-updater.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-edd.php';
