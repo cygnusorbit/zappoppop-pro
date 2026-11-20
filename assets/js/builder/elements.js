@@ -513,6 +513,9 @@
     }
 
     function ensureButton() {
+        /* ZPP_IMGSEL_NO_BTN: the "Apply Image Select Preset" button was removed; the 200 x 50 preset still applies when a new Image Select layer is created */
+        $('#zappoppop-imgsel-size-wrap').remove();
+        return;
         var $coords = $('#insp-section-coords');
         if (!$coords.length || $('#zappoppop-imgsel-size-wrap').length) return;
         $coords.append(
@@ -525,7 +528,6 @@
 
     function refreshButton() {
         ensureButton();
-        $('#zappoppop-imgsel-size-wrap').toggle(isImageSelect(getActiveEl()));
     }
 
     function bindButton() {
