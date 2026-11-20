@@ -12,7 +12,8 @@ class ZapPopPop_Pro_Freemius {
     protected static $fs = null;
 
     public static function is_configured() {
-        return (int) ZAPPOPPOP_PRO_FS_ID > 0
+        return ZapPopPop_Pro_License::provider() === 'freemius'
+            && (int) ZAPPOPPOP_PRO_FS_ID > 0
             && strpos((string) ZAPPOPPOP_PRO_FS_KEY, 'pk_') === 0
             && file_exists(ZAPPOPPOP_PRO_PATH . 'includes/freemius/start.php');
     }

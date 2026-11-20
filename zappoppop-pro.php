@@ -3,7 +3,7 @@
  * Plugin Name: ZapPopPop Pro
  * Plugin URI: https://zappoppop.com/
  * Description: Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics.
- * Version: 1.0.05
+ * Version: 1.0.06
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: ZapPopPop
@@ -20,7 +20,7 @@ if (defined('ZAPPOPPOP_PRO_VERSION')) {
     return;
 }
 
-define('ZAPPOPPOP_PRO_VERSION', '1.0.05');
+define('ZAPPOPPOP_PRO_VERSION', '1.0.06');
 define('ZAPPOPPOP_PRO_FILE', __FILE__);
 define('ZAPPOPPOP_PRO_PATH', plugin_dir_path(__FILE__));
 define('ZAPPOPPOP_PRO_URL', plugin_dir_url(__FILE__));
@@ -57,7 +57,21 @@ if (!defined('ZAPPOPPOP_PRO_FS_PREMIUM_SLUG')) {
     define('ZAPPOPPOP_PRO_FS_PREMIUM_SLUG', 'zappoppop-pro');
 }
 
+/*
+ * ============================ EASY DIGITAL DOWNLOADS LICENSING ============================
+ * Default licence provider. Pro talks to the EDD Software Licensing add-on on your store.
+ * Define these in wp-config.php (above "That's all, stop editing!"):
+ *
+ *   define( 'ZAPPOPPOP_PRO_EDD_URL', 'https://your-store.com/' );   Store home URL (https).
+ *   define( 'ZAPPOPPOP_PRO_EDD_ITEM_ID', 123 );                     Download ID of ZapPopPop Pro.
+ *
+ * Optional: keep using Freemius instead of EDD.
+ *   define( 'ZAPPOPPOP_PRO_LICENSE_PROVIDER', 'freemius' );
+ * ==========================================================================================
+ */
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-freemius.php';
+require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-edd-updater.php';
+require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-edd.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-multisite.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-uninstall.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-license.php';
@@ -65,6 +79,7 @@ require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-admin.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-plugin.php';
 
 ZapPopPop_Pro_Freemius::init();
+ZapPopPop_Pro_EDD::init();
 
 if (!function_exists('zpp_pro')) {
     /* Helper for the Freemius SDK instance, as used in the Freemius documentation. */

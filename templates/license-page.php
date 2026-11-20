@@ -6,6 +6,10 @@ if (!defined('ABSPATH')) {
 $bar_title   = __('License', 'zappoppop-pro');
 $bar_icon    = 'dashicons-admin-network';
 $bar_actions = '';
+if (ZapPopPop_Pro_License::provider() === 'edd') {
+    include ZAPPOPPOP_PRO_PATH . 'templates/license-edd.php';
+    return;
+}
 ?>
 <div class="wrap zappoppop-dash zappoppop-license-wrap">
     <h1 class="screen-reader-text"><?php esc_html_e('License', 'zappoppop-pro'); ?></h1>

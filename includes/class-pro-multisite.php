@@ -46,6 +46,7 @@ class ZapPopPop_Pro_Multisite {
     public static function clear_schedules() {
         wp_clear_scheduled_hook('zappoppop_tracking_daily');
         wp_clear_scheduled_hook('zappoppop_weekly_report');
+        wp_clear_scheduled_hook('zappoppop_pro_license_check');
     }
 
     /** Runs $callback(blog_id) inside every site, in batches. $args are passed to get_sites(). */

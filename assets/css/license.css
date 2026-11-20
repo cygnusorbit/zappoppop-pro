@@ -27,6 +27,13 @@ body.wp-admin #wpcontent .zappoppop-license-wrap .zappoppop-dash-bar { box-sizin
 .zpp-lic-meta dt { color: var(--zpp-c-muted, #787c82); }
 .zpp-lic-meta dd { margin: 0; color: var(--zpp-c-text, #1d2327); word-break: break-all; }
 
+.zpp-lic-head .zpp-lic-pill { margin-left: auto; }
+.zpp-lic-key { display: inline-block; max-width: 100%; margin: 0 0 4px; padding: 6px 10px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: var(--zpp-c-bg-page, #f0f0f1); border-radius: var(--zpp-r-input, 3px); word-break: break-all; }
+.zpp-lic-code { margin: 12px 0 0; padding: 12px 14px; overflow-x: auto; background: var(--zpp-c-bg-page, #f0f0f1); border: var(--zpp-bw, 1px) solid var(--zpp-c-border, #dcdcde); border-radius: var(--zpp-r-input, 3px); font-size: var(--zpp-fs-small, 12px); line-height: 1.6; white-space: pre; }
+.zpp-lic-code code { background: transparent; padding: 0; }
+.zpp-lic-card form { margin: 0; }
+.zpp-lic-card .button[disabled] { opacity: .55; cursor: not-allowed; }
+
 @media (max-width: 960px) { .zpp-lic-layout { grid-template-columns: 1fr; } }
 @media (max-width: 782px) {
     body.wp-admin #wpcontent .zappoppop-dash.zappoppop-license-wrap { padding-right: 10px; }

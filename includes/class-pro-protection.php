@@ -35,6 +35,7 @@ class ZapPopPop_Pro_Protection {
         add_action('zappoppop_front_enqueue', array(__CLASS__, 'enqueue'));
         add_filter('zappoppop_front_vars', array(__CLASS__, 'front_vars'));
         add_filter('zappoppop_submission_gate', array(__CLASS__, 'gate'), 10, 3);
+        add_filter('zappoppop_disposable_domains', array(__CLASS__, 'extend_domains'));
         add_filter('zappoppop_popup_eligible', array(__CLASS__, 'eligible'), 10, 3);
     }
 
@@ -150,7 +151,7 @@ class ZapPopPop_Pro_Protection {
             }
             if (zappoppop_get_setting('enable_recaptcha', 0)) {
                 // phpcs:disable WordPress.Security.NonceVerification.Missing -- core verified the submission nonce before this filter runs
-                $token = isset($_POST['recaptcha_token']) ? sanitize_text_field(wp_unslash($_POST['recaptcha_token'])) : (isset($_POST['g-recaptcha-response']) ? sanitize_text_field(wp_unslash($_POST['g-recaptcha-response'])) : '');
+                $token = !empty($context['recaptcha_token']) ? sanitize_text_field((string) $context['recaptcha_token']) : (isset($_POST['recaptcha_token']) ? sanitize_text_field(wp_unslash($_POST['recaptcha_token'])) : (isset($_POST['g-recaptcha-response']) ? sanitize_text_field(wp_unslash($_POST['g-recaptcha-response'])) : ''));
                 // phpcs:enable WordPress.Security.NonceVerification.Missing
                 if (!self::verify_recaptcha($token, $ip)) {
                     self::log('security_recaptcha_fail', "reCAPTCHA verification failed for IP: {$ip}", array('ip' => $ip));
@@ -219,25 +220,19 @@ class ZapPopPop_Pro_Protection {
         return true;
     }
 
+    /** Extra providers on top of core's list (core's per-field "Block Disposable Emails" and the global filter below use the same list). */
+    public static function extend_domains($domains) {
+        if (!self::unlocked()) {
+            return $domains;
+        }
+        return array_values(array_unique(array_merge((array) $domains, array(
+            'yopmail.com', 'getnada.com', 'throwawaymail.com', 'temp-mail.org', 'dispostable.com', 'maildrop.cc', 'fakeinbox.com',
+        ))));
+    }
+
     /** True when the email domain (or a parent domain) is a known disposable provider. */
     public static function is_disposable_email($email) {
-        $at = strrpos((string) $email, '@');
-        if ($at === false) {
-            return false;
-        }
-        $domain  = strtolower(trim(substr($email, $at + 1)));
-        $domains = (array) apply_filters('zappoppop_disposable_domains', array(
-            'mailinator.com', '10minutemail.com', 'guerrillamail.com', 'trashmail.com',
-            'tempmail.com', 'sharklasers.com', 'yopmail.com', 'getnada.com', 'throwawaymail.com',
-            'temp-mail.org', 'dispostable.com', 'maildrop.cc', 'fakeinbox.com',
-        ));
-        foreach ($domains as $d) {
-            $d = strtolower((string) $d);
-            if ($d !== '' && ($domain === $d || substr($domain, -strlen($d) - 1) === '.' . $d)) {
-                return true;
-            }
-        }
-        return false;
+        return ZapPopPop_Disposable::is_disposable($email);
     }
 
     /* ---------------------------------------------------------------- geo-targeting */

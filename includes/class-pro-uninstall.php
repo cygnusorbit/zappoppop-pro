@@ -21,6 +21,8 @@ class ZapPopPop_Pro_Uninstall {
 
     public static function run() {
         delete_site_transient('zappoppop_pro_update_cache');
+        delete_site_transient('zappoppop_pro_edd_update');
+        delete_site_option('zappoppop_pro_edd_license');
         ZapPopPop_Pro_Multisite::each_site(array(__CLASS__, 'run_site'));
     }
 
