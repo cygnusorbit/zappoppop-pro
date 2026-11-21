@@ -116,7 +116,7 @@ class ZapPopPop_Pro_EDD {
     /** One call to the store. Returns the decoded JSON array or a WP_Error. */
     public static function request($action, $key, array $extra = array()) {
         if (!self::is_configured()) {
-            return new WP_Error('zpp_edd_config', __('Licensing is not set up yet. Add the store URL and product ID to wp-config.php.', 'zappoppop-pro'));
+            return new WP_Error('zappoppop_edd_config', __('Licensing is not set up yet. Add the store URL and product ID to wp-config.php.', 'zappoppop-pro'));
         }
         $body = array_merge(array(
             'edd_action'  => $action,
@@ -130,11 +130,11 @@ class ZapPopPop_Pro_EDD {
             return $res;
         }
         if ((int) wp_remote_retrieve_response_code($res) !== 200) {
-            return new WP_Error('zpp_edd_http', __('The licence server did not answer. Please try again later.', 'zappoppop-pro'));
+            return new WP_Error('zappoppop_edd_http', __('The licence server did not answer. Please try again later.', 'zappoppop-pro'));
         }
         $json = json_decode(wp_remote_retrieve_body($res), true);
         if (!is_array($json)) {
-            return new WP_Error('zpp_edd_json', __('The licence server sent an unexpected answer.', 'zappoppop-pro'));
+            return new WP_Error('zappoppop_edd_json', __('The licence server sent an unexpected answer.', 'zappoppop-pro'));
         }
         return $json;
     }
@@ -219,15 +219,15 @@ class ZapPopPop_Pro_EDD {
     /* ------------------------------------------------------------------ admin-post + cron */
 
     public static function handle_post() {
-        $nonce = isset($_POST['zpp_edd_nonce']) ? sanitize_text_field(wp_unslash($_POST['zpp_edd_nonce'])) : '';
+        $nonce = isset($_POST['zappoppop_edd_nonce']) ? sanitize_text_field(wp_unslash($_POST['zappoppop_edd_nonce'])) : '';
         if ($nonce === '' || !wp_verify_nonce($nonce, self::ACTION)) {
             wp_die(esc_html__('Security check failed. Please go back and try again.', 'zappoppop-pro'), '', array('response' => 403));
         }
         if (!self::can_manage()) {
             wp_die(esc_html__('You do not have sufficient permissions to manage the licence.', 'zappoppop-pro'), '', array('response' => 403));
         }
-        $do  = isset($_POST['zpp_do']) ? sanitize_key(wp_unslash($_POST['zpp_do'])) : '';
-        $key = isset($_POST['zpp_key']) ? sanitize_text_field(wp_unslash($_POST['zpp_key'])) : '';
+        $do  = isset($_POST['zappoppop_do']) ? sanitize_key(wp_unslash($_POST['zappoppop_do'])) : '';
+        $key = isset($_POST['zappoppop_key']) ? sanitize_text_field(wp_unslash($_POST['zappoppop_key'])) : '';
         if ($do === 'activate') {
             self::activate($key !== '' ? $key : self::get_key());
         } elseif ($do === 'deactivate') {
@@ -235,8 +235,8 @@ class ZapPopPop_Pro_EDD {
         } elseif ($do === 'check') {
             self::refresh();
         }
-        $network = !empty($_POST['zpp_network']) && is_multisite() && current_user_can('manage_network_options');
-        wp_safe_redirect(add_query_arg('zpp_edd', '1', self::page_url($network)));
+        $network = !empty($_POST['zappoppop_network']) && is_multisite() && current_user_can('manage_network_options');
+        wp_safe_redirect(add_query_arg('zappoppop_edd', '1', self::page_url($network)));
         exit;
     }
 

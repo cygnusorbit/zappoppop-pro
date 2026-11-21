@@ -380,8 +380,8 @@ class ZapPopPop_Woo_Recover {
             self::set_status($row->id, 'cancelled');
             return;
         }
-        $restore = add_query_arg('zpp_restore', $row->token, home_url('/'));
-        $unsub   = add_query_arg('zpp_unsub', $row->token, home_url('/'));
+        $restore = add_query_arg('zappoppop_restore', $row->token, home_url('/'));
+        $unsub   = add_query_arg('zappoppop_unsub', $row->token, home_url('/'));
         $subject = $c['rc_subject'] !== '' ? $c['rc_subject'] : __('You left something in your cart', 'zappoppop');
         $headers = array('Content-Type: text/html; charset=UTF-8', 'List-Unsubscribe: <' . esc_url_raw($unsub) . '>');
         $sent    = wp_mail((string) $row->email, wp_strip_all_tags($subject), self::email_html($c, $items, $restore, $unsub), $headers);
@@ -417,14 +417,16 @@ class ZapPopPop_Woo_Recover {
 
     public static function links() {
         // phpcs:disable WordPress.Security.NonceVerification.Recommended -- links in an email: the unguessable token is the credential.
-        if (isset($_GET['zpp_restore'])) {
-            $url = self::restore(sanitize_text_field(wp_unslash($_GET['zpp_restore'])));
+        if (isset($_GET['zappoppop_restore']) || isset($_GET['zpp_restore'])) { /* zpp_restore: links in emails sent by earlier versions */
+            $zappoppop_tok = isset($_GET['zappoppop_restore']) ? $_GET['zappoppop_restore'] : $_GET['zpp_restore'];
+            $url = self::restore(sanitize_text_field(wp_unslash($zappoppop_tok)));
             nocache_headers();
             wp_safe_redirect($url);
             exit;
         }
-        if (isset($_GET['zpp_unsub'])) {
-            $ok = self::unsubscribe(sanitize_text_field(wp_unslash($_GET['zpp_unsub'])));
+        if (isset($_GET['zappoppop_unsub']) || isset($_GET['zpp_unsub'])) { /* zpp_unsub: links in emails sent by earlier versions */
+            $zappoppop_tok = isset($_GET['zappoppop_unsub']) ? $_GET['zappoppop_unsub'] : $_GET['zpp_unsub'];
+            $ok = self::unsubscribe(sanitize_text_field(wp_unslash($zappoppop_tok)));
             nocache_headers();
             wp_die(
                 esc_html($ok ? __('You have been unsubscribed. We will not send you cart reminders again.', 'zappoppop') : __('This unsubscribe link is not valid.', 'zappoppop')),

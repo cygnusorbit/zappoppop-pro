@@ -42,6 +42,7 @@ class ZapPopPop_Pro_Modules {
         spl_autoload_register(array(__CLASS__, 'autoload'));
 
         add_filter('zappoppop_handled_settings_keys', array(__CLASS__, 'handled_keys'));
+        add_filter('zappoppop_sanitizer_module_keys', array(__CLASS__, 'raw_module_keys'));
         add_filter('zappoppop_sanitize_popup_settings', array(__CLASS__, 'sanitize'), 10, 2);
         add_filter('zappoppop_popup_wrapper_attrs', array(__CLASS__, 'wrapper_attrs'), 10, 3);
         add_filter('zappoppop_popup_inline_css', array(__CLASS__, 'inline_css'), 10, 3);
@@ -57,6 +58,15 @@ class ZapPopPop_Pro_Modules {
 
     public static function handled_keys($keys) {
         return array_merge((array) $keys, self::KEYS);
+    }
+
+    /** Core keeps only 'overlay' as a raw settings subtree; the Custom Code module keeps its own (it sanitises it itself). */
+    public static function raw_module_keys($keys) {
+        $keys = is_array($keys) ? $keys : array();
+        if (!in_array('custom_code', $keys, true)) {
+            $keys[] = 'custom_code';
+        }
+        return $keys;
     }
 
     /** Allow-lists every key in KEYS. $ctx = array(context => save|template, raw, prev, uid). */
@@ -158,6 +168,7 @@ class ZapPopPop_Pro_Modules {
     }
 
     public static function front_assets() {
+        ZapPopPop_Overlay::enqueue_loader(); /* ZAPPOPPOP_OVERLAY_ENQUEUE_EARLY */
         wp_enqueue_script('zappoppop-front-targeting-triggers-js', ZAPPOPPOP_PRO_URL . 'assets/js/front/front-targeting-triggers.js', array('jquery', 'zappoppop-front-js'), ZAPPOPPOP_PRO_VERSION, true);
     }
 

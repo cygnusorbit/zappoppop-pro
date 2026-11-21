@@ -24,7 +24,7 @@ if ($active && $status === 'valid') {
     $label = ZapPopPop_Pro_EDD::status_label($status);
 }
 $store_host = $configured ? (string) wp_parse_url(ZapPopPop_Pro_EDD::store_url(), PHP_URL_HOST) : '';
-$show_note  = isset($_GET['zpp_edd']) && $lic['message'] !== ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- display only.
+$show_note  = isset($_GET['zappoppop_edd']) && $lic['message'] !== ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended -- display only.
 ?>
 <div class="wrap zappoppop-dash zappoppop-license-wrap">
     <h1 class="screen-reader-text"><?php esc_html_e('License', 'zappoppop-pro'); ?></h1>
@@ -62,8 +62,8 @@ $show_note  = isset($_GET['zpp_edd']) && $lic['message'] !== ''; // phpcs:ignore
                     </div>
                     <form method="post" action="<?php echo esc_url(admin_url('admin-post.php')); ?>" autocomplete="off">
                         <input type="hidden" name="action" value="<?php echo esc_attr(ZapPopPop_Pro_EDD::ACTION); ?>">
-                        <input type="hidden" name="zpp_network" value="<?php echo $in_network ? '1' : '0'; ?>">
-                        <?php wp_nonce_field(ZapPopPop_Pro_EDD::ACTION, 'zpp_edd_nonce'); ?>
+                        <input type="hidden" name="zappoppop_network" value="<?php echo $in_network ? '1' : '0'; ?>">
+                        <?php wp_nonce_field(ZapPopPop_Pro_EDD::ACTION, 'zappoppop_edd_nonce'); ?>
                         <?php if ($active) : ?>
                             <span class="zpp-lic-key"><?php echo esc_html(ZapPopPop_Pro_EDD::masked_key($lic['key'])); ?></span>
                             <?php if ($status === 'expired') : ?>
@@ -78,15 +78,15 @@ $show_note  = isset($_GET['zpp_edd']) && $lic['message'] !== ''; // phpcs:ignore
                                 <dd><?php echo $lic['checked'] ? esc_html(date_i18n(get_option('date_format') . ' ' . get_option('time_format'), (int) $lic['checked'])) : '—'; ?></dd>
                             </dl>
                             <div class="zpp-lic-actions">
-                                <button type="submit" name="zpp_do" value="check" class="button zpp-lic-btn"<?php disabled(!$can); ?>><span class="dashicons dashicons-update"></span> <?php esc_html_e('Check now', 'zappoppop-pro'); ?></button>
-                                <button type="submit" name="zpp_do" value="deactivate" class="button zpp-lic-btn"<?php disabled(!$can); ?>><span class="dashicons dashicons-dismiss"></span> <?php esc_html_e('Deactivate', 'zappoppop-pro'); ?></button>
+                                <button type="submit" name="zappoppop_do" value="check" class="button zpp-lic-btn"<?php disabled(!$can); ?>><span class="dashicons dashicons-update"></span> <?php esc_html_e('Check now', 'zappoppop-pro'); ?></button>
+                                <button type="submit" name="zappoppop_do" value="deactivate" class="button zpp-lic-btn"<?php disabled(!$can); ?>><span class="dashicons dashicons-dismiss"></span> <?php esc_html_e('Deactivate', 'zappoppop-pro'); ?></button>
                             </div>
                         <?php else : ?>
                             <label class="zpp-lic-label" for="zpp-edd-key"><?php esc_html_e('Enter your licence key', 'zappoppop-pro'); ?></label>
-                            <input type="text" id="zpp-edd-key" name="zpp_key" class="regular-text zpp-lic-input" value="" spellcheck="false" autocomplete="off"<?php disabled(!$can); ?>>
+                            <input type="text" id="zpp-edd-key" name="zappoppop_key" class="regular-text zpp-lic-input" value="" spellcheck="false" autocomplete="off"<?php disabled(!$can); ?>>
                             <p class="zpp-lic-help"><?php esc_html_e('You can find the key in your purchase receipt and in your account on the store.', 'zappoppop-pro'); ?></p>
                             <div class="zpp-lic-actions">
-                                <button type="submit" name="zpp_do" value="activate" class="button button-primary zpp-lic-btn"<?php disabled(!$can); ?>><span class="dashicons dashicons-yes"></span> <?php esc_html_e('Activate licence', 'zappoppop-pro'); ?></button>
+                                <button type="submit" name="zappoppop_do" value="activate" class="button button-primary zpp-lic-btn"<?php disabled(!$can); ?>><span class="dashicons dashicons-yes"></span> <?php esc_html_e('Activate licence', 'zappoppop-pro'); ?></button>
                             </div>
                         <?php endif; ?>
                         <?php if (!$can) : ?>

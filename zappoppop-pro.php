@@ -3,7 +3,7 @@
  * Plugin Name: ZapPopPop Pro
  * Plugin URI: https://zappoppop.com/
  * Description: Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics.
- * Version: 1.0.08
+ * Version: 1.0.09
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: ZapPopPop
@@ -20,7 +20,7 @@ if (defined('ZAPPOPPOP_PRO_VERSION')) {
     return;
 }
 
-define('ZAPPOPPOP_PRO_VERSION', '1.0.08');
+define('ZAPPOPPOP_PRO_VERSION', '1.0.09');
 define('ZAPPOPPOP_PRO_FILE', __FILE__);
 define('ZAPPOPPOP_PRO_PATH', plugin_dir_path(__FILE__));
 define('ZAPPOPPOP_PRO_URL', plugin_dir_url(__FILE__));
@@ -89,9 +89,9 @@ require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-plugin.php';
 ZapPopPop_Pro_Freemius::init();
 ZapPopPop_Pro_EDD::init();
 
-if (!function_exists('zpp_pro')) {
+if (!function_exists('zappoppop_pro')) {
     /* Helper for the Freemius SDK instance, as used in the Freemius documentation. */
-    function zpp_pro() {
+    function zappoppop_pro() {
         return ZapPopPop_Pro_Freemius::fs();
     }
 }

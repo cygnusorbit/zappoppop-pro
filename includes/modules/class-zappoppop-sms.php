@@ -97,7 +97,7 @@ class ZapPopPop_Sms {
     /** At most HOURLY_LIMIT texts per popup and hour, so form spam cannot run up the Twilio bill. */
     protected static function allowed($uid) {
         $limit = max(1, (int) apply_filters('zappoppop_sms_hourly_limit', self::HOURLY_LIMIT));
-        $key   = 'zpp_sms_' . md5((string) $uid);
+        $key   = 'zappoppop_sms_' . md5((string) $uid);
         $n     = (int) get_transient($key);
         if ($n >= $limit) {
             return false;

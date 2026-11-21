@@ -115,24 +115,9 @@ class ZapPopPop_Overlay {
         return $out;
     }
 
-    /** Loads/unloads animation iframes as their popup is shown/hidden (ES5, cross-browser). */
-    private static function loader_js() {
-        return <<<'JS'
-(function(){
-if(window.__zppOvLazy){return;}window.__zppOvLazy=true;
-function sync(){
-var f=document.querySelectorAll('iframe.zappoppop-ov-bg[data-srcdoc]');
-for(var i=0;i<f.length;i++){
-var el=f[i],vis=el.offsetWidth>0&&el.offsetHeight>0,on=el.getAttribute('data-on')==='1';
-if(vis&&!on){el.setAttribute('srcdoc',el.getAttribute('data-srcdoc'));el.setAttribute('data-on','1');}
-else if(!vis&&on){el.removeAttribute('srcdoc');el.setAttribute('src','about:blank');el.setAttribute('data-on','0');}
-}}
-function boot(){sync();
-if(window.MutationObserver){new MutationObserver(sync).observe(document.documentElement,{attributes:true,subtree:true,attributeFilter:['style','class']});}
-else{setInterval(sync,400);}}
-if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',boot);}else{boot();}
-})();
-JS;
+        /** ZAPPOPPOP_OVERLAY_ENQUEUE: lazy loader is an enqueued file, registered early (wp_enqueue_scripts) because popup markup is rendered in wp_footer, after which printed script tags are removed by kses_render(). */
+    public static function enqueue_loader() {
+        wp_enqueue_script('zappoppop-overlay-lazy', ZAPPOPPOP_PRO_URL . 'assets/js/front/overlay-lazy.js', array(), ZAPPOPPOP_PRO_VERSION, true);
     }
 
     /**
@@ -150,7 +135,7 @@ JS;
         if (!self::is_enabled($ov)) {
             /* ZAPPOPPOP_OVERLAY_ENABLE: overlay fully off. No tint, blur or custom background; the invisible backdrop stays so Click Background to Close still works */
             $res['css']    = 'align-items:center;justify-content:center;background:transparent;';
-            $res['layers'] = '<span class="zappoppop-ov-off" hidden></span><style>.zappoppop-ov-off ~ .zappoppop-backdrop{background:transparent !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;}</style>';
+            $res['layers'] = '<span class="zappoppop-ov-off" hidden></span>' . ZapPopPop_Libraries::inline_style_tag('overlay-off', '.zappoppop-ov-off ~ .zappoppop-backdrop{background:transparent !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;}');
             return $res;
         }
         $alpha = $op / 100;
@@ -191,9 +176,8 @@ JS;
                     $layers = preg_replace('/(class="zappoppop-ov-bg"[^>]*?\sstyle=")/', '${1}opacity:' . number_format($zappoppop_bgop, 2, '.', '') . ';', $layers, 1);
                 }
                 /* ZAPPOPPOP_OVERLAY_LAZY: transparent backdrop over custom layers; iframe loads only while visible */
-                $layers .= '<style>.zappoppop-ov-bg ~ .zappoppop-backdrop{background:transparent !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;}.zappoppop-ov-bg{z-index:0;}</style>';
+                $layers .= ZapPopPop_Libraries::inline_style_tag('overlay-bg', '.zappoppop-ov-bg ~ .zappoppop-backdrop{background:transparent !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;}.zappoppop-ov-bg{z-index:0;}');
                 if (strpos($layers, 'data-srcdoc') !== false) {
-                    $layers .= '<script>' . self::loader_js() . '</script>';
                 }
                 $layers .= '<div class="zappoppop-ov-tint" aria-hidden="true" style="' . esc_attr('position:absolute;top:0;right:0;bottom:0;left:0;pointer-events:none;background:' . $tint . ';') . '"></div>';
                 $res['css']    = 'align-items:center;justify-content:center;background:transparent;';

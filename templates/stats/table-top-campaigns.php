@@ -72,44 +72,44 @@ $page_links = paginate_links([
                     $is_trashed = (isset($p->status) && $p->status === 'trash');
                     $lbl = isset($stat_labels[$p->uid]) ? $stat_labels[$p->uid] : '';
                     $rank = (($pg - 1) * $per) + $i + 1;
-                    $zpp_cells = [];
+                    $zappoppop_cells = [];
                     $st_style = $is_trashed ? 'background:#fee2e2;color:#991b1b;' : (in_array($p->status, ['publish', 'published'], true) ? 'background:#dcfce7;color:#166534;' : 'background:#e2e8f0;color:#475569;');
                     ?>
                     <tr class="<?php echo $is_trashed ? 'is-trashed' : ''; ?>" data-uid="<?php echo esc_attr($p->uid); ?>">
-                        <?php ob_start(); ?><td class="<?php echo esc_attr($cc('rank')); ?>" style="text-align:center;font-weight:700;color:#64748b;">#<?php echo (int) $rank; ?></td><?php $zpp_cells['rank'] = ob_get_clean(); ?>
+                        <?php ob_start(); ?><td class="<?php echo esc_attr($cc('rank')); ?>" style="text-align:center;font-weight:700;color:#64748b;">#<?php echo (int) $rank; ?></td><?php $zappoppop_cells['rank'] = ob_get_clean(); ?>
                         <?php ob_start(); ?><td class="<?php echo esc_attr($cc('popup')); ?>">
                             <span class="zpp-dot zpp-name-dot" data-uid="<?php echo esc_attr($p->uid); ?>" style="background:<?php echo esc_attr($lbl ? $lbl : 'transparent'); ?>;<?php echo $lbl ? '' : 'display:none;'; ?>"></span>
                             <strong><a href="<?php echo esc_url($edit_url); ?>" style="color:#1e293b;text-decoration:none;font-size:14px;"><?php echo esc_html($p->title); ?></a></strong><?php if ($is_trashed) : ?><span class="zappoppop-badge-trash"><?php esc_html_e('Trash', 'zappoppop-pro'); ?></span><?php endif; ?>
                             <div style="font-size:11px;color:#94a3b8;margin-top:2px;"><code><?php echo esc_html($p->uid); ?></code></div>
-                        </td><?php $zpp_cells['popup'] = ob_get_clean(); ?>
+                        </td><?php $zappoppop_cells['popup'] = ob_get_clean(); ?>
                         <?php ob_start(); ?><td class="<?php echo esc_attr($cc('label')); ?>">
                             <span class="zpp-lbl <?php echo $lbl ? 'has-label' : 'is-empty'; ?>" data-uid="<?php echo esc_attr($p->uid); ?>">
                                 <input type="color" class="zpp-lbl-input" value="<?php echo esc_attr($lbl ? $lbl : '#94a3b8'); ?>" aria-label="<?php echo esc_attr__('Label color', 'zappoppop-pro'); ?>" title="<?php echo esc_attr__('Pick a label color', 'zappoppop-pro'); ?>">
                                 <button type="button" class="zpp-lbl-del" title="<?php echo esc_attr__('Delete label', 'zappoppop-pro'); ?>" <?php echo $lbl ? '' : 'hidden'; ?>>&times;</button>
                             </span>
-                        </td><?php $zpp_cells['label'] = ob_get_clean(); ?>
+                        </td><?php $zappoppop_cells['label'] = ob_get_clean(); ?>
                         <?php ob_start(); ?><td class="<?php echo esc_attr($cc('country')); ?>">
                             <?php if (!empty($pop_geo[$p->uid])) : foreach ($pop_geo[$p->uid] as $g) : ?>
                                 <span class="zpp-chip"><?php echo esc_html($g['k']); ?> <small><?php echo (int) $g['c']; ?></small></span>
                             <?php endforeach; else : ?><span style="color:#94a3b8;">&mdash;</span><?php endif; ?>
-                        </td><?php $zpp_cells['country'] = ob_get_clean(); ?>
+                        </td><?php $zappoppop_cells['country'] = ob_get_clean(); ?>
                         <?php ob_start(); ?><td class="<?php echo esc_attr($cc('device')); ?>">
                             <?php if (!empty($pop_dev[$p->uid])) : foreach ($pop_dev[$p->uid] as $d) : ?>
                                 <span class="zpp-chip"><?php echo esc_html(isset($dev_names[$d['k']]) ? $dev_names[$d['k']] : ucfirst($d['k'])); ?> <small><?php echo (int) $d['c']; ?></small></span>
                             <?php endforeach; else : ?><span style="color:#94a3b8;">&mdash;</span><?php endif; ?>
-                        </td><?php $zpp_cells['device'] = ob_get_clean(); ?>
-                        <?php ob_start(); ?><td class="<?php echo esc_attr($cc('impressions')); ?>" style="text-align:right;font-weight:600;color:#1e293b;"><?php echo number_format($p_impr); ?></td><?php $zpp_cells['impressions'] = ob_get_clean(); ?>
-                        <?php ob_start(); ?><td class="<?php echo esc_attr($cc('leads')); ?>" style="text-align:right;font-weight:600;color:#10b981;"><?php echo number_format($p_subs); ?></td><?php $zpp_cells['leads'] = ob_get_clean(); ?>
+                        </td><?php $zappoppop_cells['device'] = ob_get_clean(); ?>
+                        <?php ob_start(); ?><td class="<?php echo esc_attr($cc('impressions')); ?>" style="text-align:right;font-weight:600;color:#1e293b;"><?php echo number_format($p_impr); ?></td><?php $zappoppop_cells['impressions'] = ob_get_clean(); ?>
+                        <?php ob_start(); ?><td class="<?php echo esc_attr($cc('leads')); ?>" style="text-align:right;font-weight:600;color:#10b981;"><?php echo number_format($p_subs); ?></td><?php $zappoppop_cells['leads'] = ob_get_clean(); ?>
                         <?php ob_start(); ?><td class="<?php echo esc_attr($cc('conversion')); ?>" style="text-align:right;">
                             <div style="display:inline-flex;align-items:center;gap:6px;">
                                 <strong style="color:#f59e0b;"><?php echo esc_html($p_cr); ?>%</strong>
                                 <div style="width:50px;height:6px;background:#f1f5f9;border-radius:3px;overflow:hidden;"><div style="width:<?php echo esc_attr( (string) min( 100, $p_cr * 2 ) ); ?>%;height:100%;background:#f59e0b;"></div></div>
                             </div>
-                        </td><?php $zpp_cells['conversion'] = ob_get_clean(); ?>
+                        </td><?php $zappoppop_cells['conversion'] = ob_get_clean(); ?>
                         <?php ob_start(); ?><td class="<?php echo esc_attr($cc('status')); ?>" style="text-align:center;">
                             <span class="badge" style="display:inline-block;padding:2px 8px;border-radius:12px;font-size:11px;font-weight:600;<?php echo esc_attr( $st_style ); ?>"><?php echo esc_html(ucfirst($p->status)); ?></span>
-                        </td><?php $zpp_cells['status'] = ob_get_clean(); ?>
-                        <?php foreach ($order as $zpp_k) { echo isset($zpp_cells[$zpp_k]) ? $zpp_cells[$zpp_k] : ''; } // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- cells are escaped where built ?>
+                        </td><?php $zappoppop_cells['status'] = ob_get_clean(); ?>
+                        <?php foreach ($order as $zappoppop_k) { echo isset($zappoppop_cells[$zappoppop_k]) ? $zappoppop_cells[$zappoppop_k] : ''; } // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- cells are escaped where built ?>
                     </tr>
                 <?php endforeach; ?>
             <?php endif; ?>
