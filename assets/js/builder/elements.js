@@ -678,7 +678,7 @@
         return null;
     }
     function isProg(el){return !!el&&String(el.type||'').toLowerCase()==='progress';}
-    function mode(el){var m=el&&el.progressMode; return (m==='form'||m==='steps')?m:'manual';}
+    function mode(el){var m=el&&el.progressMode; return (m==='form'||m==='steps'||m==='shipping')?m:'manual';}
     function apply(el){
         var m=mode(el);
         $('#prop-progress-mode').val(m);
@@ -688,7 +688,7 @@
     function sched(){[0,60,200,350,700,1200].forEach(function(ms){setTimeout(run,ms);});}
     $(document).off('change.zppProgMode','#prop-progress-mode').on('change.zppProgMode','#prop-progress-mode',function(){
         var el=activeEl(); if(!isProg(el)) return;
-        var v=$(this).val(); el.progressMode=(v==='form'||v==='steps')?v:'manual';
+        var v=$(this).val(); el.progressMode=(v==='form'||v==='steps'||v==='shipping')?v:'manual';
         apply(el);
         if(window.ZapPopPopBuilderCore&&window.ZapPopPopBuilderCore.pushHistory) window.ZapPopPopBuilderCore.pushHistory('Change Progress Mode');
     });

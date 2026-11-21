@@ -10,6 +10,7 @@ if (!defined('ABSPATH')) exit;
             <option value="manual"><?php esc_html_e('Manual (fixed percent)', 'zappoppop-pro'); ?></option>
             <option value="form"><?php esc_html_e('Auto: Form completion', 'zappoppop-pro'); ?></option>
             <option value="steps"><?php esc_html_e('Auto: Canvas steps', 'zappoppop-pro'); ?></option>
+            <option value="shipping"><?php esc_html_e('Auto: WooCommerce free shipping', 'zappoppop-pro'); ?></option>
         </select>
     </div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;">

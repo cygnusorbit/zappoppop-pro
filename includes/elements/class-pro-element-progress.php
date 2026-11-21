@@ -53,7 +53,7 @@ class ZapPopPop_Pro_Element_Progress {
         $pg_showpct = $pg_on(array('showPercentLabel'), true);
         $pg_lbl = isset($el['progressLabel']) ? trim((string) $el['progressLabel']) : '';
         /* ZAPPOPPOP_PROGRESS_MODE */
-        $pg_mode = (isset($el['progressMode']) && in_array($el['progressMode'], array('form', 'steps'), true)) ? $el['progressMode'] : 'manual';
+        $pg_mode = (isset($el['progressMode']) && in_array($el['progressMode'], array('form', 'steps', 'shipping'), true)) ? $el['progressMode'] : 'manual';
         if ($pg_mode === 'form') { $pg_pct = 0; }
         $pg_badge = $pg_lbl !== '' ? ($pg_lbl . ($pg_showpct ? ' (' . $pg_pct . '%)' : '')) : ($pg_showpct ? ($pg_pct . '%') : '');
         $pg_stripe = $pg_striped ? 'background-image:linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent);background-size:20px 20px;' : '';

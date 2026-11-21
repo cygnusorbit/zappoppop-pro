@@ -56,6 +56,7 @@ class ZapPopPop_Pro_Plugin {
         ZapPopPop_Pro_Stats::boot();
         ZapPopPop_Pro_Elements::boot();
         ZapPopPop_Pro_Modules::boot();
+        ZapPopPop_Woo_Cart::boot(); /* ZPP_WC_CART: autoloaded from includes/modules/ */
         ZapPopPop_Pro_Pipeline::boot();
         ZapPopPop_Pro_Extensions::hooks();
         ZapPopPop_Pro_Protection::hooks();

@@ -31,6 +31,7 @@ class ZapPopPop_Pro_Uninstall {
         wp_clear_scheduled_hook('zappoppop_pro_license_check');
         wp_clear_scheduled_hook('zappoppop_tracking_daily');
         wp_clear_scheduled_hook('zappoppop_weekly_report');
+        wp_clear_scheduled_hook('zappoppop_wc_recover_send'); /* ZPP_WC_P4 */
         delete_option('zappoppop_pro_license');
         delete_option('zappoppop_pro_seed_ver');
 
@@ -42,6 +43,8 @@ class ZapPopPop_Pro_Uninstall {
             delete_option('zappoppop_pro_db');
             delete_option('zappoppop_stats_db');
             delete_option('zappoppop_stats_labels');
+            $wpdb->query('DROP TABLE IF EXISTS `' . $wpdb->prefix . 'zappoppop_wc_recover`');
+            delete_option('zappoppop_wc_recover_db');
         }
     }
 }

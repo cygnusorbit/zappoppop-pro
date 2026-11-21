@@ -63,16 +63,33 @@
         if (!uid) { return; }
 
         function fire() {
-            var closeAfter;
+            var closeAfter, res, onRelease;
             if (fired) { return; }
             fired = true;
             if ($w.is(':visible') || !allowed($w, uid)) { return; }
-            D.show(uid);
-            markSeen(uid);
-            closeAfter = ev === 'onload' ? num($w, 'data-tt-close', 0) : 0;
-            if (closeAfter > 0) {
-                window.setTimeout(function () { if ($w.is(':visible')) { D.close(uid); } }, closeAfter * 1000);
+
+            function seen() {
+                markSeen(uid);
+                closeAfter = ev === 'onload' ? num($w, 'data-tt-close', 0) : 0;
+                if (closeAfter > 0) {
+                    window.setTimeout(function () { if ($w.is(':visible')) { D.close(uid); } }, closeAfter * 1000);
+                }
             }
+
+            /* ZPP_WC_GATE: the WooCommerce Cart module answers false (blocked by a cart rule) or 'wait' (cart still loading).
+               A blocked view is never counted as seen, so once-only / once-per-period popups are not used up. */
+            res = D.show(uid);
+            if (res === false) { return; }
+            if (res === 'wait') {
+                onRelease = function (e, u, shown) {
+                    if (u !== uid) { return; }
+                    $(document).off('zappoppop:wc_released', onRelease);
+                    if (shown) { seen(); }
+                };
+                $(document).on('zappoppop:wc_released', onRelease);
+                return;
+            }
+            seen();
         }
 
         if (ev === 'onload') {

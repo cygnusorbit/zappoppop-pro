@@ -22,6 +22,7 @@ class ZapPopPop_Pro_Multisite {
         $tables   = (array) $tables;
         $tables[] = 'zappoppop_campaigns';
         $tables[] = 'zappoppop_stats_daily';
+        $tables[] = 'zappoppop_wc_recover'; /* ZPP_WC_P4 */
         return $tables;
     }
 
@@ -47,6 +48,7 @@ class ZapPopPop_Pro_Multisite {
         wp_clear_scheduled_hook('zappoppop_tracking_daily');
         wp_clear_scheduled_hook('zappoppop_weekly_report');
         wp_clear_scheduled_hook('zappoppop_pro_license_check');
+        wp_clear_scheduled_hook('zappoppop_wc_recover_send'); /* ZPP_WC_P4 */
     }
 
     /** Runs $callback(blog_id) inside every site, in batches. $args are passed to get_sites(). */
