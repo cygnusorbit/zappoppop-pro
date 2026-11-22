@@ -207,7 +207,7 @@ class ZapPopPop_Getresponse {
      */
     public static function api($key, $method, $path, $body = null) {
         $key = self::clean_key($key);
-        if ($key === '') { return array('code' => 0, 'error' => __('Invalid API key.', 'zappoppop')); }
+        if ($key === '') { return array('code' => 0, 'error' => __('Invalid API key.', 'zappoppop-pro')); }
         $args = array(
             'method'  => $method,
             'timeout' => self::TIMEOUT,
@@ -229,7 +229,7 @@ class ZapPopPop_Getresponse {
         if (!empty($r['error'])) { return (string) $r['error']; }
         if (!empty($r['data']['message']) && is_scalar($r['data']['message'])) { return sanitize_text_field((string) $r['data']['message']); }
         if (!empty($r['data']['codeDescription']) && is_scalar($r['data']['codeDescription'])) { return sanitize_text_field((string) $r['data']['codeDescription']); }
-        return sprintf(__('GetResponse returned HTTP %d.', 'zappoppop'), (int) $r['code']);
+        return sprintf(__('GetResponse returned HTTP %d.', 'zappoppop-pro'), (int) $r['code']);
     }
 
     /** Campaigns of the account: array(campaignId => name), or a WP_Error. */
@@ -249,7 +249,7 @@ class ZapPopPop_Getresponse {
     public static function fetch_fields($key) {
         $r = self::api($key, 'GET', 'custom-fields?page=1&perPage=100&fields=customFieldId,name');
         if ($r['code'] !== 200) { return new WP_Error('zappoppop_gr', self::api_error($r)); }
-        $out = array('EMAIL' => __('Email Address', 'zappoppop'), 'NAME' => __('Full name', 'zappoppop'));
+        $out = array('EMAIL' => __('Email Address', 'zappoppop-pro'), 'NAME' => __('Full name', 'zappoppop-pro'));
         foreach ($r['data'] as $f) {
             $id = (is_array($f) && isset($f['customFieldId'])) ? self::clean_id($f['customFieldId']) : '';
             if ($id === '') { continue; }
@@ -262,9 +262,9 @@ class ZapPopPop_Getresponse {
     public static function subscribe($item, $email, $values) {
         $key  = $item['api_key'];
         $camp = $item['campaign_id'];
-        if ($key === '' || $camp === '') { return __('API key or campaign is missing.', 'zappoppop'); }
+        if ($key === '' || $camp === '') { return __('API key or campaign is missing.', 'zappoppop-pro'); }
         $email = sanitize_email((string) $email);
-        if ($email === '' || !is_email($email)) { return __('Invalid email address.', 'zappoppop'); }
+        if ($email === '' || !is_email($email)) { return __('Invalid email address.', 'zappoppop-pro'); }
 
         $custom = array();
         foreach ($values as $tag => $val) {

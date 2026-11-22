@@ -160,14 +160,14 @@
         })
         .off('change.zppOvType', '#set-ov-bg-type').on('change.zppOvType', '#set-ov-bg-type', toggleType)
         .off('input.zppOvUrl change.zppOvUrl', '#set-ov-bg-url').on('input.zppOvUrl change.zppOvUrl', '#set-ov-bg-url', function() { setPreview($.trim($(this).val())); })
-        .off('click.zppOvAdd', '#set-ov-bg-add').on('click.zppOvAdd', '#set-ov-bg-add', function(e) { e.preventDefault(); if (model.backgrounds.length >= 20) { window.alert(wp.i18n.__('Maximum of 20 custom backgrounds.', 'zappoppop')); return; } openEditor(null); })
+        .off('click.zppOvAdd', '#set-ov-bg-add').on('click.zppOvAdd', '#set-ov-bg-add', function(e) { e.preventDefault(); if (model.backgrounds.length >= 20) { window.alert(wp.i18n.__('Maximum of 20 custom backgrounds.', 'zappoppop-pro')); return; } openEditor(null); })
         .off('click.zppOvCancel', '#set-ov-bg-cancel').on('click.zppOvCancel', '#set-ov-bg-cancel', function(e) { e.preventDefault(); closeEditor(); })
         .off('change.zppOvSel', 'input[name="set-ov-bg-selected"]').on('change.zppOvSel', 'input[name="set-ov-bg-selected"]', function() { model.selected = $(this).val() || ''; })
         .off('click.zppOvEdit', '.set-ov-bg-edit').on('click.zppOvEdit', '.set-ov-bg-edit', function(e) { e.preventDefault(); var bg = find($(this).attr('data-id')); if (bg) openEditor(bg); })
         .off('click.zppOvDel', '.set-ov-bg-del').on('click.zppOvDel', '.set-ov-bg-del', function(e) {
             e.preventDefault();
             var id = $(this).attr('data-id');
-            if (!window.confirm(wp.i18n.__('Delete this background?', 'zappoppop'))) return;
+            if (!window.confirm(wp.i18n.__('Delete this background?', 'zappoppop-pro'))) return;
             model.backgrounds = $.grep(model.backgrounds, function(b) { return b.id !== id; });
             if (model.selected === id) model.selected = '';
             if (editingId === id) closeEditor();
@@ -176,7 +176,7 @@
         .off('click.zppOvMedia', '#set-ov-bg-media').on('click.zppOvMedia', '#set-ov-bg-media', function(e) {
             e.preventDefault();
             if (!window.wp || !window.wp.media) {
-                var manual = window.prompt(wp.i18n.__('WordPress Media is unavailable. Enter image URL (JPG/PNG):', 'zappoppop'), $('#set-ov-bg-url').val() || '');
+                var manual = window.prompt(wp.i18n.__('WordPress Media is unavailable. Enter image URL (JPG/PNG):', 'zappoppop-pro'), $('#set-ov-bg-url').val() || '');
                 if (manual) { $('#set-ov-bg-url').val($.trim(manual)).trigger('change'); }
                 return;
             }
@@ -196,10 +196,10 @@
                 opacity: (function(v) { v = parseInt(v, 10); return isNaN(v) ? 100 : Math.max(0, Math.min(100, v)); })($('#set-ov-bg-opacity').val()) };
             if (type === 'image') {
                 item.url = $.trim($('#set-ov-bg-url').val());
-                if (!IMG_RE.test(item.url)) { window.alert(wp.i18n.__('Please choose a JPEG or PNG image (.jpg, .jpeg, .png).', 'zappoppop')); return; }
+                if (!IMG_RE.test(item.url)) { window.alert(wp.i18n.__('Please choose a JPEG or PNG image (.jpg, .jpeg, .png).', 'zappoppop-pro')); return; }
             } else {
                 item.html = $('#set-ov-bg-html').val() || '';
-                if (!$.trim(item.html)) { window.alert(wp.i18n.__('Please enter the animation HTML / JS.', 'zappoppop')); return; }
+                if (!$.trim(item.html)) { window.alert(wp.i18n.__('Please enter the animation HTML / JS.', 'zappoppop-pro')); return; }
             }
             if (editingId) {
                 for (var i = 0; i < model.backgrounds.length; i++) { if (model.backgrounds[i].id === editingId) { model.backgrounds[i] = item; break; } }

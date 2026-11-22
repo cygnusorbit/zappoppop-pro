@@ -114,7 +114,7 @@ class ZapPopPop_Side_Tabs {
         }
         $label = $t['label'];
         if ($label === '' && $t['icon'] === '') {
-            $label = __('Offer', 'zappoppop');
+            $label = __('Offer', 'zappoppop-pro');
         }
         self::print_late_script();
         return ' data-sidetab="' . esc_attr($t['pos']) . '"'

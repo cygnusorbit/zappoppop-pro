@@ -18,11 +18,11 @@ class ZapPopPop_Ajax_Getresponse {
         $nonce = isset($_POST['nonce']) ? sanitize_text_field(wp_unslash($_POST['nonce'])) : '';
         $ok = $nonce !== '' && (wp_verify_nonce($nonce, 'zappoppop_builder_nonce') || wp_verify_nonce($nonce, 'zappoppop_admin_nonce'));
         if (!$ok || !current_user_can('manage_options')) {
-            wp_send_json_error(array('message' => __('Permission denied.', 'zappoppop')), 403);
+            wp_send_json_error(array('message' => __('Permission denied.', 'zappoppop-pro')), 403);
         }
         $key = ZapPopPop_Getresponse::clean_key(isset($_POST['api_key']) ? wp_unslash($_POST['api_key']) : '');
         if ($key === '') {
-            wp_send_json_error(array('message' => __('Enter a valid GetResponse API key.', 'zappoppop')));
+            wp_send_json_error(array('message' => __('Enter a valid GetResponse API key.', 'zappoppop-pro')));
         }
         return $key;
     }

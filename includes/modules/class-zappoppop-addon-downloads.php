@@ -25,7 +25,7 @@ class ZapPopPop_Addon_Downloads {
         $data = get_transient($transient_key);
 
         if (!$data || empty($data['file_url'])) {
-            wp_die(__('Download link has expired or is invalid.', 'zappoppop'), __('Invalid Download', 'zappoppop'), ['response' => 403]);
+            wp_die(__('Download link has expired or is invalid.', 'zappoppop-pro'), __('Invalid Download', 'zappoppop-pro'), ['response' => 403]);
         }
 
         // Delete transient to enforce single-use protection
@@ -38,7 +38,7 @@ class ZapPopPop_Addon_Downloads {
         if (strpos(preg_replace('#^https?:#i', '', $file_url), preg_replace('#^https?:#i', '', rtrim($upload_dir['baseurl'], '/')) . '/') === 0) {
             $file_path = ZapPopPop_Downloads::resolve_local($file_url, $upload_dir['basedir'], $upload_dir['baseurl']);
             if ($file_path === '') {
-                wp_die(__('The file is no longer available.', 'zappoppop'), __('Invalid Download', 'zappoppop'), ['response' => 404]);
+                wp_die(__('The file is no longer available.', 'zappoppop-pro'), __('Invalid Download', 'zappoppop-pro'), ['response' => 404]);
             }
             while (ob_get_level()) {
                 ob_end_clean();

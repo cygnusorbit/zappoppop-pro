@@ -28,10 +28,10 @@
                 if (r && r.success) {
                     $w.removeClass('is-empty').addClass('has-label').find('.zpp-lbl-del').prop('hidden', false);
                     $('.zpp-name-dot[data-uid="' + uid + '"]').css({ background: color, display: 'inline-block' });
-                } else { toast((r && r.data && r.data.message) || wp.i18n.__('Error', 'zappoppop'), true); }
+                } else { toast((r && r.data && r.data.message) || wp.i18n.__('Error', 'zappoppop-pro'), true); }
             }).fail(function (xhr) { toast(xhr && xhr.status ? wp.i18n.sprintf(
                 /* translators: %s: HTTP status code. */
-                wp.i18n.__('Request failed (HTTP %s)', 'zappoppop'), xhr.status) : wp.i18n.__('Request failed', 'zappoppop'), true); });
+                wp.i18n.__('Request failed (HTTP %s)', 'zappoppop-pro'), xhr.status) : wp.i18n.__('Request failed', 'zappoppop-pro'), true); });
         }, 250);
     });
 
@@ -42,7 +42,7 @@
                 $w.removeClass('has-label').addClass('is-empty').find('.zpp-lbl-input').val('#94a3b8');
                 $w.find('.zpp-lbl-del').prop('hidden', true);
                 $('.zpp-name-dot[data-uid="' + uid + '"]').css('display', 'none');
-            } else { toast((r && r.data && r.data.message) || wp.i18n.__('Error', 'zappoppop'), true); }
+            } else { toast((r && r.data && r.data.message) || wp.i18n.__('Error', 'zappoppop-pro'), true); }
         });
     });
 

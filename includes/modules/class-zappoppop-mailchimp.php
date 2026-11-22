@@ -219,7 +219,7 @@ class ZapPopPop_Mailchimp {
      */
     public static function api($key, $method, $path, $body = null) {
         $key = self::clean_key($key);
-        if ($key === '') { return array('code' => 0, 'error' => __('Invalid API key.', 'zappoppop')); }
+        if ($key === '') { return array('code' => 0, 'error' => __('Invalid API key.', 'zappoppop-pro')); }
         $dc  = substr($key, strrpos($key, '-') + 1);
         $url = 'https://' . $dc . '.api.mailchimp.com/3.0/' . ltrim($path, '/');
         $args = array(
@@ -243,7 +243,7 @@ class ZapPopPop_Mailchimp {
         if (!empty($r['error'])) { return (string) $r['error']; }
         if (!empty($r['data']['detail'])) { return sanitize_text_field((string) $r['data']['detail']); }
         if (!empty($r['data']['title'])) { return sanitize_text_field((string) $r['data']['title']); }
-        return sprintf(__('MailChimp returned HTTP %d.', 'zappoppop'), (int) $r['code']);
+        return sprintf(__('MailChimp returned HTTP %d.', 'zappoppop-pro'), (int) $r['code']);
     }
 
     /** Audiences of the account: array(id => name), or a WP_Error. */
@@ -260,10 +260,10 @@ class ZapPopPop_Mailchimp {
     /** Merge fields of an audience: array(TAG => label) with EMAIL first, or a WP_Error. */
     public static function fetch_fields($key, $list) {
         $list = self::clean_id($list);
-        if ($list === '') { return new WP_Error('zappoppop_mc', __('Select an audience first.', 'zappoppop')); }
+        if ($list === '') { return new WP_Error('zappoppop_mc', __('Select an audience first.', 'zappoppop-pro')); }
         $r = self::api($key, 'GET', 'lists/' . $list . '/merge-fields?count=100&fields=merge_fields.tag,merge_fields.name');
         if ($r['code'] !== 200) { return new WP_Error('zappoppop_mc', self::api_error($r)); }
-        $out = array('EMAIL' => __('Email address', 'zappoppop'));
+        $out = array('EMAIL' => __('Email address', 'zappoppop-pro'));
         foreach ((isset($r['data']['merge_fields']) && is_array($r['data']['merge_fields']) ? $r['data']['merge_fields'] : array()) as $f) {
             $tag = isset($f['tag']) ? strtoupper((string) $f['tag']) : '';
             if (preg_match('/^[A-Z0-9_]{1,20}$/', $tag) && $tag !== 'EMAIL') { $out[$tag] = isset($f['name']) ? sanitize_text_field((string) $f['name']) : $tag; }
@@ -274,7 +274,7 @@ class ZapPopPop_Mailchimp {
     /** Interest groups of an audience: list of array(id => "cid-iid", label => "Category: Interest"), or a WP_Error. */
     public static function fetch_groups($key, $list) {
         $list = self::clean_id($list);
-        if ($list === '') { return new WP_Error('zappoppop_mc', __('Select an audience first.', 'zappoppop')); }
+        if ($list === '') { return new WP_Error('zappoppop_mc', __('Select an audience first.', 'zappoppop-pro')); }
         $r = self::api($key, 'GET', 'lists/' . $list . '/interest-categories?count=100&fields=categories.id,categories.title');
         if ($r['code'] !== 200) { return new WP_Error('zappoppop_mc', self::api_error($r)); }
         $out = array();
@@ -299,9 +299,9 @@ class ZapPopPop_Mailchimp {
     public static function subscribe($item, $email, $merge_values) {
         $key  = $item['api_key'];
         $list = $item['list_id'];
-        if ($key === '' || $list === '') { return __('API key or audience is missing.', 'zappoppop'); }
+        if ($key === '' || $list === '') { return __('API key or audience is missing.', 'zappoppop-pro'); }
         $email = sanitize_email((string) $email);
-        if ($email === '' || !is_email($email)) { return __('Invalid email address.', 'zappoppop'); }
+        if ($email === '' || !is_email($email)) { return __('Invalid email address.', 'zappoppop-pro'); }
 
         $base = 'lists/' . $list . '/members/' . md5(strtolower($email));
         $cur  = self::api($key, 'GET', $base);

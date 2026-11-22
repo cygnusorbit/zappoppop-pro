@@ -39,14 +39,14 @@ class ZapPopPop_Addon_WooCommerce {
         check_ajax_referer('zappoppop_front_nonce', 'nonce');
         $code = isset($_POST['coupon_code']) ? sanitize_text_field(wp_unslash($_POST['coupon_code'])) : '';
         if (empty($code)) {
-            wp_send_json_error(['message' => __('Missing coupon code.', 'zappoppop')]);
+            wp_send_json_error(['message' => __('Missing coupon code.', 'zappoppop-pro')]);
         }
 
         $applied = $this->auto_apply_wc_coupon($code);
         if ($applied) {
-            wp_send_json_success(['message' => __('Coupon applied to cart successfully!', 'zappoppop')]);
+            wp_send_json_success(['message' => __('Coupon applied to cart successfully!', 'zappoppop-pro')]);
         } else {
-            wp_send_json_error(['message' => __('Unable to apply coupon to cart.', 'zappoppop')]);
+            wp_send_json_error(['message' => __('Unable to apply coupon to cart.', 'zappoppop-pro')]);
         }
     }
 

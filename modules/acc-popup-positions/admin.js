@@ -25,7 +25,7 @@
         ['bottom-left', 'Bottom left', 6, 40], ['bottom-center', 'Bottom center', 32, 40], ['bottom-right', 'Bottom right', 58, 40]
     ];
 
-    function tr(s) { return (window.wp && window.wp.i18n && window.wp.i18n.__) ? window.wp.i18n.__(s, 'zappoppop') : s; }
+    function tr(s) { return (window.wp && window.wp.i18n && window.wp.i18n.__) ? window.wp.i18n.__(s, 'zappoppop-pro') : s; }
 
     function buildGrid() {
         var $g = $('#zappoppop-pp-grid');

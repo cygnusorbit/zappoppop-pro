@@ -92,8 +92,8 @@ class ZapPopPop_Autoresponder {
 
     /** Send the welcome email to the subscriber. {email} and {field} tokens are replaced; output is escaped. */
     public static function send($email, $fields, $cfg) {
-        $subject = ($cfg['subject'] !== '') ? $cfg['subject'] : __('Welcome! Here is your reward', 'zappoppop');
-        $body    = ($cfg['body'] !== '') ? $cfg['body'] : __("Thank you for subscribing!\n\nEnjoy your offer.", 'zappoppop');
+        $subject = ($cfg['subject'] !== '') ? $cfg['subject'] : __('Welcome! Here is your reward', 'zappoppop-pro');
+        $body    = ($cfg['body'] !== '') ? $cfg['body'] : __("Thank you for subscribing!\n\nEnjoy your offer.", 'zappoppop-pro');
         /* ZAPPOPPOP_AUTO_VARS */
         $vars = array();
         foreach ((array) $fields as $k => $v) {

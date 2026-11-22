@@ -10,7 +10,7 @@
     if (!S || S._spWrapped) return;
     S._spWrapped = true;
 
-    function tr(t) { return (window.wp && window.wp.i18n && window.wp.i18n.__) ? window.wp.i18n.__(t, 'zappoppop') : t; }
+    function tr(t) { return (window.wp && window.wp.i18n && window.wp.i18n.__) ? window.wp.i18n.__(t, 'zappoppop-pro') : t; }
     function esc(v) {
         return String(v === undefined || v === null ? '' : v).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
     }

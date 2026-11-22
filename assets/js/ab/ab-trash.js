@@ -35,11 +35,11 @@
                     window.location.reload();
                 } else {
                     $btn.prop('disabled', false);
-                    window.alert((res && res.data && res.data.message) || wp.i18n.__('Could not update campaign.', 'zappoppop'));
+                    window.alert((res && res.data && res.data.message) || wp.i18n.__('Could not update campaign.', 'zappoppop-pro'));
                 }
             }).fail(function () {
                 $btn.prop('disabled', false);
-                window.alert(wp.i18n.__('Server error while updating campaign.', 'zappoppop'));
+                window.alert(wp.i18n.__('Server error while updating campaign.', 'zappoppop-pro'));
             });
         }
     };

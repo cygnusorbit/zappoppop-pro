@@ -33,7 +33,7 @@
 
     function isTrue(v) { return v === true || v === 1 || v === '1' || v === 'true'; }
 
-    function tr(t) { return (window.wp && window.wp.i18n && window.wp.i18n.__) ? window.wp.i18n.__(t, 'zappoppop') : t; }
+    function tr(t) { return (window.wp && window.wp.i18n && window.wp.i18n.__) ? window.wp.i18n.__(t, 'zappoppop-pro') : t; }
 
     var touched = false;
 

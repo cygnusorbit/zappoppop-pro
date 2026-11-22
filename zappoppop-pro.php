@@ -3,13 +3,14 @@
  * Plugin Name: ZapPopPop Pro
  * Plugin URI: https://zappoppop.com/
  * Description: Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics.
- * Version: 1.0.09
+ * Version: 1.0.10
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: ZapPopPop
  * Author URI: 
  * License: GPL-2.0+
  * Text Domain: zappoppop-pro
+ * Domain Path: /languages
  */
 
 if (!defined('ABSPATH')) {
@@ -20,7 +21,7 @@ if (defined('ZAPPOPPOP_PRO_VERSION')) {
     return;
 }
 
-define('ZAPPOPPOP_PRO_VERSION', '1.0.09');
+define('ZAPPOPPOP_PRO_VERSION', '1.0.10');
 define('ZAPPOPPOP_PRO_FILE', __FILE__);
 define('ZAPPOPPOP_PRO_PATH', plugin_dir_path(__FILE__));
 define('ZAPPOPPOP_PRO_URL', plugin_dir_url(__FILE__));

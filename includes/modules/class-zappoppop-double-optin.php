@@ -15,11 +15,11 @@ class ZapPopPop_Double_Optin {
         return array(
             'enable'        => false,
             'recipient'     => '',
-            'subject'       => __('Please confirm your email address', 'zappoppop'),
-            'message'       => __("Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks.", 'zappoppop'),
+            'subject'       => __('Please confirm your email address', 'zappoppop-pro'),
+            'message'       => __("Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks.", 'zappoppop-pro'),
             'from_email'    => '{{global-from-email}}',
             'from_name'     => '{{global-from-name}}',
-            'thank_message' => '<h4 style="text-align: center;">' . __('Thank you!', 'zappoppop') . '</h4><p style="text-align: center;">' . __('Your email address successfully confirmed.', 'zappoppop') . '</p>',
+            'thank_message' => '<h4 style="text-align: center;">' . __('Thank you!', 'zappoppop-pro') . '</h4><p style="text-align: center;">' . __('Your email address successfully confirmed.', 'zappoppop-pro') . '</p>',
             'thank_url'     => '',
         );
     }

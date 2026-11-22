@@ -26,12 +26,12 @@
                 });
 
                 if (!title) {
-                    alert(wp.i18n.__('Please enter a campaign title.', 'zappoppop'));
+                    alert(wp.i18n.__('Please enter a campaign title.', 'zappoppop-pro'));
                     return;
                 }
 
                 if (selectedUids.length < 2) {
-                    alert(wp.i18n.__('Please select at least 2 popups for split-testing.', 'zappoppop'));
+                    alert(wp.i18n.__('Please select at least 2 popups for split-testing.', 'zappoppop-pro'));
                     return;
                 }
 
@@ -51,11 +51,11 @@
                     if (res.success) {
                         location.reload();
                     } else {
-                        alert(wp.i18n.__('Error:', 'zappoppop') + ' ' + (res.data ? res.data.message : wp.i18n.__('Unable to create campaign.', 'zappoppop')));
+                        alert(wp.i18n.__('Error:', 'zappoppop-pro') + ' ' + (res.data ? res.data.message : wp.i18n.__('Unable to create campaign.', 'zappoppop-pro')));
                         $btn.prop('disabled', false).text(origLabel);
                     }
                 }).fail(function() {
-                    alert(wp.i18n.__('Network error while saving campaign.', 'zappoppop'));
+                    alert(wp.i18n.__('Network error while saving campaign.', 'zappoppop-pro'));
                     $btn.prop('disabled', false).text(origLabel);
                 });
             });
@@ -77,7 +77,7 @@
         bindDelete: function() {
             var self = this;
             $('.zappoppop-del-ab-btn').on('click', function() {
-                if (!confirm(wp.i18n.__('Permanently delete this A/B testing campaign? This cannot be undone.', 'zappoppop'))) {
+                if (!confirm(wp.i18n.__('Permanently delete this A/B testing campaign? This cannot be undone.', 'zappoppop-pro'))) {
                     return;
                 }
 
@@ -93,10 +93,10 @@
                     if (res.success) {
                         window.location.reload();
                     } else {
-                        alert(wp.i18n.__('Deletion Error:', 'zappoppop') + ' ' + (res.data ? res.data.message : wp.i18n.__('Unable to delete campaign.', 'zappoppop')));
+                        alert(wp.i18n.__('Deletion Error:', 'zappoppop-pro') + ' ' + (res.data ? res.data.message : wp.i18n.__('Unable to delete campaign.', 'zappoppop-pro')));
                     }
                 }).fail(function() {
-                    alert(wp.i18n.__('Network error while deleting campaign.', 'zappoppop'));
+                    alert(wp.i18n.__('Network error while deleting campaign.', 'zappoppop-pro'));
                 });
             });
         }

@@ -382,7 +382,7 @@ class ZapPopPop_Woo_Recover {
         }
         $restore = add_query_arg('zappoppop_restore', $row->token, home_url('/'));
         $unsub   = add_query_arg('zappoppop_unsub', $row->token, home_url('/'));
-        $subject = $c['rc_subject'] !== '' ? $c['rc_subject'] : __('You left something in your cart', 'zappoppop');
+        $subject = $c['rc_subject'] !== '' ? $c['rc_subject'] : __('You left something in your cart', 'zappoppop-pro');
         $headers = array('Content-Type: text/html; charset=UTF-8', 'List-Unsubscribe: <' . esc_url_raw($unsub) . '>');
         $sent    = wp_mail((string) $row->email, wp_strip_all_tags($subject), self::email_html($c, $items, $restore, $unsub), $headers);
         self::set_status($row->id, $sent ? 'sent' : 'failed', array('sent_at' => time()));
@@ -390,7 +390,7 @@ class ZapPopPop_Woo_Recover {
 
     protected static function email_html($c, $items, $restore, $unsub) {
         $site = wp_specialchars_decode((string) get_bloginfo('name'), ENT_QUOTES);
-        $msg  = $c['rc_message'] !== '' ? $c['rc_message'] : __('Your cart is saved. Come back any time to finish your order.', 'zappoppop');
+        $msg  = $c['rc_message'] !== '' ? $c['rc_message'] : __('Your cart is saved. Come back any time to finish your order.', 'zappoppop-pro');
         $li   = '';
         foreach ($items as $it) {
             $li .= '<li style="margin:0 0 4px">' . esc_html($it[0]) . ' &times; ' . (int) $it[1] . '</li>';
@@ -398,18 +398,18 @@ class ZapPopPop_Woo_Recover {
         $coupon = '';
         if ($c['rc_coupon'] !== '') {
             /* translators: %s: coupon code */
-            $coupon = '<p style="margin:16px 0;padding:10px 14px;background:#f6f7f7;border-radius:4px">' . sprintf(esc_html__('Use code %s at checkout.', 'zappoppop'), '<strong>' . esc_html($c['rc_coupon']) . '</strong>') . '</p>';
+            $coupon = '<p style="margin:16px 0;padding:10px 14px;background:#f6f7f7;border-radius:4px">' . sprintf(esc_html__('Use code %s at checkout.', 'zappoppop-pro'), '<strong>' . esc_html($c['rc_coupon']) . '</strong>') . '</p>';
         }
         return '<div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.5;color:#1d2327;max-width:560px;margin:0 auto;padding:16px">'
             . '<h2 style="margin:0 0 12px;font-size:20px">' . esc_html($site) . '</h2>'
             . '<p style="margin:0 0 14px">' . nl2br(esc_html($msg)) . '</p>'
             . '<ul style="margin:0 0 14px;padding-left:20px">' . $li . '</ul>'
             . $coupon
-            . '<p style="margin:20px 0"><a href="' . esc_url($restore) . '" style="display:inline-block;padding:11px 20px;background:#b4234f;color:#fff;text-decoration:none;border-radius:4px;font-weight:bold">' . esc_html__('Return to your cart', 'zappoppop') . '</a></p>'
+            . '<p style="margin:20px 0"><a href="' . esc_url($restore) . '" style="display:inline-block;padding:11px 20px;background:#b4234f;color:#fff;text-decoration:none;border-radius:4px;font-weight:bold">' . esc_html__('Return to your cart', 'zappoppop-pro') . '</a></p>'
             . '<p style="margin:24px 0 0;font-size:12px;color:#646970">'
             /* translators: %s: site name */
-            . sprintf(esc_html__('You are receiving this because you asked for a cart reminder on %s.', 'zappoppop'), esc_html($site))
-            . ' <a href="' . esc_url($unsub) . '" style="color:#646970">' . esc_html__('Unsubscribe', 'zappoppop') . '</a></p>'
+            . sprintf(esc_html__('You are receiving this because you asked for a cart reminder on %s.', 'zappoppop-pro'), esc_html($site))
+            . ' <a href="' . esc_url($unsub) . '" style="color:#646970">' . esc_html__('Unsubscribe', 'zappoppop-pro') . '</a></p>'
             . '</div>';
     }
 
@@ -429,8 +429,8 @@ class ZapPopPop_Woo_Recover {
             $ok = self::unsubscribe(sanitize_text_field(wp_unslash($zappoppop_tok)));
             nocache_headers();
             wp_die(
-                esc_html($ok ? __('You have been unsubscribed. We will not send you cart reminders again.', 'zappoppop') : __('This unsubscribe link is not valid.', 'zappoppop')),
-                esc_html__('Unsubscribe', 'zappoppop'),
+                esc_html($ok ? __('You have been unsubscribed. We will not send you cart reminders again.', 'zappoppop-pro') : __('This unsubscribe link is not valid.', 'zappoppop-pro')),
+                esc_html__('Unsubscribe', 'zappoppop-pro'),
                 array('response' => $ok ? 200 : 404)
             );
         }
@@ -503,7 +503,7 @@ class ZapPopPop_Woo_Recover {
 
     public static function register_exporter($exporters) {
         $exporters['zappoppop-wc-recover'] = array(
-            'exporter_friendly_name' => __('ZapPopPop abandoned cart emails', 'zappoppop'),
+            'exporter_friendly_name' => __('ZapPopPop abandoned cart emails', 'zappoppop-pro'),
             'callback'               => array(__CLASS__, 'export'),
         );
         return $exporters;
@@ -511,7 +511,7 @@ class ZapPopPop_Woo_Recover {
 
     public static function register_eraser($erasers) {
         $erasers['zappoppop-wc-recover'] = array(
-            'eraser_friendly_name' => __('ZapPopPop abandoned cart emails', 'zappoppop'),
+            'eraser_friendly_name' => __('ZapPopPop abandoned cart emails', 'zappoppop-pro'),
             'callback'             => array(__CLASS__, 'erase'),
         );
         return $erasers;
@@ -527,13 +527,13 @@ class ZapPopPop_Woo_Recover {
             $cart    = json_decode((string) $r->cart, true);
             $items[] = array(
                 'group_id'    => 'zappoppop-wc-recover',
-                'group_label' => __('Abandoned cart emails', 'zappoppop'),
+                'group_label' => __('Abandoned cart emails', 'zappoppop-pro'),
                 'item_id'     => 'zappoppop-wc-recover-' . (int) $r->id,
                 'data'        => array(
-                    array('name' => __('Email', 'zappoppop'), 'value' => (string) $r->email),
-                    array('name' => __('Status', 'zappoppop'), 'value' => (string) $r->status),
-                    array('name' => __('Saved on', 'zappoppop'), 'value' => gmdate('Y-m-d H:i', (int) $r->created) . ' UTC'),
-                    array('name' => __('Cart lines', 'zappoppop'), 'value' => is_array($cart) ? (string) count($cart) : '0'),
+                    array('name' => __('Email', 'zappoppop-pro'), 'value' => (string) $r->email),
+                    array('name' => __('Status', 'zappoppop-pro'), 'value' => (string) $r->status),
+                    array('name' => __('Saved on', 'zappoppop-pro'), 'value' => gmdate('Y-m-d H:i', (int) $r->created) . ' UTC'),
+                    array('name' => __('Cart lines', 'zappoppop-pro'), 'value' => is_array($cart) ? (string) count($cart) : '0'),
                 ),
             );
         }
@@ -555,7 +555,7 @@ class ZapPopPop_Woo_Recover {
         return array(
             'items_removed'  => $removed > 0,
             'items_retained' => !empty($kept),
-            'messages'       => !empty($kept) ? array(__('The address is kept on a do-not-email list because the person unsubscribed.', 'zappoppop')) : array(),
+            'messages'       => !empty($kept) ? array(__('The address is kept on a do-not-email list because the person unsubscribed.', 'zappoppop-pro')) : array(),
             'done'           => true,
         );
     }

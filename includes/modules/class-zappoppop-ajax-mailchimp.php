@@ -19,11 +19,11 @@ class ZapPopPop_Ajax_Mailchimp {
         $nonce = isset($_POST['nonce']) ? sanitize_text_field(wp_unslash($_POST['nonce'])) : '';
         $ok = $nonce !== '' && (wp_verify_nonce($nonce, 'zappoppop_builder_nonce') || wp_verify_nonce($nonce, 'zappoppop_admin_nonce'));
         if (!$ok || !current_user_can('manage_options')) {
-            wp_send_json_error(array('message' => __('Permission denied.', 'zappoppop')), 403);
+            wp_send_json_error(array('message' => __('Permission denied.', 'zappoppop-pro')), 403);
         }
         $key = ZapPopPop_Mailchimp::clean_key(isset($_POST['api_key']) ? wp_unslash($_POST['api_key']) : '');
         if ($key === '') {
-            wp_send_json_error(array('message' => __('Enter a valid MailChimp API key (for example 0123456789abcdef-us21).', 'zappoppop')));
+            wp_send_json_error(array('message' => __('Enter a valid MailChimp API key (for example 0123456789abcdef-us21).', 'zappoppop-pro')));
         }
         return $key;
     }

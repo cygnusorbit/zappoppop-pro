@@ -71,14 +71,14 @@
                     var on = res.data.status === 'active';
                     $input.prop('checked', on);
                     $sw.attr('title', on ? 'Active' : 'Inactive');
-                    $row.find('.zpp-ab-state-badge').removeClass('zappoppop-active-badge zappoppop-inactive-badge').addClass(on ? 'zappoppop-active-badge' : 'zappoppop-inactive-badge').text(on ? wp.i18n.__('ACTIVE', 'zappoppop') : wp.i18n.__('INACTIVE', 'zappoppop'));
+                    $row.find('.zpp-ab-state-badge').removeClass('zappoppop-active-badge zappoppop-inactive-badge').addClass(on ? 'zappoppop-active-badge' : 'zappoppop-inactive-badge').text(on ? wp.i18n.__('ACTIVE', 'zappoppop-pro') : wp.i18n.__('INACTIVE', 'zappoppop-pro'));
                 } else {
                     $input.prop('checked', !want);
-                    window.alert((res && res.data && res.data.message) || wp.i18n.__('Could not update status.', 'zappoppop'));
+                    window.alert((res && res.data && res.data.message) || wp.i18n.__('Could not update status.', 'zappoppop-pro'));
                 }
             }).fail(function () {
                 $input.prop('checked', !want);
-                window.alert(wp.i18n.__('Server error while updating status.', 'zappoppop'));
+                window.alert(wp.i18n.__('Server error while updating status.', 'zappoppop-pro'));
             }).always(function () {
                 $sw.removeClass('is-busy');
                 $input.prop('disabled', false);

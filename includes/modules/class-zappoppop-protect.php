@@ -204,7 +204,7 @@ class ZapPopPop_Protect {
 
     public static function register_exporter($exporters) {
         $exporters['zappoppop-submissions'] = array(
-            'exporter_friendly_name' => __('ZapPopPop submissions', 'zappoppop'),
+            'exporter_friendly_name' => __('ZapPopPop submissions', 'zappoppop-pro'),
             'callback'               => array(__CLASS__, 'export_personal'),
         );
         return $exporters;
@@ -212,7 +212,7 @@ class ZapPopPop_Protect {
 
     public static function register_eraser($erasers) {
         $erasers['zappoppop-submissions'] = array(
-            'eraser_friendly_name' => __('ZapPopPop submissions', 'zappoppop'),
+            'eraser_friendly_name' => __('ZapPopPop submissions', 'zappoppop-pro'),
             'callback'             => array(__CLASS__, 'erase_personal'),
         );
         return $erasers;
@@ -275,7 +275,7 @@ class ZapPopPop_Protect {
             foreach ($r['fields'] as $k => $v) {
                 $item[] = array('name' => (string) $k, 'value' => is_array($v) ? implode(', ', array_map('strval', $v)) : (string) $v);
             }
-            $data[] = array('group_id' => 'zappoppop-submissions', 'group_label' => __('ZapPopPop submissions', 'zappoppop'), 'item_id' => 'zappoppop-submission-' . $r['id'], 'data' => $item);
+            $data[] = array('group_id' => 'zappoppop-submissions', 'group_label' => __('ZapPopPop submissions', 'zappoppop-pro'), 'item_id' => 'zappoppop-submission-' . $r['id'], 'data' => $item);
         }
         return array('data' => $data, 'done' => $m['done']);
     }

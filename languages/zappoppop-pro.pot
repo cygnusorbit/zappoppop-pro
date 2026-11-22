@@ -1,0 +1,1959 @@
+# Copyright (C) 2026 cygnusorbit
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: ZapPopPop Pro 1.0.09\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zappoppop-pro\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-22T09:47:10+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: scripts/make-pot.py\n"
+"X-Domain: zappoppop-pro\n"
+
+#. Plugin Name of the plugin
+#: zappoppop-pro.php
+msgid "ZapPopPop Pro"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: zappoppop-pro.php
+msgid "https://zappoppop.com/"
+msgstr ""
+
+#. Description of the plugin
+#: zappoppop-pro.php
+msgid "Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics."
+msgstr ""
+
+#. Author of the plugin
+#: zappoppop-pro.php
+msgid "ZapPopPop"
+msgstr ""
+
+#. Author URI of the plugin
+#: zappoppop-pro.php
+msgid ""
+msgstr ""
+
+#: assets/js/stats.js:31 assets/js/stats.js:45
+msgid "Error"
+msgstr ""
+
+#. translators: %s: HTTP status code.
+#: assets/js/stats.js:34
+msgid "Request failed (HTTP %s)"
+msgstr ""
+
+#. translators: %s: HTTP status code.
+#: assets/js/stats.js:34
+msgid "Request failed"
+msgstr ""
+
+#: assets/js/ab/ab-actions.js:29 includes/ab/class-ajax-campaigns.php:64 includes/ab/class-ajax-campaigns.php:178
+msgid "Please enter a campaign title."
+msgstr ""
+
+#: assets/js/ab/ab-actions.js:34
+msgid "Please select at least 2 popups for split-testing."
+msgstr ""
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Error:"
+msgstr ""
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Unable to create campaign."
+msgstr ""
+
+#: assets/js/ab/ab-actions.js:58
+msgid "Network error while saving campaign."
+msgstr ""
+
+#: assets/js/ab/ab-actions.js:80
+msgid "Permanently delete this A/B testing campaign? This cannot be undone."
+msgstr ""
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Deletion Error:"
+msgstr ""
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Unable to delete campaign."
+msgstr ""
+
+#: assets/js/ab/ab-actions.js:99
+msgid "Network error while deleting campaign."
+msgstr ""
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "ACTIVE"
+msgstr ""
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "INACTIVE"
+msgstr ""
+
+#: assets/js/ab/ab-edit.js:77
+msgid "Could not update status."
+msgstr ""
+
+#: assets/js/ab/ab-edit.js:81
+msgid "Server error while updating status."
+msgstr ""
+
+#: assets/js/ab/ab-trash.js:38
+msgid "Could not update campaign."
+msgstr ""
+
+#: assets/js/ab/ab-trash.js:42
+msgid "Server error while updating campaign."
+msgstr ""
+
+#: includes/class-pro-admin.php:25 includes/class-pro-admin.php:36 templates/license-edd.php:30 templates/license-page.php:6 templates/license-page.php:15
+msgid "License"
+msgstr ""
+
+#: includes/class-pro-admin.php:41 includes/class-pro-admin.php:66 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/class-pro-edd-updater.php:58
+msgid "ZapPopPop Pro add-on."
+msgstr ""
+
+#: includes/class-pro-edd.php:119
+msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
+msgstr ""
+
+#: includes/class-pro-edd.php:133
+msgid "The licence server did not answer. Please try again later."
+msgstr ""
+
+#: includes/class-pro-edd.php:137
+msgid "The licence server sent an unexpected answer."
+msgstr ""
+
+#: includes/class-pro-edd.php:148 includes/class-pro-edd.php:188
+msgid "Enter your licence key."
+msgstr ""
+
+#: includes/class-pro-edd.php:161
+msgid "Licence activated. Thank you!"
+msgstr ""
+
+#: includes/class-pro-edd.php:173
+msgid "There is no licence to deactivate."
+msgstr ""
+
+#: includes/class-pro-edd.php:181
+msgid "Licence deactivated for this site."
+msgstr ""
+
+#: includes/class-pro-edd.php:202
+msgid "Your licence is active."
+msgstr ""
+
+#: includes/class-pro-edd.php:224
+msgid "Security check failed. Please go back and try again."
+msgstr ""
+
+#: includes/class-pro-edd.php:227
+msgid "You do not have sufficient permissions to manage the licence."
+msgstr ""
+
+#: includes/class-pro-edd.php:267
+msgid "Lifetime"
+msgstr ""
+
+#: includes/class-pro-edd.php:275 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
+msgid "Active"
+msgstr ""
+
+#: includes/class-pro-edd.php:276 templates/license-edd.php:21
+msgid "Expired"
+msgstr ""
+
+#: includes/class-pro-edd.php:277 includes/class-pro-edd.php:284 templates/license-edd.php:15
+msgid "Not activated"
+msgstr ""
+
+#: includes/class-pro-edd.php:278
+msgid "Not activated on this site"
+msgstr ""
+
+#: includes/class-pro-edd.php:279
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-pro-edd.php:280
+msgid "Revoked"
+msgstr ""
+
+#: includes/class-pro-edd.php:281 includes/class-pro-edd.php:282
+msgid "Invalid key"
+msgstr ""
+
+#. translators: %s: expiry date
+#: includes/class-pro-edd.php:292
+msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
+msgstr ""
+
+#: includes/class-pro-edd.php:293
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr ""
+
+#: includes/class-pro-edd.php:296
+msgid "This licence key is not valid. Please check it and try again."
+msgstr ""
+
+#: includes/class-pro-edd.php:298
+msgid "This licence has no activations left. Deactivate it on another site or upgrade your plan."
+msgstr ""
+
+#: includes/class-pro-edd.php:301
+msgid "This licence is not active on this site. Activate it again."
+msgstr ""
+
+#: includes/class-pro-edd.php:304
+msgid "This licence has been disabled. Please contact support."
+msgstr ""
+
+#: includes/class-pro-edd.php:307
+msgid "This key belongs to a different product."
+msgstr ""
+
+#: includes/class-pro-edd.php:309
+msgid "The licence could not be verified. Please try again or contact support."
+msgstr ""
+
+#: includes/class-pro-extensions.php:108
+msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
+msgstr ""
+
+#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:152 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr ""
+
+#. translators: 1: plugin name, 2: minimum version number
+#: includes/class-pro-plugin.php:103
+msgid "Outdated %1$s: minimum required %2$s"
+msgstr ""
+
+#. translators: 1: plugin name, 2: minimum version number
+#: includes/class-pro-plugin.php:105
+msgid "Missing %1$s: minimum required %2$s"
+msgstr ""
+
+#: includes/class-pro-plugin.php:110
+msgid "This plugin is not fully active."
+msgstr ""
+
+#: includes/class-pro-plugin.php:136
+msgid "ZapPopPop Pro needs the ZapPopPop plugin. Install and activate ZapPopPop first."
+msgstr ""
+
+#: includes/class-pro-plugin.php:140
+msgid "ZapPopPop Pro needs a newer version of ZapPopPop. Please update ZapPopPop."
+msgstr ""
+
+#: includes/class-pro-plugin.php:150
+msgid "ZapPopPop Pro is not activated. Pro templates and modules stay locked until you enter your licence key."
+msgstr ""
+
+#: includes/class-pro-protection.php:100
+msgid "Security & Geolocation"
+msgstr ""
+
+#: includes/class-pro-protection.php:150
+msgid "Submission rate limit exceeded. Please wait a while before submitting again."
+msgstr ""
+
+#: includes/class-pro-protection.php:158
+msgid "Bot verification failed. Please refresh the page and try again."
+msgstr ""
+
+#: includes/class-pro-protection.php:166
+msgid "Disposable or temporary email addresses are not permitted. Please use a valid personal or business email."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:22 includes/stats/class-admin-stats.php:126
+msgid "Unauthorized action."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:26 includes/stats/class-admin-stats.php:130
+msgid "Security check failed. Please refresh the page."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:37 includes/ab/class-ajax-campaigns.php:93 includes/ab/class-ajax-campaigns.php:155 includes/ab/class-ajax-campaigns.php:198 includes/stats/class-admin-stats.php:144 includes/stats/class-admin-stats.php:173 includes/stats/class-admin-stats.php:198
+msgid "Unauthorized user capability."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:48 includes/ab/class-ajax-campaigns.php:104 includes/ab/class-ajax-campaigns.php:166 includes/ab/class-ajax-campaigns.php:209 includes/stats/class-admin-stats.php:155 includes/stats/class-admin-stats.php:184 includes/stats/class-admin-stats.php:209
+msgid "Invalid security token."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:61 includes/ab/class-ajax-campaigns.php:115 includes/ab/class-ajax-campaigns.php:136
+msgid "Campaign not found."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:67
+msgid "Select at least 2 popups for split-testing."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:75
+msgid "At least 2 of the selected popups must exist."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:86 includes/ab/class-ajax-campaigns.php:124 includes/ab/class-ajax-campaigns.php:140
+msgid "Database error while saving."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:119
+msgid "Restore this campaign before changing its status."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:191
+msgid "Database error: could not save the campaign. Try Tools > Repair Tables."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:193
+msgid "A/B Campaign saved!"
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:218
+msgid "Missing campaign UID."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:222
+msgid "Campaign not found or already deleted."
+msgstr ""
+
+#: includes/ab/class-ajax-campaigns.php:224
+msgid "Campaign deleted."
+msgstr ""
+
+#: includes/ab/class-front-ab.php:100
+msgid "Open Popup"
+msgstr ""
+
+#: includes/ab/class-pro-ab.php:44 includes/ab/class-pro-ab.php:45 includes/ab/class-pro-ab.php:59 includes/ab/class-pro-ab.php:98 templates/ab-view.php:5 templates/ab-view.php:10
+msgid "A/B Campaigns"
+msgstr ""
+
+#: includes/ab/class-pro-ab.php:61
+msgid "Split-test popup variations and keep the winner. Activate your ZapPopPop Pro licence to manage A/B campaigns."
+msgstr ""
+
+#: includes/ab/class-pro-ab.php:150
+msgid "Restored A/B Test"
+msgstr ""
+
+#: includes/ab/class-pro-ab.php:176
+msgid "Database error during restore. No changes were kept."
+msgstr ""
+
+#: includes/ab/class-pro-ab.php:189 includes/ab/class-pro-ab.php:193
+msgid "A/B Experiments"
+msgstr ""
+
+#: includes/elements/class-pro-element-imageselect.php:14
+msgid "Image Select"
+msgstr ""
+
+#: includes/elements/class-pro-element-progress.php:14
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/elements/class-pro-element-rating.php:14
+msgid "Star Rating"
+msgstr ""
+
+#: includes/elements/class-pro-element-tile.php:14
+msgid "Tile Select"
+msgstr ""
+
+#: includes/elements/class-pro-elements.php:144
+msgid "Rating Data"
+msgstr ""
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28
+msgid "Download link has expired or is invalid."
+msgstr ""
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28 includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "Invalid Download"
+msgstr ""
+
+#: includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "The file is no longer available."
+msgstr ""
+
+#: includes/modules/class-zappoppop-addon-sms.php:13
+msgid "Twilio account SID, auth token, from number, and recipient number are required."
+msgstr ""
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:42
+msgid "Missing coupon code."
+msgstr ""
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:47
+msgid "Coupon applied to cart successfully!"
+msgstr ""
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:49
+msgid "Unable to apply coupon to cart."
+msgstr ""
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:21 includes/modules/class-zappoppop-ajax-mailchimp.php:22
+msgid "Permission denied."
+msgstr ""
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:25
+msgid "Enter a valid GetResponse API key."
+msgstr ""
+
+#: includes/modules/class-zappoppop-ajax-mailchimp.php:26
+msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
+msgstr ""
+
+#: includes/modules/class-zappoppop-autoresponder.php:95
+msgid "Welcome! Here is your reward"
+msgstr ""
+
+#: includes/modules/class-zappoppop-autoresponder.php:96
+msgid "Thank you for subscribing!\n\nEnjoy your offer."
+msgstr ""
+
+#: includes/modules/class-zappoppop-double-optin.php:18
+msgid "Please confirm your email address"
+msgstr ""
+
+#: includes/modules/class-zappoppop-double-optin.php:19
+msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
+msgstr ""
+
+#: includes/modules/class-zappoppop-double-optin.php:22
+msgid "Thank you!"
+msgstr ""
+
+#: includes/modules/class-zappoppop-double-optin.php:22
+msgid "Your email address successfully confirmed."
+msgstr ""
+
+#: includes/modules/class-zappoppop-getresponse.php:210 includes/modules/class-zappoppop-mailchimp.php:222
+msgid "Invalid API key."
+msgstr ""
+
+#: includes/modules/class-zappoppop-getresponse.php:232
+msgid "GetResponse returned HTTP %d."
+msgstr ""
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Email Address"
+msgstr ""
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Full name"
+msgstr ""
+
+#: includes/modules/class-zappoppop-getresponse.php:265
+msgid "API key or campaign is missing."
+msgstr ""
+
+#: includes/modules/class-zappoppop-getresponse.php:267 includes/modules/class-zappoppop-mailchimp.php:304
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/modules/class-zappoppop-mailchimp.php:246
+msgid "MailChimp returned HTTP %d."
+msgstr ""
+
+#: includes/modules/class-zappoppop-mailchimp.php:263 includes/modules/class-zappoppop-mailchimp.php:277
+msgid "Select an audience first."
+msgstr ""
+
+#: includes/modules/class-zappoppop-mailchimp.php:266
+msgid "Email address"
+msgstr ""
+
+#: includes/modules/class-zappoppop-mailchimp.php:302
+msgid "API key or audience is missing."
+msgstr ""
+
+#: includes/modules/class-zappoppop-protect.php:207 includes/modules/class-zappoppop-protect.php:215 includes/modules/class-zappoppop-protect.php:278
+msgid "ZapPopPop submissions"
+msgstr ""
+
+#: includes/modules/class-zappoppop-side-tabs.php:117
+msgid "Offer"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:372
+msgid "(no title)"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
+msgid "All roles"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:398
+msgid "Visitors (logged out)"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:399 includes/modules/class-zappoppop-woo-cart.php:722
+msgid "Search..."
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:400 includes/modules/class-zappoppop-woo-cart.php:723
+msgid "Nothing found."
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:401
+msgid "Popup Targeting"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:402
+msgid "Turn the entire Targeting Triggers setting on or off"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:403
+msgid "Enable Targeting Triggers"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:404
+msgid "OnLoad"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:405
+msgid "OnScroll"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:406
+msgid "OnExit"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:407
+msgid "OnInactivity"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:408
+msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:409
+msgid "Target Properties"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:410
+msgid "Periodicity"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:411
+msgid "Every time"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:412
+msgid "Once only"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:413
+msgid "Once per period"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:414
+msgid "Show again after"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:415
+msgid "hrs"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:416
+msgid "Start delay"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:417
+msgid "sec"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:418
+msgid "Close delay"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:419
+msgid "Close delay 0 keeps the popup open until it is closed."
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:420
+msgid "Scrolling offset"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:421
+msgid "Scrolling offset unit"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:422
+msgid "Inactivity delay"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:423
+msgid "Activity"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:424
+msgid "Always"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:425
+msgid "Certain period"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:426
+msgid "From"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:427
+msgid "End"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:428
+msgid "User Roles"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:429
+msgid "Site Area"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:430
+msgid "Sitewide"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:431
+msgid "Homepage"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:432
+msgid "Posts"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:433
+msgid "Pages"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:434
+msgid "URL"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:435
+msgid "Categories"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
+msgid "All"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:437
+msgid "Specific"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:438
+msgid "Also show on category archive pages"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:439
+msgid "Tags"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:440
+msgid "Also show on tag archive pages"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:441
+msgid "A post matches when it is in any selected category, tag or post list."
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:442
+msgid "All pages"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:443
+msgid "Specific pages"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:444
+msgid "URL contains"
+msgstr ""
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:445
+msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:703
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:704
+msgid "Turn the WooCommerce cart features for this popup on or off"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:705
+msgid "Enable WooCommerce Cart"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:706
+msgid "Cart-aware display rules and live cart text for this popup."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:707
+msgid "WooCommerce is not active on this site, so the cart rules are ignored."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:708
+msgid "Show this popup when the cart is"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:709
+msgid "Any"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:710
+msgid "Has items"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:711
+msgid "Empty"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:712
+msgid "Empty ignores the conditions below."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:713
+msgid "Cart conditions"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:714
+msgid "Minimum items"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:715
+msgid "Minimum subtotal"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:716
+msgid "Maximum subtotal"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:717
+msgid "items"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:718
+msgid "A value of 0 turns that condition off."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:719
+msgid "Product IDs"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:720
+msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:721
+msgid "Product categories"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:724
+msgid "No product categories found."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:725
+msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:726
+msgid "Show right after an item is added to the cart"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:727
+msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:728
+msgid "Free shipping"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:729
+msgid "Free shipping threshold"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:730
+msgid "0 = detect it from your WooCommerce free shipping method."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:731
+msgid "Dynamic text"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:732
+msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:733
+msgid "Cart total"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:734
+msgid "Cart subtotal"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:735
+msgid "Number of items"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:736
+msgid "Amount left for free shipping"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:737
+msgid "Applied coupon code"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:738
+msgid "Coupon"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:739
+msgid "Coupon code"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:740
+msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:741
+msgid "Apply it to the cart automatically"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:742
+msgid "When the popup opens"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:743
+msgid "When a button is clicked"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:744
+msgid "Give a button the link #zpp-apply-coupon."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:745
+msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:746
+msgid "Coupon countdown"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:747
+msgid "Coupon expiry date"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:748
+msgid "Show on pages"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:749
+msgid "Anywhere"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:750
+msgid "Product pages"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:751
+msgid "Selected products"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:752
+msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:753
+msgid "Products"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:754
+msgid "Comma-separated product IDs. Empty = off."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:755
+msgid "Product page categories"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:756
+msgid "This rule is checked on the server, so it also works with full-page caches."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:757
+msgid "Upsell"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:758
+msgid "Offer an upsell product"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:759
+msgid "Chosen by you"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:760
+msgid "Automatic"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:761
+msgid "Upsell product ID"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:762
+msgid "The product to offer. A variation ID is allowed."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:763
+msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:764
+msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:765
+msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:766
+msgid "Upsell product name"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:767
+msgid "Upsell product price"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:768
+msgid "Abandoned cart email"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:769
+msgid "Send a cart reminder email"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:770
+msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:771
+msgid "Send after"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:772
+msgid "minutes"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:773
+msgid "Consent field name"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:774
+msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:775
+msgid "Email subject"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
+msgid "You left something in your cart"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:777
+msgid "Email message"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
+msgid "Your cart is saved. Come back any time to finish your order."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:779
+msgid "Coupon code (optional)"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:780
+msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:781
+msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:782
+msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-cart.php:783
+msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
+msgstr ""
+
+#. translators: %s: coupon code
+#: includes/modules/class-zappoppop-woo-recover.php:401
+msgid "Use code %s at checkout."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:408
+msgid "Return to your cart"
+msgstr ""
+
+#. translators: %s: site name
+#: includes/modules/class-zappoppop-woo-recover.php:411
+msgid "You are receiving this because you asked for a cart reminder on %s."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:412 includes/modules/class-zappoppop-woo-recover.php:433
+msgid "Unsubscribe"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "You have been unsubscribed. We will not send you cart reminders again."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "This unsubscribe link is not valid."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:506 includes/modules/class-zappoppop-woo-recover.php:514
+msgid "ZapPopPop abandoned cart emails"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:530
+msgid "Abandoned cart emails"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:533
+msgid "Email"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
+msgid "Status"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:535
+msgid "Saved on"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:536
+msgid "Cart lines"
+msgstr ""
+
+#: includes/modules/class-zappoppop-woo-recover.php:558
+msgid "The address is kept on a do-not-email list because the person unsubscribed."
+msgstr ""
+
+#: includes/modules/class-zappoppop-woocommerce.php:98
+msgid "Generated by ZapPopPop campaign"
+msgstr ""
+
+#: includes/stats/class-admin-stats.php:86
+msgid "Rank"
+msgstr ""
+
+#: includes/stats/class-admin-stats.php:87
+msgid "Popup Campaign"
+msgstr ""
+
+#: includes/stats/class-admin-stats.php:88
+msgid "Label Color"
+msgstr ""
+
+#: includes/stats/class-admin-stats.php:89
+msgid "Country"
+msgstr ""
+
+#: includes/stats/class-admin-stats.php:90
+msgid "Device"
+msgstr ""
+
+#: includes/stats/class-admin-stats.php:91 templates/stats/chart.php:29
+msgid "Impressions"
+msgstr ""
+
+#: includes/stats/class-admin-stats.php:92
+msgid "Captured Leads"
+msgstr ""
+
+#: includes/stats/class-admin-stats.php:93 templates/stats/kpi-summary.php:23
+msgid "Conversion Rate"
+msgstr ""
+
+#: includes/stats/class-admin-stats.php:163
+msgid "Invalid popup or color."
+msgstr ""
+
+#: includes/stats/class-pro-stats.php:49 includes/stats/class-pro-stats.php:50 includes/stats/class-pro-stats.php:64 includes/stats/class-pro-stats.php:102 templates/stats-view.php:62 templates/stats-view.php:66
+msgid "Statistics"
+msgstr ""
+
+#: includes/stats/class-pro-stats.php:66
+msgid "Track impressions, leads and conversion rates over time. Activate your ZapPopPop Pro licence to open the Statistics dashboard."
+msgstr ""
+
+#. translators: %d: maximum number of chart series.
+#: includes/stats/class-pro-stats.php:97
+msgid "Maximum of %d series reached"
+msgstr ""
+
+#: includes/stats/class-pro-stats.php:106
+msgid "Daily Impressions"
+msgstr ""
+
+#: includes/stats/class-pro-stats.php:128
+msgid "Once Weekly"
+msgstr ""
+
+#: includes/stats/class-pro-stats.php:188
+msgid "No activity recorded."
+msgstr ""
+
+#: modules/acc-popup-overlay/admin.js:163
+msgid "Maximum of 20 custom backgrounds."
+msgstr ""
+
+#: modules/acc-popup-overlay/admin.js:170
+msgid "Delete this background?"
+msgstr ""
+
+#: modules/acc-popup-overlay/admin.js:179
+msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
+msgstr ""
+
+#: modules/acc-popup-overlay/admin.js:199
+msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
+msgstr ""
+
+#: modules/acc-popup-overlay/admin.js:202
+msgid "Please enter the animation HTML / JS."
+msgstr ""
+
+#: templates/license-edd.php:44 templates/license-page.php:24
+msgid "Licensing is not set up yet"
+msgstr ""
+
+#: templates/license-edd.php:46
+msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
+msgstr ""
+
+#: templates/license-edd.php:48
+msgid "Store home URL (https)"
+msgstr ""
+
+#: templates/license-edd.php:49
+msgid "Download ID of ZapPopPop Pro in your store"
+msgstr ""
+
+#: templates/license-edd.php:52 templates/license-page.php:32 templates/locked-page.php:23
+msgid "Your campaigns, statistics and settings are safe. Everything you created stays stored and keeps working on your site."
+msgstr ""
+
+#: templates/license-edd.php:60
+msgid "Licence key"
+msgstr ""
+
+#: templates/license-edd.php:70
+msgid "Your licence has expired. Every Pro feature keeps working; renew it to receive updates and support."
+msgstr ""
+
+#: templates/license-edd.php:75
+msgid "Expires"
+msgstr ""
+
+#: templates/license-edd.php:77
+msgid "Last checked"
+msgstr ""
+
+#: templates/license-edd.php:81
+msgid "Check now"
+msgstr ""
+
+#: templates/license-edd.php:82
+msgid "Deactivate"
+msgstr ""
+
+#: templates/license-edd.php:85
+msgid "Enter your licence key"
+msgstr ""
+
+#: templates/license-edd.php:87
+msgid "You can find the key in your purchase receipt and in your account on the store."
+msgstr ""
+
+#: templates/license-edd.php:93
+msgid "Only a network administrator can change the licence."
+msgstr ""
+
+#: templates/license-edd.php:102
+msgid "Licence server"
+msgstr ""
+
+#: templates/license-edd.php:105
+msgid "Store"
+msgstr ""
+
+#: templates/license-edd.php:107 templates/license-page.php:28
+msgid "Product ID"
+msgstr ""
+
+#: templates/license-edd.php:109
+msgid "This site"
+msgstr ""
+
+#: templates/license-edd.php:112
+msgid "Activating uses one site slot. Deactivate the licence before you move the site to another domain. Updates arrive in Dashboard > Updates while the licence is active."
+msgstr ""
+
+#: templates/license-page.php:26
+msgid "ZapPopPop Pro uses Freemius for licence keys, updates and your account. Add the product details from your Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) to zappoppop-pro.php, or define them in wp-config.php:"
+msgstr ""
+
+#: templates/license-page.php:29
+msgid "Public key (starts with pk_)"
+msgstr ""
+
+#: templates/license-page.php:30
+msgid "Product slug"
+msgstr ""
+
+#: templates/settings-library-rows.php:15
+msgid "Canvas Confetti"
+msgstr ""
+
+#: templates/settings-library-rows.php:15
+msgid "Celebratory confetti particle bursts on lead capture and prize unlocks."
+msgstr ""
+
+#: templates/settings-library-rows.php:20
+msgid "Canvas Fireworks"
+msgstr ""
+
+#: templates/settings-library-rows.php:20
+msgid "Particle fireworks display for discount unlock screens."
+msgstr ""
+
+#: templates/settings-library-rows.php:25
+msgid "Signature Pad"
+msgstr ""
+
+#: templates/settings-library-rows.php:25
+msgid "HTML5 canvas digital signature capture input fields."
+msgstr ""
+
+#: templates/settings-library-rows.php:30
+msgid "Math Formula Parser"
+msgstr ""
+
+#: templates/settings-library-rows.php:30
+msgid "Dynamic client-side math evaluation for quote calculators."
+msgstr ""
+
+#: templates/settings-performance-rows.php:11
+msgid "Google Analytics Integration"
+msgstr ""
+
+#: templates/settings-performance-rows.php:16
+msgid "Automatically dispatch popup impressions, conversions, and close events to gtag() and dataLayer"
+msgstr ""
+
+#: templates/settings-performance-rows.php:22
+msgid "AdBlock Detection Engine"
+msgstr ""
+
+#: templates/settings-performance-rows.php:27
+msgid "Enable global AdBlock extension monitoring script to trigger anti-adblock campaigns"
+msgstr ""
+
+#: templates/settings-security.php:17
+msgid "Bot Protection & Geo-Targeting Rules"
+msgstr ""
+
+#: templates/settings-security.php:19
+msgid "These rules need an active ZapPopPop Pro licence. Your saved choices are kept."
+msgstr ""
+
+#: templates/settings-security.php:23
+msgid "Email Validation Mode"
+msgstr ""
+
+#: templates/settings-security.php:26
+msgid "Standard RFC Syntax Check"
+msgstr ""
+
+#: templates/settings-security.php:27
+msgid "Syntax Check + Block Disposable Domains (10MinuteMail, Mailinator)"
+msgstr ""
+
+#: templates/settings-security.php:29
+msgid "Rejects throwaway and temporary email addresses from polluting your CRM."
+msgstr ""
+
+#: templates/settings-security.php:33
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: templates/settings-security.php:38
+msgid "Enable Google reCAPTCHA verification on all lead submission forms"
+msgstr ""
+
+#: templates/settings-security.php:43
+msgid "reCAPTCHA Site Key"
+msgstr ""
+
+#: templates/settings-security.php:49
+msgid "reCAPTCHA Secret Key"
+msgstr ""
+
+#: templates/settings-security.php:55
+msgid "reCAPTCHA v3 Minimum Score"
+msgstr ""
+
+#: templates/settings-security.php:58
+msgid "Submissions scoring below this are rejected (0.1 = lenient, 0.9 = strict). Default 0.4. Requires a reCAPTCHA v3 key pair."
+msgstr ""
+
+#: templates/settings-security.php:62
+msgid "IP Rate Limiting"
+msgstr ""
+
+#: templates/settings-security.php:65
+msgid "submissions allowed per IP per hour"
+msgstr ""
+
+#: templates/settings-security.php:66
+msgid "Throttles aggressive bot submissions and prevents form spam."
+msgstr ""
+
+#: templates/settings-security.php:70
+msgid "IP Geo-Targeting"
+msgstr ""
+
+#: templates/settings-security.php:75
+msgid "Enable IP-based country and regional targeting rules"
+msgstr ""
+
+#: templates/settings-security.php:80
+msgid "GeoIP Resolution Service"
+msgstr ""
+
+#: templates/settings-security.php:83
+msgid "None (Cloudflare CF-IPCountry header only, no external lookups)"
+msgstr ""
+
+#: templates/settings-security.php:84
+msgid "ipapi.co (JSON API)"
+msgstr ""
+
+#: templates/settings-security.php:87
+msgid "Provider used to detect visitor countries for geo-whitelisting and blacklisting."
+msgstr ""
+
+#: templates/tracking-sections.php:7
+msgid "Statistics & Reports"
+msgstr ""
+
+#: templates/tracking-sections.php:9
+msgid "Daily Stats Retention"
+msgstr ""
+
+#: templates/tracking-sections.php:9
+msgid "days (0 = keep forever)"
+msgstr ""
+
+#: templates/tracking-sections.php:10
+msgid "Weekly Email Report"
+msgstr ""
+
+#: templates/tracking-sections.php:10
+msgid "Email impressions, leads and CR per campaign every week"
+msgstr ""
+
+#: templates/tracking-sections.php:12
+msgid "Report Recipient"
+msgstr ""
+
+#: templates/tracking-sections.php:17
+msgid "A/B Testing"
+msgstr ""
+
+#: templates/tracking-sections.php:20
+msgid "Default Embed Type"
+msgstr ""
+
+#: templates/tracking-sections.php:23
+msgid "Inline Popup"
+msgstr ""
+
+#: templates/tracking-sections.php:24
+msgid "On-Load Popup"
+msgstr ""
+
+#: templates/tracking-sections.php:26
+msgid "Used by [zappoppop_ab] when the shortcode has no mode attribute."
+msgstr ""
+
+#: templates/tracking-sections.php:29
+msgid "Variant Cookie Lifetime"
+msgstr ""
+
+#: templates/tracking-sections.php:29
+msgid "days"
+msgstr ""
+
+#: templates/tracking-sections.php:30
+msgid "Sticky Variant by User"
+msgstr ""
+
+#: templates/tracking-sections.php:30
+msgid "Logged-in visitors always see the same variant on every device"
+msgstr ""
+
+#: templates/tracking-sections.php:31
+msgid "Auto-Promote Winner"
+msgstr ""
+
+#: templates/tracking-sections.php:31
+msgid "Keep only the best variant once the result is statistically significant"
+msgstr ""
+
+#: templates/tracking-sections.php:31
+msgid "Uses each popup's lifetime impressions and leads. Checked daily."
+msgstr ""
+
+#: templates/tracking-sections.php:32
+msgid "Minimum Impressions per Variant"
+msgstr ""
+
+#: templates/tracking-sections.php:34
+msgid "Confidence Level"
+msgstr ""
+
+#: templates/tracking-sections.php:45
+msgid "Cache Compatibility"
+msgstr ""
+
+#: templates/tracking-sections.php:47
+msgid "Exclude A/B Pages from Page Cache"
+msgstr ""
+
+#: templates/tracking-sections.php:47
+msgid "Send the DONOTCACHEPAGE flag on pages that contain [zappoppop_ab]"
+msgstr ""
+
+#: templates/tracking-sections.php:47
+msgid "Honoured by WP Rocket, W3 Total Cache, LiteSpeed and WP Super Cache."
+msgstr ""
+
+#: templates/ab/bar-actions.php:8
+msgid "New A/B Campaign"
+msgstr ""
+
+#: templates/ab/modal-create.php:12
+msgid "Create A/B Split Testing Experiment"
+msgstr ""
+
+#: templates/ab/modal-create.php:13
+msgid "Close"
+msgstr ""
+
+#: templates/ab/modal-create.php:17
+msgid "Campaign Title"
+msgstr ""
+
+#: templates/ab/modal-create.php:18
+msgid "e.g. Summer Promo Headline Test"
+msgstr ""
+
+#: templates/ab/modal-create.php:20
+msgid "Select Popups for Testing (Minimum 2)"
+msgstr ""
+
+#: templates/ab/modal-create.php:21
+msgid "Traffic will be distributed randomly across your selected variations."
+msgstr ""
+
+#: templates/ab/modal-create.php:25
+msgid "No published popups available. Please create and publish popups in the builder first."
+msgstr ""
+
+#: templates/ab/modal-create.php:30
+msgid "inactive"
+msgstr ""
+
+#: templates/ab/modal-create.php:37
+msgid "Cancel"
+msgstr ""
+
+#: templates/ab/modal-create.php:38
+msgid "Launch Campaign"
+msgstr ""
+
+#. translators: %s: number of A/B campaigns
+#: templates/ab/pagination.php:25
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/ab/pagination.php:30
+msgid "First page"
+msgstr ""
+
+#: templates/ab/pagination.php:31
+msgid "Previous page"
+msgstr ""
+
+#. translators: 1: current page, 2: total pages
+#: templates/ab/pagination.php:33
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: templates/ab/pagination.php:35
+msgid "Next page"
+msgstr ""
+
+#: templates/ab/pagination.php:36
+msgid "Last page"
+msgstr ""
+
+#: templates/ab/table.php:22
+msgid "Campaign"
+msgstr ""
+
+#: templates/ab/table.php:23
+msgid "Variations & Performance"
+msgstr ""
+
+#: templates/ab/table.php:25
+msgid "Shortcode"
+msgstr ""
+
+#: templates/ab/table.php:44
+msgid "No campaigns match your filters."
+msgstr ""
+
+#: templates/ab/table.php:46
+msgid "No A/B testing campaigns found. Click \"New A/B Campaign\" in the top bar to launch your first split-test experiment."
+msgstr ""
+
+#: templates/ab/table.php:66
+msgid "Created:"
+msgstr ""
+
+#: templates/ab/table.php:69
+msgid "Restore"
+msgstr ""
+
+#: templates/ab/table.php:70
+msgid "Delete Permanently"
+msgstr ""
+
+#: templates/ab/table.php:72
+msgid "Edit"
+msgstr ""
+
+#: templates/ab/table.php:73 templates/ab/table.php:104 templates/ab/toolbar.php:10 templates/stats/chart.php:41 templates/stats/chart.php:59 templates/stats/table-top-campaigns.php:82
+msgid "Trash"
+msgstr ""
+
+#: templates/ab/table.php:79
+msgid "No variations attached."
+msgstr ""
+
+#. translators: %s: variant letter, e.g. A or B.
+#: templates/ab/table.php:92
+msgid "Variant %s"
+msgstr ""
+
+#. translators: %s: variant letter, e.g. A or B.
+#. translators: %s: conversion rate value.
+#: templates/ab/table.php:93
+msgid "%s%% CR"
+msgstr ""
+
+#: templates/ab/table.php:96
+msgid "Impr:"
+msgstr ""
+
+#: templates/ab/table.php:96
+msgid "• Leads:"
+msgstr ""
+
+#: templates/ab/table.php:106 templates/ab/toolbar.php:9
+msgid "Inactive"
+msgstr ""
+
+#: templates/ab/table.php:107
+msgid "Campaign active"
+msgstr ""
+
+#: templates/ab/table.php:113
+msgid "Click to copy shortcode"
+msgstr ""
+
+#: templates/ab/toolbar.php:26
+msgid "Search campaigns:"
+msgstr ""
+
+#: templates/ab/toolbar.php:27
+msgid "Title or UID"
+msgstr ""
+
+#: templates/ab/toolbar.php:28
+msgid "Search Campaigns"
+msgstr ""
+
+#: templates/ab/toolbar.php:30
+msgid "Clear"
+msgstr ""
+
+#: templates/builder/ribbon-tools.php:3
+msgid "8. Progress Bar (progress)"
+msgstr ""
+
+#: templates/builder/ribbon-tools.php:3
+msgid "Progress"
+msgstr ""
+
+#: templates/builder/ribbon-tools.php:6
+msgid "19. Image Select (imageselect)"
+msgstr ""
+
+#: templates/builder/ribbon-tools.php:6
+msgid "ImgSel"
+msgstr ""
+
+#: templates/builder/ribbon-tools.php:9
+msgid "20. Tile (tile)"
+msgstr ""
+
+#: templates/builder/ribbon-tools.php:9
+msgid "Tile"
+msgstr ""
+
+#: templates/builder/ribbon-tools.php:12
+msgid "25. Rating (rating)"
+msgstr ""
+
+#: templates/builder/ribbon-tools.php:12
+msgid "Rating"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:6
+msgid "8. Progress Bar Settings"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:8
+msgid "PROGRESS MODE"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:10
+msgid "Manual (fixed percent)"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:11
+msgid "Auto: Form completion"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:12
+msgid "Auto: Canvas steps"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:13
+msgid "Auto: WooCommerce free shipping"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:18
+msgid "FILL PERCENT (0–100%)"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:22
+msgid "FILL BAR COLOR"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:27
+msgid "TRACK (BACKGROUND) COLOR"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:30
+msgid "PROGRESS LABEL TEXT"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:31
+msgid "e.g. 65% Complete — Almost There!"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:34
+msgid "Striped Bar"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:37
+msgid "Animated Stripes"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:40
+msgid "Show %"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:47
+msgid "PROGRESS VALUE:"
+msgstr ""
+
+#: templates/builder/elements/elem-08-progress.php:49
+msgid "BAR FILL COLOR"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:6
+msgid "19. Visual Image Select Grid"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:7
+msgid "IMAGE CHOICES (LABEL + IMAGE URL)"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:11
+msgid "Label"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:12
+msgid "Image URL"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:205 templates/builder/elements/elem-20-tile.php:11
+msgid "GRID COLUMNS"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:207 templates/builder/elements/elem-20-tile.php:13
+msgid "2 Columns"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:208 templates/builder/elements/elem-20-tile.php:14
+msgid "3 Columns"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:209 templates/builder/elements/elem-20-tile.php:15
+msgid "4 Columns"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:213
+msgid "ACTIVE BORDER"
+msgstr ""
+
+#: templates/builder/elements/elem-19-imageselect.php:218
+msgid "Allow Multiple Image Selections"
+msgstr ""
+
+#: templates/builder/elements/elem-20-tile.php:6
+msgid "20. Interactive Tile Selector"
+msgstr ""
+
+#: templates/builder/elements/elem-20-tile.php:7
+msgid "TILE CHOICES (ONE PER LINE)"
+msgstr ""
+
+#: templates/builder/elements/elem-20-tile.php:19
+msgid "ACTIVE ACCENT"
+msgstr ""
+
+#: templates/builder/elements/elem-20-tile.php:24
+msgid "Allow Multi-Tile Selection"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:6
+msgid "25. Interactive Rating Scale"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:9
+msgid "SCALE MAX"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:11
+msgid "5 Stars / Icons"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:12
+msgid "10 Stars / Icons"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:16
+msgid "ICON GLYPH"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:18
+msgid "★ Star"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:19
+msgid "♥ Heart"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:20
+msgid "👍 Thumbs Up"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:26
+msgid "ACTIVE COLOR"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:30
+msgid "INACTIVE COLOR"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:38
+msgid "DEFAULT STAR RATING (1-5)"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:40
+msgid "STAR COLOR"
+msgstr ""
+
+#: templates/builder/elements/elem-25-rating.php:42
+msgid "FIELD NAME / TOKEN"
+msgstr ""
+
+#: templates/stats/chart.php:27
+msgid "Performance Timeline"
+msgstr ""
+
+#: templates/stats/chart.php:30
+msgid "Leads"
+msgstr ""
+
+#. translators: number of selected series.
+#: templates/stats/chart.php:32
+msgid "Chart data (%d)"
+msgstr ""
+
+#: templates/stats/chart.php:34 templates/stats/data.php:99
+msgid "All popups (total)"
+msgstr ""
+
+#. translators: maximum number of chart series.
+#: templates/stats/chart.php:46
+msgid "Max %d series"
+msgstr ""
+
+#. translators: maximum number of chart series.
+#: templates/stats/chart.php:47
+msgid "Apply"
+msgstr ""
+
+#: templates/stats/data.php:62
+msgid "Untitled Popup"
+msgstr ""
+
+#: templates/stats/header.php:8
+msgid "Visual Statistics & Analytics"
+msgstr ""
+
+#: templates/stats/header.php:9
+msgid "Track campaign performance, conversion velocity, and audience engagement trends."
+msgstr ""
+
+#: templates/stats/header.php:15
+msgid "Last 7 Days"
+msgstr ""
+
+#: templates/stats/header.php:20
+msgid "Last 30 Days"
+msgstr ""
+
+#: templates/stats/header.php:25
+msgid "All Time"
+msgstr ""
+
+#: templates/stats/kpi-summary.php:8
+msgid "Period Impressions"
+msgstr ""
+
+#: templates/stats/kpi-summary.php:10
+msgid "Views recorded"
+msgstr ""
+
+#: templates/stats/kpi-summary.php:13
+msgid "Leads Captured"
+msgstr ""
+
+#: templates/stats/kpi-summary.php:15
+msgid "Form completions"
+msgstr ""
+
+#: templates/stats/kpi-summary.php:18
+msgid "Confirmed Leads"
+msgstr ""
+
+#: templates/stats/kpi-summary.php:20
+msgid "Verified double opt-in"
+msgstr ""
+
+#: templates/stats/kpi-summary.php:25
+msgid "Submissions / Views"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Desktop"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Mobile"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Tablet"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:26
+msgid "Top Performing Campaigns"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:31
+msgid "Per page"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:38
+msgid "Columns"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:41 templates/stats/table-top-campaigns.php:59
+msgid "Drag to reposition"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:65
+msgid "No campaign records available to rank."
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Label color"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Pick a label color"
+msgstr ""
+
+#: templates/stats/table-top-campaigns.php:88
+msgid "Delete label"
+msgstr ""
+
+#. translators: 1: total popups, 2: current page, 3: total pages.
+#: templates/stats/table-top-campaigns.php:121
+msgid "%1$d popups - page %2$d of %3$d"
+msgstr ""
