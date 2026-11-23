@@ -14,6 +14,12 @@ class ZapPopPop_Pro_Plugin {
         add_action('plugins_loaded', array(__CLASS__, 'load_textdomain'));
         require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-i18n.php';
         ZapPopPop_Pro_I18n::hooks();
+        require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-module-strings.php';
+        ZapPopPop_Pro_Module_Strings::hooks();
+        require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-module-html-strings.php';
+        ZapPopPop_Pro_Module_Html_Strings::hooks();
+        require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-dom-i18n.php';
+        ZapPopPop_Pro_Dom_I18n::hooks();
         add_action('zappoppop_loaded', array(__CLASS__, 'on_core_loaded'));
         add_action('admin_notices', array(__CLASS__, 'notices'));
         add_action('after_plugin_row_' . ZAPPOPPOP_PRO_BASENAME, array(__CLASS__, 'plugin_row_notice'));

@@ -24,3 +24,18 @@ vite.config.js
 *.zip
 *.log
 *.md
+# i18n tooling + local dev files: never ship (languages/ IS shipped)
+.patch-backups
+/scripts
+.dev
+.wp-env
+.wp-env.json
+.wp-env.override.json
+Thumbs.db
+*.bak
+*.tmp
+*.patch
+.zpp-*
+__pycache__
+*.pyc
+.claude

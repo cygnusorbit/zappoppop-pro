@@ -1,0 +1,2626 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zappoppop-pro\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: zappoppop-pro.php
+msgid "ZapPopPop Pro"
+msgstr "ZapPopPop Pro"
+
+#: zappoppop-pro.php
+msgid "https://zappoppop.com/"
+msgstr "https://zappoppop.com/"
+
+#: zappoppop-pro.php
+msgid "Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics."
+msgstr "Дополнение Pro для ZapPopPop: дополнительные элементы конструктора, модули, шаблоны, A/B-кампании и статистика."
+
+#: zappoppop-pro.php
+msgid "ZapPopPop"
+msgstr "ZapPopPop"
+
+#: assets/js/stats.js:31 assets/js/stats.js:45
+msgid "Error"
+msgstr "Ошибка"
+
+#: assets/js/stats.js:34
+msgid "Request failed (HTTP %s)"
+msgstr "Запрос не выполнен (HTTP %s)"
+
+#: assets/js/stats.js:34
+msgid "Request failed"
+msgstr "Запрос не выполнен"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:10
+msgid "10 Stars"
+msgstr "10 звёзд"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:11
+msgid "5 Stars"
+msgstr "5 звёзд"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:12 includes/modules/class-zappoppop-targeting-triggers.php:441
+msgid "A post matches when it is in any selected category, tag or post list."
+msgstr "Запись подходит, если она входит в любую выбранную рубрику, метку или список записей."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:13 includes/modules/class-zappoppop-woo-cart.php:768
+msgid "Abandoned cart email"
+msgstr "Письмо о брошенной корзине"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:14 includes/modules/class-zappoppop-targeting-triggers.php:423
+msgid "Activity"
+msgstr "Активность"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:15
+msgid "Add field"
+msgstr "Добавить поле"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:16 includes/modules/class-zappoppop-targeting-triggers.php:442
+msgid "All pages"
+msgstr "Все страницы"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:17 includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
+msgid "All roles"
+msgstr "Все роли"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:18 includes/modules/class-zappoppop-targeting-triggers.php:438
+msgid "Also show on category archive pages"
+msgstr "Также показывать на страницах архива рубрик"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:19 includes/modules/class-zappoppop-targeting-triggers.php:440
+msgid "Also show on tag archive pages"
+msgstr "Также показывать на страницах архива меток"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:20 includes/modules/class-zappoppop-targeting-triggers.php:424
+msgid "Always"
+msgstr "Всегда"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:21 includes/modules/class-zappoppop-woo-cart.php:736
+msgid "Amount left for free shipping"
+msgstr "Сумма, оставшаяся до бесплатной доставки"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:22 includes/modules/class-zappoppop-woo-cart.php:749
+msgid "Anywhere"
+msgstr "Везде"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:23 includes/modules/class-zappoppop-woo-cart.php:737
+msgid "Applied coupon code"
+msgstr "Применённый код купона"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:24
+msgid "Apply Image Select Size Preset"
+msgstr "Применить пресет размера выбора изображения"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:25 includes/modules/class-zappoppop-woo-cart.php:741
+msgid "Apply it to the cart automatically"
+msgstr "Применять его к корзине автоматически"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:26 templates/builder/elements/elem-08-progress.php:13
+msgid "Auto: WooCommerce free shipping"
+msgstr "Авто: бесплатная доставка WooCommerce"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:27 includes/modules/class-zappoppop-woo-cart.php:760
+msgid "Automatic"
+msgstr "Автоматически"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:28
+msgid "Bottom center"
+msgstr "Снизу по центру"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:29
+msgid "Bottom left"
+msgstr "Снизу слева"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:30
+msgid "Bottom right"
+msgstr "Снизу справа"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:31 includes/modules/class-zappoppop-woo-cart.php:713
+msgid "Cart conditions"
+msgstr "Условия корзины"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:32 includes/modules/class-zappoppop-woo-cart.php:734
+msgid "Cart subtotal"
+msgstr "Промежуточный итог корзины"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:33 includes/modules/class-zappoppop-woo-cart.php:733
+msgid "Cart total"
+msgstr "Итого по корзине"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:34 includes/modules/class-zappoppop-woo-cart.php:706
+msgid "Cart-aware display rules and live cart text for this popup."
+msgstr "Правила показа с учётом корзины и текст корзины в реальном времени для этого попапа."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:35 includes/modules/class-zappoppop-targeting-triggers.php:435
+msgid "Categories"
+msgstr "Рубрики"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:36 includes/modules/class-zappoppop-targeting-triggers.php:425
+msgid "Certain period"
+msgstr "Определённый период"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:37
+msgid "Change Progress Bar"
+msgstr "Изменить индикатор прогресса"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:38
+msgid "Change Progress Mode"
+msgstr "Изменить режим прогресса"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:39 includes/modules/class-zappoppop-targeting-triggers.php:408
+msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
+msgstr "Выберите, когда появляется попап. Пока ничего не выбрано, попап сохраняет поведение по умолчанию."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:40 includes/modules/class-zappoppop-woo-cart.php:759
+msgid "Chosen by you"
+msgstr "Выбрано вами"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:41 includes/modules/class-zappoppop-targeting-triggers.php:418
+msgid "Close delay"
+msgstr "Задержка закрытия"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:42 includes/modules/class-zappoppop-woo-cart.php:754
+msgid "Comma-separated product IDs. Empty = off."
+msgstr "ID товаров через запятую. Пусто = выключено."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:43 includes/modules/class-zappoppop-woo-cart.php:720
+msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
+msgstr "Через запятую. Попап показывается, когда в корзине есть любой из этих товаров. Пусто = выключено."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:44
+msgid "Confirmation URL"
+msgstr "URL подтверждения"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:45 includes/modules/class-zappoppop-woo-cart.php:773
+msgid "Consent field name"
+msgstr "Имя поля согласия"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:46 includes/modules/class-zappoppop-woo-cart.php:738
+msgid "Coupon"
+msgstr "Купон"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:47 includes/modules/class-zappoppop-woo-cart.php:739
+msgid "Coupon code"
+msgstr "Код купона"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:48 includes/modules/class-zappoppop-woo-cart.php:746
+msgid "Coupon countdown"
+msgstr "Обратный отсчёт купона"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:49 includes/modules/class-zappoppop-woo-cart.php:747
+msgid "Coupon expiry date"
+msgstr "Дата истечения купона"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:50
+msgid "Default Rating"
+msgstr "Оценка по умолчанию"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:51 includes/modules/class-zappoppop-woo-cart.php:731
+msgid "Dynamic text"
+msgstr "Динамический текст"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:52
+msgid "Email me a reminder about my cart"
+msgstr "Напомнить мне о корзине по эл. почте"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:53 includes/modules/class-zappoppop-woo-cart.php:777
+msgid "Email message"
+msgstr "Текст письма"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:54 includes/modules/class-zappoppop-woo-cart.php:775
+msgid "Email subject"
+msgstr "Тема письма"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:55 includes/modules/class-zappoppop-woo-cart.php:711
+msgid "Empty"
+msgstr "Пуст"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:56 includes/modules/class-zappoppop-woo-cart.php:712
+msgid "Empty ignores the conditions below."
+msgstr "Пусто — условия ниже игнорируются."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:57 includes/class-pro-module-html-strings.php:64
+msgid "Enable Double Opt-In"
+msgstr "Включить double opt-in"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:58 includes/modules/class-zappoppop-targeting-triggers.php:403
+msgid "Enable Targeting Triggers"
+msgstr "Включить триггеры таргетинга"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:59 includes/modules/class-zappoppop-woo-cart.php:705
+msgid "Enable WooCommerce Cart"
+msgstr "Включить корзину WooCommerce"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:60 includes/modules/class-zappoppop-targeting-triggers.php:411
+msgid "Every time"
+msgstr "Каждый раз"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:61
+msgid "Fill the rating from a URL query parameter, e.g. ?rating=4."
+msgstr "Заполняет оценку из параметра запроса URL, например ?rating=4."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:62 includes/modules/class-zappoppop-woo-cart.php:728
+msgid "Free shipping"
+msgstr "Бесплатная доставка"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:63 includes/modules/class-zappoppop-woo-cart.php:729
+msgid "Free shipping threshold"
+msgstr "Порог бесплатной доставки"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:64 includes/modules/class-zappoppop-woo-cart.php:710
+msgid "Has items"
+msgstr "Есть товары"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:65 includes/modules/class-zappoppop-targeting-triggers.php:431
+msgid "Homepage"
+msgstr "Главная страница"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:66
+msgid "How many stars or icons the rating scale shows."
+msgstr "Сколько звёзд или значков показывает шкала оценки."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:67 includes/modules/class-zappoppop-targeting-triggers.php:422
+msgid "Inactivity delay"
+msgstr "Задержка бездействия"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:68
+msgid "Insert subscriber value"
+msgstr "Вставить значение подписчика"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:69 includes/modules/class-zappoppop-woo-cart.php:716
+msgid "Maximum subtotal"
+msgstr "Максимальный промежуточный итог"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:70
+msgid "Middle left"
+msgstr "Посередине слева"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:71
+msgid "Middle right"
+msgstr "Посередине справа"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:72 includes/modules/class-zappoppop-woo-cart.php:714
+msgid "Minimum items"
+msgstr "Минимум товаров"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:73 includes/modules/class-zappoppop-woo-cart.php:715
+msgid "Minimum subtotal"
+msgstr "Минимальный промежуточный итог"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:74
+msgid "New Image Select Preset"
+msgstr "Новый пресет выбора изображения"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:75
+msgid "No field selected"
+msgstr "Поле не выбрано"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:76 includes/modules/class-zappoppop-woo-cart.php:724
+msgid "No product categories found."
+msgstr "Категории товаров не найдены."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:77
+msgid "No rating"
+msgstr "Без оценки"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:78
+msgid "None (color overlay only)"
+msgstr "Нет (только цветовой оверлей)"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:79
+msgid "Number of Stars"
+msgstr "Количество звёзд"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:80 includes/modules/class-zappoppop-woo-cart.php:735
+msgid "Number of items"
+msgstr "Количество товаров"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:81 includes/modules/class-zappoppop-woo-cart.php:758
+msgid "Offer an upsell product"
+msgstr "Предложить товар для допродажи"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:82 includes/modules/class-zappoppop-targeting-triggers.php:412
+msgid "Once only"
+msgstr "Только один раз"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:83 includes/modules/class-zappoppop-targeting-triggers.php:413
+msgid "Once per period"
+msgstr "Один раз за период"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:84 includes/modules/class-zappoppop-targeting-triggers.php:445
+msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
+msgstr "По одному в строке. Попап показывается, когда адрес страницы содержит любой из них. Пусто = любой URL."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:85 includes/modules/class-zappoppop-woo-cart.php:745
+msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
+msgstr "Можно применить только этот код. Если он недействителен или истёк, ничего не произойдёт."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:86
+msgid "Open"
+msgstr "Открыта"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:87 includes/modules/class-zappoppop-targeting-triggers.php:433
+msgid "Pages"
+msgstr "Страницы"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:88 includes/modules/class-zappoppop-targeting-triggers.php:410
+msgid "Periodicity"
+msgstr "Периодичность"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:89
+msgid "Picture"
+msgstr "Изображение"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:90 includes/modules/class-zappoppop-targeting-triggers.php:401
+msgid "Popup Targeting"
+msgstr "Таргетинг попапа"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:91 includes/class-pro-module-html-strings.php:99
+msgid "Popup position"
+msgstr "Положение попапа"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:92 includes/modules/class-zappoppop-targeting-triggers.php:432
+msgid "Posts"
+msgstr "Записи"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:93
+msgid "Pre-selected rating when the form loads. Choose No rating to leave it empty."
+msgstr "Предварительно выбранная оценка при загрузке формы. Выберите «Без оценки», чтобы оставить пустым."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:94 includes/modules/class-zappoppop-woo-cart.php:719
+msgid "Product IDs"
+msgstr "ID товаров"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:95 includes/modules/class-zappoppop-woo-cart.php:721
+msgid "Product categories"
+msgstr "Категории товаров"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:96 includes/modules/class-zappoppop-woo-cart.php:755
+msgid "Product page categories"
+msgstr "Категории страниц товаров"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:97 includes/modules/class-zappoppop-woo-cart.php:750
+msgid "Product pages"
+msgstr "Страницы товаров"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:98 includes/modules/class-zappoppop-woo-cart.php:753
+msgid "Products"
+msgstr "Товары"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:99
+msgid "Remove icon"
+msgstr "Удалить значок"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:100
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:101 includes/modules/class-zappoppop-targeting-triggers.php:420
+msgid "Scrolling offset"
+msgstr "Смещение прокрутки"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:102 includes/modules/class-zappoppop-targeting-triggers.php:421
+msgid "Scrolling offset unit"
+msgstr "Единица смещения прокрутки"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:103
+msgid "Select icon"
+msgstr "Выбрать значок"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:104 includes/modules/class-zappoppop-woo-cart.php:751
+msgid "Selected products"
+msgstr "Выбранные товары"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:105 includes/class-pro-module-html-strings.php:110
+msgid "Send Welcome Email"
+msgstr "Отправить приветственное письмо"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:106 includes/modules/class-zappoppop-woo-cart.php:769
+msgid "Send a cart reminder email"
+msgstr "Отправить письмо-напоминание о корзине"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:107 includes/modules/class-zappoppop-woo-cart.php:771
+msgid "Send after"
+msgstr "Отправить через"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:108 includes/modules/class-zappoppop-targeting-triggers.php:414
+msgid "Show again after"
+msgstr "Показать снова через"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:109 includes/modules/class-zappoppop-woo-cart.php:748
+msgid "Show on pages"
+msgstr "Показывать на страницах"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:110 includes/modules/class-zappoppop-woo-cart.php:726
+msgid "Show right after an item is added to the cart"
+msgstr "Показывать сразу после добавления товара в корзину"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:111 includes/modules/class-zappoppop-woo-cart.php:708
+msgid "Show this popup when the cart is"
+msgstr "Показывать этот попап, когда корзина"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:112 includes/modules/class-zappoppop-woo-cart.php:780
+msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
+msgstr "Показывается в письме и применяется, когда посетитель возвращается в корзину. Используйте настоящий купон WooCommerce."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:113 includes/modules/class-zappoppop-targeting-triggers.php:429
+msgid "Site Area"
+msgstr "Область сайта"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:114 includes/modules/class-zappoppop-targeting-triggers.php:430
+msgid "Sitewide"
+msgstr "Весь сайт"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:115 includes/modules/class-zappoppop-targeting-triggers.php:437
+msgid "Specific"
+msgstr "Конкретные"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:116 includes/modules/class-zappoppop-targeting-triggers.php:443
+msgid "Specific pages"
+msgstr "Конкретные страницы"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118 includes/modules/class-zappoppop-targeting-triggers.php:416
+msgid "Start delay"
+msgstr "Задержка запуска"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:118
+msgid "Store the submitted rating with the lead record."
+msgstr "Сохраняет отправленную оценку вместе с записью лида."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:119
+msgid "Subscriber values"
+msgstr "Значения подписчика"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:120 includes/modules/class-zappoppop-targeting-triggers.php:439
+msgid "Tags"
+msgstr "Метки"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:121 includes/modules/class-zappoppop-targeting-triggers.php:409
+msgid "Target Properties"
+msgstr "Свойства цели"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:122 includes/class-pro-module-html-strings.php:127
+msgid "Thank you. We have already got your request."
+msgstr "Спасибо. Мы уже получили ваш запрос."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:123
+msgid "The URL parameter to read, e.g. rating for ?rating=4."
+msgstr "Параметр URL для чтения, например rating для ?rating=4."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:124 includes/modules/class-zappoppop-woo-cart.php:764
+msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
+msgstr "Попап не показывается, когда нет доступного товара для допродажи, например если товар уже в корзине или его нет в наличии."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:125 includes/modules/class-zappoppop-woo-cart.php:725
+msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
+msgstr "Попап показывается, когда в корзине есть товар из любой выбранной категории. Ничего не выбрано = выключено."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:126 includes/modules/class-zappoppop-woo-cart.php:762
+msgid "The product to offer. A variation ID is allowed."
+msgstr "Товар для предложения. Допускается ID вариации."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:127 includes/modules/class-zappoppop-woo-cart.php:756
+msgid "This rule is checked on the server, so it also works with full-page caches."
+msgstr "Это правило проверяется на сервере, поэтому работает и с кэшем полных страниц."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:128
+msgid "Top center"
+msgstr "Сверху по центру"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:129
+msgid "Top left"
+msgstr "Сверху слева"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:130
+msgid "Top right"
+msgstr "Сверху справа"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:131 includes/modules/class-zappoppop-woo-cart.php:704
+msgid "Turn the WooCommerce cart features for this popup on or off"
+msgstr "Включить или отключить функции корзины WooCommerce для этого попапа"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:132 includes/modules/class-zappoppop-targeting-triggers.php:402
+msgid "Turn the entire Targeting Triggers setting on or off"
+msgstr "Включить или отключить весь параметр триггеров таргетинга"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:133 includes/modules/class-zappoppop-woo-cart.php:757
+msgid "Upsell"
+msgstr "Допродажа"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:134 includes/modules/class-zappoppop-woo-cart.php:761
+msgid "Upsell product ID"
+msgstr "ID товара для допродажи"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:135 includes/modules/class-zappoppop-woo-cart.php:766
+msgid "Upsell product name"
+msgstr "Название товара для допродажи"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:136 includes/modules/class-zappoppop-woo-cart.php:767
+msgid "Upsell product price"
+msgstr "Цена товара для допродажи"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:137 includes/modules/class-zappoppop-targeting-triggers.php:428
+msgid "User Roles"
+msgstr "Роли пользователей"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:138 includes/modules/class-zappoppop-woo-cart.php:743
+msgid "When a button is clicked"
+msgstr "При нажатии кнопки"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:139 includes/modules/class-zappoppop-woo-cart.php:742
+msgid "When the popup opens"
+msgstr "Когда попап открывается"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:140 includes/modules/class-zappoppop-woo-cart.php:707
+msgid "WooCommerce is not active on this site, so the cart rules are ignored."
+msgstr "WooCommerce не активен на этом сайте, поэтому правила корзины игнорируются."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:141 includes/modules/class-zappoppop-woo-cart.php:727
+msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
+msgstr "Работает с добавлением в корзину через AJAX и блоком корзины. Показывается один раз за просмотр страницы и только при выполнении условий выше."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:142 includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
+msgid "You left something in your cart"
+msgstr "Вы кое-что оставили в корзине"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:143 includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
+msgid "Your cart is saved. Come back any time to finish your order."
+msgstr "Ваша корзина сохранена. Возвращайтесь в любое время, чтобы завершить заказ."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:144 includes/modules/class-zappoppop-double-optin.php:22
+msgid "Your email address successfully confirmed."
+msgstr "Ваш адрес электронной почты успешно подтверждён."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:145
+msgid "e.g. rating"
+msgstr "например, rating"
+
+#: assets/js/ab/ab-actions.js:29 includes/ab/class-ajax-campaigns.php:64 includes/ab/class-ajax-campaigns.php:178
+msgid "Please enter a campaign title."
+msgstr "Введите название кампании."
+
+#: assets/js/ab/ab-actions.js:34
+msgid "Please select at least 2 popups for split-testing."
+msgstr "Выберите не менее 2 попапов для сплит-теста."
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Error:"
+msgstr "Ошибка:"
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Unable to create campaign."
+msgstr "Не удалось создать кампанию."
+
+#: assets/js/ab/ab-actions.js:58
+msgid "Network error while saving campaign."
+msgstr "Ошибка сети при сохранении кампании."
+
+#: assets/js/ab/ab-actions.js:80
+msgid "Permanently delete this A/B testing campaign? This cannot be undone."
+msgstr "Безвозвратно удалить эту кампанию A/B-тестирования? Это действие нельзя отменить."
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Deletion Error:"
+msgstr "Ошибка удаления:"
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Unable to delete campaign."
+msgstr "Не удалось удалить кампанию."
+
+#: assets/js/ab/ab-actions.js:99
+msgid "Network error while deleting campaign."
+msgstr "Ошибка сети при удалении кампании."
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "ACTIVE"
+msgstr "АКТИВНА"
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "INACTIVE"
+msgstr "НЕАКТИВНА"
+
+#: assets/js/ab/ab-edit.js:77
+msgid "Could not update status."
+msgstr "Не удалось обновить статус."
+
+#: assets/js/ab/ab-edit.js:81
+msgid "Server error while updating status."
+msgstr "Ошибка сервера при обновлении статуса."
+
+#: assets/js/ab/ab-trash.js:38
+msgid "Could not update campaign."
+msgstr "Не удалось обновить кампанию."
+
+#: assets/js/ab/ab-trash.js:42
+msgid "Server error while updating campaign."
+msgstr "Ошибка сервера при обновлении кампании."
+
+#: assets/js/builder/elements.js:369
+msgid "%s Star"
+msgid_plural "%s Stars"
+msgstr[0] "%s звезда"
+msgstr[1] "%s звезды"
+msgstr[2] "%s звёзд"
+
+#: assets/js/front/elements.js:278
+msgid "Please select a rating."
+msgstr "Выберите оценку."
+
+#: includes/class-pro-admin.php:25 includes/class-pro-admin.php:36 templates/license-edd.php:30 templates/license-page.php:6 templates/license-page.php:15
+msgid "License"
+msgstr "Лицензия"
+
+#: includes/class-pro-admin.php:41 includes/class-pro-admin.php:66 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У вас недостаточно прав для доступа к этой странице."
+
+#: includes/class-pro-edd-updater.php:58
+msgid "ZapPopPop Pro add-on."
+msgstr "Дополнение ZapPopPop Pro."
+
+#: includes/class-pro-edd.php:119
+msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
+msgstr "Лицензирование ещё не настроено. Добавьте URL магазина и ID продукта в wp-config.php."
+
+#: includes/class-pro-edd.php:133
+msgid "The licence server did not answer. Please try again later."
+msgstr "Сервер лицензий не ответил. Повторите попытку позже."
+
+#: includes/class-pro-edd.php:137
+msgid "The licence server sent an unexpected answer."
+msgstr "Сервер лицензий отправил неожиданный ответ."
+
+#: includes/class-pro-edd.php:148 includes/class-pro-edd.php:188
+msgid "Enter your licence key."
+msgstr "Введите ваш лицензионный ключ."
+
+#: includes/class-pro-edd.php:161
+msgid "Licence activated. Thank you!"
+msgstr "Лицензия активирована. Спасибо!"
+
+#: includes/class-pro-edd.php:173
+msgid "There is no licence to deactivate."
+msgstr "Нет лицензии для деактивации."
+
+#: includes/class-pro-edd.php:181
+msgid "Licence deactivated for this site."
+msgstr "Лицензия деактивирована для этого сайта."
+
+#: includes/class-pro-edd.php:202
+msgid "Your licence is active."
+msgstr "Ваша лицензия активна."
+
+#: includes/class-pro-edd.php:224
+msgid "Security check failed. Please go back and try again."
+msgstr "Проверка безопасности не пройдена. Вернитесь назад и повторите попытку."
+
+#: includes/class-pro-edd.php:227
+msgid "You do not have sufficient permissions to manage the licence."
+msgstr "У вас недостаточно прав для управления лицензией."
+
+#: includes/class-pro-edd.php:267
+msgid "Lifetime"
+msgstr "Бессрочная"
+
+#: includes/class-pro-edd.php:275 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
+msgid "Active"
+msgstr "Активна"
+
+#: includes/class-pro-edd.php:276 templates/license-edd.php:21
+msgid "Expired"
+msgstr "Истекла"
+
+#: includes/class-pro-edd.php:277 includes/class-pro-edd.php:284 templates/license-edd.php:15
+msgid "Not activated"
+msgstr "Не активирована"
+
+#: includes/class-pro-edd.php:278
+msgid "Not activated on this site"
+msgstr "Не активирована на этом сайте"
+
+#: includes/class-pro-edd.php:279
+msgid "Disabled"
+msgstr "Отключена"
+
+#: includes/class-pro-edd.php:280
+msgid "Revoked"
+msgstr "Отозвана"
+
+#: includes/class-pro-edd.php:281 includes/class-pro-edd.php:282
+msgid "Invalid key"
+msgstr "Недействительный ключ"
+
+#: includes/class-pro-edd.php:292
+msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
+msgstr "Срок действия этой лицензии истёк %s. Функции Pro продолжают работать на сайтах, где она уже была активна; продлите её, чтобы получать обновления и поддержку."
+
+#: includes/class-pro-edd.php:293
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "Срок действия этой лицензии истёк. Продлите её, чтобы получать обновления и поддержку."
+
+#: includes/class-pro-edd.php:296
+msgid "This licence key is not valid. Please check it and try again."
+msgstr "Этот лицензионный ключ недействителен. Проверьте его и повторите попытку."
+
+#: includes/class-pro-edd.php:298
+msgid "This licence has no activations left. Deactivate it on another site or upgrade your plan."
+msgstr "У этой лицензии не осталось активаций. Деактивируйте её на другом сайте или обновите тарифный план."
+
+#: includes/class-pro-edd.php:301
+msgid "This licence is not active on this site. Activate it again."
+msgstr "Эта лицензия не активна на этом сайте. Активируйте её снова."
+
+#: includes/class-pro-edd.php:304
+msgid "This licence has been disabled. Please contact support."
+msgstr "Эта лицензия отключена. Обратитесь в службу поддержки."
+
+#: includes/class-pro-edd.php:307
+msgid "This key belongs to a different product."
+msgstr "Этот ключ относится к другому продукту."
+
+#: includes/class-pro-edd.php:309
+msgid "The licence could not be verified. Please try again or contact support."
+msgstr "Не удалось проверить лицензию. Повторите попытку или обратитесь в службу поддержки."
+
+#: includes/class-pro-extensions.php:108
+msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
+msgstr "Требуется активная лицензия ZapPopPop Pro. Ваш сохранённый выбор сохраняется."
+
+#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:158 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "Активировать лицензию"
+
+#: includes/class-pro-module-html-strings.php:24
+msgid "#c2185b"
+msgstr "#c2185b"
+
+#: includes/class-pro-module-html-strings.php:25
+msgid "+ Add"
+msgstr "+ Добавить"
+
+#: includes/class-pro-module-html-strings.php:26
+msgid "6px"
+msgstr "6px"
+
+#: includes/class-pro-module-html-strings.php:27
+msgid "<canvas id=\"c\"></canvas><script>...</script>"
+msgstr "<canvas id=\"c\"></canvas><script>...</script>"
+
+#: includes/class-pro-module-html-strings.php:28
+msgid "A tab pinned to the screen edge. Visitors click it to open this popup, even after they closed it."
+msgstr "Вкладка, закреплённая у края экрана. Посетители нажимают её, чтобы открыть этот попап, даже после того как закрыли его."
+
+#: includes/class-pro-module-html-strings.php:29
+msgid "ANIMATION"
+msgstr "АНИМАЦИЯ"
+
+#: includes/class-pro-module-html-strings.php:30
+msgid "Add a personal data key field"
+msgstr "Добавить поле ключа персональных данных"
+
+#: includes/class-pro-module-html-strings.php:31
+msgid "All Visitors"
+msgstr "Все посетители"
+
+#: includes/class-pro-module-html-strings.php:32
+msgid "Animation (HTML / JS)"
+msgstr "Анимация (HTML / JS)"
+
+#: includes/class-pro-module-html-strings.php:33
+msgid "Animation on successful form submit"
+msgstr "Анимация при успешной отправке формы"
+
+#: includes/class-pro-module-html-strings.php:34
+msgid "Antibot protection"
+msgstr "Защита от ботов"
+
+#: includes/class-pro-module-html-strings.php:35
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: includes/class-pro-module-html-strings.php:36
+msgid "Applies to the canvas currently selected in Canvas Settings."
+msgstr "Применяется к холсту, выбранному сейчас в настройках холста."
+
+#: includes/class-pro-module-html-strings.php:37 templates/stats/chart.php:47
+msgid "Apply"
+msgstr "Применить"
+
+#: includes/class-pro-module-html-strings.php:38
+msgid "Back Entrances"
+msgstr "Появления Back"
+
+#: includes/class-pro-module-html-strings.php:39
+msgid "Back Exits"
+msgstr "Исчезновения Back"
+
+#: includes/class-pro-module-html-strings.php:40
+msgid "Background Opacity (picture / animation)"
+msgstr "Непрозрачность фона (изображение / анимация)"
+
+#: includes/class-pro-module-html-strings.php:41
+msgid "Background Overlay Opacity"
+msgstr "Непрозрачность наложения фона"
+
+#: includes/class-pro-module-html-strings.php:42
+msgid "Background Type"
+msgstr "Тип фона"
+
+#: includes/class-pro-module-html-strings.php:43
+msgid "Bottom"
+msgstr "Снизу"
+
+#: includes/class-pro-module-html-strings.php:44
+msgid "Bounce"
+msgstr "Отскок"
+
+#: includes/class-pro-module-html-strings.php:45
+msgid "Bouncing Entrances"
+msgstr "Появления Bouncing"
+
+#: includes/class-pro-module-html-strings.php:46
+msgid "Bouncing Exits"
+msgstr "Исчезновения Bouncing"
+
+#: includes/class-pro-module-html-strings.php:47
+msgid "Burst + Fireworks"
+msgstr "Взрыв + фейерверк"
+
+#: includes/class-pro-module-html-strings.php:48 templates/ab/modal-create.php:37
+msgid "Cancel"
+msgstr "Отмена"
+
+#: includes/class-pro-module-html-strings.php:49
+msgid "Check IP-address"
+msgstr "Проверять IP-адрес"
+
+#: includes/class-pro-module-html-strings.php:50
+msgid "Check form data"
+msgstr "Проверять данные формы"
+
+#: includes/class-pro-module-html-strings.php:51
+msgid "Confetti Burst (built-in)"
+msgstr "Взрыв конфетти (встроенный)"
+
+#: includes/class-pro-module-html-strings.php:52
+msgid "Confetti Cannons (needs Canvas Confetti library)"
+msgstr "Конфетти-пушки (нужна библиотека Canvas Confetti)"
+
+#: includes/class-pro-module-html-strings.php:53
+msgid "Confetti Rain (built-in)"
+msgstr "Дождь из конфетти (встроенный)"
+
+#: includes/class-pro-module-html-strings.php:54
+msgid "Configure appearance entrance and disappearance exit animations for this canvas."
+msgstr "Настройте анимации появления и исчезновения для этого холста."
+
+#: includes/class-pro-module-html-strings.php:55
+msgid "Control what is stored with each submission, protect the form against repeated submissions and tune the page behaviour while the popup is visible."
+msgstr "Управляйте тем, что сохраняется с каждой отправкой, защитите форму от повторных отправок и настройте поведение страницы, пока попап виден."
+
+#: includes/class-pro-module-html-strings.php:56
+msgid "Custom Background"
+msgstr "Пользовательский фон"
+
+#: includes/class-pro-module-html-strings.php:57
+msgid "Default (confetti + enabled libraries)"
+msgstr "По умолчанию (конфетти + включённые библиотеки)"
+
+#: includes/class-pro-module-html-strings.php:58
+msgid "Disable page scrollbar"
+msgstr "Отключить полосу прокрутки страницы"
+
+#: includes/class-pro-module-html-strings.php:59
+msgid "Disappearance"
+msgstr "Исчезновение"
+
+#: includes/class-pro-module-html-strings.php:60
+msgid "Distance kept between the popup and each screen edge. 0 sticks the popup to the edge; a higher value moves it away. On screens smaller than the popup it scales down to fit."
+msgstr "Расстояние между попапом и каждым краем экрана. 0 прижимает попап к краю; большее значение отодвигает его. На экранах меньше попапа он масштабируется, чтобы поместиться."
+
+#: includes/class-pro-module-html-strings.php:61
+msgid "Duration"
+msgstr "Длительность"
+
+#: includes/class-pro-module-html-strings.php:62
+msgid "Email Subject"
+msgstr "Тема письма"
+
+#: includes/class-pro-module-html-strings.php:63
+msgid "Empty = the visitor email"
+msgstr "Пусто = адрес эл. почты посетителя"
+
+#: includes/class-pro-module-html-strings.php:65
+msgid "Enable Overlay"
+msgstr "Включить наложение"
+
+#: includes/class-pro-module-html-strings.php:66
+msgid "Enable Sticky Side Tab"
+msgstr "Включить закреплённую боковую вкладку"
+
+#: includes/class-pro-module-html-strings.php:67
+msgid "Enable protection against repeated submissions"
+msgstr "Включить защиту от повторных отправок"
+
+#: includes/class-pro-module-html-strings.php:68
+msgid "Error message"
+msgstr "Сообщение об ошибке"
+
+#: includes/class-pro-module-html-strings.php:69
+msgid "Every submission stays \"pending\" until the visitor clicks the confirmation link. Notifications set to \"After double opt-in confirmation\" are sent at that moment."
+msgstr "Каждая отправка остаётся «ожидающей», пока посетитель не нажмёт ссылку подтверждения. Уведомления, настроенные на «После подтверждения double opt-in», отправляются в этот момент."
+
+#: includes/class-pro-module-html-strings.php:70
+msgid "Fade"
+msgstr "Затухание"
+
+#: includes/class-pro-module-html-strings.php:71
+msgid "Fading Entrances"
+msgstr "Появления Fading"
+
+#: includes/class-pro-module-html-strings.php:72
+msgid "Fading Exits"
+msgstr "Исчезновения Fading"
+
+#: includes/class-pro-module-html-strings.php:73
+msgid "Feedback / Offer"
+msgstr "Отзыв / предложение"
+
+#: includes/class-pro-module-html-strings.php:74
+msgid "Fields that hold the personal data key, usually the email field. WordPress uses them to find, export and erase a person's submissions (Tools > Export / Erase Personal Data)."
+msgstr "Поля, в которых хранится ключ персональных данных, обычно поле эл. почты. WordPress использует их для поиска, экспорта и удаления отправок человека (Инструменты > Экспорт / Удаление персональных данных)."
+
+#: includes/class-pro-module-html-strings.php:75
+msgid "Fireworks (needs Canvas Fireworks library)"
+msgstr "Фейерверк (нужна библиотека Canvas Fireworks)"
+
+#: includes/class-pro-module-html-strings.php:76 includes/modules/class-zappoppop-targeting-triggers.php:426
+msgid "From"
+msgstr "От"
+
+#: includes/class-pro-module-html-strings.php:77
+msgid "Guests Only"
+msgstr "Только гости"
+
+#: includes/class-pro-module-html-strings.php:78
+msgid "HTML / CSS / JS"
+msgstr "HTML / CSS / JS"
+
+#: includes/class-pro-module-html-strings.php:79
+msgid "If set, the visitor is redirected here after confirming (instead of the message)."
+msgstr "Если задано, посетитель перенаправляется сюда после подтверждения (вместо сообщения)."
+
+#: includes/class-pro-module-html-strings.php:80 templates/builder/elements/elem-19-imageselect.php:12
+msgid "Image URL"
+msgstr "URL изображения"
+
+#: includes/class-pro-module-html-strings.php:81
+msgid "Left"
+msgstr "Слева"
+
+#: includes/class-pro-module-html-strings.php:82
+msgid "Left Edge"
+msgstr "Левый край"
+
+#: includes/class-pro-module-html-strings.php:83
+msgid "Library-based effects require enabling the matching library under ZapPopPop → Settings → Libraries."
+msgstr "Эффекты на основе библиотек требуют включения соответствующей библиотеки в ZapPopPop → Настройки → Библиотеки."
+
+#: includes/class-pro-module-html-strings.php:84
+msgid "Locks the page scrollbar while this popup is visible."
+msgstr "Блокирует полосу прокрутки страницы, пока виден этот попап."
+
+#: includes/class-pro-module-html-strings.php:85
+msgid "Logged-In Users Only"
+msgstr "Только вошедшие пользователи"
+
+#: includes/class-pro-module-html-strings.php:86
+msgid "Media"
+msgstr "Медиа"
+
+#: includes/class-pro-module-html-strings.php:87
+msgid "Message"
+msgstr "Сообщение"
+
+#: includes/class-pro-module-html-strings.php:88
+msgid "Name"
+msgstr "Название"
+
+#: includes/class-pro-module-html-strings.php:89
+msgid "None"
+msgstr "Нет"
+
+#: includes/class-pro-module-html-strings.php:90
+msgid "Overlay Color"
+msgstr "Цвет наложения"
+
+#: includes/class-pro-module-html-strings.php:91
+msgid "Page"
+msgstr "Страница"
+
+#: includes/class-pro-module-html-strings.php:92
+msgid "Personal data key fields"
+msgstr "Поля ключа персональных данных"
+
+#: includes/class-pro-module-html-strings.php:93
+msgid "Picture (JPEG / PNG)"
+msgstr "Изображение (JPEG / PNG)"
+
+#: includes/class-pro-module-html-strings.php:94
+msgid "Pin a tab to the screen edge"
+msgstr "Закрепить вкладку у края экрана"
+
+#: includes/class-pro-module-html-strings.php:95
+msgid "Play"
+msgstr "Воспроизвести"
+
+#: includes/class-pro-module-html-strings.php:96
+msgid "Play Canvas Animation"
+msgstr "Воспроизвести анимацию холста"
+
+#: includes/class-pro-module-html-strings.php:97
+msgid "Play disappearance animation when the canvas closes"
+msgstr "Воспроизводить анимацию исчезновения при закрытии холста"
+
+#: includes/class-pro-module-html-strings.php:98
+msgid "Play disappearance on close"
+msgstr "Воспроизводить исчезновение при закрытии"
+
+#: includes/class-pro-module-html-strings.php:100
+msgid "Recipient"
+msgstr "Получатель"
+
+#: includes/class-pro-module-html-strings.php:101
+msgid "Repeated submission delay"
+msgstr "Задержка повторной отправки"
+
+#: includes/class-pro-module-html-strings.php:102
+msgid "Right"
+msgstr "Справа"
+
+#: includes/class-pro-module-html-strings.php:103
+msgid "Right Edge"
+msgstr "Правый край"
+
+#: includes/class-pro-module-html-strings.php:104
+msgid "Runs in a sandboxed frame behind the popup. Scripts require the unfiltered_html capability (administrators on single-site installs)."
+msgstr "Работает в изолированном фрейме позади попапа. Для скриптов требуется право unfiltered_html (администраторы на одиночных установках)."
+
+#: includes/class-pro-module-html-strings.php:105
+msgid "Save IP-address"
+msgstr "Сохранять IP-адрес"
+
+#: includes/class-pro-module-html-strings.php:106
+msgid "Save User-Agent"
+msgstr "Сохранять User-Agent"
+
+#: includes/class-pro-module-html-strings.php:107
+msgid "Screen Edge"
+msgstr "Край экрана"
+
+#: includes/class-pro-module-html-strings.php:108
+msgid "Screen edge padding"
+msgstr "Отступ от края экрана"
+
+#: includes/class-pro-module-html-strings.php:109
+msgid "Send Technical Info by email"
+msgstr "Отправлять технические сведения по эл. почте"
+
+#: includes/class-pro-module-html-strings.php:111
+msgid "Show Technical Info on log record details"
+msgstr "Показывать технические сведения в деталях записи журнала"
+
+#: includes/class-pro-module-html-strings.php:112
+msgid "Show the overlay behind the popup"
+msgstr "Показывать наложение позади попапа"
+
+#: includes/class-pro-module-html-strings.php:113
+msgid "Slide"
+msgstr "Скольжение"
+
+#: includes/class-pro-module-html-strings.php:114
+msgid "Slide-in Animation"
+msgstr "Анимация выезда"
+
+#: includes/class-pro-module-html-strings.php:115
+msgid "Sliding Entrances"
+msgstr "Появления Sliding"
+
+#: includes/class-pro-module-html-strings.php:116
+msgid "Sliding Exits"
+msgstr "Исчезновения Sliding"
+
+#: includes/class-pro-module-html-strings.php:117
+msgid "Star Burst (built-in)"
+msgstr "Звёздный взрыв (встроенный)"
+
+#: includes/class-pro-module-html-strings.php:119
+msgid "Stick to edge (set all padding to 0)"
+msgstr "Прижать к краю (установить все отступы в 0)"
+
+#: includes/class-pro-module-html-strings.php:120
+msgid "Subject"
+msgstr "Тема"
+
+#: includes/class-pro-module-html-strings.php:121
+msgid "Tab Background"
+msgstr "Фон вкладки"
+
+#: includes/class-pro-module-html-strings.php:122
+msgid "Tab Corner Radius"
+msgstr "Радиус скругления вкладки"
+
+#: includes/class-pro-module-html-strings.php:123
+msgid "Tab Label"
+msgstr "Подпись вкладки"
+
+#: includes/class-pro-module-html-strings.php:124
+msgid "Technical info"
+msgstr "Технические сведения"
+
+#: includes/class-pro-module-html-strings.php:125
+msgid "Technical info is the IP-address and the User-Agent. The email option adds it to the {{form-data}} merge tag."
+msgstr "Технические сведения — это IP-адрес и User-Agent. Параметр эл. почты добавляет их в тег подстановки {{form-data}}."
+
+#: includes/class-pro-module-html-strings.php:126
+msgid "Thank you for subscribing!"
+msgstr "Спасибо за подписку!"
+
+#: includes/class-pro-module-html-strings.php:128
+msgid "Thank-you URL"
+msgstr "URL страницы благодарности"
+
+#: includes/class-pro-module-html-strings.php:129
+msgid "Thank-you message"
+msgstr "Сообщение с благодарностью"
+
+#: includes/class-pro-module-html-strings.php:130
+msgid "The popup is only shown to the chosen visitors. Popups opened by a button or an onload shortcode ignore this rule."
+msgstr "Попап показывается только выбранным посетителям. Попапы, открываемые кнопкой или шорткодом onload, игнорируют это правило."
+
+#: includes/class-pro-module-html-strings.php:131
+msgid "The same data (and / or the same IP-address) is refused during the delay and the visitor sees the error message."
+msgstr "Те же данные (и / или тот же IP-адрес) отклоняются в течение задержки, и посетитель видит сообщение об ошибке."
+
+#: includes/class-pro-module-html-strings.php:132
+msgid "Top"
+msgstr "Сверху"
+
+#: includes/class-pro-module-html-strings.php:133
+msgid "Use the tag button to insert the subscriber's values, for example {{email}} or {{field-name}} (the older {email} form still works). Sent to the visitor's email after a successful submit; with Double Opt-In, once the link is confirmed."
+msgstr "Используйте кнопку тега, чтобы вставить значения подписчика, например {{email}} или {{field-name}} (старая форма {email} по-прежнему работает). Отправляется на адрес посетителя после успешной отправки; при double opt-in — после подтверждения ссылки."
+
+#: includes/class-pro-module-html-strings.php:134
+msgid "Visitor Authentication"
+msgstr "Аутентификация посетителей"
+
+#: includes/class-pro-module-html-strings.php:135 includes/modules/class-zappoppop-autoresponder.php:95
+msgid "Welcome! Here is your reward"
+msgstr "Добро пожаловать! Вот ваша награда"
+
+#: includes/class-pro-module-html-strings.php:136
+msgid "Zooming Entrances"
+msgstr "Появления Zooming"
+
+#: includes/class-pro-module-html-strings.php:137
+msgid "Zooming Exits"
+msgstr "Исчезновения Zooming"
+
+#: includes/class-pro-module-html-strings.php:138
+msgid "e.g. Winter Snow"
+msgstr "напр. Зимний снег"
+
+#: includes/class-pro-module-html-strings.php:139
+msgid "email"
+msgstr "эл. почта"
+
+#: includes/class-pro-module-html-strings.php:140
+msgid "https://"
+msgstr "https://"
+
+#: includes/class-pro-module-html-strings.php:141
+msgid "https://.../image.jpg"
+msgstr "https://.../image.jpg"
+
+#: includes/class-pro-module-html-strings.php:142
+msgid "ms"
+msgstr "мс"
+
+#: includes/class-pro-module-html-strings.php:143
+msgid "name"
+msgstr "имя"
+
+#: includes/class-pro-module-html-strings.php:144
+msgid "px"
+msgstr "px"
+
+#: includes/class-pro-module-html-strings.php:145
+msgid "seconds"
+msgstr "секунды"
+
+#: includes/class-pro-module-strings.php:28
+msgid "Animation"
+msgstr "Анимация"
+
+#: includes/class-pro-module-strings.php:29
+msgid "Open and close animations for the popup."
+msgstr "Анимации открытия и закрытия попапа."
+
+#: includes/class-pro-module-strings.php:32
+msgid "Autoresponder"
+msgstr "Автоответчик"
+
+#: includes/class-pro-module-strings.php:33
+msgid "Automatic reply sent to subscribers after they submit."
+msgstr "Автоматический ответ, отправляемый подписчикам после отправки формы."
+
+#: includes/class-pro-module-strings.php:36
+msgid "Double Opt-In"
+msgstr "Double opt-in"
+
+#: includes/class-pro-module-strings.php:37
+msgid "Double opt-in confirmation for subscribers."
+msgstr "Подтверждение double opt-in для подписчиков."
+
+#: includes/class-pro-module-strings.php:40
+msgid "Popup Overlay"
+msgstr "Наложение попапа"
+
+#: includes/class-pro-module-strings.php:41
+msgid "Page overlay behind the popup: colour, opacity, image or animation."
+msgstr "Наложение страницы позади попапа: цвет, непрозрачность, изображение или анимация."
+
+#: includes/class-pro-module-strings.php:44
+msgid "Popup Positions"
+msgstr "Положения попапа"
+
+#: includes/class-pro-module-strings.php:45
+msgid "Popup position on screen: top, bottom, left or right."
+msgstr "Положение попапа на экране: сверху, снизу, слева или справа."
+
+#: includes/class-pro-module-strings.php:48
+msgid "Security & Protections"
+msgstr "Безопасность и защита"
+
+#: includes/class-pro-module-strings.php:49
+msgid "Technical info, repeated submission (antibot) protection, page scrollbar lock and personal data keys."
+msgstr "Технические сведения, защита от повторных отправок (антибот), блокировка полосы прокрутки страницы и ключи персональных данных."
+
+#: includes/class-pro-module-strings.php:52
+msgid "Side Tabs"
+msgstr "Боковые вкладки"
+
+#: includes/class-pro-module-strings.php:53
+msgid "Sticky side tabs attached to the screen edge, with icon, colour, corner radius and slide-in animation."
+msgstr "Закреплённые боковые вкладки у края экрана со значком, цветом, радиусом скругления и анимацией выезда."
+
+#: includes/class-pro-module-strings.php:56
+msgid "Success Celebration"
+msgstr "Празднование успеха"
+
+#: includes/class-pro-module-strings.php:57
+msgid "Celebration animation after a successful submit."
+msgstr "Праздничная анимация после успешной отправки."
+
+#: includes/class-pro-module-strings.php:60
+msgid "Targeting Triggers"
+msgstr "Триггеры таргетинга"
+
+#: includes/class-pro-module-strings.php:61
+msgid "Show rules by event, schedule, role, area and URL."
+msgstr "Правила показа по событию, расписанию, роли, области и URL."
+
+#: includes/class-pro-module-strings.php:64
+msgid "Targeting"
+msgstr "Таргетинг"
+
+#: includes/class-pro-module-strings.php:65
+msgid "Visitor authentication, targeting and attribution rules."
+msgstr "Аутентификация посетителей, таргетинг и правила атрибуции."
+
+#: includes/class-pro-module-strings.php:68 includes/modules/class-zappoppop-woo-cart.php:703
+msgid "WooCommerce Cart"
+msgstr "Корзина WooCommerce"
+
+#: includes/class-pro-module-strings.php:69
+msgid "Show popups by cart contents and fill live cart values into popup text."
+msgstr "Показывайте попапы по содержимому корзины и подставляйте текущие значения корзины в текст попапа."
+
+#: includes/class-pro-plugin.php:109
+msgid "Outdated %1$s: minimum required %2$s"
+msgstr "Устаревший %1$s: требуется минимальная версия %2$s"
+
+#: includes/class-pro-plugin.php:111
+msgid "Missing %1$s: minimum required %2$s"
+msgstr "Отсутствует %1$s: требуется минимальная версия %2$s"
+
+#: includes/class-pro-plugin.php:116
+msgid "This plugin is not fully active."
+msgstr "Этот плагин активен не полностью."
+
+#: includes/class-pro-plugin.php:142
+msgid "ZapPopPop Pro needs the ZapPopPop plugin. Install and activate ZapPopPop first."
+msgstr "ZapPopPop Pro требует плагин ZapPopPop. Сначала установите и активируйте ZapPopPop."
+
+#: includes/class-pro-plugin.php:146
+msgid "ZapPopPop Pro needs a newer version of ZapPopPop. Please update ZapPopPop."
+msgstr "ZapPopPop Pro требует более новую версию ZapPopPop. Обновите ZapPopPop."
+
+#: includes/class-pro-plugin.php:156
+msgid "ZapPopPop Pro is not activated. Pro templates and modules stay locked until you enter your licence key."
+msgstr "ZapPopPop Pro не активирован. Шаблоны и модули Pro остаются заблокированными, пока вы не введёте лицензионный ключ."
+
+#: includes/class-pro-protection.php:100
+msgid "Security & Geolocation"
+msgstr "Безопасность и геолокация"
+
+#: includes/class-pro-protection.php:150
+msgid "Submission rate limit exceeded. Please wait a while before submitting again."
+msgstr "Превышен лимит частоты отправок. Подождите немного, прежде чем отправлять снова."
+
+#: includes/class-pro-protection.php:158
+msgid "Bot verification failed. Please refresh the page and try again."
+msgstr "Проверка на бота не пройдена. Обновите страницу и повторите попытку."
+
+#: includes/class-pro-protection.php:166
+msgid "Disposable or temporary email addresses are not permitted. Please use a valid personal or business email."
+msgstr "Одноразовые или временные адреса эл. почты не допускаются. Используйте действительный личный или рабочий адрес."
+
+#: includes/ab/class-ajax-campaigns.php:22 includes/stats/class-admin-stats.php:126
+msgid "Unauthorized action."
+msgstr "Неавторизованное действие."
+
+#: includes/ab/class-ajax-campaigns.php:26 includes/stats/class-admin-stats.php:130
+msgid "Security check failed. Please refresh the page."
+msgstr "Проверка безопасности не пройдена. Обновите страницу."
+
+#: includes/ab/class-ajax-campaigns.php:37 includes/ab/class-ajax-campaigns.php:93 includes/ab/class-ajax-campaigns.php:155 includes/ab/class-ajax-campaigns.php:198 includes/stats/class-admin-stats.php:144 includes/stats/class-admin-stats.php:173 includes/stats/class-admin-stats.php:198
+msgid "Unauthorized user capability."
+msgstr "Недостаточно прав пользователя."
+
+#: includes/ab/class-ajax-campaigns.php:48 includes/ab/class-ajax-campaigns.php:104 includes/ab/class-ajax-campaigns.php:166 includes/ab/class-ajax-campaigns.php:209 includes/stats/class-admin-stats.php:155 includes/stats/class-admin-stats.php:184 includes/stats/class-admin-stats.php:209
+msgid "Invalid security token."
+msgstr "Недействительный токен безопасности."
+
+#: includes/ab/class-ajax-campaigns.php:61 includes/ab/class-ajax-campaigns.php:115 includes/ab/class-ajax-campaigns.php:136
+msgid "Campaign not found."
+msgstr "Кампания не найдена."
+
+#: includes/ab/class-ajax-campaigns.php:67
+msgid "Select at least 2 popups for split-testing."
+msgstr "Выберите не менее 2 попапов для сплит-теста."
+
+#: includes/ab/class-ajax-campaigns.php:75
+msgid "At least 2 of the selected popups must exist."
+msgstr "Должны существовать как минимум 2 из выбранных попапов."
+
+#: includes/ab/class-ajax-campaigns.php:86 includes/ab/class-ajax-campaigns.php:124 includes/ab/class-ajax-campaigns.php:140
+msgid "Database error while saving."
+msgstr "Ошибка базы данных при сохранении."
+
+#: includes/ab/class-ajax-campaigns.php:119
+msgid "Restore this campaign before changing its status."
+msgstr "Восстановите эту кампанию, прежде чем менять её статус."
+
+#: includes/ab/class-ajax-campaigns.php:191
+msgid "Database error: could not save the campaign. Try Tools > Repair Tables."
+msgstr "Ошибка базы данных: не удалось сохранить кампанию. Попробуйте Инструменты > Восстановить таблицы."
+
+#: includes/ab/class-ajax-campaigns.php:193
+msgid "A/B Campaign saved!"
+msgstr "A/B-кампания сохранена!"
+
+#: includes/ab/class-ajax-campaigns.php:218
+msgid "Missing campaign UID."
+msgstr "Отсутствует UID кампании."
+
+#: includes/ab/class-ajax-campaigns.php:222
+msgid "Campaign not found or already deleted."
+msgstr "Кампания не найдена или уже удалена."
+
+#: includes/ab/class-ajax-campaigns.php:224
+msgid "Campaign deleted."
+msgstr "Кампания удалена."
+
+#: includes/ab/class-front-ab.php:100
+msgid "Open Popup"
+msgstr "Открыть попап"
+
+#: includes/ab/class-pro-ab.php:44 includes/ab/class-pro-ab.php:45 includes/ab/class-pro-ab.php:59 includes/ab/class-pro-ab.php:98 templates/ab-view.php:5 templates/ab-view.php:10
+msgid "A/B Campaigns"
+msgstr "A/B-кампании"
+
+#: includes/ab/class-pro-ab.php:61
+msgid "Split-test popup variations and keep the winner. Activate your ZapPopPop Pro licence to manage A/B campaigns."
+msgstr "Тестируйте варианты попапов и оставляйте победителя. Активируйте лицензию ZapPopPop Pro, чтобы управлять A/B-кампаниями."
+
+#: includes/ab/class-pro-ab.php:150
+msgid "Restored A/B Test"
+msgstr "Восстановленный A/B-тест"
+
+#: includes/ab/class-pro-ab.php:176
+msgid "Database error during restore. No changes were kept."
+msgstr "Ошибка базы данных при восстановлении. Изменения не сохранены."
+
+#: includes/ab/class-pro-ab.php:189 includes/ab/class-pro-ab.php:193
+msgid "A/B Experiments"
+msgstr "A/B-эксперименты"
+
+#: includes/elements/class-pro-element-imageselect.php:14
+msgid "Image Select"
+msgstr "Выбор изображения"
+
+#: includes/elements/class-pro-element-progress.php:14
+msgid "Progress Bar"
+msgstr "Индикатор прогресса"
+
+#: includes/elements/class-pro-element-rating.php:14
+msgid "Star Rating"
+msgstr "Звёздный рейтинг"
+
+#: includes/elements/class-pro-element-tile.php:14
+msgid "Tile Select"
+msgstr "Выбор плитки"
+
+#: includes/elements/class-pro-elements.php:144
+msgid "Rating Data"
+msgstr "Данные оценок"
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28
+msgid "Download link has expired or is invalid."
+msgstr "Ссылка для скачивания истекла или недействительна."
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28 includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "Invalid Download"
+msgstr "Недействительная загрузка"
+
+#: includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "The file is no longer available."
+msgstr "Файл больше недоступен."
+
+#: includes/modules/class-zappoppop-addon-sms.php:13
+msgid "Twilio account SID, auth token, from number, and recipient number are required."
+msgstr "Требуются SID аккаунта Twilio, токен авторизации, номер отправителя и номер получателя."
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:42
+msgid "Missing coupon code."
+msgstr "Отсутствует код купона."
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:47
+msgid "Coupon applied to cart successfully!"
+msgstr "Купон успешно применён к корзине!"
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:49
+msgid "Unable to apply coupon to cart."
+msgstr "Не удалось применить купон к корзине."
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:21 includes/modules/class-zappoppop-ajax-mailchimp.php:22
+msgid "Permission denied."
+msgstr "Доступ запрещён."
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:25
+msgid "Enter a valid GetResponse API key."
+msgstr "Введите действительный ключ API GetResponse."
+
+#: includes/modules/class-zappoppop-ajax-mailchimp.php:26
+msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
+msgstr "Введите действительный ключ API MailChimp (например, 0123456789abcdef-us21)."
+
+#: includes/modules/class-zappoppop-autoresponder.php:96
+msgid "Thank you for subscribing!\n\nEnjoy your offer."
+msgstr "Спасибо за подписку!\n\nНаслаждайтесь вашим предложением."
+
+#: includes/modules/class-zappoppop-double-optin.php:18
+msgid "Please confirm your email address"
+msgstr "Подтвердите ваш адрес эл. почты"
+
+#: includes/modules/class-zappoppop-double-optin.php:19
+msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
+msgstr "Уважаемый посетитель!\n\nПодтвердите ваш адрес эл. почты, нажав на следующую ссылку:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nСпасибо."
+
+#: includes/modules/class-zappoppop-double-optin.php:22
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: includes/modules/class-zappoppop-getresponse.php:210 includes/modules/class-zappoppop-mailchimp.php:222
+msgid "Invalid API key."
+msgstr "Недействительный ключ API."
+
+#: includes/modules/class-zappoppop-getresponse.php:232
+msgid "GetResponse returned HTTP %d."
+msgstr "GetResponse вернул HTTP %d."
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Email Address"
+msgstr "Адрес эл. почты"
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Full name"
+msgstr "Полное имя"
+
+#: includes/modules/class-zappoppop-getresponse.php:265
+msgid "API key or campaign is missing."
+msgstr "Отсутствует ключ API или кампания."
+
+#: includes/modules/class-zappoppop-getresponse.php:267 includes/modules/class-zappoppop-mailchimp.php:304
+msgid "Invalid email address."
+msgstr "Недействительный адрес эл. почты."
+
+#: includes/modules/class-zappoppop-mailchimp.php:246
+msgid "MailChimp returned HTTP %d."
+msgstr "MailChimp вернул HTTP %d."
+
+#: includes/modules/class-zappoppop-mailchimp.php:263 includes/modules/class-zappoppop-mailchimp.php:277
+msgid "Select an audience first."
+msgstr "Сначала выберите аудиторию."
+
+#: includes/modules/class-zappoppop-mailchimp.php:266
+msgid "Email address"
+msgstr "Адрес эл. почты"
+
+#: includes/modules/class-zappoppop-mailchimp.php:302
+msgid "API key or audience is missing."
+msgstr "Отсутствует ключ API или аудитория."
+
+#: includes/modules/class-zappoppop-protect.php:207 includes/modules/class-zappoppop-protect.php:215 includes/modules/class-zappoppop-protect.php:278
+msgid "ZapPopPop submissions"
+msgstr "Отправки ZapPopPop"
+
+#: includes/modules/class-zappoppop-side-tabs.php:117
+msgid "Offer"
+msgstr "Предложение"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:372
+msgid "(no title)"
+msgstr "(без названия)"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:398
+msgid "Visitors (logged out)"
+msgstr "Посетители (без входа)"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:399 includes/modules/class-zappoppop-woo-cart.php:722
+msgid "Search..."
+msgstr "Поиск..."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:400 includes/modules/class-zappoppop-woo-cart.php:723
+msgid "Nothing found."
+msgstr "Ничего не найдено."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:404
+msgid "OnLoad"
+msgstr "OnLoad"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:405
+msgid "OnScroll"
+msgstr "OnScroll"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:406
+msgid "OnExit"
+msgstr "OnExit"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:407
+msgid "OnInactivity"
+msgstr "OnInactivity"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:415
+msgid "hrs"
+msgstr "ч"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:417
+msgid "sec"
+msgstr "сек"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:419
+msgid "Close delay 0 keeps the popup open until it is closed."
+msgstr "Задержка закрытия 0 оставляет попап открытым, пока его не закроют."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:427
+msgid "End"
+msgstr "Конец"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:434
+msgid "URL"
+msgstr "URL"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
+msgid "All"
+msgstr "Все"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:444
+msgid "URL contains"
+msgstr "URL содержит"
+
+#: includes/modules/class-zappoppop-woo-cart.php:709
+msgid "Any"
+msgstr "Любой"
+
+#: includes/modules/class-zappoppop-woo-cart.php:717
+msgid "items"
+msgstr "товаров"
+
+#: includes/modules/class-zappoppop-woo-cart.php:718
+msgid "A value of 0 turns that condition off."
+msgstr "Значение 0 отключает это условие."
+
+#: includes/modules/class-zappoppop-woo-cart.php:730
+msgid "0 = detect it from your WooCommerce free shipping method."
+msgstr "0 = определить по методу бесплатной доставки WooCommerce."
+
+#: includes/modules/class-zappoppop-woo-cart.php:732
+msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
+msgstr "Введите их в любой текстовый слой. Предпросмотр показывает примерные значения; посетители видят свою корзину."
+
+#: includes/modules/class-zappoppop-woo-cart.php:740
+msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
+msgstr "Существующий купон WooCommerce. Заполняет {coupon_code} и обратный отсчёт. Код виден в исходном коде страницы, поэтому не используйте закрытый код."
+
+#: includes/modules/class-zappoppop-woo-cart.php:744
+msgid "Give a button the link #zpp-apply-coupon."
+msgstr "Задайте кнопке ссылку #zpp-apply-coupon."
+
+#: includes/modules/class-zappoppop-woo-cart.php:752
+msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
+msgstr "Страницы товаров: попап не показывается ни на каких других страницах. Выбранные товары: только на указанных ниже товарах или категориях (ничего не выбрано = каждая страница товара)."
+
+#: includes/modules/class-zappoppop-woo-cart.php:763
+msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
+msgstr "Автоматически используются сопутствующие товары корзины посетителя, затем товары для допродажи из неё. Задайте их у каждого товара WooCommerce."
+
+#: includes/modules/class-zappoppop-woo-cart.php:765
+msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
+msgstr "Задайте кнопке ссылку #zpp-add-upsell, чтобы добавить товар в корзину (попап после этого закроется), или #zpp-view-upsell, чтобы открыть его страницу. Вариативные товары могут использовать только ссылку просмотра."
+
+#: includes/modules/class-zappoppop-woo-cart.php:770
+msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
+msgstr "Отправляется один раз посетителям, которые отправили форму этого попапа с отмеченным флажком согласия и товарами в корзине. Без согласия ничего не сохраняется."
+
+#: includes/modules/class-zappoppop-woo-cart.php:772
+msgid "minutes"
+msgstr "минуты"
+
+#: includes/modules/class-zappoppop-woo-cart.php:774
+msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
+msgstr "Добавьте в форму слой флажка (например, «Напомнить мне о корзине по эл. почте») и введите то же имя в его поле Дополнительно > Имя поля. Не отмечен = ничего не сохраняется."
+
+#: includes/modules/class-zappoppop-woo-cart.php:779
+msgid "Coupon code (optional)"
+msgstr "Код купона (необязательно)"
+
+#: includes/modules/class-zappoppop-woo-cart.php:781
+msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
+msgstr "Письмо не отправляется, если заказ был оформлен с тем же адресом. В каждом письме есть ссылка для отписки; адреса, отказавшиеся от рассылки, больше никогда не сохраняются. Отправка использует cron WordPress и wp_mail()."
+
+#: includes/modules/class-zappoppop-woo-cart.php:782
+msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
+msgstr "Обратный отсчёт и дата истечения берутся из реальной даты истечения купона в WooCommerce."
+
+#: includes/modules/class-zappoppop-woo-cart.php:783
+msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
+msgstr "Полоса бесплатной доставки: добавьте слой «Индикатор прогресса», установите его режим «Авто: бесплатная доставка WooCommerce» и напишите его подпись так: Добавьте {shipping_remaining} для бесплатной доставки || У вас бесплатная доставка!"
+
+#: includes/modules/class-zappoppop-woo-recover.php:401
+msgid "Use code %s at checkout."
+msgstr "Используйте код %s при оформлении заказа."
+
+#: includes/modules/class-zappoppop-woo-recover.php:408
+msgid "Return to your cart"
+msgstr "Вернуться в корзину"
+
+#: includes/modules/class-zappoppop-woo-recover.php:411
+msgid "You are receiving this because you asked for a cart reminder on %s."
+msgstr "Вы получили это письмо, потому что запросили напоминание о корзине на сайте %s."
+
+#: includes/modules/class-zappoppop-woo-recover.php:412 includes/modules/class-zappoppop-woo-recover.php:433
+msgid "Unsubscribe"
+msgstr "Отписаться"
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "You have been unsubscribed. We will not send you cart reminders again."
+msgstr "Вы отписались. Мы больше не будем присылать вам напоминания о корзине."
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "This unsubscribe link is not valid."
+msgstr "Эта ссылка для отписки недействительна."
+
+#: includes/modules/class-zappoppop-woo-recover.php:506 includes/modules/class-zappoppop-woo-recover.php:514
+msgid "ZapPopPop abandoned cart emails"
+msgstr "Письма ZapPopPop о брошенных корзинах"
+
+#: includes/modules/class-zappoppop-woo-recover.php:530
+msgid "Abandoned cart emails"
+msgstr "Письма о брошенных корзинах"
+
+#: includes/modules/class-zappoppop-woo-recover.php:533
+msgid "Email"
+msgstr "Эл. почта"
+
+#: includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
+msgid "Status"
+msgstr "Статус"
+
+#: includes/modules/class-zappoppop-woo-recover.php:535
+msgid "Saved on"
+msgstr "Сохранено"
+
+#: includes/modules/class-zappoppop-woo-recover.php:536
+msgid "Cart lines"
+msgstr "Позиции корзины"
+
+#: includes/modules/class-zappoppop-woo-recover.php:558
+msgid "The address is kept on a do-not-email list because the person unsubscribed."
+msgstr "Адрес хранится в списке «не писать», потому что человек отписался."
+
+#: includes/modules/class-zappoppop-woocommerce.php:98
+msgid "Generated by ZapPopPop campaign"
+msgstr "Создано кампанией ZapPopPop"
+
+#: includes/stats/class-admin-stats.php:86
+msgid "Rank"
+msgstr "Место"
+
+#: includes/stats/class-admin-stats.php:87
+msgid "Popup Campaign"
+msgstr "Кампания попапа"
+
+#: includes/stats/class-admin-stats.php:88
+msgid "Label Color"
+msgstr "Цвет метки"
+
+#: includes/stats/class-admin-stats.php:89
+msgid "Country"
+msgstr "Страна"
+
+#: includes/stats/class-admin-stats.php:90
+msgid "Device"
+msgstr "Устройство"
+
+#: includes/stats/class-admin-stats.php:91 templates/stats/chart.php:29
+msgid "Impressions"
+msgstr "Показы"
+
+#: includes/stats/class-admin-stats.php:92
+msgid "Captured Leads"
+msgstr "Собранные лиды"
+
+#: includes/stats/class-admin-stats.php:93 templates/stats/kpi-summary.php:23
+msgid "Conversion Rate"
+msgstr "Коэффициент конверсии"
+
+#: includes/stats/class-admin-stats.php:163
+msgid "Invalid popup or color."
+msgstr "Недопустимый попап или цвет."
+
+#: includes/stats/class-pro-stats.php:49 includes/stats/class-pro-stats.php:50 includes/stats/class-pro-stats.php:64 includes/stats/class-pro-stats.php:102 templates/stats-view.php:62 templates/stats-view.php:66
+msgid "Statistics"
+msgstr "Статистика"
+
+#: includes/stats/class-pro-stats.php:66
+msgid "Track impressions, leads and conversion rates over time. Activate your ZapPopPop Pro licence to open the Statistics dashboard."
+msgstr "Отслеживайте показы, лиды и коэффициенты конверсии во времени. Активируйте лицензию ZapPopPop Pro, чтобы открыть панель статистики."
+
+#: includes/stats/class-pro-stats.php:97
+msgid "Maximum of %d series reached"
+msgstr "Достигнут максимум серий: %d"
+
+#: includes/stats/class-pro-stats.php:106
+msgid "Daily Impressions"
+msgstr "Показы по дням"
+
+#: includes/stats/class-pro-stats.php:128
+msgid "Once Weekly"
+msgstr "Раз в неделю"
+
+#: includes/stats/class-pro-stats.php:188
+msgid "No activity recorded."
+msgstr "Активность не зафиксирована."
+
+#: modules/acc-popup-overlay/admin.js:163
+msgid "Maximum of 20 custom backgrounds."
+msgstr "Максимум 20 пользовательских фонов."
+
+#: modules/acc-popup-overlay/admin.js:170
+msgid "Delete this background?"
+msgstr "Удалить этот фон?"
+
+#: modules/acc-popup-overlay/admin.js:179
+msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
+msgstr "Медиатека WordPress недоступна. Введите URL изображения (JPG/PNG):"
+
+#: modules/acc-popup-overlay/admin.js:199
+msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
+msgstr "Выберите изображение JPEG или PNG (.jpg, .jpeg, .png)."
+
+#: modules/acc-popup-overlay/admin.js:202
+msgid "Please enter the animation HTML / JS."
+msgstr "Введите HTML / JS анимации."
+
+#: templates/license-edd.php:44 templates/license-page.php:24
+msgid "Licensing is not set up yet"
+msgstr "Лицензирование ещё не настроено"
+
+#: templates/license-edd.php:46
+msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
+msgstr "ZapPopPop Pro проверяет ваш лицензионный ключ и доставляет обновления через Easy Digital Downloads. Добавьте данные вашего магазина в wp-config.php выше строки «That's all, stop editing!»:"
+
+#: templates/license-edd.php:48
+msgid "Store home URL (https)"
+msgstr "URL главной страницы магазина (https)"
+
+#: templates/license-edd.php:49
+msgid "Download ID of ZapPopPop Pro in your store"
+msgstr "ID загрузки ZapPopPop Pro в вашем магазине"
+
+#: templates/license-edd.php:52 templates/license-page.php:32 templates/locked-page.php:23
+msgid "Your campaigns, statistics and settings are safe. Everything you created stays stored and keeps working on your site."
+msgstr "Ваши кампании, статистика и настройки в безопасности. Всё, что вы создали, остаётся сохранённым и продолжает работать на вашем сайте."
+
+#: templates/license-edd.php:60
+msgid "Licence key"
+msgstr "Лицензионный ключ"
+
+#: templates/license-edd.php:70
+msgid "Your licence has expired. Every Pro feature keeps working; renew it to receive updates and support."
+msgstr "Срок действия вашей лицензии истёк. Все функции Pro продолжают работать; продлите её, чтобы получать обновления и поддержку."
+
+#: templates/license-edd.php:75
+msgid "Expires"
+msgstr "Истекает"
+
+#: templates/license-edd.php:77
+msgid "Last checked"
+msgstr "Последняя проверка"
+
+#: templates/license-edd.php:81
+msgid "Check now"
+msgstr "Проверить сейчас"
+
+#: templates/license-edd.php:82
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: templates/license-edd.php:85
+msgid "Enter your licence key"
+msgstr "Введите ваш лицензионный ключ"
+
+#: templates/license-edd.php:87
+msgid "You can find the key in your purchase receipt and in your account on the store."
+msgstr "Ключ можно найти в квитанции о покупке и в вашем аккаунте в магазине."
+
+#: templates/license-edd.php:93
+msgid "Only a network administrator can change the licence."
+msgstr "Лицензию может изменить только администратор сети."
+
+#: templates/license-edd.php:102
+msgid "Licence server"
+msgstr "Сервер лицензий"
+
+#: templates/license-edd.php:105
+msgid "Store"
+msgstr "Магазин"
+
+#: templates/license-edd.php:107 templates/license-page.php:28
+msgid "Product ID"
+msgstr "ID продукта"
+
+#: templates/license-edd.php:109
+msgid "This site"
+msgstr "Этот сайт"
+
+#: templates/license-edd.php:112
+msgid "Activating uses one site slot. Deactivate the licence before you move the site to another domain. Updates arrive in Dashboard > Updates while the licence is active."
+msgstr "Активация занимает один слот сайта. Деактивируйте лицензию, прежде чем переносить сайт на другой домен. Обновления приходят в Консоль > Обновления, пока лицензия активна."
+
+#: templates/license-page.php:26
+msgid "ZapPopPop Pro uses Freemius for licence keys, updates and your account. Add the product details from your Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) to zappoppop-pro.php, or define them in wp-config.php:"
+msgstr "ZapPopPop Pro использует Freemius для лицензионных ключей, обновлений и вашего аккаунта. Добавьте данные продукта из Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) в zappoppop-pro.php или определите их в wp-config.php:"
+
+#: templates/license-page.php:29
+msgid "Public key (starts with pk_)"
+msgstr "Публичный ключ (начинается с pk_)"
+
+#: templates/license-page.php:30
+msgid "Product slug"
+msgstr "Слаг продукта"
+
+#: templates/settings-library-rows.php:15
+msgid "Canvas Confetti"
+msgstr "Canvas Confetti"
+
+#: templates/settings-library-rows.php:15
+msgid "Celebratory confetti particle bursts on lead capture and prize unlocks."
+msgstr "Праздничные взрывы частиц конфетти при получении лида и разблокировке приза."
+
+#: templates/settings-library-rows.php:20
+msgid "Canvas Fireworks"
+msgstr "Canvas Fireworks"
+
+#: templates/settings-library-rows.php:20
+msgid "Particle fireworks display for discount unlock screens."
+msgstr "Показ фейерверка из частиц на экранах разблокировки скидки."
+
+#: templates/settings-library-rows.php:25
+msgid "Signature Pad"
+msgstr "Signature Pad"
+
+#: templates/settings-library-rows.php:25
+msgid "HTML5 canvas digital signature capture input fields."
+msgstr "Поля ввода цифровой подписи на HTML5-canvas."
+
+#: templates/settings-library-rows.php:30
+msgid "Math Formula Parser"
+msgstr "Парсер математических формул"
+
+#: templates/settings-library-rows.php:30
+msgid "Dynamic client-side math evaluation for quote calculators."
+msgstr "Динамическое вычисление математических выражений на стороне клиента для калькуляторов стоимости."
+
+#: templates/settings-performance-rows.php:11
+msgid "Google Analytics Integration"
+msgstr "Интеграция с Google Analytics"
+
+#: templates/settings-performance-rows.php:16
+msgid "Automatically dispatch popup impressions, conversions, and close events to gtag() and dataLayer"
+msgstr "Автоматически отправлять показы, конверсии и события закрытия попапов в gtag() и dataLayer"
+
+#: templates/settings-performance-rows.php:22
+msgid "AdBlock Detection Engine"
+msgstr "Движок обнаружения AdBlock"
+
+#: templates/settings-performance-rows.php:27
+msgid "Enable global AdBlock extension monitoring script to trigger anti-adblock campaigns"
+msgstr "Включить глобальный скрипт мониторинга расширений AdBlock для запуска анти-adblock кампаний"
+
+#: templates/settings-security.php:17
+msgid "Bot Protection & Geo-Targeting Rules"
+msgstr "Защита от ботов и правила геотаргетинга"
+
+#: templates/settings-security.php:19
+msgid "These rules need an active ZapPopPop Pro licence. Your saved choices are kept."
+msgstr "Для этих правил требуется активная лицензия ZapPopPop Pro. Ваш сохранённый выбор сохраняется."
+
+#: templates/settings-security.php:23
+msgid "Email Validation Mode"
+msgstr "Режим проверки эл. почты"
+
+#: templates/settings-security.php:26
+msgid "Standard RFC Syntax Check"
+msgstr "Стандартная проверка синтаксиса RFC"
+
+#: templates/settings-security.php:27
+msgid "Syntax Check + Block Disposable Domains (10MinuteMail, Mailinator)"
+msgstr "Проверка синтаксиса + блокировка одноразовых доменов (10MinuteMail, Mailinator)"
+
+#: templates/settings-security.php:29
+msgid "Rejects throwaway and temporary email addresses from polluting your CRM."
+msgstr "Отклоняет одноразовые и временные адреса эл. почты, чтобы они не засоряли вашу CRM."
+
+#: templates/settings-security.php:33
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: templates/settings-security.php:38
+msgid "Enable Google reCAPTCHA verification on all lead submission forms"
+msgstr "Включить проверку Google reCAPTCHA во всех формах отправки лидов"
+
+#: templates/settings-security.php:43
+msgid "reCAPTCHA Site Key"
+msgstr "Ключ сайта reCAPTCHA"
+
+#: templates/settings-security.php:49
+msgid "reCAPTCHA Secret Key"
+msgstr "Секретный ключ reCAPTCHA"
+
+#: templates/settings-security.php:55
+msgid "reCAPTCHA v3 Minimum Score"
+msgstr "Минимальная оценка reCAPTCHA v3"
+
+#: templates/settings-security.php:58
+msgid "Submissions scoring below this are rejected (0.1 = lenient, 0.9 = strict). Default 0.4. Requires a reCAPTCHA v3 key pair."
+msgstr "Отправки с оценкой ниже этого значения отклоняются (0,1 = мягко, 0,9 = строго). По умолчанию 0,4. Требуется пара ключей reCAPTCHA v3."
+
+#: templates/settings-security.php:62
+msgid "IP Rate Limiting"
+msgstr "Ограничение частоты по IP"
+
+#: templates/settings-security.php:65
+msgid "submissions allowed per IP per hour"
+msgstr "разрешённых отправок с одного IP в час"
+
+#: templates/settings-security.php:66
+msgid "Throttles aggressive bot submissions and prevents form spam."
+msgstr "Ограничивает агрессивные отправки ботов и предотвращает спам в формах."
+
+#: templates/settings-security.php:70
+msgid "IP Geo-Targeting"
+msgstr "Геотаргетинг по IP"
+
+#: templates/settings-security.php:75
+msgid "Enable IP-based country and regional targeting rules"
+msgstr "Включить правила таргетинга по странам и регионам на основе IP"
+
+#: templates/settings-security.php:80
+msgid "GeoIP Resolution Service"
+msgstr "Сервис определения GeoIP"
+
+#: templates/settings-security.php:83
+msgid "None (Cloudflare CF-IPCountry header only, no external lookups)"
+msgstr "Нет (только заголовок Cloudflare CF-IPCountry, без внешних запросов)"
+
+#: templates/settings-security.php:84
+msgid "ipapi.co (JSON API)"
+msgstr "ipapi.co (JSON API)"
+
+#: templates/settings-security.php:87
+msgid "Provider used to detect visitor countries for geo-whitelisting and blacklisting."
+msgstr "Поставщик, используемый для определения стран посетителей для гео-белых и чёрных списков."
+
+#: templates/tracking-sections.php:7
+msgid "Statistics & Reports"
+msgstr "Статистика и отчёты"
+
+#: templates/tracking-sections.php:9
+msgid "Daily Stats Retention"
+msgstr "Хранение дневной статистики"
+
+#: templates/tracking-sections.php:9
+msgid "days (0 = keep forever)"
+msgstr "дней (0 = хранить вечно)"
+
+#: templates/tracking-sections.php:10
+msgid "Weekly Email Report"
+msgstr "Еженедельный отчёт по эл. почте"
+
+#: templates/tracking-sections.php:10
+msgid "Email impressions, leads and CR per campaign every week"
+msgstr "Каждую неделю отправлять по эл. почте показы, лиды и конверсию по каждой кампании"
+
+#: templates/tracking-sections.php:12
+msgid "Report Recipient"
+msgstr "Получатель отчёта"
+
+#: templates/tracking-sections.php:17
+msgid "A/B Testing"
+msgstr "A/B-тестирование"
+
+#: templates/tracking-sections.php:20
+msgid "Default Embed Type"
+msgstr "Тип встраивания по умолчанию"
+
+#: templates/tracking-sections.php:23
+msgid "Inline Popup"
+msgstr "Встроенный попап"
+
+#: templates/tracking-sections.php:24
+msgid "On-Load Popup"
+msgstr "Попап при загрузке"
+
+#: templates/tracking-sections.php:26
+msgid "Used by [zappoppop_ab] when the shortcode has no mode attribute."
+msgstr "Используется [zappoppop_ab], если у шорткода нет атрибута mode."
+
+#: templates/tracking-sections.php:29
+msgid "Variant Cookie Lifetime"
+msgstr "Срок жизни cookie варианта"
+
+#: templates/tracking-sections.php:29
+msgid "days"
+msgstr "дней"
+
+#: templates/tracking-sections.php:30
+msgid "Sticky Variant by User"
+msgstr "Закреплённый вариант для пользователя"
+
+#: templates/tracking-sections.php:30
+msgid "Logged-in visitors always see the same variant on every device"
+msgstr "Вошедшие посетители всегда видят один и тот же вариант на любом устройстве"
+
+#: templates/tracking-sections.php:31
+msgid "Auto-Promote Winner"
+msgstr "Автоматически продвигать победителя"
+
+#: templates/tracking-sections.php:31
+msgid "Keep only the best variant once the result is statistically significant"
+msgstr "Оставить только лучший вариант, когда результат статистически значим"
+
+#: templates/tracking-sections.php:31
+msgid "Uses each popup's lifetime impressions and leads. Checked daily."
+msgstr "Использует суммарные показы и лиды каждого попапа. Проверяется ежедневно."
+
+#: templates/tracking-sections.php:32
+msgid "Minimum Impressions per Variant"
+msgstr "Минимум показов на вариант"
+
+#: templates/tracking-sections.php:34
+msgid "Confidence Level"
+msgstr "Уровень достоверности"
+
+#: templates/tracking-sections.php:45
+msgid "Cache Compatibility"
+msgstr "Совместимость с кэшем"
+
+#: templates/tracking-sections.php:47
+msgid "Exclude A/B Pages from Page Cache"
+msgstr "Исключить страницы A/B из кэша страниц"
+
+#: templates/tracking-sections.php:47
+msgid "Send the DONOTCACHEPAGE flag on pages that contain [zappoppop_ab]"
+msgstr "Отправлять флаг DONOTCACHEPAGE на страницах, содержащих [zappoppop_ab]"
+
+#: templates/tracking-sections.php:47
+msgid "Honoured by WP Rocket, W3 Total Cache, LiteSpeed and WP Super Cache."
+msgstr "Учитывается WP Rocket, W3 Total Cache, LiteSpeed и WP Super Cache."
+
+#: templates/ab/bar-actions.php:8
+msgid "New A/B Campaign"
+msgstr "Новая A/B-кампания"
+
+#: templates/ab/modal-create.php:12
+msgid "Create A/B Split Testing Experiment"
+msgstr "Создать эксперимент A/B-тестирования"
+
+#: templates/ab/modal-create.php:13
+msgid "Close"
+msgstr "Закрыть"
+
+#: templates/ab/modal-create.php:17
+msgid "Campaign Title"
+msgstr "Название кампании"
+
+#: templates/ab/modal-create.php:18
+msgid "e.g. Summer Promo Headline Test"
+msgstr "напр. Тест заголовка летней акции"
+
+#: templates/ab/modal-create.php:20
+msgid "Select Popups for Testing (Minimum 2)"
+msgstr "Выберите попапы для теста (минимум 2)"
+
+#: templates/ab/modal-create.php:21
+msgid "Traffic will be distributed randomly across your selected variations."
+msgstr "Трафик будет случайно распределён между выбранными вариантами."
+
+#: templates/ab/modal-create.php:25
+msgid "No published popups available. Please create and publish popups in the builder first."
+msgstr "Нет опубликованных попапов. Сначала создайте и опубликуйте попапы в конструкторе."
+
+#: templates/ab/modal-create.php:30
+msgid "inactive"
+msgstr "неактивна"
+
+#: templates/ab/modal-create.php:38
+msgid "Launch Campaign"
+msgstr "Запустить кампанию"
+
+#: templates/ab/pagination.php:25
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s элемент"
+msgstr[1] "%s элемента"
+msgstr[2] "%s элементов"
+
+#: templates/ab/pagination.php:30
+msgid "First page"
+msgstr "Первая страница"
+
+#: templates/ab/pagination.php:31
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: templates/ab/pagination.php:33
+msgid "%1$s of %2$s"
+msgstr "%1$s из %2$s"
+
+#: templates/ab/pagination.php:35
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: templates/ab/pagination.php:36
+msgid "Last page"
+msgstr "Последняя страница"
+
+#: templates/ab/table.php:22
+msgid "Campaign"
+msgstr "Кампания"
+
+#: templates/ab/table.php:23
+msgid "Variations & Performance"
+msgstr "Варианты и эффективность"
+
+#: templates/ab/table.php:25
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: templates/ab/table.php:44
+msgid "No campaigns match your filters."
+msgstr "Нет кампаний, соответствующих фильтрам."
+
+#: templates/ab/table.php:46
+msgid "No A/B testing campaigns found. Click \"New A/B Campaign\" in the top bar to launch your first split-test experiment."
+msgstr "A/B-кампании не найдены. Нажмите «Новая A/B-кампания» на верхней панели, чтобы запустить первый сплит-тест."
+
+#: templates/ab/table.php:66
+msgid "Created:"
+msgstr "Создано:"
+
+#: templates/ab/table.php:69
+msgid "Restore"
+msgstr "Восстановить"
+
+#: templates/ab/table.php:70
+msgid "Delete Permanently"
+msgstr "Удалить навсегда"
+
+#: templates/ab/table.php:72
+msgid "Edit"
+msgstr "Редактировать"
+
+#: templates/ab/table.php:73 templates/ab/table.php:104 templates/ab/toolbar.php:10 templates/stats/chart.php:41 templates/stats/chart.php:59 templates/stats/table-top-campaigns.php:82
+msgid "Trash"
+msgstr "Корзина"
+
+#: templates/ab/table.php:79
+msgid "No variations attached."
+msgstr "Нет прикреплённых вариантов."
+
+#: templates/ab/table.php:92
+msgid "Variant %s"
+msgstr "Вариант %s"
+
+#: templates/ab/table.php:93
+msgid "%s%% CR"
+msgstr "%s%% CR"
+
+#: templates/ab/table.php:96
+msgid "Impr:"
+msgstr "Показы:"
+
+#: templates/ab/table.php:96
+msgid "• Leads:"
+msgstr "• Лиды:"
+
+#: templates/ab/table.php:106 templates/ab/toolbar.php:9
+msgid "Inactive"
+msgstr "Неактивна"
+
+#: templates/ab/table.php:107
+msgid "Campaign active"
+msgstr "Кампания активна"
+
+#: templates/ab/table.php:113
+msgid "Click to copy shortcode"
+msgstr "Нажмите, чтобы скопировать шорткод"
+
+#: templates/ab/toolbar.php:26
+msgid "Search campaigns:"
+msgstr "Поиск кампаний:"
+
+#: templates/ab/toolbar.php:27
+msgid "Title or UID"
+msgstr "Название или UID"
+
+#: templates/ab/toolbar.php:28
+msgid "Search Campaigns"
+msgstr "Искать кампании"
+
+#: templates/ab/toolbar.php:30
+msgid "Clear"
+msgstr "Очистить"
+
+#: templates/builder/ribbon-tools.php:3
+msgid "8. Progress Bar (progress)"
+msgstr "8. Индикатор прогресса (progress)"
+
+#: templates/builder/ribbon-tools.php:3
+msgid "Progress"
+msgstr "Прогресс"
+
+#: templates/builder/ribbon-tools.php:6
+msgid "19. Image Select (imageselect)"
+msgstr "19. Выбор изображения (imageselect)"
+
+#: templates/builder/ribbon-tools.php:6
+msgid "ImgSel"
+msgstr "Выбор изобр."
+
+#: templates/builder/ribbon-tools.php:9
+msgid "20. Tile (tile)"
+msgstr "20. Плитка (tile)"
+
+#: templates/builder/ribbon-tools.php:9
+msgid "Tile"
+msgstr "Плитка"
+
+#: templates/builder/ribbon-tools.php:12
+msgid "25. Rating (rating)"
+msgstr "25. Рейтинг (rating)"
+
+#: templates/builder/ribbon-tools.php:12
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: templates/builder/elements/elem-08-progress.php:6
+msgid "8. Progress Bar Settings"
+msgstr "8. Настройки индикатора прогресса"
+
+#: templates/builder/elements/elem-08-progress.php:8
+msgid "PROGRESS MODE"
+msgstr "РЕЖИМ ПРОГРЕССА"
+
+#: templates/builder/elements/elem-08-progress.php:10
+msgid "Manual (fixed percent)"
+msgstr "Ручной (фиксированный процент)"
+
+#: templates/builder/elements/elem-08-progress.php:11
+msgid "Auto: Form completion"
+msgstr "Авто: заполнение формы"
+
+#: templates/builder/elements/elem-08-progress.php:12
+msgid "Auto: Canvas steps"
+msgstr "Авто: шаги холста"
+
+#: templates/builder/elements/elem-08-progress.php:18
+msgid "FILL PERCENT (0–100%)"
+msgstr "ПРОЦЕНТ ЗАПОЛНЕНИЯ (0–100%)"
+
+#: templates/builder/elements/elem-08-progress.php:22
+msgid "FILL BAR COLOR"
+msgstr "ЦВЕТ ЗАПОЛНЕНИЯ ПОЛОСЫ"
+
+#: templates/builder/elements/elem-08-progress.php:27
+msgid "TRACK (BACKGROUND) COLOR"
+msgstr "ЦВЕТ ДОРОЖКИ (ФОНА)"
+
+#: templates/builder/elements/elem-08-progress.php:30
+msgid "PROGRESS LABEL TEXT"
+msgstr "ТЕКСТ ПОДПИСИ ПРОГРЕССА"
+
+#: templates/builder/elements/elem-08-progress.php:31
+msgid "e.g. 65% Complete — Almost There!"
+msgstr "напр. Готово на 65% — почти у цели!"
+
+#: templates/builder/elements/elem-08-progress.php:34
+msgid "Striped Bar"
+msgstr "Полоса с полосками"
+
+#: templates/builder/elements/elem-08-progress.php:37
+msgid "Animated Stripes"
+msgstr "Анимированные полоски"
+
+#: templates/builder/elements/elem-08-progress.php:40
+msgid "Show %"
+msgstr "Показать %"
+
+#: templates/builder/elements/elem-08-progress.php:47
+msgid "PROGRESS VALUE:"
+msgstr "ЗНАЧЕНИЕ ПРОГРЕССА:"
+
+#: templates/builder/elements/elem-08-progress.php:49
+msgid "BAR FILL COLOR"
+msgstr "ЦВЕТ ЗАПОЛНЕНИЯ ПОЛОСЫ"
+
+#: templates/builder/elements/elem-19-imageselect.php:6
+msgid "19. Visual Image Select Grid"
+msgstr "19. Визуальная сетка выбора изображения"
+
+#: templates/builder/elements/elem-19-imageselect.php:7
+msgid "IMAGE CHOICES (LABEL + IMAGE URL)"
+msgstr "ВАРИАНТЫ ИЗОБРАЖЕНИЙ (ПОДПИСЬ + URL ИЗОБРАЖЕНИЯ)"
+
+#: templates/builder/elements/elem-19-imageselect.php:11
+msgid "Label"
+msgstr "Подпись"
+
+#: templates/builder/elements/elem-19-imageselect.php:205 templates/builder/elements/elem-20-tile.php:11
+msgid "GRID COLUMNS"
+msgstr "СТОЛБЦЫ СЕТКИ"
+
+#: templates/builder/elements/elem-19-imageselect.php:207 templates/builder/elements/elem-20-tile.php:13
+msgid "2 Columns"
+msgstr "2 столбца"
+
+#: templates/builder/elements/elem-19-imageselect.php:208 templates/builder/elements/elem-20-tile.php:14
+msgid "3 Columns"
+msgstr "3 столбца"
+
+#: templates/builder/elements/elem-19-imageselect.php:209 templates/builder/elements/elem-20-tile.php:15
+msgid "4 Columns"
+msgstr "4 столбца"
+
+#: templates/builder/elements/elem-19-imageselect.php:213
+msgid "ACTIVE BORDER"
+msgstr "АКТИВНАЯ РАМКА"
+
+#: templates/builder/elements/elem-19-imageselect.php:218
+msgid "Allow Multiple Image Selections"
+msgstr "Разрешить выбор нескольких изображений"
+
+#: templates/builder/elements/elem-20-tile.php:6
+msgid "20. Interactive Tile Selector"
+msgstr "20. Интерактивный выбор плиток"
+
+#: templates/builder/elements/elem-20-tile.php:7
+msgid "TILE CHOICES (ONE PER LINE)"
+msgstr "ВАРИАНТЫ ПЛИТОК (ПО ОДНОМУ В СТРОКЕ)"
+
+#: templates/builder/elements/elem-20-tile.php:19
+msgid "ACTIVE ACCENT"
+msgstr "АКТИВНЫЙ АКЦЕНТ"
+
+#: templates/builder/elements/elem-20-tile.php:24
+msgid "Allow Multi-Tile Selection"
+msgstr "Разрешить выбор нескольких плиток"
+
+#: templates/builder/elements/elem-25-rating.php:6
+msgid "25. Interactive Rating Scale"
+msgstr "25. Интерактивная шкала рейтинга"
+
+#: templates/builder/elements/elem-25-rating.php:9
+msgid "SCALE MAX"
+msgstr "МАКСИМУМ ШКАЛЫ"
+
+#: templates/builder/elements/elem-25-rating.php:11
+msgid "5 Stars / Icons"
+msgstr "5 звёзд / значков"
+
+#: templates/builder/elements/elem-25-rating.php:12
+msgid "10 Stars / Icons"
+msgstr "10 звёзд / значков"
+
+#: templates/builder/elements/elem-25-rating.php:16
+msgid "ICON GLYPH"
+msgstr "ГЛИФ ЗНАЧКА"
+
+#: templates/builder/elements/elem-25-rating.php:18
+msgid "★ Star"
+msgstr "★ Звезда"
+
+#: templates/builder/elements/elem-25-rating.php:19
+msgid "♥ Heart"
+msgstr "♥ Сердце"
+
+#: templates/builder/elements/elem-25-rating.php:20
+msgid "👍 Thumbs Up"
+msgstr "👍 Большой палец вверх"
+
+#: templates/builder/elements/elem-25-rating.php:26
+msgid "ACTIVE COLOR"
+msgstr "АКТИВНЫЙ ЦВЕТ"
+
+#: templates/builder/elements/elem-25-rating.php:30
+msgid "INACTIVE COLOR"
+msgstr "НЕАКТИВНЫЙ ЦВЕТ"
+
+#: templates/builder/elements/elem-25-rating.php:38
+msgid "DEFAULT STAR RATING (1-5)"
+msgstr "ЗВЁЗДНЫЙ РЕЙТИНГ ПО УМОЛЧАНИЮ (1-5)"
+
+#: templates/builder/elements/elem-25-rating.php:40
+msgid "STAR COLOR"
+msgstr "ЦВЕТ ЗВЁЗД"
+
+#: templates/builder/elements/elem-25-rating.php:42
+msgid "FIELD NAME / TOKEN"
+msgstr "ИМЯ ПОЛЯ / ТОКЕН"
+
+#: templates/stats/chart.php:27
+msgid "Performance Timeline"
+msgstr "Динамика показателей"
+
+#: templates/stats/chart.php:30
+msgid "Leads"
+msgstr "Лиды"
+
+#: templates/stats/chart.php:32
+msgid "Chart data (%d)"
+msgstr "Данные графика (%d)"
+
+#: templates/stats/chart.php:34 templates/stats/data.php:99
+msgid "All popups (total)"
+msgstr "Все попапы (всего)"
+
+#: templates/stats/chart.php:46
+msgid "Max %d series"
+msgstr "Макс. серий: %d"
+
+#: templates/stats/data.php:62
+msgid "Untitled Popup"
+msgstr "Попап без названия"
+
+#: templates/stats/header.php:8
+msgid "Visual Statistics & Analytics"
+msgstr "Визуальная статистика и аналитика"
+
+#: templates/stats/header.php:9
+msgid "Track campaign performance, conversion velocity, and audience engagement trends."
+msgstr "Отслеживайте эффективность кампаний, скорость конверсии и тенденции вовлечённости аудитории."
+
+#: templates/stats/header.php:15
+msgid "Last 7 Days"
+msgstr "Последние 7 дней"
+
+#: templates/stats/header.php:20
+msgid "Last 30 Days"
+msgstr "Последние 30 дней"
+
+#: templates/stats/header.php:25
+msgid "All Time"
+msgstr "За всё время"
+
+#: templates/stats/kpi-summary.php:8
+msgid "Period Impressions"
+msgstr "Показы за период"
+
+#: templates/stats/kpi-summary.php:10
+msgid "Views recorded"
+msgstr "Записанные просмотры"
+
+#: templates/stats/kpi-summary.php:13
+msgid "Leads Captured"
+msgstr "Собранные лиды"
+
+#: templates/stats/kpi-summary.php:15
+msgid "Form completions"
+msgstr "Завершённые формы"
+
+#: templates/stats/kpi-summary.php:18
+msgid "Confirmed Leads"
+msgstr "Подтверждённые лиды"
+
+#: templates/stats/kpi-summary.php:20
+msgid "Verified double opt-in"
+msgstr "Подтверждено через double opt-in"
+
+#: templates/stats/kpi-summary.php:25
+msgid "Submissions / Views"
+msgstr "Отправки / просмотры"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Desktop"
+msgstr "Компьютер"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Mobile"
+msgstr "Мобильный"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Tablet"
+msgstr "Планшет"
+
+#: templates/stats/table-top-campaigns.php:26
+msgid "Top Performing Campaigns"
+msgstr "Лучшие кампании"
+
+#: templates/stats/table-top-campaigns.php:31
+msgid "Per page"
+msgstr "На странице"
+
+#: templates/stats/table-top-campaigns.php:38
+msgid "Columns"
+msgstr "Столбцы"
+
+#: templates/stats/table-top-campaigns.php:41 templates/stats/table-top-campaigns.php:59
+msgid "Drag to reposition"
+msgstr "Перетащите, чтобы изменить положение"
+
+#: templates/stats/table-top-campaigns.php:65
+msgid "No campaign records available to rank."
+msgstr "Нет записей кампаний для ранжирования."
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Label color"
+msgstr "Цвет метки"
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Pick a label color"
+msgstr "Выберите цвет метки"
+
+#: templates/stats/table-top-campaigns.php:88
+msgid "Delete label"
+msgstr "Удалить метку"
+
+#: templates/stats/table-top-campaigns.php:121
+msgid "%1$d popups - page %2$d of %3$d"
+msgstr "Попапов: %1$d - страница %2$d из %3$d"

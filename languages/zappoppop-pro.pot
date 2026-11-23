@@ -2,14 +2,14 @@
 # This file is distributed under the GPL-2.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: ZapPopPop Pro 1.0.09\n"
+"Project-Id-Version: ZapPopPop Pro 1.0.10\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/zappoppop-pro\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-22T09:47:10+00:00\n"
+"POT-Creation-Date: 2026-11-23T07:38:52+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: scripts/make-pot.py\n"
 "X-Domain: zappoppop-pro\n"
@@ -51,6 +51,550 @@ msgstr ""
 #. translators: %s: HTTP status code.
 #: assets/js/stats.js:34
 msgid "Request failed"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:10
+msgid "10 Stars"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:11
+msgid "5 Stars"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:12 includes/modules/class-zappoppop-targeting-triggers.php:441
+msgid "A post matches when it is in any selected category, tag or post list."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:13 includes/modules/class-zappoppop-woo-cart.php:768
+msgid "Abandoned cart email"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:14 includes/modules/class-zappoppop-targeting-triggers.php:423
+msgid "Activity"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:15
+msgid "Add field"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:16 includes/modules/class-zappoppop-targeting-triggers.php:442
+msgid "All pages"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:17 includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
+msgid "All roles"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:18 includes/modules/class-zappoppop-targeting-triggers.php:438
+msgid "Also show on category archive pages"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:19 includes/modules/class-zappoppop-targeting-triggers.php:440
+msgid "Also show on tag archive pages"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:20 includes/modules/class-zappoppop-targeting-triggers.php:424
+msgid "Always"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:21 includes/modules/class-zappoppop-woo-cart.php:736
+msgid "Amount left for free shipping"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:22 includes/modules/class-zappoppop-woo-cart.php:749
+msgid "Anywhere"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:23 includes/modules/class-zappoppop-woo-cart.php:737
+msgid "Applied coupon code"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:24
+msgid "Apply Image Select Size Preset"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:25 includes/modules/class-zappoppop-woo-cart.php:741
+msgid "Apply it to the cart automatically"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:26 templates/builder/elements/elem-08-progress.php:13
+msgid "Auto: WooCommerce free shipping"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:27 includes/modules/class-zappoppop-woo-cart.php:760
+msgid "Automatic"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:28
+msgid "Bottom center"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:29
+msgid "Bottom left"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:30
+msgid "Bottom right"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:31 includes/modules/class-zappoppop-woo-cart.php:713
+msgid "Cart conditions"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:32 includes/modules/class-zappoppop-woo-cart.php:734
+msgid "Cart subtotal"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:33 includes/modules/class-zappoppop-woo-cart.php:733
+msgid "Cart total"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:34 includes/modules/class-zappoppop-woo-cart.php:706
+msgid "Cart-aware display rules and live cart text for this popup."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:35 includes/modules/class-zappoppop-targeting-triggers.php:435
+msgid "Categories"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:36 includes/modules/class-zappoppop-targeting-triggers.php:425
+msgid "Certain period"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:37
+msgid "Change Progress Bar"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:38
+msgid "Change Progress Mode"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:39 includes/modules/class-zappoppop-targeting-triggers.php:408
+msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:40 includes/modules/class-zappoppop-woo-cart.php:759
+msgid "Chosen by you"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:41 includes/modules/class-zappoppop-targeting-triggers.php:418
+msgid "Close delay"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:42 includes/modules/class-zappoppop-woo-cart.php:754
+msgid "Comma-separated product IDs. Empty = off."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:43 includes/modules/class-zappoppop-woo-cart.php:720
+msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:44
+msgid "Confirmation URL"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:45 includes/modules/class-zappoppop-woo-cart.php:773
+msgid "Consent field name"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:46 includes/modules/class-zappoppop-woo-cart.php:738
+msgid "Coupon"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:47 includes/modules/class-zappoppop-woo-cart.php:739
+msgid "Coupon code"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:48 includes/modules/class-zappoppop-woo-cart.php:746
+msgid "Coupon countdown"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:49 includes/modules/class-zappoppop-woo-cart.php:747
+msgid "Coupon expiry date"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:50
+msgid "Default Rating"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:51 includes/modules/class-zappoppop-woo-cart.php:731
+msgid "Dynamic text"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:52
+msgid "Email me a reminder about my cart"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:53 includes/modules/class-zappoppop-woo-cart.php:777
+msgid "Email message"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:54 includes/modules/class-zappoppop-woo-cart.php:775
+msgid "Email subject"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:55 includes/modules/class-zappoppop-woo-cart.php:711
+msgid "Empty"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:56 includes/modules/class-zappoppop-woo-cart.php:712
+msgid "Empty ignores the conditions below."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:57 includes/class-pro-module-html-strings.php:64
+msgid "Enable Double Opt-In"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:58 includes/modules/class-zappoppop-targeting-triggers.php:403
+msgid "Enable Targeting Triggers"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:59 includes/modules/class-zappoppop-woo-cart.php:705
+msgid "Enable WooCommerce Cart"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:60 includes/modules/class-zappoppop-targeting-triggers.php:411
+msgid "Every time"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:61
+msgid "Fill the rating from a URL query parameter, e.g. ?rating=4."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:62 includes/modules/class-zappoppop-woo-cart.php:728
+msgid "Free shipping"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:63 includes/modules/class-zappoppop-woo-cart.php:729
+msgid "Free shipping threshold"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:64 includes/modules/class-zappoppop-woo-cart.php:710
+msgid "Has items"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:65 includes/modules/class-zappoppop-targeting-triggers.php:431
+msgid "Homepage"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:66
+msgid "How many stars or icons the rating scale shows."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:67 includes/modules/class-zappoppop-targeting-triggers.php:422
+msgid "Inactivity delay"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:68
+msgid "Insert subscriber value"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:69 includes/modules/class-zappoppop-woo-cart.php:716
+msgid "Maximum subtotal"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:70
+msgid "Middle left"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:71
+msgid "Middle right"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:72 includes/modules/class-zappoppop-woo-cart.php:714
+msgid "Minimum items"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:73 includes/modules/class-zappoppop-woo-cart.php:715
+msgid "Minimum subtotal"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:74
+msgid "New Image Select Preset"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:75
+msgid "No field selected"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:76 includes/modules/class-zappoppop-woo-cart.php:724
+msgid "No product categories found."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:77
+msgid "No rating"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:78
+msgid "None (color overlay only)"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:79
+msgid "Number of Stars"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:80 includes/modules/class-zappoppop-woo-cart.php:735
+msgid "Number of items"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:81 includes/modules/class-zappoppop-woo-cart.php:758
+msgid "Offer an upsell product"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:82 includes/modules/class-zappoppop-targeting-triggers.php:412
+msgid "Once only"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:83 includes/modules/class-zappoppop-targeting-triggers.php:413
+msgid "Once per period"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:84 includes/modules/class-zappoppop-targeting-triggers.php:445
+msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:85 includes/modules/class-zappoppop-woo-cart.php:745
+msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:86
+msgid "Open"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:87 includes/modules/class-zappoppop-targeting-triggers.php:433
+msgid "Pages"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:88 includes/modules/class-zappoppop-targeting-triggers.php:410
+msgid "Periodicity"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:89
+msgid "Picture"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:90 includes/modules/class-zappoppop-targeting-triggers.php:401
+msgid "Popup Targeting"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:91 includes/class-pro-module-html-strings.php:99
+msgid "Popup position"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:92 includes/modules/class-zappoppop-targeting-triggers.php:432
+msgid "Posts"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:93
+msgid "Pre-selected rating when the form loads. Choose No rating to leave it empty."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:94 includes/modules/class-zappoppop-woo-cart.php:719
+msgid "Product IDs"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:95 includes/modules/class-zappoppop-woo-cart.php:721
+msgid "Product categories"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:96 includes/modules/class-zappoppop-woo-cart.php:755
+msgid "Product page categories"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:97 includes/modules/class-zappoppop-woo-cart.php:750
+msgid "Product pages"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:98 includes/modules/class-zappoppop-woo-cart.php:753
+msgid "Products"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:99
+msgid "Remove icon"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:100
+msgid "Save Changes"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:101 includes/modules/class-zappoppop-targeting-triggers.php:420
+msgid "Scrolling offset"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:102 includes/modules/class-zappoppop-targeting-triggers.php:421
+msgid "Scrolling offset unit"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:103
+msgid "Select icon"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:104 includes/modules/class-zappoppop-woo-cart.php:751
+msgid "Selected products"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:105 includes/class-pro-module-html-strings.php:110
+msgid "Send Welcome Email"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:106 includes/modules/class-zappoppop-woo-cart.php:769
+msgid "Send a cart reminder email"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:107 includes/modules/class-zappoppop-woo-cart.php:771
+msgid "Send after"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:108 includes/modules/class-zappoppop-targeting-triggers.php:414
+msgid "Show again after"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:109 includes/modules/class-zappoppop-woo-cart.php:748
+msgid "Show on pages"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:110 includes/modules/class-zappoppop-woo-cart.php:726
+msgid "Show right after an item is added to the cart"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:111 includes/modules/class-zappoppop-woo-cart.php:708
+msgid "Show this popup when the cart is"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:112 includes/modules/class-zappoppop-woo-cart.php:780
+msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:113 includes/modules/class-zappoppop-targeting-triggers.php:429
+msgid "Site Area"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:114 includes/modules/class-zappoppop-targeting-triggers.php:430
+msgid "Sitewide"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:115 includes/modules/class-zappoppop-targeting-triggers.php:437
+msgid "Specific"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:116 includes/modules/class-zappoppop-targeting-triggers.php:443
+msgid "Specific pages"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118 includes/modules/class-zappoppop-targeting-triggers.php:416
+msgid "Start delay"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:118
+msgid "Store the submitted rating with the lead record."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:119
+msgid "Subscriber values"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:120 includes/modules/class-zappoppop-targeting-triggers.php:439
+msgid "Tags"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:121 includes/modules/class-zappoppop-targeting-triggers.php:409
+msgid "Target Properties"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:122 includes/class-pro-module-html-strings.php:127
+msgid "Thank you. We have already got your request."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:123
+msgid "The URL parameter to read, e.g. rating for ?rating=4."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:124 includes/modules/class-zappoppop-woo-cart.php:764
+msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:125 includes/modules/class-zappoppop-woo-cart.php:725
+msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:126 includes/modules/class-zappoppop-woo-cart.php:762
+msgid "The product to offer. A variation ID is allowed."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:127 includes/modules/class-zappoppop-woo-cart.php:756
+msgid "This rule is checked on the server, so it also works with full-page caches."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:128
+msgid "Top center"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:129
+msgid "Top left"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:130
+msgid "Top right"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:131 includes/modules/class-zappoppop-woo-cart.php:704
+msgid "Turn the WooCommerce cart features for this popup on or off"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:132 includes/modules/class-zappoppop-targeting-triggers.php:402
+msgid "Turn the entire Targeting Triggers setting on or off"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:133 includes/modules/class-zappoppop-woo-cart.php:757
+msgid "Upsell"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:134 includes/modules/class-zappoppop-woo-cart.php:761
+msgid "Upsell product ID"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:135 includes/modules/class-zappoppop-woo-cart.php:766
+msgid "Upsell product name"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:136 includes/modules/class-zappoppop-woo-cart.php:767
+msgid "Upsell product price"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:137 includes/modules/class-zappoppop-targeting-triggers.php:428
+msgid "User Roles"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:138 includes/modules/class-zappoppop-woo-cart.php:743
+msgid "When a button is clicked"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:139 includes/modules/class-zappoppop-woo-cart.php:742
+msgid "When the popup opens"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:140 includes/modules/class-zappoppop-woo-cart.php:707
+msgid "WooCommerce is not active on this site, so the cart rules are ignored."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:141 includes/modules/class-zappoppop-woo-cart.php:727
+msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:142 includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
+msgid "You left something in your cart"
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:143 includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
+msgid "Your cart is saved. Come back any time to finish your order."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:144 includes/modules/class-zappoppop-double-optin.php:22
+msgid "Your email address successfully confirmed."
+msgstr ""
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:145
+msgid "e.g. rating"
 msgstr ""
 
 #: assets/js/ab/ab-actions.js:29 includes/ab/class-ajax-campaigns.php:64 includes/ab/class-ajax-campaigns.php:178
@@ -111,6 +655,16 @@ msgstr ""
 
 #: assets/js/ab/ab-trash.js:42
 msgid "Server error while updating campaign."
+msgstr ""
+
+#: assets/js/builder/elements.js:369
+msgid "%s Star"
+msgid_plural "%s Stars"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/front/elements.js:278
+msgid "Please select a rating."
 msgstr ""
 
 #: includes/class-pro-admin.php:25 includes/class-pro-admin.php:36 templates/license-edd.php:30 templates/license-page.php:6 templates/license-page.php:15
@@ -234,33 +788,590 @@ msgstr ""
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr ""
 
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:152 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:158 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
 msgid "Activate licence"
 msgstr ""
 
+#: includes/class-pro-module-html-strings.php:24
+msgid "#c2185b"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:25
+msgid "+ Add"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:26
+msgid "6px"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:27
+msgid "<canvas id=\"c\"></canvas><script>...</script>"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:28
+msgid "A tab pinned to the screen edge. Visitors click it to open this popup, even after they closed it."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:29
+msgid "ANIMATION"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:30
+msgid "Add a personal data key field"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:31
+msgid "All Visitors"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:32
+msgid "Animation (HTML / JS)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:33
+msgid "Animation on successful form submit"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:34
+msgid "Antibot protection"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:35
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:36
+msgid "Applies to the canvas currently selected in Canvas Settings."
+msgstr ""
+
+#. translators: maximum number of chart series.
+#: includes/class-pro-module-html-strings.php:37 templates/stats/chart.php:47
+msgid "Apply"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:38
+msgid "Back Entrances"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:39
+msgid "Back Exits"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:40
+msgid "Background Opacity (picture / animation)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:41
+msgid "Background Overlay Opacity"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:42
+msgid "Background Type"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:43
+msgid "Bottom"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:44
+msgid "Bounce"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:45
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:46
+msgid "Bouncing Exits"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:47
+msgid "Burst + Fireworks"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:48 templates/ab/modal-create.php:37
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:49
+msgid "Check IP-address"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:50
+msgid "Check form data"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:51
+msgid "Confetti Burst (built-in)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:52
+msgid "Confetti Cannons (needs Canvas Confetti library)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:53
+msgid "Confetti Rain (built-in)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:54
+msgid "Configure appearance entrance and disappearance exit animations for this canvas."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:55
+msgid "Control what is stored with each submission, protect the form against repeated submissions and tune the page behaviour while the popup is visible."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:56
+msgid "Custom Background"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:57
+msgid "Default (confetti + enabled libraries)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:58
+msgid "Disable page scrollbar"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:59
+msgid "Disappearance"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:60
+msgid "Distance kept between the popup and each screen edge. 0 sticks the popup to the edge; a higher value moves it away. On screens smaller than the popup it scales down to fit."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:61
+msgid "Duration"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:62
+msgid "Email Subject"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:63
+msgid "Empty = the visitor email"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:65
+msgid "Enable Overlay"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:66
+msgid "Enable Sticky Side Tab"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:67
+msgid "Enable protection against repeated submissions"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:68
+msgid "Error message"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:69
+msgid "Every submission stays \"pending\" until the visitor clicks the confirmation link. Notifications set to \"After double opt-in confirmation\" are sent at that moment."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:70
+msgid "Fade"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:71
+msgid "Fading Entrances"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:72
+msgid "Fading Exits"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:73
+msgid "Feedback / Offer"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:74
+msgid "Fields that hold the personal data key, usually the email field. WordPress uses them to find, export and erase a person's submissions (Tools > Export / Erase Personal Data)."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:75
+msgid "Fireworks (needs Canvas Fireworks library)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:76 includes/modules/class-zappoppop-targeting-triggers.php:426
+msgid "From"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:77
+msgid "Guests Only"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:78
+msgid "HTML / CSS / JS"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:79
+msgid "If set, the visitor is redirected here after confirming (instead of the message)."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:80 templates/builder/elements/elem-19-imageselect.php:12
+msgid "Image URL"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:81
+msgid "Left"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:82
+msgid "Left Edge"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:83
+msgid "Library-based effects require enabling the matching library under ZapPopPop → Settings → Libraries."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:84
+msgid "Locks the page scrollbar while this popup is visible."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:85
+msgid "Logged-In Users Only"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:86
+msgid "Media"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:87
+msgid "Message"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:88
+msgid "Name"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:89
+msgid "None"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:90
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:91
+msgid "Page"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:92
+msgid "Personal data key fields"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:93
+msgid "Picture (JPEG / PNG)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:94
+msgid "Pin a tab to the screen edge"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:95
+msgid "Play"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:96
+msgid "Play Canvas Animation"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:97
+msgid "Play disappearance animation when the canvas closes"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:98
+msgid "Play disappearance on close"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:100
+msgid "Recipient"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:101
+msgid "Repeated submission delay"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:102
+msgid "Right"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:103
+msgid "Right Edge"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:104
+msgid "Runs in a sandboxed frame behind the popup. Scripts require the unfiltered_html capability (administrators on single-site installs)."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:105
+msgid "Save IP-address"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:106
+msgid "Save User-Agent"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:107
+msgid "Screen Edge"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:108
+msgid "Screen edge padding"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:109
+msgid "Send Technical Info by email"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:111
+msgid "Show Technical Info on log record details"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:112
+msgid "Show the overlay behind the popup"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:113
+msgid "Slide"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:114
+msgid "Slide-in Animation"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:115
+msgid "Sliding Entrances"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:116
+msgid "Sliding Exits"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:117
+msgid "Star Burst (built-in)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:119
+msgid "Stick to edge (set all padding to 0)"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:120
+msgid "Subject"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:121
+msgid "Tab Background"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:122
+msgid "Tab Corner Radius"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:123
+msgid "Tab Label"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:124
+msgid "Technical info"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:125
+msgid "Technical info is the IP-address and the User-Agent. The email option adds it to the {{form-data}} merge tag."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:126
+msgid "Thank you for subscribing!"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:128
+msgid "Thank-you URL"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:129
+msgid "Thank-you message"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:130
+msgid "The popup is only shown to the chosen visitors. Popups opened by a button or an onload shortcode ignore this rule."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:131
+msgid "The same data (and / or the same IP-address) is refused during the delay and the visitor sees the error message."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:132
+msgid "Top"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:133
+msgid "Use the tag button to insert the subscriber's values, for example {{email}} or {{field-name}} (the older {email} form still works). Sent to the visitor's email after a successful submit; with Double Opt-In, once the link is confirmed."
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:134
+msgid "Visitor Authentication"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:135 includes/modules/class-zappoppop-autoresponder.php:95
+msgid "Welcome! Here is your reward"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:136
+msgid "Zooming Entrances"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:137
+msgid "Zooming Exits"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:138
+msgid "e.g. Winter Snow"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:139
+msgid "email"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:140
+msgid "https://"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:141
+msgid "https://.../image.jpg"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:142
+msgid "ms"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:143
+msgid "name"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:144
+msgid "px"
+msgstr ""
+
+#: includes/class-pro-module-html-strings.php:145
+msgid "seconds"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:28
+msgid "Animation"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:29
+msgid "Open and close animations for the popup."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:32
+msgid "Autoresponder"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:33
+msgid "Automatic reply sent to subscribers after they submit."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:36
+msgid "Double Opt-In"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:37
+msgid "Double opt-in confirmation for subscribers."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:40
+msgid "Popup Overlay"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:41
+msgid "Page overlay behind the popup: colour, opacity, image or animation."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:44
+msgid "Popup Positions"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:45
+msgid "Popup position on screen: top, bottom, left or right."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:48
+msgid "Security & Protections"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:49
+msgid "Technical info, repeated submission (antibot) protection, page scrollbar lock and personal data keys."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:52
+msgid "Side Tabs"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:53
+msgid "Sticky side tabs attached to the screen edge, with icon, colour, corner radius and slide-in animation."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:56
+msgid "Success Celebration"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:57
+msgid "Celebration animation after a successful submit."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:60
+msgid "Targeting Triggers"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:61
+msgid "Show rules by event, schedule, role, area and URL."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:64
+msgid "Targeting"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:65
+msgid "Visitor authentication, targeting and attribution rules."
+msgstr ""
+
+#: includes/class-pro-module-strings.php:68 includes/modules/class-zappoppop-woo-cart.php:703
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: includes/class-pro-module-strings.php:69
+msgid "Show popups by cart contents and fill live cart values into popup text."
+msgstr ""
+
 #. translators: 1: plugin name, 2: minimum version number
-#: includes/class-pro-plugin.php:103
+#: includes/class-pro-plugin.php:109
 msgid "Outdated %1$s: minimum required %2$s"
 msgstr ""
 
 #. translators: 1: plugin name, 2: minimum version number
-#: includes/class-pro-plugin.php:105
+#: includes/class-pro-plugin.php:111
 msgid "Missing %1$s: minimum required %2$s"
 msgstr ""
 
-#: includes/class-pro-plugin.php:110
+#: includes/class-pro-plugin.php:116
 msgid "This plugin is not fully active."
 msgstr ""
 
-#: includes/class-pro-plugin.php:136
+#: includes/class-pro-plugin.php:142
 msgid "ZapPopPop Pro needs the ZapPopPop plugin. Install and activate ZapPopPop first."
 msgstr ""
 
-#: includes/class-pro-plugin.php:140
+#: includes/class-pro-plugin.php:146
 msgid "ZapPopPop Pro needs a newer version of ZapPopPop. Please update ZapPopPop."
 msgstr ""
 
-#: includes/class-pro-plugin.php:150
+#: includes/class-pro-plugin.php:156
 msgid "ZapPopPop Pro is not activated. Pro templates and modules stay locked until you enter your licence key."
 msgstr ""
 
@@ -420,10 +1531,6 @@ msgstr ""
 msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
 msgstr ""
 
-#: includes/modules/class-zappoppop-autoresponder.php:95
-msgid "Welcome! Here is your reward"
-msgstr ""
-
 #: includes/modules/class-zappoppop-autoresponder.php:96
 msgid "Thank you for subscribing!\n\nEnjoy your offer."
 msgstr ""
@@ -438,10 +1545,6 @@ msgstr ""
 
 #: includes/modules/class-zappoppop-double-optin.php:22
 msgid "Thank you!"
-msgstr ""
-
-#: includes/modules/class-zappoppop-double-optin.php:22
-msgid "Your email address successfully confirmed."
 msgstr ""
 
 #: includes/modules/class-zappoppop-getresponse.php:210 includes/modules/class-zappoppop-mailchimp.php:222
@@ -496,10 +1599,6 @@ msgstr ""
 msgid "(no title)"
 msgstr ""
 
-#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
-msgid "All roles"
-msgstr ""
-
 #: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:398
 msgid "Visitors (logged out)"
 msgstr ""
@@ -510,18 +1609,6 @@ msgstr ""
 
 #: includes/modules/class-zappoppop-targeting-triggers.php:400 includes/modules/class-zappoppop-woo-cart.php:723
 msgid "Nothing found."
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:401
-msgid "Popup Targeting"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:402
-msgid "Turn the entire Targeting Triggers setting on or off"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:403
-msgid "Enable Targeting Triggers"
 msgstr ""
 
 #: includes/modules/class-zappoppop-targeting-triggers.php:404
@@ -540,212 +1627,36 @@ msgstr ""
 msgid "OnInactivity"
 msgstr ""
 
-#: includes/modules/class-zappoppop-targeting-triggers.php:408
-msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:409
-msgid "Target Properties"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:410
-msgid "Periodicity"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:411
-msgid "Every time"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:412
-msgid "Once only"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:413
-msgid "Once per period"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:414
-msgid "Show again after"
-msgstr ""
-
 #: includes/modules/class-zappoppop-targeting-triggers.php:415
 msgid "hrs"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:416
-msgid "Start delay"
 msgstr ""
 
 #: includes/modules/class-zappoppop-targeting-triggers.php:417
 msgid "sec"
 msgstr ""
 
-#: includes/modules/class-zappoppop-targeting-triggers.php:418
-msgid "Close delay"
-msgstr ""
-
 #: includes/modules/class-zappoppop-targeting-triggers.php:419
 msgid "Close delay 0 keeps the popup open until it is closed."
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:420
-msgid "Scrolling offset"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:421
-msgid "Scrolling offset unit"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:422
-msgid "Inactivity delay"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:423
-msgid "Activity"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:424
-msgid "Always"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:425
-msgid "Certain period"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:426
-msgid "From"
 msgstr ""
 
 #: includes/modules/class-zappoppop-targeting-triggers.php:427
 msgid "End"
 msgstr ""
 
-#: includes/modules/class-zappoppop-targeting-triggers.php:428
-msgid "User Roles"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:429
-msgid "Site Area"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:430
-msgid "Sitewide"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:431
-msgid "Homepage"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:432
-msgid "Posts"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:433
-msgid "Pages"
-msgstr ""
-
 #: includes/modules/class-zappoppop-targeting-triggers.php:434
 msgid "URL"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:435
-msgid "Categories"
 msgstr ""
 
 #: includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
 msgid "All"
 msgstr ""
 
-#: includes/modules/class-zappoppop-targeting-triggers.php:437
-msgid "Specific"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:438
-msgid "Also show on category archive pages"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:439
-msgid "Tags"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:440
-msgid "Also show on tag archive pages"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:441
-msgid "A post matches when it is in any selected category, tag or post list."
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:442
-msgid "All pages"
-msgstr ""
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:443
-msgid "Specific pages"
-msgstr ""
-
 #: includes/modules/class-zappoppop-targeting-triggers.php:444
 msgid "URL contains"
 msgstr ""
 
-#: includes/modules/class-zappoppop-targeting-triggers.php:445
-msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:703
-msgid "WooCommerce Cart"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:704
-msgid "Turn the WooCommerce cart features for this popup on or off"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:705
-msgid "Enable WooCommerce Cart"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:706
-msgid "Cart-aware display rules and live cart text for this popup."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:707
-msgid "WooCommerce is not active on this site, so the cart rules are ignored."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:708
-msgid "Show this popup when the cart is"
-msgstr ""
-
 #: includes/modules/class-zappoppop-woo-cart.php:709
 msgid "Any"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:710
-msgid "Has items"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:711
-msgid "Empty"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:712
-msgid "Empty ignores the conditions below."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:713
-msgid "Cart conditions"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:714
-msgid "Minimum items"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:715
-msgid "Minimum subtotal"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:716
-msgid "Maximum subtotal"
 msgstr ""
 
 #: includes/modules/class-zappoppop-woo-cart.php:717
@@ -756,244 +1667,48 @@ msgstr ""
 msgid "A value of 0 turns that condition off."
 msgstr ""
 
-#: includes/modules/class-zappoppop-woo-cart.php:719
-msgid "Product IDs"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:720
-msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:721
-msgid "Product categories"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:724
-msgid "No product categories found."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:725
-msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:726
-msgid "Show right after an item is added to the cart"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:727
-msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:728
-msgid "Free shipping"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:729
-msgid "Free shipping threshold"
-msgstr ""
-
 #: includes/modules/class-zappoppop-woo-cart.php:730
 msgid "0 = detect it from your WooCommerce free shipping method."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:731
-msgid "Dynamic text"
 msgstr ""
 
 #: includes/modules/class-zappoppop-woo-cart.php:732
 msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
 msgstr ""
 
-#: includes/modules/class-zappoppop-woo-cart.php:733
-msgid "Cart total"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:734
-msgid "Cart subtotal"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:735
-msgid "Number of items"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:736
-msgid "Amount left for free shipping"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:737
-msgid "Applied coupon code"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:738
-msgid "Coupon"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:739
-msgid "Coupon code"
-msgstr ""
-
 #: includes/modules/class-zappoppop-woo-cart.php:740
 msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:741
-msgid "Apply it to the cart automatically"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:742
-msgid "When the popup opens"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:743
-msgid "When a button is clicked"
 msgstr ""
 
 #: includes/modules/class-zappoppop-woo-cart.php:744
 msgid "Give a button the link #zpp-apply-coupon."
 msgstr ""
 
-#: includes/modules/class-zappoppop-woo-cart.php:745
-msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:746
-msgid "Coupon countdown"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:747
-msgid "Coupon expiry date"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:748
-msgid "Show on pages"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:749
-msgid "Anywhere"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:750
-msgid "Product pages"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:751
-msgid "Selected products"
-msgstr ""
-
 #: includes/modules/class-zappoppop-woo-cart.php:752
 msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:753
-msgid "Products"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:754
-msgid "Comma-separated product IDs. Empty = off."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:755
-msgid "Product page categories"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:756
-msgid "This rule is checked on the server, so it also works with full-page caches."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:757
-msgid "Upsell"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:758
-msgid "Offer an upsell product"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:759
-msgid "Chosen by you"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:760
-msgid "Automatic"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:761
-msgid "Upsell product ID"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:762
-msgid "The product to offer. A variation ID is allowed."
 msgstr ""
 
 #: includes/modules/class-zappoppop-woo-cart.php:763
 msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
 msgstr ""
 
-#: includes/modules/class-zappoppop-woo-cart.php:764
-msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
-msgstr ""
-
 #: includes/modules/class-zappoppop-woo-cart.php:765
 msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:766
-msgid "Upsell product name"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:767
-msgid "Upsell product price"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:768
-msgid "Abandoned cart email"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:769
-msgid "Send a cart reminder email"
 msgstr ""
 
 #: includes/modules/class-zappoppop-woo-cart.php:770
 msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
 msgstr ""
 
-#: includes/modules/class-zappoppop-woo-cart.php:771
-msgid "Send after"
-msgstr ""
-
 #: includes/modules/class-zappoppop-woo-cart.php:772
 msgid "minutes"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:773
-msgid "Consent field name"
 msgstr ""
 
 #: includes/modules/class-zappoppop-woo-cart.php:774
 msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
 msgstr ""
 
-#: includes/modules/class-zappoppop-woo-cart.php:775
-msgid "Email subject"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
-msgid "You left something in your cart"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:777
-msgid "Email message"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
-msgid "Your cart is saved. Come back any time to finish your order."
-msgstr ""
-
 #: includes/modules/class-zappoppop-woo-cart.php:779
 msgid "Coupon code (optional)"
-msgstr ""
-
-#: includes/modules/class-zappoppop-woo-cart.php:780
-msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
 msgstr ""
 
 #: includes/modules/class-zappoppop-woo-cart.php:781
@@ -1499,10 +2214,6 @@ msgstr ""
 msgid "inactive"
 msgstr ""
 
-#: templates/ab/modal-create.php:37
-msgid "Cancel"
-msgstr ""
-
 #: templates/ab/modal-create.php:38
 msgid "Launch Campaign"
 msgstr ""
@@ -1678,10 +2389,6 @@ msgstr ""
 msgid "Auto: Canvas steps"
 msgstr ""
 
-#: templates/builder/elements/elem-08-progress.php:13
-msgid "Auto: WooCommerce free shipping"
-msgstr ""
-
 #: templates/builder/elements/elem-08-progress.php:18
 msgid "FILL PERCENT (0–100%)"
 msgstr ""
@@ -1732,10 +2439,6 @@ msgstr ""
 
 #: templates/builder/elements/elem-19-imageselect.php:11
 msgid "Label"
-msgstr ""
-
-#: templates/builder/elements/elem-19-imageselect.php:12
-msgid "Image URL"
 msgstr ""
 
 #: templates/builder/elements/elem-19-imageselect.php:205 templates/builder/elements/elem-20-tile.php:11
@@ -1850,11 +2553,6 @@ msgstr ""
 #. translators: maximum number of chart series.
 #: templates/stats/chart.php:46
 msgid "Max %d series"
-msgstr ""
-
-#. translators: maximum number of chart series.
-#: templates/stats/chart.php:47
-msgid "Apply"
 msgstr ""
 
 #: templates/stats/data.php:62

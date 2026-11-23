@@ -1,0 +1,2624 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zappoppop-pro\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: zappoppop-pro.php
+msgid "ZapPopPop Pro"
+msgstr "ZapPopPop Pro"
+
+#: zappoppop-pro.php
+msgid "https://zappoppop.com/"
+msgstr "https://zappoppop.com/"
+
+#: zappoppop-pro.php
+msgid "Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics."
+msgstr "Pro-add-on voor ZapPopPop: extra builderelementen, modules, sjablonen, A/B-campagnes en statistieken."
+
+#: zappoppop-pro.php
+msgid "ZapPopPop"
+msgstr "ZapPopPop"
+
+#: assets/js/stats.js:31 assets/js/stats.js:45
+msgid "Error"
+msgstr "Fout"
+
+#: assets/js/stats.js:34
+msgid "Request failed (HTTP %s)"
+msgstr "Verzoek mislukt (HTTP %s)"
+
+#: assets/js/stats.js:34
+msgid "Request failed"
+msgstr "Verzoek mislukt"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:10
+msgid "10 Stars"
+msgstr "10 sterren"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:11
+msgid "5 Stars"
+msgstr "5 sterren"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:12 includes/modules/class-zappoppop-targeting-triggers.php:441
+msgid "A post matches when it is in any selected category, tag or post list."
+msgstr "Een bericht komt overeen wanneer het in een van de geselecteerde categorieën, tags of berichtlijsten staat."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:13 includes/modules/class-zappoppop-woo-cart.php:768
+msgid "Abandoned cart email"
+msgstr "E-mail voor achtergelaten winkelwagen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:14 includes/modules/class-zappoppop-targeting-triggers.php:423
+msgid "Activity"
+msgstr "Activiteit"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:15
+msgid "Add field"
+msgstr "Veld toevoegen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:16 includes/modules/class-zappoppop-targeting-triggers.php:442
+msgid "All pages"
+msgstr "Alle pagina's"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:17 includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
+msgid "All roles"
+msgstr "Alle rollen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:18 includes/modules/class-zappoppop-targeting-triggers.php:438
+msgid "Also show on category archive pages"
+msgstr "Ook tonen op categoriearchiefpagina's"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:19 includes/modules/class-zappoppop-targeting-triggers.php:440
+msgid "Also show on tag archive pages"
+msgstr "Ook tonen op tagarchiefpagina's"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:20 includes/modules/class-zappoppop-targeting-triggers.php:424
+msgid "Always"
+msgstr "Altijd"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:21 includes/modules/class-zappoppop-woo-cart.php:736
+msgid "Amount left for free shipping"
+msgstr "Resterend bedrag voor gratis verzending"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:22 includes/modules/class-zappoppop-woo-cart.php:749
+msgid "Anywhere"
+msgstr "Overal"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:23 includes/modules/class-zappoppop-woo-cart.php:737
+msgid "Applied coupon code"
+msgstr "Toegepaste couponcode"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:24
+msgid "Apply Image Select Size Preset"
+msgstr "Voorinstelling voor grootte van afbeeldingskeuze toepassen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:25 includes/modules/class-zappoppop-woo-cart.php:741
+msgid "Apply it to the cart automatically"
+msgstr "Automatisch op de winkelwagen toepassen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:26 templates/builder/elements/elem-08-progress.php:13
+msgid "Auto: WooCommerce free shipping"
+msgstr "Automatisch: gratis verzending van WooCommerce"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:27 includes/modules/class-zappoppop-woo-cart.php:760
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:28
+msgid "Bottom center"
+msgstr "Midden onder"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:29
+msgid "Bottom left"
+msgstr "Linksonder"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:30
+msgid "Bottom right"
+msgstr "Rechtsonder"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:31 includes/modules/class-zappoppop-woo-cart.php:713
+msgid "Cart conditions"
+msgstr "Winkelwagenvoorwaarden"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:32 includes/modules/class-zappoppop-woo-cart.php:734
+msgid "Cart subtotal"
+msgstr "Subtotaal van winkelwagen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:33 includes/modules/class-zappoppop-woo-cart.php:733
+msgid "Cart total"
+msgstr "Totaal van winkelwagen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:34 includes/modules/class-zappoppop-woo-cart.php:706
+msgid "Cart-aware display rules and live cart text for this popup."
+msgstr "Weergaveregels op basis van de winkelwagen en live winkelwagentekst voor deze popup."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:35 includes/modules/class-zappoppop-targeting-triggers.php:435
+msgid "Categories"
+msgstr "Categorieën"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:36 includes/modules/class-zappoppop-targeting-triggers.php:425
+msgid "Certain period"
+msgstr "Bepaalde periode"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:37
+msgid "Change Progress Bar"
+msgstr "Voortgangsbalk wijzigen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:38
+msgid "Change Progress Mode"
+msgstr "Voortgangsmodus wijzigen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:39 includes/modules/class-zappoppop-targeting-triggers.php:408
+msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
+msgstr "Kies wanneer de popup verschijnt. Zolang er geen is geselecteerd, behoudt de popup zijn standaardgedrag."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:40 includes/modules/class-zappoppop-woo-cart.php:759
+msgid "Chosen by you"
+msgstr "Door jou gekozen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:41 includes/modules/class-zappoppop-targeting-triggers.php:418
+msgid "Close delay"
+msgstr "Sluitvertraging"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:42 includes/modules/class-zappoppop-woo-cart.php:754
+msgid "Comma-separated product IDs. Empty = off."
+msgstr "Door komma's gescheiden product-ID's. Leeg = uit."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:43 includes/modules/class-zappoppop-woo-cart.php:720
+msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
+msgstr "Door komma's gescheiden. De popup verschijnt wanneer een van deze producten in de winkelwagen zit. Leeg = uit."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:44
+msgid "Confirmation URL"
+msgstr "Bevestigings-URL"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:45 includes/modules/class-zappoppop-woo-cart.php:773
+msgid "Consent field name"
+msgstr "Naam van toestemmingsveld"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:46 includes/modules/class-zappoppop-woo-cart.php:738
+msgid "Coupon"
+msgstr "Coupon"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:47 includes/modules/class-zappoppop-woo-cart.php:739
+msgid "Coupon code"
+msgstr "Couponcode"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:48 includes/modules/class-zappoppop-woo-cart.php:746
+msgid "Coupon countdown"
+msgstr "Aftellen voor coupon"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:49 includes/modules/class-zappoppop-woo-cart.php:747
+msgid "Coupon expiry date"
+msgstr "Vervaldatum van coupon"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:50
+msgid "Default Rating"
+msgstr "Standaardbeoordeling"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:51 includes/modules/class-zappoppop-woo-cart.php:731
+msgid "Dynamic text"
+msgstr "Dynamische tekst"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:52
+msgid "Email me a reminder about my cart"
+msgstr "Stuur me een e-mailherinnering over mijn winkelwagen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:53 includes/modules/class-zappoppop-woo-cart.php:777
+msgid "Email message"
+msgstr "E-mailbericht"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:54 includes/modules/class-zappoppop-woo-cart.php:775
+msgid "Email subject"
+msgstr "E-mailonderwerp"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:55 includes/modules/class-zappoppop-woo-cart.php:711
+msgid "Empty"
+msgstr "Leeg"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:56 includes/modules/class-zappoppop-woo-cart.php:712
+msgid "Empty ignores the conditions below."
+msgstr "Leeg negeert de onderstaande voorwaarden."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:57 includes/class-pro-module-html-strings.php:64
+msgid "Enable Double Opt-In"
+msgstr "Dubbele opt-in inschakelen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:58 includes/modules/class-zappoppop-targeting-triggers.php:403
+msgid "Enable Targeting Triggers"
+msgstr "Targetingtriggers inschakelen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:59 includes/modules/class-zappoppop-woo-cart.php:705
+msgid "Enable WooCommerce Cart"
+msgstr "WooCommerce-winkelwagen inschakelen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:60 includes/modules/class-zappoppop-targeting-triggers.php:411
+msgid "Every time"
+msgstr "Elke keer"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:61
+msgid "Fill the rating from a URL query parameter, e.g. ?rating=4."
+msgstr "Vul de beoordeling in vanuit een URL-queryparameter, bijv. ?rating=4."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:62 includes/modules/class-zappoppop-woo-cart.php:728
+msgid "Free shipping"
+msgstr "Gratis verzending"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:63 includes/modules/class-zappoppop-woo-cart.php:729
+msgid "Free shipping threshold"
+msgstr "Drempel voor gratis verzending"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:64 includes/modules/class-zappoppop-woo-cart.php:710
+msgid "Has items"
+msgstr "Heeft items"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:65 includes/modules/class-zappoppop-targeting-triggers.php:431
+msgid "Homepage"
+msgstr "Homepage"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:66
+msgid "How many stars or icons the rating scale shows."
+msgstr "Hoeveel sterren of pictogrammen de beoordelingsschaal toont."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:67 includes/modules/class-zappoppop-targeting-triggers.php:422
+msgid "Inactivity delay"
+msgstr "Vertraging bij inactiviteit"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:68
+msgid "Insert subscriber value"
+msgstr "Waarde van abonnee invoegen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:69 includes/modules/class-zappoppop-woo-cart.php:716
+msgid "Maximum subtotal"
+msgstr "Maximaal subtotaal"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:70
+msgid "Middle left"
+msgstr "Midden links"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:71
+msgid "Middle right"
+msgstr "Midden rechts"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:72 includes/modules/class-zappoppop-woo-cart.php:714
+msgid "Minimum items"
+msgstr "Minimaal aantal items"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:73 includes/modules/class-zappoppop-woo-cart.php:715
+msgid "Minimum subtotal"
+msgstr "Minimaal subtotaal"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:74
+msgid "New Image Select Preset"
+msgstr "Nieuwe voorinstelling voor afbeeldingskeuze"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:75
+msgid "No field selected"
+msgstr "Geen veld geselecteerd"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:76 includes/modules/class-zappoppop-woo-cart.php:724
+msgid "No product categories found."
+msgstr "Geen productcategorieën gevonden."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:77
+msgid "No rating"
+msgstr "Geen beoordeling"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:78
+msgid "None (color overlay only)"
+msgstr "Geen (alleen kleuroverlay)"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:79
+msgid "Number of Stars"
+msgstr "Aantal sterren"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:80 includes/modules/class-zappoppop-woo-cart.php:735
+msgid "Number of items"
+msgstr "Aantal items"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:81 includes/modules/class-zappoppop-woo-cart.php:758
+msgid "Offer an upsell product"
+msgstr "Een upsellproduct aanbieden"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:82 includes/modules/class-zappoppop-targeting-triggers.php:412
+msgid "Once only"
+msgstr "Slechts één keer"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:83 includes/modules/class-zappoppop-targeting-triggers.php:413
+msgid "Once per period"
+msgstr "Eén keer per periode"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:84 includes/modules/class-zappoppop-targeting-triggers.php:445
+msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
+msgstr "Eén per regel. De popup verschijnt wanneer het paginaadres een van deze bevat. Leeg = elke URL."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:85 includes/modules/class-zappoppop-woo-cart.php:745
+msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
+msgstr "Alleen deze code kan worden toegepast. Als hij ongeldig of verlopen is, gebeurt er niets."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:86
+msgid "Open"
+msgstr "Open"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:87 includes/modules/class-zappoppop-targeting-triggers.php:433
+msgid "Pages"
+msgstr "Pagina's"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:88 includes/modules/class-zappoppop-targeting-triggers.php:410
+msgid "Periodicity"
+msgstr "Periodiciteit"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:89
+msgid "Picture"
+msgstr "Afbeelding"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:90 includes/modules/class-zappoppop-targeting-triggers.php:401
+msgid "Popup Targeting"
+msgstr "Popuptargeting"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:91 includes/class-pro-module-html-strings.php:99
+msgid "Popup position"
+msgstr "Popuppositie"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:92 includes/modules/class-zappoppop-targeting-triggers.php:432
+msgid "Posts"
+msgstr "Berichten"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:93
+msgid "Pre-selected rating when the form loads. Choose No rating to leave it empty."
+msgstr "Vooraf geselecteerde beoordeling wanneer het formulier laadt. Kies Geen beoordeling om het leeg te laten."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:94 includes/modules/class-zappoppop-woo-cart.php:719
+msgid "Product IDs"
+msgstr "Product-ID's"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:95 includes/modules/class-zappoppop-woo-cart.php:721
+msgid "Product categories"
+msgstr "Productcategorieën"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:96 includes/modules/class-zappoppop-woo-cart.php:755
+msgid "Product page categories"
+msgstr "Categorieën van productpagina's"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:97 includes/modules/class-zappoppop-woo-cart.php:750
+msgid "Product pages"
+msgstr "Productpagina's"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:98 includes/modules/class-zappoppop-woo-cart.php:753
+msgid "Products"
+msgstr "Producten"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:99
+msgid "Remove icon"
+msgstr "Pictogram verwijderen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:100
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:101 includes/modules/class-zappoppop-targeting-triggers.php:420
+msgid "Scrolling offset"
+msgstr "Scrolloffset"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:102 includes/modules/class-zappoppop-targeting-triggers.php:421
+msgid "Scrolling offset unit"
+msgstr "Eenheid van scrolloffset"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:103
+msgid "Select icon"
+msgstr "Pictogram selecteren"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:104 includes/modules/class-zappoppop-woo-cart.php:751
+msgid "Selected products"
+msgstr "Geselecteerde producten"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:105 includes/class-pro-module-html-strings.php:110
+msgid "Send Welcome Email"
+msgstr "Welkomstmail verzenden"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:106 includes/modules/class-zappoppop-woo-cart.php:769
+msgid "Send a cart reminder email"
+msgstr "Een herinneringsmail voor de winkelwagen verzenden"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:107 includes/modules/class-zappoppop-woo-cart.php:771
+msgid "Send after"
+msgstr "Verzenden na"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:108 includes/modules/class-zappoppop-targeting-triggers.php:414
+msgid "Show again after"
+msgstr "Opnieuw tonen na"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:109 includes/modules/class-zappoppop-woo-cart.php:748
+msgid "Show on pages"
+msgstr "Tonen op pagina's"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:110 includes/modules/class-zappoppop-woo-cart.php:726
+msgid "Show right after an item is added to the cart"
+msgstr "Direct tonen nadat een item aan de winkelwagen is toegevoegd"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:111 includes/modules/class-zappoppop-woo-cart.php:708
+msgid "Show this popup when the cart is"
+msgstr "Deze popup tonen wanneer de winkelwagen is"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:112 includes/modules/class-zappoppop-woo-cart.php:780
+msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
+msgstr "Wordt in de e-mail getoond en toegepast wanneer de bezoeker terugkeert naar de winkelwagen. Gebruik een echte WooCommerce-coupon."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:113 includes/modules/class-zappoppop-targeting-triggers.php:429
+msgid "Site Area"
+msgstr "Sitegebied"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:114 includes/modules/class-zappoppop-targeting-triggers.php:430
+msgid "Sitewide"
+msgstr "Sitebreed"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:115 includes/modules/class-zappoppop-targeting-triggers.php:437
+msgid "Specific"
+msgstr "Specifiek"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:116 includes/modules/class-zappoppop-targeting-triggers.php:443
+msgid "Specific pages"
+msgstr "Specifieke pagina's"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118 includes/modules/class-zappoppop-targeting-triggers.php:416
+msgid "Start delay"
+msgstr "Startvertraging"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:118
+msgid "Store the submitted rating with the lead record."
+msgstr "Sla de verzonden beoordeling op bij het leadrecord."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:119
+msgid "Subscriber values"
+msgstr "Waarden van abonnee"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:120 includes/modules/class-zappoppop-targeting-triggers.php:439
+msgid "Tags"
+msgstr "Tags"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:121 includes/modules/class-zappoppop-targeting-triggers.php:409
+msgid "Target Properties"
+msgstr "Doeleigenschappen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:122 includes/class-pro-module-html-strings.php:127
+msgid "Thank you. We have already got your request."
+msgstr "Bedankt. We hebben je verzoek al ontvangen."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:123
+msgid "The URL parameter to read, e.g. rating for ?rating=4."
+msgstr "De te lezen URL-parameter, bijv. rating voor ?rating=4."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:124 includes/modules/class-zappoppop-woo-cart.php:764
+msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
+msgstr "De popup wordt niet getoond wanneer er geen upsell beschikbaar is, bijvoorbeeld wanneer het product al in de winkelwagen zit of niet op voorraad is."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:125 includes/modules/class-zappoppop-woo-cart.php:725
+msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
+msgstr "De popup verschijnt wanneer de winkelwagen een product uit een van de geselecteerde categorieën bevat. Geen geselecteerd = uit."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:126 includes/modules/class-zappoppop-woo-cart.php:762
+msgid "The product to offer. A variation ID is allowed."
+msgstr "Het aan te bieden product. Een variatie-ID is toegestaan."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:127 includes/modules/class-zappoppop-woo-cart.php:756
+msgid "This rule is checked on the server, so it also works with full-page caches."
+msgstr "Deze regel wordt op de server gecontroleerd en werkt dus ook met paginacaches."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:128
+msgid "Top center"
+msgstr "Midden boven"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:129
+msgid "Top left"
+msgstr "Linksboven"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:130
+msgid "Top right"
+msgstr "Rechtsboven"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:131 includes/modules/class-zappoppop-woo-cart.php:704
+msgid "Turn the WooCommerce cart features for this popup on or off"
+msgstr "Schakel de WooCommerce-winkelwagenfuncties voor deze popup in of uit"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:132 includes/modules/class-zappoppop-targeting-triggers.php:402
+msgid "Turn the entire Targeting Triggers setting on or off"
+msgstr "Schakel de hele instelling Targetingtriggers in of uit"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:133 includes/modules/class-zappoppop-woo-cart.php:757
+msgid "Upsell"
+msgstr "Upsell"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:134 includes/modules/class-zappoppop-woo-cart.php:761
+msgid "Upsell product ID"
+msgstr "ID van upsellproduct"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:135 includes/modules/class-zappoppop-woo-cart.php:766
+msgid "Upsell product name"
+msgstr "Naam van upsellproduct"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:136 includes/modules/class-zappoppop-woo-cart.php:767
+msgid "Upsell product price"
+msgstr "Prijs van upsellproduct"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:137 includes/modules/class-zappoppop-targeting-triggers.php:428
+msgid "User Roles"
+msgstr "Gebruikersrollen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:138 includes/modules/class-zappoppop-woo-cart.php:743
+msgid "When a button is clicked"
+msgstr "Wanneer op een knop wordt geklikt"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:139 includes/modules/class-zappoppop-woo-cart.php:742
+msgid "When the popup opens"
+msgstr "Wanneer de popup opent"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:140 includes/modules/class-zappoppop-woo-cart.php:707
+msgid "WooCommerce is not active on this site, so the cart rules are ignored."
+msgstr "WooCommerce is niet actief op deze site, dus de winkelwagenregels worden genegeerd."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:141 includes/modules/class-zappoppop-woo-cart.php:727
+msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
+msgstr "Werkt met AJAX-toevoegen aan winkelwagen en het winkelwagenblok. Wordt één keer per paginaweergave getoond, en alleen wanneer de bovenstaande voorwaarden overeenkomen."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:142 includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
+msgid "You left something in your cart"
+msgstr "Je hebt iets in je winkelwagen laten staan"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:143 includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
+msgid "Your cart is saved. Come back any time to finish your order."
+msgstr "Je winkelwagen is opgeslagen. Kom op elk moment terug om je bestelling af te ronden."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:144 includes/modules/class-zappoppop-double-optin.php:22
+msgid "Your email address successfully confirmed."
+msgstr "Je e-mailadres is succesvol bevestigd."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:145
+msgid "e.g. rating"
+msgstr "bijv. rating"
+
+#: assets/js/ab/ab-actions.js:29 includes/ab/class-ajax-campaigns.php:64 includes/ab/class-ajax-campaigns.php:178
+msgid "Please enter a campaign title."
+msgstr "Voer een campagnetitel in."
+
+#: assets/js/ab/ab-actions.js:34
+msgid "Please select at least 2 popups for split-testing."
+msgstr "Selecteer minstens 2 popups voor splittesten."
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Error:"
+msgstr "Fout:"
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Unable to create campaign."
+msgstr "Kan de campagne niet maken."
+
+#: assets/js/ab/ab-actions.js:58
+msgid "Network error while saving campaign."
+msgstr "Netwerkfout bij het opslaan van de campagne."
+
+#: assets/js/ab/ab-actions.js:80
+msgid "Permanently delete this A/B testing campaign? This cannot be undone."
+msgstr "Deze A/B-testcampagne definitief verwijderen? Dit kan niet ongedaan worden gemaakt."
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Deletion Error:"
+msgstr "Verwijderfout:"
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Unable to delete campaign."
+msgstr "Kan de campagne niet verwijderen."
+
+#: assets/js/ab/ab-actions.js:99
+msgid "Network error while deleting campaign."
+msgstr "Netwerkfout bij het verwijderen van de campagne."
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "ACTIVE"
+msgstr "ACTIEF"
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "INACTIVE"
+msgstr "INACTIEF"
+
+#: assets/js/ab/ab-edit.js:77
+msgid "Could not update status."
+msgstr "Kan de status niet bijwerken."
+
+#: assets/js/ab/ab-edit.js:81
+msgid "Server error while updating status."
+msgstr "Serverfout bij het bijwerken van de status."
+
+#: assets/js/ab/ab-trash.js:38
+msgid "Could not update campaign."
+msgstr "Kan de campagne niet bijwerken."
+
+#: assets/js/ab/ab-trash.js:42
+msgid "Server error while updating campaign."
+msgstr "Serverfout bij het bijwerken van de campagne."
+
+#: assets/js/builder/elements.js:369
+msgid "%s Star"
+msgid_plural "%s Stars"
+msgstr[0] "%s ster"
+msgstr[1] "%s sterren"
+
+#: assets/js/front/elements.js:278
+msgid "Please select a rating."
+msgstr "Selecteer een beoordeling."
+
+#: includes/class-pro-admin.php:25 includes/class-pro-admin.php:36 templates/license-edd.php:30 templates/license-page.php:6 templates/license-page.php:15
+msgid "License"
+msgstr "Licentie"
+
+#: includes/class-pro-admin.php:41 includes/class-pro-admin.php:66 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt onvoldoende rechten om deze pagina te openen."
+
+#: includes/class-pro-edd-updater.php:58
+msgid "ZapPopPop Pro add-on."
+msgstr "ZapPopPop Pro-add-on."
+
+#: includes/class-pro-edd.php:119
+msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
+msgstr "Licenties zijn nog niet ingesteld. Voeg de winkel-URL en de product-ID toe aan wp-config.php."
+
+#: includes/class-pro-edd.php:133
+msgid "The licence server did not answer. Please try again later."
+msgstr "De licentieserver heeft niet gereageerd. Probeer het later opnieuw."
+
+#: includes/class-pro-edd.php:137
+msgid "The licence server sent an unexpected answer."
+msgstr "De licentieserver heeft een onverwacht antwoord gestuurd."
+
+#: includes/class-pro-edd.php:148 includes/class-pro-edd.php:188
+msgid "Enter your licence key."
+msgstr "Voer je licentiesleutel in."
+
+#: includes/class-pro-edd.php:161
+msgid "Licence activated. Thank you!"
+msgstr "Licentie geactiveerd. Bedankt!"
+
+#: includes/class-pro-edd.php:173
+msgid "There is no licence to deactivate."
+msgstr "Er is geen licentie om te deactiveren."
+
+#: includes/class-pro-edd.php:181
+msgid "Licence deactivated for this site."
+msgstr "Licentie gedeactiveerd voor deze site."
+
+#: includes/class-pro-edd.php:202
+msgid "Your licence is active."
+msgstr "Je licentie is actief."
+
+#: includes/class-pro-edd.php:224
+msgid "Security check failed. Please go back and try again."
+msgstr "Beveiligingscontrole mislukt. Ga terug en probeer het opnieuw."
+
+#: includes/class-pro-edd.php:227
+msgid "You do not have sufficient permissions to manage the licence."
+msgstr "Je hebt onvoldoende rechten om de licentie te beheren."
+
+#: includes/class-pro-edd.php:267
+msgid "Lifetime"
+msgstr "Levenslang"
+
+#: includes/class-pro-edd.php:275 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
+msgid "Active"
+msgstr "Actief"
+
+#: includes/class-pro-edd.php:276 templates/license-edd.php:21
+msgid "Expired"
+msgstr "Verlopen"
+
+#: includes/class-pro-edd.php:277 includes/class-pro-edd.php:284 templates/license-edd.php:15
+msgid "Not activated"
+msgstr "Niet geactiveerd"
+
+#: includes/class-pro-edd.php:278
+msgid "Not activated on this site"
+msgstr "Niet geactiveerd op deze site"
+
+#: includes/class-pro-edd.php:279
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: includes/class-pro-edd.php:280
+msgid "Revoked"
+msgstr "Ingetrokken"
+
+#: includes/class-pro-edd.php:281 includes/class-pro-edd.php:282
+msgid "Invalid key"
+msgstr "Ongeldige sleutel"
+
+#: includes/class-pro-edd.php:292
+msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
+msgstr "Deze licentie is verlopen op %s. Pro-functies blijven werken op sites waar ze al actief was; verleng haar om updates en support te ontvangen."
+
+#: includes/class-pro-edd.php:293
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "Deze licentie is verlopen. Verleng haar om updates en support te ontvangen."
+
+#: includes/class-pro-edd.php:296
+msgid "This licence key is not valid. Please check it and try again."
+msgstr "Deze licentiesleutel is niet geldig. Controleer hem en probeer het opnieuw."
+
+#: includes/class-pro-edd.php:298
+msgid "This licence has no activations left. Deactivate it on another site or upgrade your plan."
+msgstr "Deze licentie heeft geen activeringen meer over. Deactiveer haar op een andere site of upgrade je abonnement."
+
+#: includes/class-pro-edd.php:301
+msgid "This licence is not active on this site. Activate it again."
+msgstr "Deze licentie is niet actief op deze site. Activeer haar opnieuw."
+
+#: includes/class-pro-edd.php:304
+msgid "This licence has been disabled. Please contact support."
+msgstr "Deze licentie is uitgeschakeld. Neem contact op met support."
+
+#: includes/class-pro-edd.php:307
+msgid "This key belongs to a different product."
+msgstr "Deze sleutel hoort bij een ander product."
+
+#: includes/class-pro-edd.php:309
+msgid "The licence could not be verified. Please try again or contact support."
+msgstr "De licentie kon niet worden geverifieerd. Probeer het opnieuw of neem contact op met support."
+
+#: includes/class-pro-extensions.php:108
+msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
+msgstr "Vereist een actieve ZapPopPop Pro-licentie. Je opgeslagen keuze blijft behouden."
+
+#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:158 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "Licentie activeren"
+
+#: includes/class-pro-module-html-strings.php:24
+msgid "#c2185b"
+msgstr "#c2185b"
+
+#: includes/class-pro-module-html-strings.php:25
+msgid "+ Add"
+msgstr "+ Toevoegen"
+
+#: includes/class-pro-module-html-strings.php:26
+msgid "6px"
+msgstr "6px"
+
+#: includes/class-pro-module-html-strings.php:27
+msgid "<canvas id=\"c\"></canvas><script>...</script>"
+msgstr "<canvas id=\"c\"></canvas><script>...</script>"
+
+#: includes/class-pro-module-html-strings.php:28
+msgid "A tab pinned to the screen edge. Visitors click it to open this popup, even after they closed it."
+msgstr "Een tabblad vastgezet aan de schermrand. Bezoekers klikken erop om deze popup te openen, ook nadat ze hem hebben gesloten."
+
+#: includes/class-pro-module-html-strings.php:29
+msgid "ANIMATION"
+msgstr "ANIMATIE"
+
+#: includes/class-pro-module-html-strings.php:30
+msgid "Add a personal data key field"
+msgstr "Een veld voor persoonsgegevenssleutel toevoegen"
+
+#: includes/class-pro-module-html-strings.php:31
+msgid "All Visitors"
+msgstr "Alle bezoekers"
+
+#: includes/class-pro-module-html-strings.php:32
+msgid "Animation (HTML / JS)"
+msgstr "Animatie (HTML / JS)"
+
+#: includes/class-pro-module-html-strings.php:33
+msgid "Animation on successful form submit"
+msgstr "Animatie bij succesvol verzenden van formulier"
+
+#: includes/class-pro-module-html-strings.php:34
+msgid "Antibot protection"
+msgstr "Antibotbeveiliging"
+
+#: includes/class-pro-module-html-strings.php:35
+msgid "Appearance"
+msgstr "Uiterlijk"
+
+#: includes/class-pro-module-html-strings.php:36
+msgid "Applies to the canvas currently selected in Canvas Settings."
+msgstr "Geldt voor het canvas dat momenteel is geselecteerd in Canvasinstellingen."
+
+#: includes/class-pro-module-html-strings.php:37 templates/stats/chart.php:47
+msgid "Apply"
+msgstr "Toepassen"
+
+#: includes/class-pro-module-html-strings.php:38
+msgid "Back Entrances"
+msgstr "Back-intreden"
+
+#: includes/class-pro-module-html-strings.php:39
+msgid "Back Exits"
+msgstr "Back-uitgangen"
+
+#: includes/class-pro-module-html-strings.php:40
+msgid "Background Opacity (picture / animation)"
+msgstr "Dekking van achtergrond (afbeelding / animatie)"
+
+#: includes/class-pro-module-html-strings.php:41
+msgid "Background Overlay Opacity"
+msgstr "Dekking van achtergrondoverlay"
+
+#: includes/class-pro-module-html-strings.php:42
+msgid "Background Type"
+msgstr "Achtergrondtype"
+
+#: includes/class-pro-module-html-strings.php:43
+msgid "Bottom"
+msgstr "Onder"
+
+#: includes/class-pro-module-html-strings.php:44
+msgid "Bounce"
+msgstr "Stuiteren"
+
+#: includes/class-pro-module-html-strings.php:45
+msgid "Bouncing Entrances"
+msgstr "Stuiterende intreden"
+
+#: includes/class-pro-module-html-strings.php:46
+msgid "Bouncing Exits"
+msgstr "Stuiterende uitgangen"
+
+#: includes/class-pro-module-html-strings.php:47
+msgid "Burst + Fireworks"
+msgstr "Uitbarsting + vuurwerk"
+
+#: includes/class-pro-module-html-strings.php:48 templates/ab/modal-create.php:37
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/class-pro-module-html-strings.php:49
+msgid "Check IP-address"
+msgstr "IP-adres controleren"
+
+#: includes/class-pro-module-html-strings.php:50
+msgid "Check form data"
+msgstr "Formuliergegevens controleren"
+
+#: includes/class-pro-module-html-strings.php:51
+msgid "Confetti Burst (built-in)"
+msgstr "Confettiuitbarsting (ingebouwd)"
+
+#: includes/class-pro-module-html-strings.php:52
+msgid "Confetti Cannons (needs Canvas Confetti library)"
+msgstr "Confettikanonnen (vereist de bibliotheek Canvas Confetti)"
+
+#: includes/class-pro-module-html-strings.php:53
+msgid "Confetti Rain (built-in)"
+msgstr "Confettiregen (ingebouwd)"
+
+#: includes/class-pro-module-html-strings.php:54
+msgid "Configure appearance entrance and disappearance exit animations for this canvas."
+msgstr "Configureer de intree- en uitgangsanimaties voor het uiterlijk van dit canvas."
+
+#: includes/class-pro-module-html-strings.php:55
+msgid "Control what is stored with each submission, protect the form against repeated submissions and tune the page behaviour while the popup is visible."
+msgstr "Bepaal wat bij elke inzending wordt opgeslagen, beveilig het formulier tegen herhaalde inzendingen en pas het paginagedrag aan terwijl de popup zichtbaar is."
+
+#: includes/class-pro-module-html-strings.php:56
+msgid "Custom Background"
+msgstr "Eigen achtergrond"
+
+#: includes/class-pro-module-html-strings.php:57
+msgid "Default (confetti + enabled libraries)"
+msgstr "Standaard (confetti + ingeschakelde bibliotheken)"
+
+#: includes/class-pro-module-html-strings.php:58
+msgid "Disable page scrollbar"
+msgstr "Schuifbalk van pagina uitschakelen"
+
+#: includes/class-pro-module-html-strings.php:59
+msgid "Disappearance"
+msgstr "Verdwijnen"
+
+#: includes/class-pro-module-html-strings.php:60
+msgid "Distance kept between the popup and each screen edge. 0 sticks the popup to the edge; a higher value moves it away. On screens smaller than the popup it scales down to fit."
+msgstr "Afstand tussen de popup en elke schermrand. 0 plakt de popup aan de rand; een hogere waarde verplaatst hem weg. Op schermen kleiner dan de popup wordt hij verkleind om te passen."
+
+#: includes/class-pro-module-html-strings.php:61
+msgid "Duration"
+msgstr "Duur"
+
+#: includes/class-pro-module-html-strings.php:62
+msgid "Email Subject"
+msgstr "E-mailonderwerp"
+
+#: includes/class-pro-module-html-strings.php:63
+msgid "Empty = the visitor email"
+msgstr "Leeg = het e-mailadres van de bezoeker"
+
+#: includes/class-pro-module-html-strings.php:65
+msgid "Enable Overlay"
+msgstr "Overlay inschakelen"
+
+#: includes/class-pro-module-html-strings.php:66
+msgid "Enable Sticky Side Tab"
+msgstr "Vaste zijtab inschakelen"
+
+#: includes/class-pro-module-html-strings.php:67
+msgid "Enable protection against repeated submissions"
+msgstr "Beveiliging tegen herhaalde inzendingen inschakelen"
+
+#: includes/class-pro-module-html-strings.php:68
+msgid "Error message"
+msgstr "Foutmelding"
+
+#: includes/class-pro-module-html-strings.php:69
+msgid "Every submission stays \"pending\" until the visitor clicks the confirmation link. Notifications set to \"After double opt-in confirmation\" are sent at that moment."
+msgstr "Elke inzending blijft \"in behandeling\" totdat de bezoeker op de bevestigingslink klikt. Meldingen die zijn ingesteld op \"Na bevestiging van dubbele opt-in\" worden op dat moment verzonden."
+
+#: includes/class-pro-module-html-strings.php:70
+msgid "Fade"
+msgstr "Vervagen"
+
+#: includes/class-pro-module-html-strings.php:71
+msgid "Fading Entrances"
+msgstr "Invagende intreden"
+
+#: includes/class-pro-module-html-strings.php:72
+msgid "Fading Exits"
+msgstr "Uitvagende uitgangen"
+
+#: includes/class-pro-module-html-strings.php:73
+msgid "Feedback / Offer"
+msgstr "Feedback / aanbieding"
+
+#: includes/class-pro-module-html-strings.php:74
+msgid "Fields that hold the personal data key, usually the email field. WordPress uses them to find, export and erase a person's submissions (Tools > Export / Erase Personal Data)."
+msgstr "Velden die de sleutel voor persoonsgegevens bevatten, meestal het e-mailveld. WordPress gebruikt ze om de inzendingen van een persoon te vinden, te exporteren en te wissen (Hulpmiddelen > Persoonlijke gegevens exporteren / wissen)."
+
+#: includes/class-pro-module-html-strings.php:75
+msgid "Fireworks (needs Canvas Fireworks library)"
+msgstr "Vuurwerk (vereist de bibliotheek Canvas Fireworks)"
+
+#: includes/class-pro-module-html-strings.php:76 includes/modules/class-zappoppop-targeting-triggers.php:426
+msgid "From"
+msgstr "Van"
+
+#: includes/class-pro-module-html-strings.php:77
+msgid "Guests Only"
+msgstr "Alleen gasten"
+
+#: includes/class-pro-module-html-strings.php:78
+msgid "HTML / CSS / JS"
+msgstr "HTML / CSS / JS"
+
+#: includes/class-pro-module-html-strings.php:79
+msgid "If set, the visitor is redirected here after confirming (instead of the message)."
+msgstr "Indien ingesteld, wordt de bezoeker na bevestiging hierheen doorgestuurd (in plaats van het bericht)."
+
+#: includes/class-pro-module-html-strings.php:80 templates/builder/elements/elem-19-imageselect.php:12
+msgid "Image URL"
+msgstr "Afbeeldings-URL"
+
+#: includes/class-pro-module-html-strings.php:81
+msgid "Left"
+msgstr "Links"
+
+#: includes/class-pro-module-html-strings.php:82
+msgid "Left Edge"
+msgstr "Linkerrand"
+
+#: includes/class-pro-module-html-strings.php:83
+msgid "Library-based effects require enabling the matching library under ZapPopPop → Settings → Libraries."
+msgstr "Op bibliotheken gebaseerde effecten vereisen dat je de bijbehorende bibliotheek inschakelt onder ZapPopPop → Instellingen → Bibliotheken."
+
+#: includes/class-pro-module-html-strings.php:84
+msgid "Locks the page scrollbar while this popup is visible."
+msgstr "Vergrendelt de schuifbalk van de pagina zolang deze popup zichtbaar is."
+
+#: includes/class-pro-module-html-strings.php:85
+msgid "Logged-In Users Only"
+msgstr "Alleen ingelogde gebruikers"
+
+#: includes/class-pro-module-html-strings.php:86
+msgid "Media"
+msgstr "Media"
+
+#: includes/class-pro-module-html-strings.php:87
+msgid "Message"
+msgstr "Bericht"
+
+#: includes/class-pro-module-html-strings.php:88
+msgid "Name"
+msgstr "Naam"
+
+#: includes/class-pro-module-html-strings.php:89
+msgid "None"
+msgstr "Geen"
+
+#: includes/class-pro-module-html-strings.php:90
+msgid "Overlay Color"
+msgstr "Overlaykleur"
+
+#: includes/class-pro-module-html-strings.php:91
+msgid "Page"
+msgstr "Pagina"
+
+#: includes/class-pro-module-html-strings.php:92
+msgid "Personal data key fields"
+msgstr "Velden voor persoonsgegevenssleutel"
+
+#: includes/class-pro-module-html-strings.php:93
+msgid "Picture (JPEG / PNG)"
+msgstr "Afbeelding (JPEG / PNG)"
+
+#: includes/class-pro-module-html-strings.php:94
+msgid "Pin a tab to the screen edge"
+msgstr "Een tabblad aan de schermrand vastzetten"
+
+#: includes/class-pro-module-html-strings.php:95
+msgid "Play"
+msgstr "Afspelen"
+
+#: includes/class-pro-module-html-strings.php:96
+msgid "Play Canvas Animation"
+msgstr "Canvasanimatie afspelen"
+
+#: includes/class-pro-module-html-strings.php:97
+msgid "Play disappearance animation when the canvas closes"
+msgstr "Verdwijnanimatie afspelen wanneer het canvas sluit"
+
+#: includes/class-pro-module-html-strings.php:98
+msgid "Play disappearance on close"
+msgstr "Verdwijnen afspelen bij sluiten"
+
+#: includes/class-pro-module-html-strings.php:100
+msgid "Recipient"
+msgstr "Ontvanger"
+
+#: includes/class-pro-module-html-strings.php:101
+msgid "Repeated submission delay"
+msgstr "Vertraging voor herhaalde inzending"
+
+#: includes/class-pro-module-html-strings.php:102
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/class-pro-module-html-strings.php:103
+msgid "Right Edge"
+msgstr "Rechterrand"
+
+#: includes/class-pro-module-html-strings.php:104
+msgid "Runs in a sandboxed frame behind the popup. Scripts require the unfiltered_html capability (administrators on single-site installs)."
+msgstr "Draait in een geïsoleerd frame (sandbox) achter de popup. Scripts vereisen de bevoegdheid unfiltered_html (beheerders op installaties met één site)."
+
+#: includes/class-pro-module-html-strings.php:105
+msgid "Save IP-address"
+msgstr "IP-adres opslaan"
+
+#: includes/class-pro-module-html-strings.php:106
+msgid "Save User-Agent"
+msgstr "User-Agent opslaan"
+
+#: includes/class-pro-module-html-strings.php:107
+msgid "Screen Edge"
+msgstr "Schermrand"
+
+#: includes/class-pro-module-html-strings.php:108
+msgid "Screen edge padding"
+msgstr "Opvulling van schermrand"
+
+#: includes/class-pro-module-html-strings.php:109
+msgid "Send Technical Info by email"
+msgstr "Technische info per e-mail verzenden"
+
+#: includes/class-pro-module-html-strings.php:111
+msgid "Show Technical Info on log record details"
+msgstr "Technische info tonen in de details van het logrecord"
+
+#: includes/class-pro-module-html-strings.php:112
+msgid "Show the overlay behind the popup"
+msgstr "De overlay achter de popup tonen"
+
+#: includes/class-pro-module-html-strings.php:113
+msgid "Slide"
+msgstr "Schuiven"
+
+#: includes/class-pro-module-html-strings.php:114
+msgid "Slide-in Animation"
+msgstr "Inschuifanimatie"
+
+#: includes/class-pro-module-html-strings.php:115
+msgid "Sliding Entrances"
+msgstr "Inschuivende intreden"
+
+#: includes/class-pro-module-html-strings.php:116
+msgid "Sliding Exits"
+msgstr "Uitschuivende uitgangen"
+
+#: includes/class-pro-module-html-strings.php:117
+msgid "Star Burst (built-in)"
+msgstr "Sterrenuitbarsting (ingebouwd)"
+
+#: includes/class-pro-module-html-strings.php:119
+msgid "Stick to edge (set all padding to 0)"
+msgstr "Aan de rand plakken (zet alle opvulling op 0)"
+
+#: includes/class-pro-module-html-strings.php:120
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: includes/class-pro-module-html-strings.php:121
+msgid "Tab Background"
+msgstr "Achtergrond van tabblad"
+
+#: includes/class-pro-module-html-strings.php:122
+msgid "Tab Corner Radius"
+msgstr "Hoekradius van tabblad"
+
+#: includes/class-pro-module-html-strings.php:123
+msgid "Tab Label"
+msgstr "Tablabel"
+
+#: includes/class-pro-module-html-strings.php:124
+msgid "Technical info"
+msgstr "Technische info"
+
+#: includes/class-pro-module-html-strings.php:125
+msgid "Technical info is the IP-address and the User-Agent. The email option adds it to the {{form-data}} merge tag."
+msgstr "Technische info is het IP-adres en de User-Agent. De e-mailoptie voegt ze toe aan de samenvoegtag {{form-data}}."
+
+#: includes/class-pro-module-html-strings.php:126
+msgid "Thank you for subscribing!"
+msgstr "Bedankt voor je inschrijving!"
+
+#: includes/class-pro-module-html-strings.php:128
+msgid "Thank-you URL"
+msgstr "Bedank-URL"
+
+#: includes/class-pro-module-html-strings.php:129
+msgid "Thank-you message"
+msgstr "Bedankbericht"
+
+#: includes/class-pro-module-html-strings.php:130
+msgid "The popup is only shown to the chosen visitors. Popups opened by a button or an onload shortcode ignore this rule."
+msgstr "De popup wordt alleen aan de gekozen bezoekers getoond. Popups die door een knop of een onload-shortcode worden geopend, negeren deze regel."
+
+#: includes/class-pro-module-html-strings.php:131
+msgid "The same data (and / or the same IP-address) is refused during the delay and the visitor sees the error message."
+msgstr "Dezelfde gegevens (en / of hetzelfde IP-adres) worden tijdens de vertraging geweigerd en de bezoeker ziet de foutmelding."
+
+#: includes/class-pro-module-html-strings.php:132
+msgid "Top"
+msgstr "Boven"
+
+#: includes/class-pro-module-html-strings.php:133
+msgid "Use the tag button to insert the subscriber's values, for example {{email}} or {{field-name}} (the older {email} form still works). Sent to the visitor's email after a successful submit; with Double Opt-In, once the link is confirmed."
+msgstr "Gebruik de tagknop om de waarden van de abonnee in te voegen, bijvoorbeeld {{email}} of {{field-name}} (de oudere vorm {email} werkt nog steeds). Wordt naar het e-mailadres van de bezoeker verzonden na een succesvolle inzending; bij dubbele opt-in zodra de link is bevestigd."
+
+#: includes/class-pro-module-html-strings.php:134
+msgid "Visitor Authentication"
+msgstr "Authenticatie van bezoeker"
+
+#: includes/class-pro-module-html-strings.php:135 includes/modules/class-zappoppop-autoresponder.php:95
+msgid "Welcome! Here is your reward"
+msgstr "Welkom! Hier is je beloning"
+
+#: includes/class-pro-module-html-strings.php:136
+msgid "Zooming Entrances"
+msgstr "Inzoomende intreden"
+
+#: includes/class-pro-module-html-strings.php:137
+msgid "Zooming Exits"
+msgstr "Uitzoomende uitgangen"
+
+#: includes/class-pro-module-html-strings.php:138
+msgid "e.g. Winter Snow"
+msgstr "bijv. Wintersneeuw"
+
+#: includes/class-pro-module-html-strings.php:139
+msgid "email"
+msgstr "email"
+
+#: includes/class-pro-module-html-strings.php:140
+msgid "https://"
+msgstr "https://"
+
+#: includes/class-pro-module-html-strings.php:141
+msgid "https://.../image.jpg"
+msgstr "https://.../image.jpg"
+
+#: includes/class-pro-module-html-strings.php:142
+msgid "ms"
+msgstr "ms"
+
+#: includes/class-pro-module-html-strings.php:143
+msgid "name"
+msgstr "name"
+
+#: includes/class-pro-module-html-strings.php:144
+msgid "px"
+msgstr "px"
+
+#: includes/class-pro-module-html-strings.php:145
+msgid "seconds"
+msgstr "seconden"
+
+#: includes/class-pro-module-strings.php:28
+msgid "Animation"
+msgstr "Animatie"
+
+#: includes/class-pro-module-strings.php:29
+msgid "Open and close animations for the popup."
+msgstr "Open- en sluitanimaties voor de popup."
+
+#: includes/class-pro-module-strings.php:32
+msgid "Autoresponder"
+msgstr "Automatisch antwoord"
+
+#: includes/class-pro-module-strings.php:33
+msgid "Automatic reply sent to subscribers after they submit."
+msgstr "Automatisch antwoord dat naar abonnees wordt gestuurd nadat ze hebben verzonden."
+
+#: includes/class-pro-module-strings.php:36
+msgid "Double Opt-In"
+msgstr "Dubbele opt-in"
+
+#: includes/class-pro-module-strings.php:37
+msgid "Double opt-in confirmation for subscribers."
+msgstr "Bevestiging met dubbele opt-in voor abonnees."
+
+#: includes/class-pro-module-strings.php:40
+msgid "Popup Overlay"
+msgstr "Popup-overlay"
+
+#: includes/class-pro-module-strings.php:41
+msgid "Page overlay behind the popup: colour, opacity, image or animation."
+msgstr "Pagina-overlay achter de popup: kleur, dekking, afbeelding of animatie."
+
+#: includes/class-pro-module-strings.php:44
+msgid "Popup Positions"
+msgstr "Popupposities"
+
+#: includes/class-pro-module-strings.php:45
+msgid "Popup position on screen: top, bottom, left or right."
+msgstr "Positie van de popup op het scherm: boven, onder, links of rechts."
+
+#: includes/class-pro-module-strings.php:48
+msgid "Security & Protections"
+msgstr "Beveiliging en bescherming"
+
+#: includes/class-pro-module-strings.php:49
+msgid "Technical info, repeated submission (antibot) protection, page scrollbar lock and personal data keys."
+msgstr "Technische info, bescherming tegen herhaalde inzendingen (antibot), vergrendeling van de schuifbalk van de pagina en sleutels voor persoonsgegevens."
+
+#: includes/class-pro-module-strings.php:52
+msgid "Side Tabs"
+msgstr "Zijtabs"
+
+#: includes/class-pro-module-strings.php:53
+msgid "Sticky side tabs attached to the screen edge, with icon, colour, corner radius and slide-in animation."
+msgstr "Vaste zijtabs aan de schermrand, met pictogram, kleur, hoekradius en inschuifanimatie."
+
+#: includes/class-pro-module-strings.php:56
+msgid "Success Celebration"
+msgstr "Succesviering"
+
+#: includes/class-pro-module-strings.php:57
+msgid "Celebration animation after a successful submit."
+msgstr "Feestanimatie na een succesvolle inzending."
+
+#: includes/class-pro-module-strings.php:60
+msgid "Targeting Triggers"
+msgstr "Targetingtriggers"
+
+#: includes/class-pro-module-strings.php:61
+msgid "Show rules by event, schedule, role, area and URL."
+msgstr "Weergaveregels op basis van gebeurtenis, schema, rol, gebied en URL."
+
+#: includes/class-pro-module-strings.php:64
+msgid "Targeting"
+msgstr "Targeting"
+
+#: includes/class-pro-module-strings.php:65
+msgid "Visitor authentication, targeting and attribution rules."
+msgstr "Regels voor bezoekersauthenticatie, targeting en toewijzing."
+
+#: includes/class-pro-module-strings.php:68 includes/modules/class-zappoppop-woo-cart.php:703
+msgid "WooCommerce Cart"
+msgstr "WooCommerce-winkelwagen"
+
+#: includes/class-pro-module-strings.php:69
+msgid "Show popups by cart contents and fill live cart values into popup text."
+msgstr "Toon popups op basis van de inhoud van de winkelwagen en vul live winkelwagenwaarden in de popuptekst in."
+
+#: includes/class-pro-plugin.php:109
+msgid "Outdated %1$s: minimum required %2$s"
+msgstr "%1$s verouderd: minimaal vereist %2$s"
+
+#: includes/class-pro-plugin.php:111
+msgid "Missing %1$s: minimum required %2$s"
+msgstr "%1$s ontbreekt: minimaal vereist %2$s"
+
+#: includes/class-pro-plugin.php:116
+msgid "This plugin is not fully active."
+msgstr "Deze plugin is niet volledig actief."
+
+#: includes/class-pro-plugin.php:142
+msgid "ZapPopPop Pro needs the ZapPopPop plugin. Install and activate ZapPopPop first."
+msgstr "ZapPopPop Pro heeft de plugin ZapPopPop nodig. Installeer en activeer eerst ZapPopPop."
+
+#: includes/class-pro-plugin.php:146
+msgid "ZapPopPop Pro needs a newer version of ZapPopPop. Please update ZapPopPop."
+msgstr "ZapPopPop Pro heeft een nieuwere versie van ZapPopPop nodig. Werk ZapPopPop bij."
+
+#: includes/class-pro-plugin.php:156
+msgid "ZapPopPop Pro is not activated. Pro templates and modules stay locked until you enter your licence key."
+msgstr "ZapPopPop Pro is niet geactiveerd. Pro-sjablonen en -modules blijven vergrendeld totdat je je licentiesleutel invoert."
+
+#: includes/class-pro-protection.php:100
+msgid "Security & Geolocation"
+msgstr "Beveiliging en geolocatie"
+
+#: includes/class-pro-protection.php:150
+msgid "Submission rate limit exceeded. Please wait a while before submitting again."
+msgstr "Limiet voor inzendingen overschreden. Wacht even voordat je opnieuw verzendt."
+
+#: includes/class-pro-protection.php:158
+msgid "Bot verification failed. Please refresh the page and try again."
+msgstr "Botverificatie mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: includes/class-pro-protection.php:166
+msgid "Disposable or temporary email addresses are not permitted. Please use a valid personal or business email."
+msgstr "Wegwerp- of tijdelijke e-mailadressen zijn niet toegestaan. Gebruik een geldig persoonlijk of zakelijk e-mailadres."
+
+#: includes/ab/class-ajax-campaigns.php:22 includes/stats/class-admin-stats.php:126
+msgid "Unauthorized action."
+msgstr "Actie niet toegestaan."
+
+#: includes/ab/class-ajax-campaigns.php:26 includes/stats/class-admin-stats.php:130
+msgid "Security check failed. Please refresh the page."
+msgstr "Beveiligingscontrole mislukt. Vernieuw de pagina."
+
+#: includes/ab/class-ajax-campaigns.php:37 includes/ab/class-ajax-campaigns.php:93 includes/ab/class-ajax-campaigns.php:155 includes/ab/class-ajax-campaigns.php:198 includes/stats/class-admin-stats.php:144 includes/stats/class-admin-stats.php:173 includes/stats/class-admin-stats.php:198
+msgid "Unauthorized user capability."
+msgstr "Gebruikersbevoegdheid niet toegestaan."
+
+#: includes/ab/class-ajax-campaigns.php:48 includes/ab/class-ajax-campaigns.php:104 includes/ab/class-ajax-campaigns.php:166 includes/ab/class-ajax-campaigns.php:209 includes/stats/class-admin-stats.php:155 includes/stats/class-admin-stats.php:184 includes/stats/class-admin-stats.php:209
+msgid "Invalid security token."
+msgstr "Ongeldig beveiligingstoken."
+
+#: includes/ab/class-ajax-campaigns.php:61 includes/ab/class-ajax-campaigns.php:115 includes/ab/class-ajax-campaigns.php:136
+msgid "Campaign not found."
+msgstr "Campagne niet gevonden."
+
+#: includes/ab/class-ajax-campaigns.php:67
+msgid "Select at least 2 popups for split-testing."
+msgstr "Selecteer minstens 2 popups voor splittesten."
+
+#: includes/ab/class-ajax-campaigns.php:75
+msgid "At least 2 of the selected popups must exist."
+msgstr "Minstens 2 van de geselecteerde popups moeten bestaan."
+
+#: includes/ab/class-ajax-campaigns.php:86 includes/ab/class-ajax-campaigns.php:124 includes/ab/class-ajax-campaigns.php:140
+msgid "Database error while saving."
+msgstr "Databasefout bij het opslaan."
+
+#: includes/ab/class-ajax-campaigns.php:119
+msgid "Restore this campaign before changing its status."
+msgstr "Herstel deze campagne voordat je haar status wijzigt."
+
+#: includes/ab/class-ajax-campaigns.php:191
+msgid "Database error: could not save the campaign. Try Tools > Repair Tables."
+msgstr "Databasefout: kan de campagne niet opslaan. Probeer Hulpmiddelen > Tabellen repareren."
+
+#: includes/ab/class-ajax-campaigns.php:193
+msgid "A/B Campaign saved!"
+msgstr "A/B-campagne opgeslagen!"
+
+#: includes/ab/class-ajax-campaigns.php:218
+msgid "Missing campaign UID."
+msgstr "Campagne-UID ontbreekt."
+
+#: includes/ab/class-ajax-campaigns.php:222
+msgid "Campaign not found or already deleted."
+msgstr "Campagne niet gevonden of al verwijderd."
+
+#: includes/ab/class-ajax-campaigns.php:224
+msgid "Campaign deleted."
+msgstr "Campagne verwijderd."
+
+#: includes/ab/class-front-ab.php:100
+msgid "Open Popup"
+msgstr "Popup openen"
+
+#: includes/ab/class-pro-ab.php:44 includes/ab/class-pro-ab.php:45 includes/ab/class-pro-ab.php:59 includes/ab/class-pro-ab.php:98 templates/ab-view.php:5 templates/ab-view.php:10
+msgid "A/B Campaigns"
+msgstr "A/B-campagnes"
+
+#: includes/ab/class-pro-ab.php:61
+msgid "Split-test popup variations and keep the winner. Activate your ZapPopPop Pro licence to manage A/B campaigns."
+msgstr "Splittest popupvarianten en behoud de winnaar. Activeer je ZapPopPop Pro-licentie om A/B-campagnes te beheren."
+
+#: includes/ab/class-pro-ab.php:150
+msgid "Restored A/B Test"
+msgstr "Hersteld A/B-test"
+
+#: includes/ab/class-pro-ab.php:176
+msgid "Database error during restore. No changes were kept."
+msgstr "Databasefout tijdens het herstellen. Er zijn geen wijzigingen bewaard."
+
+#: includes/ab/class-pro-ab.php:189 includes/ab/class-pro-ab.php:193
+msgid "A/B Experiments"
+msgstr "A/B-experimenten"
+
+#: includes/elements/class-pro-element-imageselect.php:14
+msgid "Image Select"
+msgstr "Afbeeldingskeuze"
+
+#: includes/elements/class-pro-element-progress.php:14
+msgid "Progress Bar"
+msgstr "Voortgangsbalk"
+
+#: includes/elements/class-pro-element-rating.php:14
+msgid "Star Rating"
+msgstr "Sterrenbeoordeling"
+
+#: includes/elements/class-pro-element-tile.php:14
+msgid "Tile Select"
+msgstr "Tegelkeuze"
+
+#: includes/elements/class-pro-elements.php:144
+msgid "Rating Data"
+msgstr "Beoordelingsgegevens"
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28
+msgid "Download link has expired or is invalid."
+msgstr "De downloadlink is verlopen of ongeldig."
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28 includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "Invalid Download"
+msgstr "Ongeldige download"
+
+#: includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "The file is no longer available."
+msgstr "Het bestand is niet langer beschikbaar."
+
+#: includes/modules/class-zappoppop-addon-sms.php:13
+msgid "Twilio account SID, auth token, from number, and recipient number are required."
+msgstr "Twilio-account-SID, authenticatietoken, afzendernummer en ontvangernummer zijn vereist."
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:42
+msgid "Missing coupon code."
+msgstr "Couponcode ontbreekt."
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:47
+msgid "Coupon applied to cart successfully!"
+msgstr "Coupon succesvol op de winkelwagen toegepast!"
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:49
+msgid "Unable to apply coupon to cart."
+msgstr "Kan de coupon niet op de winkelwagen toepassen."
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:21 includes/modules/class-zappoppop-ajax-mailchimp.php:22
+msgid "Permission denied."
+msgstr "Toegang geweigerd."
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:25
+msgid "Enter a valid GetResponse API key."
+msgstr "Voer een geldige GetResponse-API-sleutel in."
+
+#: includes/modules/class-zappoppop-ajax-mailchimp.php:26
+msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
+msgstr "Voer een geldige MailChimp-API-sleutel in (bijvoorbeeld 0123456789abcdef-us21)."
+
+#: includes/modules/class-zappoppop-autoresponder.php:96
+msgid "Thank you for subscribing!\n\nEnjoy your offer."
+msgstr "Bedankt voor je inschrijving!\n\nVeel plezier met je aanbieding."
+
+#: includes/modules/class-zappoppop-double-optin.php:18
+msgid "Please confirm your email address"
+msgstr "Bevestig je e-mailadres"
+
+#: includes/modules/class-zappoppop-double-optin.php:19
+msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
+msgstr "Beste bezoeker!\n\nBevestig je e-mailadres door op de volgende link te klikken:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nBedankt."
+
+#: includes/modules/class-zappoppop-double-optin.php:22
+msgid "Thank you!"
+msgstr "Bedankt!"
+
+#: includes/modules/class-zappoppop-getresponse.php:210 includes/modules/class-zappoppop-mailchimp.php:222
+msgid "Invalid API key."
+msgstr "Ongeldige API-sleutel."
+
+#: includes/modules/class-zappoppop-getresponse.php:232
+msgid "GetResponse returned HTTP %d."
+msgstr "GetResponse gaf HTTP %d terug."
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Full name"
+msgstr "Volledige naam"
+
+#: includes/modules/class-zappoppop-getresponse.php:265
+msgid "API key or campaign is missing."
+msgstr "API-sleutel of campagne ontbreekt."
+
+#: includes/modules/class-zappoppop-getresponse.php:267 includes/modules/class-zappoppop-mailchimp.php:304
+msgid "Invalid email address."
+msgstr "Ongeldig e-mailadres."
+
+#: includes/modules/class-zappoppop-mailchimp.php:246
+msgid "MailChimp returned HTTP %d."
+msgstr "MailChimp gaf HTTP %d terug."
+
+#: includes/modules/class-zappoppop-mailchimp.php:263 includes/modules/class-zappoppop-mailchimp.php:277
+msgid "Select an audience first."
+msgstr "Selecteer eerst een doelgroep."
+
+#: includes/modules/class-zappoppop-mailchimp.php:266
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: includes/modules/class-zappoppop-mailchimp.php:302
+msgid "API key or audience is missing."
+msgstr "API-sleutel of doelgroep ontbreekt."
+
+#: includes/modules/class-zappoppop-protect.php:207 includes/modules/class-zappoppop-protect.php:215 includes/modules/class-zappoppop-protect.php:278
+msgid "ZapPopPop submissions"
+msgstr "ZapPopPop-inzendingen"
+
+#: includes/modules/class-zappoppop-side-tabs.php:117
+msgid "Offer"
+msgstr "Aanbieding"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:372
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:398
+msgid "Visitors (logged out)"
+msgstr "Bezoekers (uitgelogd)"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:399 includes/modules/class-zappoppop-woo-cart.php:722
+msgid "Search..."
+msgstr "Zoeken..."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:400 includes/modules/class-zappoppop-woo-cart.php:723
+msgid "Nothing found."
+msgstr "Niets gevonden."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:404
+msgid "OnLoad"
+msgstr "Bij laden"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:405
+msgid "OnScroll"
+msgstr "Bij scrollen"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:406
+msgid "OnExit"
+msgstr "Bij verlaten"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:407
+msgid "OnInactivity"
+msgstr "Bij inactiviteit"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:415
+msgid "hrs"
+msgstr "uur"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:417
+msgid "sec"
+msgstr "sec"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:419
+msgid "Close delay 0 keeps the popup open until it is closed."
+msgstr "Sluitvertraging 0 houdt de popup open totdat hij wordt gesloten."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:427
+msgid "End"
+msgstr "Einde"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:434
+msgid "URL"
+msgstr "URL"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
+msgid "All"
+msgstr "Alle"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:444
+msgid "URL contains"
+msgstr "URL bevat"
+
+#: includes/modules/class-zappoppop-woo-cart.php:709
+msgid "Any"
+msgstr "Elke"
+
+#: includes/modules/class-zappoppop-woo-cart.php:717
+msgid "items"
+msgstr "items"
+
+#: includes/modules/class-zappoppop-woo-cart.php:718
+msgid "A value of 0 turns that condition off."
+msgstr "Een waarde van 0 schakelt die voorwaarde uit."
+
+#: includes/modules/class-zappoppop-woo-cart.php:730
+msgid "0 = detect it from your WooCommerce free shipping method."
+msgstr "0 = detecteren vanuit je WooCommerce-methode voor gratis verzending."
+
+#: includes/modules/class-zappoppop-woo-cart.php:732
+msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
+msgstr "Typ deze in een willekeurige tekstlaag. Het Live voorbeeld toont voorbeeldwaarden; bezoekers zien hun eigen winkelwagen."
+
+#: includes/modules/class-zappoppop-woo-cart.php:740
+msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
+msgstr "Een bestaande WooCommerce-coupon. Hij vult {coupon_code} en het aftellen in. De code is zichtbaar in de paginabron, dus gebruik geen privécode."
+
+#: includes/modules/class-zappoppop-woo-cart.php:744
+msgid "Give a button the link #zpp-apply-coupon."
+msgstr "Geef een knop de link #zpp-apply-coupon."
+
+#: includes/modules/class-zappoppop-woo-cart.php:752
+msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
+msgstr "Productpagina's: de popup wordt op geen enkele andere pagina getoond. Geselecteerde producten: alleen op de onderstaande producten of categorieën (geen geselecteerd = elke productpagina)."
+
+#: includes/modules/class-zappoppop-woo-cart.php:763
+msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
+msgstr "Automatisch gebruikt de cross-sells van de winkelwagen van de bezoeker en daarna de upsells van de producten erin. Stel ze in bij elk WooCommerce-product."
+
+#: includes/modules/class-zappoppop-woo-cart.php:765
+msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
+msgstr "Geef een knop de link #zpp-add-upsell om het product aan de winkelwagen toe te voegen (de popup sluit dan), of #zpp-view-upsell om de pagina ervan te openen. Variabele producten kunnen alleen de weergavelink gebruiken."
+
+#: includes/modules/class-zappoppop-woo-cart.php:770
+msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
+msgstr "Eén keer verzonden naar bezoekers die het formulier van deze popup verzenden met het toestemmingsvak aangevinkt en items in hun winkelwagen. Zonder toestemming wordt niets opgeslagen."
+
+#: includes/modules/class-zappoppop-woo-cart.php:772
+msgid "minutes"
+msgstr "minuten"
+
+#: includes/modules/class-zappoppop-woo-cart.php:774
+msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
+msgstr "Voeg een checkboxlaag toe aan het formulier (bijvoorbeeld \"Stuur me een e-mailherinnering over mijn winkelwagen\") en typ dezelfde naam bij Geavanceerd > Veldnaam. Niet aangevinkt = er wordt niets opgeslagen."
+
+#: includes/modules/class-zappoppop-woo-cart.php:779
+msgid "Coupon code (optional)"
+msgstr "Couponcode (optioneel)"
+
+#: includes/modules/class-zappoppop-woo-cart.php:781
+msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
+msgstr "Er wordt geen e-mail verzonden als er een bestelling met hetzelfde adres is geplaatst. Elke e-mail heeft een uitschrijflink; uitgeschreven adressen worden nooit meer opgeslagen. Verzenden gebruikt WordPress-cron en wp_mail()."
+
+#: includes/modules/class-zappoppop-woo-cart.php:782
+msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
+msgstr "Het aftellen en de vervaldatum komen van de echte vervaldatum van de coupon in WooCommerce."
+
+#: includes/modules/class-zappoppop-woo-cart.php:783
+msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
+msgstr "Balk voor gratis verzending: voeg een laag Voortgangsbalk toe, zet de modus op \"Automatisch: gratis verzending van WooCommerce\" en schrijf het label zo: Voeg {shipping_remaining} toe voor gratis verzending || Je hebt gratis verzending!"
+
+#: includes/modules/class-zappoppop-woo-recover.php:401
+msgid "Use code %s at checkout."
+msgstr "Gebruik code %s bij het afrekenen."
+
+#: includes/modules/class-zappoppop-woo-recover.php:408
+msgid "Return to your cart"
+msgstr "Terug naar je winkelwagen"
+
+#: includes/modules/class-zappoppop-woo-recover.php:411
+msgid "You are receiving this because you asked for a cart reminder on %s."
+msgstr "Je ontvangt dit omdat je een winkelwagenherinnering hebt aangevraagd op %s."
+
+#: includes/modules/class-zappoppop-woo-recover.php:412 includes/modules/class-zappoppop-woo-recover.php:433
+msgid "Unsubscribe"
+msgstr "Uitschrijven"
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "You have been unsubscribed. We will not send you cart reminders again."
+msgstr "Je bent uitgeschreven. We sturen je geen winkelwagenherinneringen meer."
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "This unsubscribe link is not valid."
+msgstr "Deze uitschrijflink is niet geldig."
+
+#: includes/modules/class-zappoppop-woo-recover.php:506 includes/modules/class-zappoppop-woo-recover.php:514
+msgid "ZapPopPop abandoned cart emails"
+msgstr "ZapPopPop-e-mails voor achtergelaten winkelwagens"
+
+#: includes/modules/class-zappoppop-woo-recover.php:530
+msgid "Abandoned cart emails"
+msgstr "E-mails voor achtergelaten winkelwagens"
+
+#: includes/modules/class-zappoppop-woo-recover.php:533
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
+msgid "Status"
+msgstr "Status"
+
+#: includes/modules/class-zappoppop-woo-recover.php:535
+msgid "Saved on"
+msgstr "Opgeslagen op"
+
+#: includes/modules/class-zappoppop-woo-recover.php:536
+msgid "Cart lines"
+msgstr "Winkelwagenregels"
+
+#: includes/modules/class-zappoppop-woo-recover.php:558
+msgid "The address is kept on a do-not-email list because the person unsubscribed."
+msgstr "Het adres wordt bewaard op een lijst om niet te e-mailen omdat de persoon zich heeft uitgeschreven."
+
+#: includes/modules/class-zappoppop-woocommerce.php:98
+msgid "Generated by ZapPopPop campaign"
+msgstr "Gegenereerd door ZapPopPop-campagne"
+
+#: includes/stats/class-admin-stats.php:86
+msgid "Rank"
+msgstr "Rang"
+
+#: includes/stats/class-admin-stats.php:87
+msgid "Popup Campaign"
+msgstr "Popupcampagne"
+
+#: includes/stats/class-admin-stats.php:88
+msgid "Label Color"
+msgstr "Labelkleur"
+
+#: includes/stats/class-admin-stats.php:89
+msgid "Country"
+msgstr "Land"
+
+#: includes/stats/class-admin-stats.php:90
+msgid "Device"
+msgstr "Apparaat"
+
+#: includes/stats/class-admin-stats.php:91 templates/stats/chart.php:29
+msgid "Impressions"
+msgstr "Vertoningen"
+
+#: includes/stats/class-admin-stats.php:92
+msgid "Captured Leads"
+msgstr "Vastgelegde leads"
+
+#: includes/stats/class-admin-stats.php:93 templates/stats/kpi-summary.php:23
+msgid "Conversion Rate"
+msgstr "Conversiepercentage"
+
+#: includes/stats/class-admin-stats.php:163
+msgid "Invalid popup or color."
+msgstr "Ongeldige popup of kleur."
+
+#: includes/stats/class-pro-stats.php:49 includes/stats/class-pro-stats.php:50 includes/stats/class-pro-stats.php:64 includes/stats/class-pro-stats.php:102 templates/stats-view.php:62 templates/stats-view.php:66
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: includes/stats/class-pro-stats.php:66
+msgid "Track impressions, leads and conversion rates over time. Activate your ZapPopPop Pro licence to open the Statistics dashboard."
+msgstr "Volg vertoningen, leads en conversiepercentages in de tijd. Activeer je ZapPopPop Pro-licentie om het dashboard Statistieken te openen."
+
+#: includes/stats/class-pro-stats.php:97
+msgid "Maximum of %d series reached"
+msgstr "Maximum van %d reeksen bereikt"
+
+#: includes/stats/class-pro-stats.php:106
+msgid "Daily Impressions"
+msgstr "Dagelijkse vertoningen"
+
+#: includes/stats/class-pro-stats.php:128
+msgid "Once Weekly"
+msgstr "Eén keer per week"
+
+#: includes/stats/class-pro-stats.php:188
+msgid "No activity recorded."
+msgstr "Geen activiteit geregistreerd."
+
+#: modules/acc-popup-overlay/admin.js:163
+msgid "Maximum of 20 custom backgrounds."
+msgstr "Maximaal 20 eigen achtergronden."
+
+#: modules/acc-popup-overlay/admin.js:170
+msgid "Delete this background?"
+msgstr "Deze achtergrond verwijderen?"
+
+#: modules/acc-popup-overlay/admin.js:179
+msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
+msgstr "WordPress Media is niet beschikbaar. Voer de afbeeldings-URL in (JPG/PNG):"
+
+#: modules/acc-popup-overlay/admin.js:199
+msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
+msgstr "Kies een JPEG- of PNG-afbeelding (.jpg, .jpeg, .png)."
+
+#: modules/acc-popup-overlay/admin.js:202
+msgid "Please enter the animation HTML / JS."
+msgstr "Voer de HTML / JS van de animatie in."
+
+#: templates/license-edd.php:44 templates/license-page.php:24
+msgid "Licensing is not set up yet"
+msgstr "Licenties zijn nog niet ingesteld"
+
+#: templates/license-edd.php:46
+msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
+msgstr "ZapPopPop Pro controleert je licentiesleutel en levert updates via Easy Digital Downloads. Voeg de gegevens van je winkel toe aan wp-config.php, boven de regel met \"That's all, stop editing!\":"
+
+#: templates/license-edd.php:48
+msgid "Store home URL (https)"
+msgstr "Start-URL van de winkel (https)"
+
+#: templates/license-edd.php:49
+msgid "Download ID of ZapPopPop Pro in your store"
+msgstr "Download-ID van ZapPopPop Pro in je winkel"
+
+#: templates/license-edd.php:52 templates/license-page.php:32 templates/locked-page.php:23
+msgid "Your campaigns, statistics and settings are safe. Everything you created stays stored and keeps working on your site."
+msgstr "Je campagnes, statistieken en instellingen zijn veilig. Alles wat je hebt gemaakt blijft opgeslagen en blijft werken op je site."
+
+#: templates/license-edd.php:60
+msgid "Licence key"
+msgstr "Licentiesleutel"
+
+#: templates/license-edd.php:70
+msgid "Your licence has expired. Every Pro feature keeps working; renew it to receive updates and support."
+msgstr "Je licentie is verlopen. Alle Pro-functies blijven werken; verleng haar om updates en support te ontvangen."
+
+#: templates/license-edd.php:75
+msgid "Expires"
+msgstr "Verloopt op"
+
+#: templates/license-edd.php:77
+msgid "Last checked"
+msgstr "Laatst gecontroleerd"
+
+#: templates/license-edd.php:81
+msgid "Check now"
+msgstr "Nu controleren"
+
+#: templates/license-edd.php:82
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: templates/license-edd.php:85
+msgid "Enter your licence key"
+msgstr "Voer je licentiesleutel in"
+
+#: templates/license-edd.php:87
+msgid "You can find the key in your purchase receipt and in your account on the store."
+msgstr "Je vindt de sleutel op je aankoopbon en in je account in de winkel."
+
+#: templates/license-edd.php:93
+msgid "Only a network administrator can change the licence."
+msgstr "Alleen een netwerkbeheerder kan de licentie wijzigen."
+
+#: templates/license-edd.php:102
+msgid "Licence server"
+msgstr "Licentieserver"
+
+#: templates/license-edd.php:105
+msgid "Store"
+msgstr "Winkel"
+
+#: templates/license-edd.php:107 templates/license-page.php:28
+msgid "Product ID"
+msgstr "Product-ID"
+
+#: templates/license-edd.php:109
+msgid "This site"
+msgstr "Deze site"
+
+#: templates/license-edd.php:112
+msgid "Activating uses one site slot. Deactivate the licence before you move the site to another domain. Updates arrive in Dashboard > Updates while the licence is active."
+msgstr "Activeren gebruikt één siteplek. Deactiveer de licentie voordat je de site naar een ander domein verplaatst. Updates verschijnen onder Dashboard > Updates zolang de licentie actief is."
+
+#: templates/license-page.php:26
+msgid "ZapPopPop Pro uses Freemius for licence keys, updates and your account. Add the product details from your Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) to zappoppop-pro.php, or define them in wp-config.php:"
+msgstr "ZapPopPop Pro gebruikt Freemius voor licentiesleutels, updates en je account. Voeg de productgegevens uit je Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) toe aan zappoppop-pro.php, of definieer ze in wp-config.php:"
+
+#: templates/license-page.php:29
+msgid "Public key (starts with pk_)"
+msgstr "Publieke sleutel (begint met pk_)"
+
+#: templates/license-page.php:30
+msgid "Product slug"
+msgstr "Productslug"
+
+#: templates/settings-library-rows.php:15
+msgid "Canvas Confetti"
+msgstr "Canvas Confetti"
+
+#: templates/settings-library-rows.php:15
+msgid "Celebratory confetti particle bursts on lead capture and prize unlocks."
+msgstr "Feestelijke confettideeltjes bij het vastleggen van een lead en het ontgrendelen van prijzen."
+
+#: templates/settings-library-rows.php:20
+msgid "Canvas Fireworks"
+msgstr "Canvas Fireworks"
+
+#: templates/settings-library-rows.php:20
+msgid "Particle fireworks display for discount unlock screens."
+msgstr "Deeltjesvuurwerk voor schermen waarop kortingen worden ontgrendeld."
+
+#: templates/settings-library-rows.php:25
+msgid "Signature Pad"
+msgstr "Signature Pad"
+
+#: templates/settings-library-rows.php:25
+msgid "HTML5 canvas digital signature capture input fields."
+msgstr "Invoervelden voor het vastleggen van een digitale handtekening op een HTML5-canvas."
+
+#: templates/settings-library-rows.php:30
+msgid "Math Formula Parser"
+msgstr "Wiskundige formuleparser"
+
+#: templates/settings-library-rows.php:30
+msgid "Dynamic client-side math evaluation for quote calculators."
+msgstr "Dynamische wiskundige evaluatie aan de clientzijde voor offertecalculators."
+
+#: templates/settings-performance-rows.php:11
+msgid "Google Analytics Integration"
+msgstr "Google Analytics-integratie"
+
+#: templates/settings-performance-rows.php:16
+msgid "Automatically dispatch popup impressions, conversions, and close events to gtag() and dataLayer"
+msgstr "Verstuurt automatisch popupvertoningen, conversies en sluitgebeurtenissen naar gtag() en dataLayer"
+
+#: templates/settings-performance-rows.php:22
+msgid "AdBlock Detection Engine"
+msgstr "AdBlock-detectie-engine"
+
+#: templates/settings-performance-rows.php:27
+msgid "Enable global AdBlock extension monitoring script to trigger anti-adblock campaigns"
+msgstr "Schakelt het globale script voor het bewaken van AdBlock-extensies in om anti-adblockcampagnes te triggeren"
+
+#: templates/settings-security.php:17
+msgid "Bot Protection & Geo-Targeting Rules"
+msgstr "Botbeveiliging en geotargetingregels"
+
+#: templates/settings-security.php:19
+msgid "These rules need an active ZapPopPop Pro licence. Your saved choices are kept."
+msgstr "Deze regels vereisen een actieve ZapPopPop Pro-licentie. Je opgeslagen keuzes blijven behouden."
+
+#: templates/settings-security.php:23
+msgid "Email Validation Mode"
+msgstr "Modus voor e-mailvalidatie"
+
+#: templates/settings-security.php:26
+msgid "Standard RFC Syntax Check"
+msgstr "Standaard RFC-syntaxiscontrole"
+
+#: templates/settings-security.php:27
+msgid "Syntax Check + Block Disposable Domains (10MinuteMail, Mailinator)"
+msgstr "Syntaxiscontrole + wegwerpdomeinen blokkeren (10MinuteMail, Mailinator)"
+
+#: templates/settings-security.php:29
+msgid "Rejects throwaway and temporary email addresses from polluting your CRM."
+msgstr "Weigert wegwerp- en tijdelijke e-mailadressen zodat ze je CRM niet vervuilen."
+
+#: templates/settings-security.php:33
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: templates/settings-security.php:38
+msgid "Enable Google reCAPTCHA verification on all lead submission forms"
+msgstr "Google reCAPTCHA-verificatie inschakelen voor alle formulieren voor leadinzendingen"
+
+#: templates/settings-security.php:43
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA-sitesleutel"
+
+#: templates/settings-security.php:49
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA-geheime sleutel"
+
+#: templates/settings-security.php:55
+msgid "reCAPTCHA v3 Minimum Score"
+msgstr "Minimumscore reCAPTCHA v3"
+
+#: templates/settings-security.php:58
+msgid "Submissions scoring below this are rejected (0.1 = lenient, 0.9 = strict). Default 0.4. Requires a reCAPTCHA v3 key pair."
+msgstr "Inzendingen met een lagere score worden geweigerd (0,1 = soepel, 0,9 = streng). Standaard 0,4. Vereist een reCAPTCHA v3-sleutelpaar."
+
+#: templates/settings-security.php:62
+msgid "IP Rate Limiting"
+msgstr "Snelheidsbeperking per IP"
+
+#: templates/settings-security.php:65
+msgid "submissions allowed per IP per hour"
+msgstr "toegestane inzendingen per IP per uur"
+
+#: templates/settings-security.php:66
+msgid "Throttles aggressive bot submissions and prevents form spam."
+msgstr "Remt agressieve botinzendingen af en voorkomt formulierspam."
+
+#: templates/settings-security.php:70
+msgid "IP Geo-Targeting"
+msgstr "IP-geotargeting"
+
+#: templates/settings-security.php:75
+msgid "Enable IP-based country and regional targeting rules"
+msgstr "Op IP gebaseerde targetingregels voor land en regio inschakelen"
+
+#: templates/settings-security.php:80
+msgid "GeoIP Resolution Service"
+msgstr "GeoIP-resolutieservice"
+
+#: templates/settings-security.php:83
+msgid "None (Cloudflare CF-IPCountry header only, no external lookups)"
+msgstr "Geen (alleen de CF-IPCountry-header van Cloudflare, geen externe opzoekingen)"
+
+#: templates/settings-security.php:84
+msgid "ipapi.co (JSON API)"
+msgstr "ipapi.co (JSON-API)"
+
+#: templates/settings-security.php:87
+msgid "Provider used to detect visitor countries for geo-whitelisting and blacklisting."
+msgstr "Provider waarmee de landen van bezoekers worden gedetecteerd voor geografische whitelists en blacklists."
+
+#: templates/tracking-sections.php:7
+msgid "Statistics & Reports"
+msgstr "Statistieken en rapporten"
+
+#: templates/tracking-sections.php:9
+msgid "Daily Stats Retention"
+msgstr "Bewaartermijn van dagelijkse statistieken"
+
+#: templates/tracking-sections.php:9
+msgid "days (0 = keep forever)"
+msgstr "dagen (0 = voor altijd bewaren)"
+
+#: templates/tracking-sections.php:10
+msgid "Weekly Email Report"
+msgstr "Wekelijks e-mailrapport"
+
+#: templates/tracking-sections.php:10
+msgid "Email impressions, leads and CR per campaign every week"
+msgstr "Elke week vertoningen, leads en conversiepercentage per campagne e-mailen"
+
+#: templates/tracking-sections.php:12
+msgid "Report Recipient"
+msgstr "Ontvanger van rapport"
+
+#: templates/tracking-sections.php:17
+msgid "A/B Testing"
+msgstr "A/B-testen"
+
+#: templates/tracking-sections.php:20
+msgid "Default Embed Type"
+msgstr "Standaard insluittype"
+
+#: templates/tracking-sections.php:23
+msgid "Inline Popup"
+msgstr "Inline popup"
+
+#: templates/tracking-sections.php:24
+msgid "On-Load Popup"
+msgstr "Popup bij laden"
+
+#: templates/tracking-sections.php:26
+msgid "Used by [zappoppop_ab] when the shortcode has no mode attribute."
+msgstr "Gebruikt door [zappoppop_ab] wanneer de shortcode geen mode-attribuut heeft."
+
+#: templates/tracking-sections.php:29
+msgid "Variant Cookie Lifetime"
+msgstr "Levensduur van variantcookie"
+
+#: templates/tracking-sections.php:29
+msgid "days"
+msgstr "dagen"
+
+#: templates/tracking-sections.php:30
+msgid "Sticky Variant by User"
+msgstr "Vaste variant per gebruiker"
+
+#: templates/tracking-sections.php:30
+msgid "Logged-in visitors always see the same variant on every device"
+msgstr "Ingelogde bezoekers zien op elk apparaat altijd dezelfde variant"
+
+#: templates/tracking-sections.php:31
+msgid "Auto-Promote Winner"
+msgstr "Winnaar automatisch promoten"
+
+#: templates/tracking-sections.php:31
+msgid "Keep only the best variant once the result is statistically significant"
+msgstr "Alleen de beste variant behouden zodra het resultaat statistisch significant is"
+
+#: templates/tracking-sections.php:31
+msgid "Uses each popup's lifetime impressions and leads. Checked daily."
+msgstr "Gebruikt de totale vertoningen en leads van elke popup. Wordt dagelijks gecontroleerd."
+
+#: templates/tracking-sections.php:32
+msgid "Minimum Impressions per Variant"
+msgstr "Minimaal aantal vertoningen per variant"
+
+#: templates/tracking-sections.php:34
+msgid "Confidence Level"
+msgstr "Betrouwbaarheidsniveau"
+
+#: templates/tracking-sections.php:45
+msgid "Cache Compatibility"
+msgstr "Cachecompatibiliteit"
+
+#: templates/tracking-sections.php:47
+msgid "Exclude A/B Pages from Page Cache"
+msgstr "A/B-pagina's uitsluiten van paginacache"
+
+#: templates/tracking-sections.php:47
+msgid "Send the DONOTCACHEPAGE flag on pages that contain [zappoppop_ab]"
+msgstr "De DONOTCACHEPAGE-vlag verzenden op pagina's die [zappoppop_ab] bevatten"
+
+#: templates/tracking-sections.php:47
+msgid "Honoured by WP Rocket, W3 Total Cache, LiteSpeed and WP Super Cache."
+msgstr "Wordt gerespecteerd door WP Rocket, W3 Total Cache, LiteSpeed en WP Super Cache."
+
+#: templates/ab/bar-actions.php:8
+msgid "New A/B Campaign"
+msgstr "Nieuwe A/B-campagne"
+
+#: templates/ab/modal-create.php:12
+msgid "Create A/B Split Testing Experiment"
+msgstr "A/B-splittestexperiment maken"
+
+#: templates/ab/modal-create.php:13
+msgid "Close"
+msgstr "Sluiten"
+
+#: templates/ab/modal-create.php:17
+msgid "Campaign Title"
+msgstr "Campagnetitel"
+
+#: templates/ab/modal-create.php:18
+msgid "e.g. Summer Promo Headline Test"
+msgstr "bijv. Koptest voor zomerpromotie"
+
+#: templates/ab/modal-create.php:20
+msgid "Select Popups for Testing (Minimum 2)"
+msgstr "Selecteer popups om te testen (minimaal 2)"
+
+#: templates/ab/modal-create.php:21
+msgid "Traffic will be distributed randomly across your selected variations."
+msgstr "Het verkeer wordt willekeurig verdeeld over de geselecteerde varianten."
+
+#: templates/ab/modal-create.php:25
+msgid "No published popups available. Please create and publish popups in the builder first."
+msgstr "Geen gepubliceerde popups beschikbaar. Maak en publiceer eerst popups in de builder."
+
+#: templates/ab/modal-create.php:30
+msgid "inactive"
+msgstr "inactief"
+
+#: templates/ab/modal-create.php:38
+msgid "Launch Campaign"
+msgstr "Campagne starten"
+
+#: templates/ab/pagination.php:25
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s item"
+msgstr[1] "%s items"
+
+#: templates/ab/pagination.php:30
+msgid "First page"
+msgstr "Eerste pagina"
+
+#: templates/ab/pagination.php:31
+msgid "Previous page"
+msgstr "Vorige pagina"
+
+#: templates/ab/pagination.php:33
+msgid "%1$s of %2$s"
+msgstr "%1$s van %2$s"
+
+#: templates/ab/pagination.php:35
+msgid "Next page"
+msgstr "Volgende pagina"
+
+#: templates/ab/pagination.php:36
+msgid "Last page"
+msgstr "Laatste pagina"
+
+#: templates/ab/table.php:22
+msgid "Campaign"
+msgstr "Campagne"
+
+#: templates/ab/table.php:23
+msgid "Variations & Performance"
+msgstr "Varianten en prestaties"
+
+#: templates/ab/table.php:25
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: templates/ab/table.php:44
+msgid "No campaigns match your filters."
+msgstr "Geen campagnes komen overeen met je filters."
+
+#: templates/ab/table.php:46
+msgid "No A/B testing campaigns found. Click \"New A/B Campaign\" in the top bar to launch your first split-test experiment."
+msgstr "Geen A/B-testcampagnes gevonden. Klik op \"Nieuwe A/B-campagne\" in de bovenbalk om je eerste splittestexperiment te starten."
+
+#: templates/ab/table.php:66
+msgid "Created:"
+msgstr "Gemaakt op:"
+
+#: templates/ab/table.php:69
+msgid "Restore"
+msgstr "Herstellen"
+
+#: templates/ab/table.php:70
+msgid "Delete Permanently"
+msgstr "Definitief verwijderen"
+
+#: templates/ab/table.php:72
+msgid "Edit"
+msgstr "Bewerken"
+
+#: templates/ab/table.php:73 templates/ab/table.php:104 templates/ab/toolbar.php:10 templates/stats/chart.php:41 templates/stats/chart.php:59 templates/stats/table-top-campaigns.php:82
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: templates/ab/table.php:79
+msgid "No variations attached."
+msgstr "Geen varianten gekoppeld."
+
+#: templates/ab/table.php:92
+msgid "Variant %s"
+msgstr "Variant %s"
+
+#: templates/ab/table.php:93
+msgid "%s%% CR"
+msgstr "%s%% CR"
+
+#: templates/ab/table.php:96
+msgid "Impr:"
+msgstr "Vert.:"
+
+#: templates/ab/table.php:96
+msgid "• Leads:"
+msgstr "• Leads:"
+
+#: templates/ab/table.php:106 templates/ab/toolbar.php:9
+msgid "Inactive"
+msgstr "Inactief"
+
+#: templates/ab/table.php:107
+msgid "Campaign active"
+msgstr "Campagne actief"
+
+#: templates/ab/table.php:113
+msgid "Click to copy shortcode"
+msgstr "Klik om de shortcode te kopiëren"
+
+#: templates/ab/toolbar.php:26
+msgid "Search campaigns:"
+msgstr "Campagnes zoeken:"
+
+#: templates/ab/toolbar.php:27
+msgid "Title or UID"
+msgstr "Titel of UID"
+
+#: templates/ab/toolbar.php:28
+msgid "Search Campaigns"
+msgstr "Campagnes zoeken"
+
+#: templates/ab/toolbar.php:30
+msgid "Clear"
+msgstr "Wissen"
+
+#: templates/builder/ribbon-tools.php:3
+msgid "8. Progress Bar (progress)"
+msgstr "8. Voortgangsbalk (progress)"
+
+#: templates/builder/ribbon-tools.php:3
+msgid "Progress"
+msgstr "Voortgang"
+
+#: templates/builder/ribbon-tools.php:6
+msgid "19. Image Select (imageselect)"
+msgstr "19. Afbeeldingskeuze (imageselect)"
+
+#: templates/builder/ribbon-tools.php:6
+msgid "ImgSel"
+msgstr "AfbKeuze"
+
+#: templates/builder/ribbon-tools.php:9
+msgid "20. Tile (tile)"
+msgstr "20. Tegel (tile)"
+
+#: templates/builder/ribbon-tools.php:9
+msgid "Tile"
+msgstr "Tegel"
+
+#: templates/builder/ribbon-tools.php:12
+msgid "25. Rating (rating)"
+msgstr "25. Beoordeling (rating)"
+
+#: templates/builder/ribbon-tools.php:12
+msgid "Rating"
+msgstr "Beoordeling"
+
+#: templates/builder/elements/elem-08-progress.php:6
+msgid "8. Progress Bar Settings"
+msgstr "8. Instellingen voortgangsbalk"
+
+#: templates/builder/elements/elem-08-progress.php:8
+msgid "PROGRESS MODE"
+msgstr "VOORTGANGSMODUS"
+
+#: templates/builder/elements/elem-08-progress.php:10
+msgid "Manual (fixed percent)"
+msgstr "Handmatig (vast percentage)"
+
+#: templates/builder/elements/elem-08-progress.php:11
+msgid "Auto: Form completion"
+msgstr "Automatisch: formulier invullen"
+
+#: templates/builder/elements/elem-08-progress.php:12
+msgid "Auto: Canvas steps"
+msgstr "Automatisch: canvasstappen"
+
+#: templates/builder/elements/elem-08-progress.php:18
+msgid "FILL PERCENT (0–100%)"
+msgstr "VULPERCENTAGE (0–100%)"
+
+#: templates/builder/elements/elem-08-progress.php:22
+msgid "FILL BAR COLOR"
+msgstr "VULKLEUR VAN DE BALK"
+
+#: templates/builder/elements/elem-08-progress.php:27
+msgid "TRACK (BACKGROUND) COLOR"
+msgstr "KLEUR VAN HET SPOOR (ACHTERGROND)"
+
+#: templates/builder/elements/elem-08-progress.php:30
+msgid "PROGRESS LABEL TEXT"
+msgstr "TEKST VAN VOORTGANGSLABEL"
+
+#: templates/builder/elements/elem-08-progress.php:31
+msgid "e.g. 65% Complete — Almost There!"
+msgstr "bijv. Voltooid: 65% — bijna klaar!"
+
+#: templates/builder/elements/elem-08-progress.php:34
+msgid "Striped Bar"
+msgstr "Gestreepte balk"
+
+#: templates/builder/elements/elem-08-progress.php:37
+msgid "Animated Stripes"
+msgstr "Geanimeerde strepen"
+
+#: templates/builder/elements/elem-08-progress.php:40
+msgid "Show %"
+msgstr "% tonen"
+
+#: templates/builder/elements/elem-08-progress.php:47
+msgid "PROGRESS VALUE:"
+msgstr "VOORTGANGSWAARDE:"
+
+#: templates/builder/elements/elem-08-progress.php:49
+msgid "BAR FILL COLOR"
+msgstr "VULKLEUR VAN DE BALK"
+
+#: templates/builder/elements/elem-19-imageselect.php:6
+msgid "19. Visual Image Select Grid"
+msgstr "19. Visueel raster voor afbeeldingskeuze"
+
+#: templates/builder/elements/elem-19-imageselect.php:7
+msgid "IMAGE CHOICES (LABEL + IMAGE URL)"
+msgstr "AFBEELDINGSKEUZES (LABEL + AFBEELDINGS-URL)"
+
+#: templates/builder/elements/elem-19-imageselect.php:11
+msgid "Label"
+msgstr "Label"
+
+#: templates/builder/elements/elem-19-imageselect.php:205 templates/builder/elements/elem-20-tile.php:11
+msgid "GRID COLUMNS"
+msgstr "RASTERKOLOMMEN"
+
+#: templates/builder/elements/elem-19-imageselect.php:207 templates/builder/elements/elem-20-tile.php:13
+msgid "2 Columns"
+msgstr "2 kolommen"
+
+#: templates/builder/elements/elem-19-imageselect.php:208 templates/builder/elements/elem-20-tile.php:14
+msgid "3 Columns"
+msgstr "3 kolommen"
+
+#: templates/builder/elements/elem-19-imageselect.php:209 templates/builder/elements/elem-20-tile.php:15
+msgid "4 Columns"
+msgstr "4 kolommen"
+
+#: templates/builder/elements/elem-19-imageselect.php:213
+msgid "ACTIVE BORDER"
+msgstr "ACTIEVE RAND"
+
+#: templates/builder/elements/elem-19-imageselect.php:218
+msgid "Allow Multiple Image Selections"
+msgstr "Meerdere afbeeldingsselecties toestaan"
+
+#: templates/builder/elements/elem-20-tile.php:6
+msgid "20. Interactive Tile Selector"
+msgstr "20. Interactieve tegelkiezer"
+
+#: templates/builder/elements/elem-20-tile.php:7
+msgid "TILE CHOICES (ONE PER LINE)"
+msgstr "TEGELKEUZES (ÉÉN PER REGEL)"
+
+#: templates/builder/elements/elem-20-tile.php:19
+msgid "ACTIVE ACCENT"
+msgstr "ACTIEF ACCENT"
+
+#: templates/builder/elements/elem-20-tile.php:24
+msgid "Allow Multi-Tile Selection"
+msgstr "Meerdere tegels selecteren toestaan"
+
+#: templates/builder/elements/elem-25-rating.php:6
+msgid "25. Interactive Rating Scale"
+msgstr "25. Interactieve beoordelingsschaal"
+
+#: templates/builder/elements/elem-25-rating.php:9
+msgid "SCALE MAX"
+msgstr "SCHAALMAXIMUM"
+
+#: templates/builder/elements/elem-25-rating.php:11
+msgid "5 Stars / Icons"
+msgstr "5 sterren / pictogrammen"
+
+#: templates/builder/elements/elem-25-rating.php:12
+msgid "10 Stars / Icons"
+msgstr "10 sterren / pictogrammen"
+
+#: templates/builder/elements/elem-25-rating.php:16
+msgid "ICON GLYPH"
+msgstr "PICTOGRAMGLYPH"
+
+#: templates/builder/elements/elem-25-rating.php:18
+msgid "★ Star"
+msgstr "★ Ster"
+
+#: templates/builder/elements/elem-25-rating.php:19
+msgid "♥ Heart"
+msgstr "♥ Hart"
+
+#: templates/builder/elements/elem-25-rating.php:20
+msgid "👍 Thumbs Up"
+msgstr "👍 Duim omhoog"
+
+#: templates/builder/elements/elem-25-rating.php:26
+msgid "ACTIVE COLOR"
+msgstr "ACTIEVE KLEUR"
+
+#: templates/builder/elements/elem-25-rating.php:30
+msgid "INACTIVE COLOR"
+msgstr "INACTIEVE KLEUR"
+
+#: templates/builder/elements/elem-25-rating.php:38
+msgid "DEFAULT STAR RATING (1-5)"
+msgstr "STANDAARD STERRENBEOORDELING (1-5)"
+
+#: templates/builder/elements/elem-25-rating.php:40
+msgid "STAR COLOR"
+msgstr "STERKLEUR"
+
+#: templates/builder/elements/elem-25-rating.php:42
+msgid "FIELD NAME / TOKEN"
+msgstr "VELDNAAM / TOKEN"
+
+#: templates/stats/chart.php:27
+msgid "Performance Timeline"
+msgstr "Prestatietijdlijn"
+
+#: templates/stats/chart.php:30
+msgid "Leads"
+msgstr "Leads"
+
+#: templates/stats/chart.php:32
+msgid "Chart data (%d)"
+msgstr "Grafiekgegevens (%d)"
+
+#: templates/stats/chart.php:34 templates/stats/data.php:99
+msgid "All popups (total)"
+msgstr "Alle popups (totaal)"
+
+#: templates/stats/chart.php:46
+msgid "Max %d series"
+msgstr "Max. %d reeksen"
+
+#: templates/stats/data.php:62
+msgid "Untitled Popup"
+msgstr "Popup zonder titel"
+
+#: templates/stats/header.php:8
+msgid "Visual Statistics & Analytics"
+msgstr "Visuele statistieken en analyses"
+
+#: templates/stats/header.php:9
+msgid "Track campaign performance, conversion velocity, and audience engagement trends."
+msgstr "Volg de campagneprestaties, de conversiesnelheid en trends in publieksbetrokkenheid."
+
+#: templates/stats/header.php:15
+msgid "Last 7 Days"
+msgstr "Afgelopen 7 dagen"
+
+#: templates/stats/header.php:20
+msgid "Last 30 Days"
+msgstr "Afgelopen 30 dagen"
+
+#: templates/stats/header.php:25
+msgid "All Time"
+msgstr "Altijd"
+
+#: templates/stats/kpi-summary.php:8
+msgid "Period Impressions"
+msgstr "Vertoningen in periode"
+
+#: templates/stats/kpi-summary.php:10
+msgid "Views recorded"
+msgstr "Geregistreerde weergaven"
+
+#: templates/stats/kpi-summary.php:13
+msgid "Leads Captured"
+msgstr "Vastgelegde leads"
+
+#: templates/stats/kpi-summary.php:15
+msgid "Form completions"
+msgstr "Voltooide formulieren"
+
+#: templates/stats/kpi-summary.php:18
+msgid "Confirmed Leads"
+msgstr "Bevestigde leads"
+
+#: templates/stats/kpi-summary.php:20
+msgid "Verified double opt-in"
+msgstr "Geverifieerde dubbele opt-in"
+
+#: templates/stats/kpi-summary.php:25
+msgid "Submissions / Views"
+msgstr "Inzendingen / weergaven"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Desktop"
+msgstr "Desktop"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Tablet"
+msgstr "Tablet"
+
+#: templates/stats/table-top-campaigns.php:26
+msgid "Top Performing Campaigns"
+msgstr "Best presterende campagnes"
+
+#: templates/stats/table-top-campaigns.php:31
+msgid "Per page"
+msgstr "Per pagina"
+
+#: templates/stats/table-top-campaigns.php:38
+msgid "Columns"
+msgstr "Kolommen"
+
+#: templates/stats/table-top-campaigns.php:41 templates/stats/table-top-campaigns.php:59
+msgid "Drag to reposition"
+msgstr "Sleep om te verplaatsen"
+
+#: templates/stats/table-top-campaigns.php:65
+msgid "No campaign records available to rank."
+msgstr "Geen campagnerecords beschikbaar om te rangschikken."
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Label color"
+msgstr "Labelkleur"
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Pick a label color"
+msgstr "Kies een labelkleur"
+
+#: templates/stats/table-top-campaigns.php:88
+msgid "Delete label"
+msgstr "Label verwijderen"
+
+#: templates/stats/table-top-campaigns.php:121
+msgid "%1$d popups - page %2$d of %3$d"
+msgstr "%1$d popups - pagina %2$d van %3$d"

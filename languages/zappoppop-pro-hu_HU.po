@@ -1,0 +1,2624 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zappoppop-pro\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: zappoppop-pro.php
+msgid "ZapPopPop Pro"
+msgstr "ZapPopPop Pro"
+
+#: zappoppop-pro.php
+msgid "https://zappoppop.com/"
+msgstr "https://zappoppop.com/"
+
+#: zappoppop-pro.php
+msgid "Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics."
+msgstr "Pro bővítmény a ZapPopPophoz: további szerkesztőelemek, modulok, sablonok, A/B-kampányok és statisztikák."
+
+#: zappoppop-pro.php
+msgid "ZapPopPop"
+msgstr "ZapPopPop"
+
+#: assets/js/stats.js:31 assets/js/stats.js:45
+msgid "Error"
+msgstr "Hiba"
+
+#: assets/js/stats.js:34
+msgid "Request failed (HTTP %s)"
+msgstr "A kérés sikertelen (HTTP %s)"
+
+#: assets/js/stats.js:34
+msgid "Request failed"
+msgstr "A kérés sikertelen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:10
+msgid "10 Stars"
+msgstr "10 csillag"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:11
+msgid "5 Stars"
+msgstr "5 csillag"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:12 includes/modules/class-zappoppop-targeting-triggers.php:441
+msgid "A post matches when it is in any selected category, tag or post list."
+msgstr "Egy bejegyzés akkor egyezik, ha a kijelölt kategóriák, címkék vagy bejegyzéslisták bármelyikében szerepel."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:13 includes/modules/class-zappoppop-woo-cart.php:768
+msgid "Abandoned cart email"
+msgstr "Elhagyott kosár e-mail"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:14 includes/modules/class-zappoppop-targeting-triggers.php:423
+msgid "Activity"
+msgstr "Tevékenység"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:15
+msgid "Add field"
+msgstr "Mező hozzáadása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:16 includes/modules/class-zappoppop-targeting-triggers.php:442
+msgid "All pages"
+msgstr "Minden oldal"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:17 includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
+msgid "All roles"
+msgstr "Minden szerepkör"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:18 includes/modules/class-zappoppop-targeting-triggers.php:438
+msgid "Also show on category archive pages"
+msgstr "Megjelenítés a kategória-archívum oldalakon is"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:19 includes/modules/class-zappoppop-targeting-triggers.php:440
+msgid "Also show on tag archive pages"
+msgstr "Megjelenítés a címke-archívum oldalakon is"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:20 includes/modules/class-zappoppop-targeting-triggers.php:424
+msgid "Always"
+msgstr "Mindig"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:21 includes/modules/class-zappoppop-woo-cart.php:736
+msgid "Amount left for free shipping"
+msgstr "Az ingyenes szállításhoz hátralévő összeg"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:22 includes/modules/class-zappoppop-woo-cart.php:749
+msgid "Anywhere"
+msgstr "Bárhol"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:23 includes/modules/class-zappoppop-woo-cart.php:737
+msgid "Applied coupon code"
+msgstr "Alkalmazott kuponkód"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:24
+msgid "Apply Image Select Size Preset"
+msgstr "Képválasztó méret-előbeállításának alkalmazása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:25 includes/modules/class-zappoppop-woo-cart.php:741
+msgid "Apply it to the cart automatically"
+msgstr "Automatikus alkalmazás a kosárra"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:26 templates/builder/elements/elem-08-progress.php:13
+msgid "Auto: WooCommerce free shipping"
+msgstr "Automatikus: WooCommerce ingyenes szállítás"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:27 includes/modules/class-zappoppop-woo-cart.php:760
+msgid "Automatic"
+msgstr "Automatikus"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:28
+msgid "Bottom center"
+msgstr "Alul középen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:29
+msgid "Bottom left"
+msgstr "Alul balra"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:30
+msgid "Bottom right"
+msgstr "Alul jobbra"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:31 includes/modules/class-zappoppop-woo-cart.php:713
+msgid "Cart conditions"
+msgstr "Kosárfeltételek"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:32 includes/modules/class-zappoppop-woo-cart.php:734
+msgid "Cart subtotal"
+msgstr "Kosár részösszege"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:33 includes/modules/class-zappoppop-woo-cart.php:733
+msgid "Cart total"
+msgstr "Kosár végösszege"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:34 includes/modules/class-zappoppop-woo-cart.php:706
+msgid "Cart-aware display rules and live cart text for this popup."
+msgstr "Kosárfüggő megjelenítési szabályok és élő kosárszöveg ehhez a popuphoz."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:35 includes/modules/class-zappoppop-targeting-triggers.php:435
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:36 includes/modules/class-zappoppop-targeting-triggers.php:425
+msgid "Certain period"
+msgstr "Meghatározott időszak"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:37
+msgid "Change Progress Bar"
+msgstr "Folyamatjelző módosítása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:38
+msgid "Change Progress Mode"
+msgstr "Folyamatjelző módjának módosítása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:39 includes/modules/class-zappoppop-targeting-triggers.php:408
+msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
+msgstr "Válassza ki, mikor jelenjen meg a popup. Amíg nincs kiválasztva, a popup az alapértelmezett viselkedését tartja meg."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:40 includes/modules/class-zappoppop-woo-cart.php:759
+msgid "Chosen by you"
+msgstr "Ön által választott"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:41 includes/modules/class-zappoppop-targeting-triggers.php:418
+msgid "Close delay"
+msgstr "Bezárási késleltetés"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:42 includes/modules/class-zappoppop-woo-cart.php:754
+msgid "Comma-separated product IDs. Empty = off."
+msgstr "Vesszővel elválasztott termékazonosítók. Üres = ki."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:43 includes/modules/class-zappoppop-woo-cart.php:720
+msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
+msgstr "Vesszővel elválasztva. A popup akkor jelenik meg, ha ezen termékek bármelyike a kosárban van. Üres = ki."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:44
+msgid "Confirmation URL"
+msgstr "Megerősítési URL"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:45 includes/modules/class-zappoppop-woo-cart.php:773
+msgid "Consent field name"
+msgstr "Hozzájárulási mező neve"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:46 includes/modules/class-zappoppop-woo-cart.php:738
+msgid "Coupon"
+msgstr "Kupon"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:47 includes/modules/class-zappoppop-woo-cart.php:739
+msgid "Coupon code"
+msgstr "Kuponkód"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:48 includes/modules/class-zappoppop-woo-cart.php:746
+msgid "Coupon countdown"
+msgstr "Kupon-visszaszámláló"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:49 includes/modules/class-zappoppop-woo-cart.php:747
+msgid "Coupon expiry date"
+msgstr "Kupon lejárati dátuma"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:50
+msgid "Default Rating"
+msgstr "Alapértelmezett értékelés"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:51 includes/modules/class-zappoppop-woo-cart.php:731
+msgid "Dynamic text"
+msgstr "Dinamikus szöveg"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:52
+msgid "Email me a reminder about my cart"
+msgstr "Küldjenek e-mailben emlékeztetőt a kosaramról"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:53 includes/modules/class-zappoppop-woo-cart.php:777
+msgid "Email message"
+msgstr "E-mail üzenete"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:54 includes/modules/class-zappoppop-woo-cart.php:775
+msgid "Email subject"
+msgstr "E-mail tárgya"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:55 includes/modules/class-zappoppop-woo-cart.php:711
+msgid "Empty"
+msgstr "Üres"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:56 includes/modules/class-zappoppop-woo-cart.php:712
+msgid "Empty ignores the conditions below."
+msgstr "Az üres érték figyelmen kívül hagyja az alábbi feltételeket."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:57 includes/class-pro-module-html-strings.php:64
+msgid "Enable Double Opt-In"
+msgstr "Kétlépcsős feliratkozás engedélyezése"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:58 includes/modules/class-zappoppop-targeting-triggers.php:403
+msgid "Enable Targeting Triggers"
+msgstr "Célzási indítók engedélyezése"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:59 includes/modules/class-zappoppop-woo-cart.php:705
+msgid "Enable WooCommerce Cart"
+msgstr "WooCommerce kosár engedélyezése"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:60 includes/modules/class-zappoppop-targeting-triggers.php:411
+msgid "Every time"
+msgstr "Minden alkalommal"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:61
+msgid "Fill the rating from a URL query parameter, e.g. ?rating=4."
+msgstr "Az értékelést egy URL-lekérdezési paraméterből tölti ki, pl. ?rating=4."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:62 includes/modules/class-zappoppop-woo-cart.php:728
+msgid "Free shipping"
+msgstr "Ingyenes szállítás"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:63 includes/modules/class-zappoppop-woo-cart.php:729
+msgid "Free shipping threshold"
+msgstr "Ingyenes szállítás küszöbe"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:64 includes/modules/class-zappoppop-woo-cart.php:710
+msgid "Has items"
+msgstr "Van benne tétel"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:65 includes/modules/class-zappoppop-targeting-triggers.php:431
+msgid "Homepage"
+msgstr "Főoldal"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:66
+msgid "How many stars or icons the rating scale shows."
+msgstr "Hány csillagot vagy ikont mutasson az értékelési skála."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:67 includes/modules/class-zappoppop-targeting-triggers.php:422
+msgid "Inactivity delay"
+msgstr "Inaktivitási késleltetés"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:68
+msgid "Insert subscriber value"
+msgstr "Feliratkozói érték beszúrása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:69 includes/modules/class-zappoppop-woo-cart.php:716
+msgid "Maximum subtotal"
+msgstr "Legnagyobb részösszeg"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:70
+msgid "Middle left"
+msgstr "Középen balra"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:71
+msgid "Middle right"
+msgstr "Középen jobbra"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:72 includes/modules/class-zappoppop-woo-cart.php:714
+msgid "Minimum items"
+msgstr "Legkevesebb tétel"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:73 includes/modules/class-zappoppop-woo-cart.php:715
+msgid "Minimum subtotal"
+msgstr "Legkisebb részösszeg"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:74
+msgid "New Image Select Preset"
+msgstr "Új képválasztó-előbeállítás"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:75
+msgid "No field selected"
+msgstr "Nincs kiválasztott mező"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:76 includes/modules/class-zappoppop-woo-cart.php:724
+msgid "No product categories found."
+msgstr "Nem található termékkategória."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:77
+msgid "No rating"
+msgstr "Nincs értékelés"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:78
+msgid "None (color overlay only)"
+msgstr "Nincs (csak színes réteg)"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:79
+msgid "Number of Stars"
+msgstr "Csillagok száma"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:80 includes/modules/class-zappoppop-woo-cart.php:735
+msgid "Number of items"
+msgstr "Tételek száma"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:81 includes/modules/class-zappoppop-woo-cart.php:758
+msgid "Offer an upsell product"
+msgstr "Kiegészítő termék ajánlása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:82 includes/modules/class-zappoppop-targeting-triggers.php:412
+msgid "Once only"
+msgstr "Csak egyszer"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:83 includes/modules/class-zappoppop-targeting-triggers.php:413
+msgid "Once per period"
+msgstr "Időszakonként egyszer"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:84 includes/modules/class-zappoppop-targeting-triggers.php:445
+msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
+msgstr "Soronként egy. A popup akkor jelenik meg, ha az oldal címe tartalmazza ezek bármelyikét. Üres = minden URL."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:85 includes/modules/class-zappoppop-woo-cart.php:745
+msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
+msgstr "Csak ez a kód alkalmazható. Ha érvénytelen vagy lejárt, nem történik semmi."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:86
+msgid "Open"
+msgstr "Nyitva"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:87 includes/modules/class-zappoppop-targeting-triggers.php:433
+msgid "Pages"
+msgstr "Oldalak"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:88 includes/modules/class-zappoppop-targeting-triggers.php:410
+msgid "Periodicity"
+msgstr "Gyakoriság"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:89
+msgid "Picture"
+msgstr "Kép"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:90 includes/modules/class-zappoppop-targeting-triggers.php:401
+msgid "Popup Targeting"
+msgstr "Popup célzása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:91 includes/class-pro-module-html-strings.php:99
+msgid "Popup position"
+msgstr "Popup pozíciója"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:92 includes/modules/class-zappoppop-targeting-triggers.php:432
+msgid "Posts"
+msgstr "Bejegyzések"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:93
+msgid "Pre-selected rating when the form loads. Choose No rating to leave it empty."
+msgstr "Az űrlap betöltésekor előre kiválasztott értékelés. Válassza a Nincs értékelés lehetőséget, hogy üresen maradjon."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:94 includes/modules/class-zappoppop-woo-cart.php:719
+msgid "Product IDs"
+msgstr "Termékazonosítók"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:95 includes/modules/class-zappoppop-woo-cart.php:721
+msgid "Product categories"
+msgstr "Termékkategóriák"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:96 includes/modules/class-zappoppop-woo-cart.php:755
+msgid "Product page categories"
+msgstr "Terméklap-kategóriák"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:97 includes/modules/class-zappoppop-woo-cart.php:750
+msgid "Product pages"
+msgstr "Terméklapok"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:98 includes/modules/class-zappoppop-woo-cart.php:753
+msgid "Products"
+msgstr "Termékek"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:99
+msgid "Remove icon"
+msgstr "Ikon eltávolítása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:100
+msgid "Save Changes"
+msgstr "Módosítások mentése"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:101 includes/modules/class-zappoppop-targeting-triggers.php:420
+msgid "Scrolling offset"
+msgstr "Görgetési eltolás"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:102 includes/modules/class-zappoppop-targeting-triggers.php:421
+msgid "Scrolling offset unit"
+msgstr "Görgetési eltolás mértékegysége"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:103
+msgid "Select icon"
+msgstr "Ikon kiválasztása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:104 includes/modules/class-zappoppop-woo-cart.php:751
+msgid "Selected products"
+msgstr "Kiválasztott termékek"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:105 includes/class-pro-module-html-strings.php:110
+msgid "Send Welcome Email"
+msgstr "Üdvözlő e-mail küldése"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:106 includes/modules/class-zappoppop-woo-cart.php:769
+msgid "Send a cart reminder email"
+msgstr "Kosár-emlékeztető e-mail küldése"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:107 includes/modules/class-zappoppop-woo-cart.php:771
+msgid "Send after"
+msgstr "Küldés ennyi idő után:"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:108 includes/modules/class-zappoppop-targeting-triggers.php:414
+msgid "Show again after"
+msgstr "Újramegjelenítés ennyi idő után:"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:109 includes/modules/class-zappoppop-woo-cart.php:748
+msgid "Show on pages"
+msgstr "Megjelenítés az oldalakon"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:110 includes/modules/class-zappoppop-woo-cart.php:726
+msgid "Show right after an item is added to the cart"
+msgstr "Megjelenítés közvetlenül azután, hogy egy tételt a kosárba tettek"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:111 includes/modules/class-zappoppop-woo-cart.php:708
+msgid "Show this popup when the cart is"
+msgstr "A popup megjelenítése, ha a kosár"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:112 includes/modules/class-zappoppop-woo-cart.php:780
+msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
+msgstr "Megjelenik az e-mailben, és akkor érvényesül, amikor a látogató visszatér a kosárhoz. Használjon valódi WooCommerce-kupont."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:113 includes/modules/class-zappoppop-targeting-triggers.php:429
+msgid "Site Area"
+msgstr "Webhelyterület"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:114 includes/modules/class-zappoppop-targeting-triggers.php:430
+msgid "Sitewide"
+msgstr "Az egész webhelyen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:115 includes/modules/class-zappoppop-targeting-triggers.php:437
+msgid "Specific"
+msgstr "Meghatározott"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:116 includes/modules/class-zappoppop-targeting-triggers.php:443
+msgid "Specific pages"
+msgstr "Meghatározott oldalak"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118 includes/modules/class-zappoppop-targeting-triggers.php:416
+msgid "Start delay"
+msgstr "Indítási késleltetés"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:118
+msgid "Store the submitted rating with the lead record."
+msgstr "A beküldött értékelést a lead rekordjával együtt tárolja."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:119
+msgid "Subscriber values"
+msgstr "Feliratkozói értékek"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:120 includes/modules/class-zappoppop-targeting-triggers.php:439
+msgid "Tags"
+msgstr "Címkék"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:121 includes/modules/class-zappoppop-targeting-triggers.php:409
+msgid "Target Properties"
+msgstr "Célzási tulajdonságok"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:122 includes/class-pro-module-html-strings.php:127
+msgid "Thank you. We have already got your request."
+msgstr "Köszönjük. A kérését már megkaptuk."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:123
+msgid "The URL parameter to read, e.g. rating for ?rating=4."
+msgstr "A beolvasandó URL-paraméter, pl. rating a ?rating=4 esetén."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:124 includes/modules/class-zappoppop-woo-cart.php:764
+msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
+msgstr "A popup nem jelenik meg, ha nincs elérhető kiegészítő termék, például ha a termék már a kosárban van vagy nincs készleten."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:125 includes/modules/class-zappoppop-woo-cart.php:725
+msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
+msgstr "A popup akkor jelenik meg, ha a kosárban van termék a kiválasztott kategóriák bármelyikéből. Ha egyik sincs kiválasztva = ki."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:126 includes/modules/class-zappoppop-woo-cart.php:762
+msgid "The product to offer. A variation ID is allowed."
+msgstr "Az ajánlandó termék. Változatazonosító is megadható."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:127 includes/modules/class-zappoppop-woo-cart.php:756
+msgid "This rule is checked on the server, so it also works with full-page caches."
+msgstr "Ez a szabály a szerveren kerül ellenőrzésre, ezért teljes oldalas gyorsítótárral is működik."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:128
+msgid "Top center"
+msgstr "Felül középen"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:129
+msgid "Top left"
+msgstr "Felül balra"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:130
+msgid "Top right"
+msgstr "Felül jobbra"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:131 includes/modules/class-zappoppop-woo-cart.php:704
+msgid "Turn the WooCommerce cart features for this popup on or off"
+msgstr "A WooCommerce kosárfunkciók be- és kikapcsolása ennél a popupnál"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:132 includes/modules/class-zappoppop-targeting-triggers.php:402
+msgid "Turn the entire Targeting Triggers setting on or off"
+msgstr "Az egész Célzási indítók beállítás be- és kikapcsolása"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:133 includes/modules/class-zappoppop-woo-cart.php:757
+msgid "Upsell"
+msgstr "Kiegészítő értékesítés"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:134 includes/modules/class-zappoppop-woo-cart.php:761
+msgid "Upsell product ID"
+msgstr "Kiegészítő termék azonosítója"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:135 includes/modules/class-zappoppop-woo-cart.php:766
+msgid "Upsell product name"
+msgstr "Kiegészítő termék neve"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:136 includes/modules/class-zappoppop-woo-cart.php:767
+msgid "Upsell product price"
+msgstr "Kiegészítő termék ára"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:137 includes/modules/class-zappoppop-targeting-triggers.php:428
+msgid "User Roles"
+msgstr "Felhasználói szerepkörök"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:138 includes/modules/class-zappoppop-woo-cart.php:743
+msgid "When a button is clicked"
+msgstr "Gombkattintáskor"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:139 includes/modules/class-zappoppop-woo-cart.php:742
+msgid "When the popup opens"
+msgstr "A popup megnyitásakor"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:140 includes/modules/class-zappoppop-woo-cart.php:707
+msgid "WooCommerce is not active on this site, so the cart rules are ignored."
+msgstr "A WooCommerce nem aktív ezen a webhelyen, ezért a kosárszabályok figyelmen kívül maradnak."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:141 includes/modules/class-zappoppop-woo-cart.php:727
+msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
+msgstr "Működik az AJAX-os kosárba tétellel és a kosárblokkal. Oldalmegtekintésenként egyszer jelenik meg, és csak akkor, ha a fenti feltételek teljesülnek."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:142 includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
+msgid "You left something in your cart"
+msgstr "Valamit a kosarában hagyott"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:143 includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
+msgid "Your cart is saved. Come back any time to finish your order."
+msgstr "A kosara el van mentve. Bármikor visszatérhet a rendelés befejezéséhez."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:144 includes/modules/class-zappoppop-double-optin.php:22
+msgid "Your email address successfully confirmed."
+msgstr "Az e-mail-címét sikeresen megerősítettük."
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:145
+msgid "e.g. rating"
+msgstr "pl. rating"
+
+#: assets/js/ab/ab-actions.js:29 includes/ab/class-ajax-campaigns.php:64 includes/ab/class-ajax-campaigns.php:178
+msgid "Please enter a campaign title."
+msgstr "Adjon meg egy kampánycímet."
+
+#: assets/js/ab/ab-actions.js:34
+msgid "Please select at least 2 popups for split-testing."
+msgstr "Az osztott teszteléshez válasszon ki legalább 2 popupot."
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Error:"
+msgstr "Hiba:"
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Unable to create campaign."
+msgstr "A kampány nem hozható létre."
+
+#: assets/js/ab/ab-actions.js:58
+msgid "Network error while saving campaign."
+msgstr "Hálózati hiba a kampány mentésekor."
+
+#: assets/js/ab/ab-actions.js:80
+msgid "Permanently delete this A/B testing campaign? This cannot be undone."
+msgstr "Véglegesen törli ezt az A/B-tesztelési kampányt? Ez a művelet nem vonható vissza."
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Deletion Error:"
+msgstr "Törlési hiba:"
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Unable to delete campaign."
+msgstr "A kampány nem törölhető."
+
+#: assets/js/ab/ab-actions.js:99
+msgid "Network error while deleting campaign."
+msgstr "Hálózati hiba a kampány törlésekor."
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "ACTIVE"
+msgstr "AKTÍV"
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "INACTIVE"
+msgstr "INAKTÍV"
+
+#: assets/js/ab/ab-edit.js:77
+msgid "Could not update status."
+msgstr "Az állapot nem frissíthető."
+
+#: assets/js/ab/ab-edit.js:81
+msgid "Server error while updating status."
+msgstr "Szerverhiba az állapot frissítésekor."
+
+#: assets/js/ab/ab-trash.js:38
+msgid "Could not update campaign."
+msgstr "A kampány nem frissíthető."
+
+#: assets/js/ab/ab-trash.js:42
+msgid "Server error while updating campaign."
+msgstr "Szerverhiba a kampány frissítésekor."
+
+#: assets/js/builder/elements.js:369
+msgid "%s Star"
+msgid_plural "%s Stars"
+msgstr[0] "%s csillag"
+msgstr[1] "%s csillag"
+
+#: assets/js/front/elements.js:278
+msgid "Please select a rating."
+msgstr "Kérjük, válassz értékelést."
+
+#: includes/class-pro-admin.php:25 includes/class-pro-admin.php:36 templates/license-edd.php:30 templates/license-page.php:6 templates/license-page.php:15
+msgid "License"
+msgstr "Licenc"
+
+#: includes/class-pro-admin.php:41 includes/class-pro-admin.php:66 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nincs elegendő jogosultsága az oldal eléréséhez."
+
+#: includes/class-pro-edd-updater.php:58
+msgid "ZapPopPop Pro add-on."
+msgstr "ZapPopPop Pro bővítmény."
+
+#: includes/class-pro-edd.php:119
+msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
+msgstr "A licencelés még nincs beállítva. Adja hozzá az áruház URL-jét és a termékazonosítót a wp-config.php fájlhoz."
+
+#: includes/class-pro-edd.php:133
+msgid "The licence server did not answer. Please try again later."
+msgstr "A licencszerver nem válaszolt. Kérjük, próbálja újra később."
+
+#: includes/class-pro-edd.php:137
+msgid "The licence server sent an unexpected answer."
+msgstr "A licencszerver váratlan választ küldött."
+
+#: includes/class-pro-edd.php:148 includes/class-pro-edd.php:188
+msgid "Enter your licence key."
+msgstr "Adja meg a licenckulcsát."
+
+#: includes/class-pro-edd.php:161
+msgid "Licence activated. Thank you!"
+msgstr "A licenc aktiválva. Köszönjük!"
+
+#: includes/class-pro-edd.php:173
+msgid "There is no licence to deactivate."
+msgstr "Nincs deaktiválható licenc."
+
+#: includes/class-pro-edd.php:181
+msgid "Licence deactivated for this site."
+msgstr "A licenc deaktiválva ezen a webhelyen."
+
+#: includes/class-pro-edd.php:202
+msgid "Your licence is active."
+msgstr "A licenced aktív."
+
+#: includes/class-pro-edd.php:224
+msgid "Security check failed. Please go back and try again."
+msgstr "A biztonsági ellenőrzés sikertelen. Lépjen vissza, és próbálja újra."
+
+#: includes/class-pro-edd.php:227
+msgid "You do not have sufficient permissions to manage the licence."
+msgstr "Nincs elegendő jogosultsága a licenc kezeléséhez."
+
+#: includes/class-pro-edd.php:267
+msgid "Lifetime"
+msgstr "Élettartamra szóló"
+
+#: includes/class-pro-edd.php:275 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
+msgid "Active"
+msgstr "Aktív"
+
+#: includes/class-pro-edd.php:276 templates/license-edd.php:21
+msgid "Expired"
+msgstr "Lejárt"
+
+#: includes/class-pro-edd.php:277 includes/class-pro-edd.php:284 templates/license-edd.php:15
+msgid "Not activated"
+msgstr "Nincs aktiválva"
+
+#: includes/class-pro-edd.php:278
+msgid "Not activated on this site"
+msgstr "Ezen a webhelyen nincs aktiválva"
+
+#: includes/class-pro-edd.php:279
+msgid "Disabled"
+msgstr "Letiltva"
+
+#: includes/class-pro-edd.php:280
+msgid "Revoked"
+msgstr "Visszavonva"
+
+#: includes/class-pro-edd.php:281 includes/class-pro-edd.php:282
+msgid "Invalid key"
+msgstr "Érvénytelen kulcs"
+
+#: includes/class-pro-edd.php:292
+msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
+msgstr "Ez a licenc %s napján lejárt. A Pro funkciók továbbra is működnek azokon a webhelyeken, ahol már aktív volt; újítsa meg a frissítések és a támogatás igénybevételéhez."
+
+#: includes/class-pro-edd.php:293
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "Ez a licenc lejárt. Újítsa meg a frissítések és a támogatás igénybevételéhez."
+
+#: includes/class-pro-edd.php:296
+msgid "This licence key is not valid. Please check it and try again."
+msgstr "Ez a licenckulcs érvénytelen. Ellenőrizze, és próbálja újra."
+
+#: includes/class-pro-edd.php:298
+msgid "This licence has no activations left. Deactivate it on another site or upgrade your plan."
+msgstr "Ennek a licencnek nincs több aktiválása. Deaktiválja egy másik webhelyen, vagy váltson magasabb csomagra."
+
+#: includes/class-pro-edd.php:301
+msgid "This licence is not active on this site. Activate it again."
+msgstr "Ez a licenc nem aktív ezen a webhelyen. Aktiválja újra."
+
+#: includes/class-pro-edd.php:304
+msgid "This licence has been disabled. Please contact support."
+msgstr "Ez a licenc le lett tiltva. Kérjük, lépjen kapcsolatba a támogatással."
+
+#: includes/class-pro-edd.php:307
+msgid "This key belongs to a different product."
+msgstr "Ez a kulcs egy másik termékhez tartozik."
+
+#: includes/class-pro-edd.php:309
+msgid "The licence could not be verified. Please try again or contact support."
+msgstr "A licenc nem ellenőrizhető. Kérjük, próbálja újra, vagy lépjen kapcsolatba a támogatással."
+
+#: includes/class-pro-extensions.php:108
+msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
+msgstr "Aktív ZapPopPop Pro licenc szükséges. A mentett választása megmarad."
+
+#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:158 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "Licenc aktiválása"
+
+#: includes/class-pro-module-html-strings.php:24
+msgid "#c2185b"
+msgstr "#c2185b"
+
+#: includes/class-pro-module-html-strings.php:25
+msgid "+ Add"
+msgstr "+ Hozzáadás"
+
+#: includes/class-pro-module-html-strings.php:26
+msgid "6px"
+msgstr "6px"
+
+#: includes/class-pro-module-html-strings.php:27
+msgid "<canvas id=\"c\"></canvas><script>...</script>"
+msgstr "<canvas id=\"c\"></canvas><script>...</script>"
+
+#: includes/class-pro-module-html-strings.php:28
+msgid "A tab pinned to the screen edge. Visitors click it to open this popup, even after they closed it."
+msgstr "A képernyő szélére rögzített fül. A látogatók rákattintva nyitják meg ezt a popupot, akkor is, ha korábban bezárták."
+
+#: includes/class-pro-module-html-strings.php:29
+msgid "ANIMATION"
+msgstr "ANIMÁCIÓ"
+
+#: includes/class-pro-module-html-strings.php:30
+msgid "Add a personal data key field"
+msgstr "Személyesadat-kulcs mező hozzáadása"
+
+#: includes/class-pro-module-html-strings.php:31
+msgid "All Visitors"
+msgstr "Minden látogató"
+
+#: includes/class-pro-module-html-strings.php:32
+msgid "Animation (HTML / JS)"
+msgstr "Animáció (HTML / JS)"
+
+#: includes/class-pro-module-html-strings.php:33
+msgid "Animation on successful form submit"
+msgstr "Animáció sikeres űrlap-beküldéskor"
+
+#: includes/class-pro-module-html-strings.php:34
+msgid "Antibot protection"
+msgstr "Botellenes védelem"
+
+#: includes/class-pro-module-html-strings.php:35
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#: includes/class-pro-module-html-strings.php:36
+msgid "Applies to the canvas currently selected in Canvas Settings."
+msgstr "A Vászonbeállításokban jelenleg kiválasztott vászonra vonatkozik."
+
+#: includes/class-pro-module-html-strings.php:37 templates/stats/chart.php:47
+msgid "Apply"
+msgstr "Alkalmaz"
+
+#: includes/class-pro-module-html-strings.php:38
+msgid "Back Entrances"
+msgstr "Hátulról érkező belépők"
+
+#: includes/class-pro-module-html-strings.php:39
+msgid "Back Exits"
+msgstr "Hátrafelé kilépők"
+
+#: includes/class-pro-module-html-strings.php:40
+msgid "Background Opacity (picture / animation)"
+msgstr "Háttér átlátszatlansága (kép / animáció)"
+
+#: includes/class-pro-module-html-strings.php:41
+msgid "Background Overlay Opacity"
+msgstr "Háttérréteg átlátszatlansága"
+
+#: includes/class-pro-module-html-strings.php:42
+msgid "Background Type"
+msgstr "Háttér típusa"
+
+#: includes/class-pro-module-html-strings.php:43
+msgid "Bottom"
+msgstr "Alul"
+
+#: includes/class-pro-module-html-strings.php:44
+msgid "Bounce"
+msgstr "Pattanás"
+
+#: includes/class-pro-module-html-strings.php:45
+msgid "Bouncing Entrances"
+msgstr "Pattanó belépők"
+
+#: includes/class-pro-module-html-strings.php:46
+msgid "Bouncing Exits"
+msgstr "Pattanó kilépők"
+
+#: includes/class-pro-module-html-strings.php:47
+msgid "Burst + Fireworks"
+msgstr "Kitörés + tűzijáték"
+
+#: includes/class-pro-module-html-strings.php:48 templates/ab/modal-create.php:37
+msgid "Cancel"
+msgstr "Mégse"
+
+#: includes/class-pro-module-html-strings.php:49
+msgid "Check IP-address"
+msgstr "IP-cím ellenőrzése"
+
+#: includes/class-pro-module-html-strings.php:50
+msgid "Check form data"
+msgstr "Űrlapadatok ellenőrzése"
+
+#: includes/class-pro-module-html-strings.php:51
+msgid "Confetti Burst (built-in)"
+msgstr "Konfettirobbanás (beépített)"
+
+#: includes/class-pro-module-html-strings.php:52
+msgid "Confetti Cannons (needs Canvas Confetti library)"
+msgstr "Konfettiágyúk (Canvas Confetti könyvtár szükséges)"
+
+#: includes/class-pro-module-html-strings.php:53
+msgid "Confetti Rain (built-in)"
+msgstr "Konfettieső (beépített)"
+
+#: includes/class-pro-module-html-strings.php:54
+msgid "Configure appearance entrance and disappearance exit animations for this canvas."
+msgstr "A vászon megjelenési (belépő) és eltűnési (kilépő) animációinak beállítása."
+
+#: includes/class-pro-module-html-strings.php:55
+msgid "Control what is stored with each submission, protect the form against repeated submissions and tune the page behaviour while the popup is visible."
+msgstr "Szabályozza, mi kerül tárolásra az egyes beküldésekkel, védje az űrlapot az ismételt beküldések ellen, és hangolja az oldal viselkedését a popup láthatósága alatt."
+
+#: includes/class-pro-module-html-strings.php:56
+msgid "Custom Background"
+msgstr "Egyéni háttér"
+
+#: includes/class-pro-module-html-strings.php:57
+msgid "Default (confetti + enabled libraries)"
+msgstr "Alapértelmezett (konfetti + engedélyezett könyvtárak)"
+
+#: includes/class-pro-module-html-strings.php:58
+msgid "Disable page scrollbar"
+msgstr "Oldal görgetősávjának letiltása"
+
+#: includes/class-pro-module-html-strings.php:59
+msgid "Disappearance"
+msgstr "Eltűnés"
+
+#: includes/class-pro-module-html-strings.php:60
+msgid "Distance kept between the popup and each screen edge. 0 sticks the popup to the edge; a higher value moves it away. On screens smaller than the popup it scales down to fit."
+msgstr "A popup és az egyes képernyőszélek között tartott távolság. A 0 a szélhez tapasztja a popupot; a nagyobb érték eltávolítja onnan. A popupnál kisebb képernyőkön a méret lecsökken, hogy elférjen."
+
+#: includes/class-pro-module-html-strings.php:61
+msgid "Duration"
+msgstr "Időtartam"
+
+#: includes/class-pro-module-html-strings.php:62
+msgid "Email Subject"
+msgstr "E-mail tárgya"
+
+#: includes/class-pro-module-html-strings.php:63
+msgid "Empty = the visitor email"
+msgstr "Üres = a látogató e-mail-címe"
+
+#: includes/class-pro-module-html-strings.php:65
+msgid "Enable Overlay"
+msgstr "Átfedés engedélyezése"
+
+#: includes/class-pro-module-html-strings.php:66
+msgid "Enable Sticky Side Tab"
+msgstr "Ragadós oldalfül engedélyezése"
+
+#: includes/class-pro-module-html-strings.php:67
+msgid "Enable protection against repeated submissions"
+msgstr "Védelem engedélyezése az ismételt beküldések ellen"
+
+#: includes/class-pro-module-html-strings.php:68
+msgid "Error message"
+msgstr "Hibaüzenet"
+
+#: includes/class-pro-module-html-strings.php:69
+msgid "Every submission stays \"pending\" until the visitor clicks the confirmation link. Notifications set to \"After double opt-in confirmation\" are sent at that moment."
+msgstr "Minden beküldés \"függőben\" marad, amíg a látogató a megerősítő hivatkozásra nem kattint. A \"Kétlépcsős feliratkozás megerősítése után\" beállítású értesítések ekkor kerülnek elküldésre."
+
+#: includes/class-pro-module-html-strings.php:70
+msgid "Fade"
+msgstr "Áttűnés"
+
+#: includes/class-pro-module-html-strings.php:71
+msgid "Fading Entrances"
+msgstr "Áttűnő belépők"
+
+#: includes/class-pro-module-html-strings.php:72
+msgid "Fading Exits"
+msgstr "Áttűnő kilépők"
+
+#: includes/class-pro-module-html-strings.php:73
+msgid "Feedback / Offer"
+msgstr "Visszajelzés / ajánlat"
+
+#: includes/class-pro-module-html-strings.php:74
+msgid "Fields that hold the personal data key, usually the email field. WordPress uses them to find, export and erase a person's submissions (Tools > Export / Erase Personal Data)."
+msgstr "A személyesadat-kulcsot tartalmazó mezők, általában az e-mail-mező. A WordPress ezek alapján keresi meg, exportálja és törli egy személy beküldéseit (Eszközök > Személyes adatok exportálása / törlése)."
+
+#: includes/class-pro-module-html-strings.php:75
+msgid "Fireworks (needs Canvas Fireworks library)"
+msgstr "Tűzijáték (Canvas Fireworks könyvtár szükséges)"
+
+#: includes/class-pro-module-html-strings.php:76 includes/modules/class-zappoppop-targeting-triggers.php:426
+msgid "From"
+msgstr "Ettől"
+
+#: includes/class-pro-module-html-strings.php:77
+msgid "Guests Only"
+msgstr "Csak vendégek"
+
+#: includes/class-pro-module-html-strings.php:78
+msgid "HTML / CSS / JS"
+msgstr "HTML / CSS / JS"
+
+#: includes/class-pro-module-html-strings.php:79
+msgid "If set, the visitor is redirected here after confirming (instead of the message)."
+msgstr "Ha meg van adva, a látogató a megerősítés után ide lesz átirányítva (az üzenet helyett)."
+
+#: includes/class-pro-module-html-strings.php:80 templates/builder/elements/elem-19-imageselect.php:12
+msgid "Image URL"
+msgstr "Kép URL-je"
+
+#: includes/class-pro-module-html-strings.php:81
+msgid "Left"
+msgstr "Balra"
+
+#: includes/class-pro-module-html-strings.php:82
+msgid "Left Edge"
+msgstr "Bal szél"
+
+#: includes/class-pro-module-html-strings.php:83
+msgid "Library-based effects require enabling the matching library under ZapPopPop → Settings → Libraries."
+msgstr "A könyvtár-alapú effektusokhoz engedélyezni kell a megfelelő könyvtárat a ZapPopPop → Beállítások → Könyvtárak alatt."
+
+#: includes/class-pro-module-html-strings.php:84
+msgid "Locks the page scrollbar while this popup is visible."
+msgstr "Zárolja az oldal görgetősávját, amíg ez a popup látható."
+
+#: includes/class-pro-module-html-strings.php:85
+msgid "Logged-In Users Only"
+msgstr "Csak bejelentkezett felhasználók"
+
+#: includes/class-pro-module-html-strings.php:86
+msgid "Media"
+msgstr "Média"
+
+#: includes/class-pro-module-html-strings.php:87
+msgid "Message"
+msgstr "Üzenet"
+
+#: includes/class-pro-module-html-strings.php:88
+msgid "Name"
+msgstr "Név"
+
+#: includes/class-pro-module-html-strings.php:89
+msgid "None"
+msgstr "Nincs"
+
+#: includes/class-pro-module-html-strings.php:90
+msgid "Overlay Color"
+msgstr "Átfedés színe"
+
+#: includes/class-pro-module-html-strings.php:91
+msgid "Page"
+msgstr "Oldal"
+
+#: includes/class-pro-module-html-strings.php:92
+msgid "Personal data key fields"
+msgstr "Személyesadat-kulcs mezők"
+
+#: includes/class-pro-module-html-strings.php:93
+msgid "Picture (JPEG / PNG)"
+msgstr "Kép (JPEG / PNG)"
+
+#: includes/class-pro-module-html-strings.php:94
+msgid "Pin a tab to the screen edge"
+msgstr "Fül rögzítése a képernyő szélére"
+
+#: includes/class-pro-module-html-strings.php:95
+msgid "Play"
+msgstr "Lejátszás"
+
+#: includes/class-pro-module-html-strings.php:96
+msgid "Play Canvas Animation"
+msgstr "Vászonanimáció lejátszása"
+
+#: includes/class-pro-module-html-strings.php:97
+msgid "Play disappearance animation when the canvas closes"
+msgstr "Eltűnési animáció lejátszása a vászon bezárásakor"
+
+#: includes/class-pro-module-html-strings.php:98
+msgid "Play disappearance on close"
+msgstr "Eltűnés lejátszása bezáráskor"
+
+#: includes/class-pro-module-html-strings.php:100
+msgid "Recipient"
+msgstr "Címzett"
+
+#: includes/class-pro-module-html-strings.php:101
+msgid "Repeated submission delay"
+msgstr "Ismételt beküldés késleltetése"
+
+#: includes/class-pro-module-html-strings.php:102
+msgid "Right"
+msgstr "Jobbra"
+
+#: includes/class-pro-module-html-strings.php:103
+msgid "Right Edge"
+msgstr "Jobb szél"
+
+#: includes/class-pro-module-html-strings.php:104
+msgid "Runs in a sandboxed frame behind the popup. Scripts require the unfiltered_html capability (administrators on single-site installs)."
+msgstr "A popup mögött egy elkülönített (sandbox) keretben fut. A szkriptekhez az unfiltered_html jogosultság szükséges (egyoldalas telepítéseken az adminisztrátorok)."
+
+#: includes/class-pro-module-html-strings.php:105
+msgid "Save IP-address"
+msgstr "IP-cím mentése"
+
+#: includes/class-pro-module-html-strings.php:106
+msgid "Save User-Agent"
+msgstr "User-Agent mentése"
+
+#: includes/class-pro-module-html-strings.php:107
+msgid "Screen Edge"
+msgstr "Képernyőszél"
+
+#: includes/class-pro-module-html-strings.php:108
+msgid "Screen edge padding"
+msgstr "Képernyőszéli margó"
+
+#: includes/class-pro-module-html-strings.php:109
+msgid "Send Technical Info by email"
+msgstr "Műszaki információk küldése e-mailben"
+
+#: includes/class-pro-module-html-strings.php:111
+msgid "Show Technical Info on log record details"
+msgstr "Műszaki információk megjelenítése a naplórekord részleteiben"
+
+#: includes/class-pro-module-html-strings.php:112
+msgid "Show the overlay behind the popup"
+msgstr "A popup mögötti átfedés megjelenítése"
+
+#: includes/class-pro-module-html-strings.php:113
+msgid "Slide"
+msgstr "Csúszás"
+
+#: includes/class-pro-module-html-strings.php:114
+msgid "Slide-in Animation"
+msgstr "Becsúszó animáció"
+
+#: includes/class-pro-module-html-strings.php:115
+msgid "Sliding Entrances"
+msgstr "Becsúszó belépők"
+
+#: includes/class-pro-module-html-strings.php:116
+msgid "Sliding Exits"
+msgstr "Kicsúszó kilépők"
+
+#: includes/class-pro-module-html-strings.php:117
+msgid "Star Burst (built-in)"
+msgstr "Csillagkitörés (beépített)"
+
+#: includes/class-pro-module-html-strings.php:119
+msgid "Stick to edge (set all padding to 0)"
+msgstr "Illesztés a szélhez (minden margó 0-ra állítása)"
+
+#: includes/class-pro-module-html-strings.php:120
+msgid "Subject"
+msgstr "Tárgy"
+
+#: includes/class-pro-module-html-strings.php:121
+msgid "Tab Background"
+msgstr "Fül háttere"
+
+#: includes/class-pro-module-html-strings.php:122
+msgid "Tab Corner Radius"
+msgstr "Fül sarokkerekítése"
+
+#: includes/class-pro-module-html-strings.php:123
+msgid "Tab Label"
+msgstr "Fül felirata"
+
+#: includes/class-pro-module-html-strings.php:124
+msgid "Technical info"
+msgstr "Műszaki információk"
+
+#: includes/class-pro-module-html-strings.php:125
+msgid "Technical info is the IP-address and the User-Agent. The email option adds it to the {{form-data}} merge tag."
+msgstr "A műszaki információk az IP-cím és a User-Agent. Az e-mail opció hozzáadja a {{form-data}} egyesítő címkéhez."
+
+#: includes/class-pro-module-html-strings.php:126
+msgid "Thank you for subscribing!"
+msgstr "Köszönjük a feliratkozást!"
+
+#: includes/class-pro-module-html-strings.php:128
+msgid "Thank-you URL"
+msgstr "Köszönő URL"
+
+#: includes/class-pro-module-html-strings.php:129
+msgid "Thank-you message"
+msgstr "Köszönő üzenet"
+
+#: includes/class-pro-module-html-strings.php:130
+msgid "The popup is only shown to the chosen visitors. Popups opened by a button or an onload shortcode ignore this rule."
+msgstr "A popup csak a kiválasztott látogatóknak jelenik meg. A gombbal vagy betöltéskor megjelenő shortcode-dal megnyitott popupok figyelmen kívül hagyják ezt a szabályt."
+
+#: includes/class-pro-module-html-strings.php:131
+msgid "The same data (and / or the same IP-address) is refused during the delay and the visitor sees the error message."
+msgstr "Ugyanazokat az adatokat (és / vagy ugyanazt az IP-címet) a késleltetés alatt elutasítja, és a látogató látja a hibaüzenetet."
+
+#: includes/class-pro-module-html-strings.php:132
+msgid "Top"
+msgstr "Felül"
+
+#: includes/class-pro-module-html-strings.php:133
+msgid "Use the tag button to insert the subscriber's values, for example {{email}} or {{field-name}} (the older {email} form still works). Sent to the visitor's email after a successful submit; with Double Opt-In, once the link is confirmed."
+msgstr "A címkegombbal szúrhatja be a feliratkozó értékeit, például {{email}} vagy {{field-name}} (a régebbi {email} forma is működik). Sikeres beküldés után a látogató e-mail-címére kerül elküldésre; Kétlépcsős feliratkozásnál a hivatkozás megerősítése után."
+
+#: includes/class-pro-module-html-strings.php:134
+msgid "Visitor Authentication"
+msgstr "Látogatói hitelesítés"
+
+#: includes/class-pro-module-html-strings.php:135 includes/modules/class-zappoppop-autoresponder.php:95
+msgid "Welcome! Here is your reward"
+msgstr "Üdvözöljük! Itt a jutalma"
+
+#: includes/class-pro-module-html-strings.php:136
+msgid "Zooming Entrances"
+msgstr "Nagyítós belépők"
+
+#: includes/class-pro-module-html-strings.php:137
+msgid "Zooming Exits"
+msgstr "Nagyítós kilépők"
+
+#: includes/class-pro-module-html-strings.php:138
+msgid "e.g. Winter Snow"
+msgstr "pl. Téli hó"
+
+#: includes/class-pro-module-html-strings.php:139
+msgid "email"
+msgstr "e-mail"
+
+#: includes/class-pro-module-html-strings.php:140
+msgid "https://"
+msgstr "https://"
+
+#: includes/class-pro-module-html-strings.php:141
+msgid "https://.../image.jpg"
+msgstr "https://.../image.jpg"
+
+#: includes/class-pro-module-html-strings.php:142
+msgid "ms"
+msgstr "ms"
+
+#: includes/class-pro-module-html-strings.php:143
+msgid "name"
+msgstr "név"
+
+#: includes/class-pro-module-html-strings.php:144
+msgid "px"
+msgstr "px"
+
+#: includes/class-pro-module-html-strings.php:145
+msgid "seconds"
+msgstr "másodperc"
+
+#: includes/class-pro-module-strings.php:28
+msgid "Animation"
+msgstr "Animáció"
+
+#: includes/class-pro-module-strings.php:29
+msgid "Open and close animations for the popup."
+msgstr "Megnyitási és bezárási animációk a popuphoz."
+
+#: includes/class-pro-module-strings.php:32
+msgid "Autoresponder"
+msgstr "Automatikus válasz"
+
+#: includes/class-pro-module-strings.php:33
+msgid "Automatic reply sent to subscribers after they submit."
+msgstr "A feliratkozóknak a beküldés után küldött automatikus válasz."
+
+#: includes/class-pro-module-strings.php:36
+msgid "Double Opt-In"
+msgstr "Kétlépcsős feliratkozás"
+
+#: includes/class-pro-module-strings.php:37
+msgid "Double opt-in confirmation for subscribers."
+msgstr "Kétlépcsős feliratkozási megerősítés a feliratkozóknak."
+
+#: includes/class-pro-module-strings.php:40
+msgid "Popup Overlay"
+msgstr "Popup-átfedés"
+
+#: includes/class-pro-module-strings.php:41
+msgid "Page overlay behind the popup: colour, opacity, image or animation."
+msgstr "A popup mögötti oldalátfedés: szín, átlátszatlanság, kép vagy animáció."
+
+#: includes/class-pro-module-strings.php:44
+msgid "Popup Positions"
+msgstr "Popup-pozíciók"
+
+#: includes/class-pro-module-strings.php:45
+msgid "Popup position on screen: top, bottom, left or right."
+msgstr "A popup pozíciója a képernyőn: felül, alul, balra vagy jobbra."
+
+#: includes/class-pro-module-strings.php:48
+msgid "Security & Protections"
+msgstr "Biztonság és védelem"
+
+#: includes/class-pro-module-strings.php:49
+msgid "Technical info, repeated submission (antibot) protection, page scrollbar lock and personal data keys."
+msgstr "Műszaki információk, ismételt beküldés elleni (botellenes) védelem, oldalgörgetősáv zárolása és személyesadat-kulcsok."
+
+#: includes/class-pro-module-strings.php:52
+msgid "Side Tabs"
+msgstr "Oldalfülek"
+
+#: includes/class-pro-module-strings.php:53
+msgid "Sticky side tabs attached to the screen edge, with icon, colour, corner radius and slide-in animation."
+msgstr "A képernyő széléhez rögzített ragadós oldalfülek ikonnal, színnel, sarokkerekítéssel és becsúszó animációval."
+
+#: includes/class-pro-module-strings.php:56
+msgid "Success Celebration"
+msgstr "Siker-ünneplés"
+
+#: includes/class-pro-module-strings.php:57
+msgid "Celebration animation after a successful submit."
+msgstr "Ünneplő animáció sikeres beküldés után."
+
+#: includes/class-pro-module-strings.php:60
+msgid "Targeting Triggers"
+msgstr "Célzási indítók"
+
+#: includes/class-pro-module-strings.php:61
+msgid "Show rules by event, schedule, role, area and URL."
+msgstr "Megjelenítési szabályok esemény, ütemezés, szerepkör, terület és URL szerint."
+
+#: includes/class-pro-module-strings.php:64
+msgid "Targeting"
+msgstr "Célzás"
+
+#: includes/class-pro-module-strings.php:65
+msgid "Visitor authentication, targeting and attribution rules."
+msgstr "Látogatói hitelesítési, célzási és hozzárendelési szabályok."
+
+#: includes/class-pro-module-strings.php:68 includes/modules/class-zappoppop-woo-cart.php:703
+msgid "WooCommerce Cart"
+msgstr "WooCommerce kosár"
+
+#: includes/class-pro-module-strings.php:69
+msgid "Show popups by cart contents and fill live cart values into popup text."
+msgstr "Popupok megjelenítése a kosár tartalma szerint, és élő kosárértékek beillesztése a popup szövegébe."
+
+#: includes/class-pro-plugin.php:109
+msgid "Outdated %1$s: minimum required %2$s"
+msgstr "Elavult %1$s: legalább %2$s szükséges"
+
+#: includes/class-pro-plugin.php:111
+msgid "Missing %1$s: minimum required %2$s"
+msgstr "Hiányzó %1$s: legalább %2$s szükséges"
+
+#: includes/class-pro-plugin.php:116
+msgid "This plugin is not fully active."
+msgstr "Ez a bővítmény nem teljesen aktív."
+
+#: includes/class-pro-plugin.php:142
+msgid "ZapPopPop Pro needs the ZapPopPop plugin. Install and activate ZapPopPop first."
+msgstr "A ZapPopPop Prohoz szükséges a ZapPopPop bővítmény. Előbb telepítse és aktiválja a ZapPopPopot."
+
+#: includes/class-pro-plugin.php:146
+msgid "ZapPopPop Pro needs a newer version of ZapPopPop. Please update ZapPopPop."
+msgstr "A ZapPopPop Prohoz a ZapPopPop újabb verziója szükséges. Frissítse a ZapPopPopot."
+
+#: includes/class-pro-plugin.php:156
+msgid "ZapPopPop Pro is not activated. Pro templates and modules stay locked until you enter your licence key."
+msgstr "A ZapPopPop Pro nincs aktiválva. A Pro sablonok és modulok zárolva maradnak, amíg meg nem adja a licenckulcsát."
+
+#: includes/class-pro-protection.php:100
+msgid "Security & Geolocation"
+msgstr "Biztonság és földrajzi helymeghatározás"
+
+#: includes/class-pro-protection.php:150
+msgid "Submission rate limit exceeded. Please wait a while before submitting again."
+msgstr "A beküldési korlát túllépve. Várjon egy kicsit, mielőtt újra beküldene."
+
+#: includes/class-pro-protection.php:158
+msgid "Bot verification failed. Please refresh the page and try again."
+msgstr "A bot-ellenőrzés sikertelen. Frissítse az oldalt, és próbálja újra."
+
+#: includes/class-pro-protection.php:166
+msgid "Disposable or temporary email addresses are not permitted. Please use a valid personal or business email."
+msgstr "Eldobható vagy ideiglenes e-mail-címek nem engedélyezettek. Használjon érvényes személyes vagy üzleti e-mail-címet."
+
+#: includes/ab/class-ajax-campaigns.php:22 includes/stats/class-admin-stats.php:126
+msgid "Unauthorized action."
+msgstr "Jogosulatlan művelet."
+
+#: includes/ab/class-ajax-campaigns.php:26 includes/stats/class-admin-stats.php:130
+msgid "Security check failed. Please refresh the page."
+msgstr "A biztonsági ellenőrzés sikertelen. Frissítse az oldalt."
+
+#: includes/ab/class-ajax-campaigns.php:37 includes/ab/class-ajax-campaigns.php:93 includes/ab/class-ajax-campaigns.php:155 includes/ab/class-ajax-campaigns.php:198 includes/stats/class-admin-stats.php:144 includes/stats/class-admin-stats.php:173 includes/stats/class-admin-stats.php:198
+msgid "Unauthorized user capability."
+msgstr "Jogosulatlan felhasználói képesség."
+
+#: includes/ab/class-ajax-campaigns.php:48 includes/ab/class-ajax-campaigns.php:104 includes/ab/class-ajax-campaigns.php:166 includes/ab/class-ajax-campaigns.php:209 includes/stats/class-admin-stats.php:155 includes/stats/class-admin-stats.php:184 includes/stats/class-admin-stats.php:209
+msgid "Invalid security token."
+msgstr "Érvénytelen biztonsági token."
+
+#: includes/ab/class-ajax-campaigns.php:61 includes/ab/class-ajax-campaigns.php:115 includes/ab/class-ajax-campaigns.php:136
+msgid "Campaign not found."
+msgstr "A kampány nem található."
+
+#: includes/ab/class-ajax-campaigns.php:67
+msgid "Select at least 2 popups for split-testing."
+msgstr "Az osztott teszteléshez válasszon ki legalább 2 popupot."
+
+#: includes/ab/class-ajax-campaigns.php:75
+msgid "At least 2 of the selected popups must exist."
+msgstr "A kiválasztott popupok közül legalább 2-nek léteznie kell."
+
+#: includes/ab/class-ajax-campaigns.php:86 includes/ab/class-ajax-campaigns.php:124 includes/ab/class-ajax-campaigns.php:140
+msgid "Database error while saving."
+msgstr "Adatbázishiba mentés közben."
+
+#: includes/ab/class-ajax-campaigns.php:119
+msgid "Restore this campaign before changing its status."
+msgstr "A kampány állapotának módosítása előtt állítsa vissza."
+
+#: includes/ab/class-ajax-campaigns.php:191
+msgid "Database error: could not save the campaign. Try Tools > Repair Tables."
+msgstr "Adatbázishiba: a kampány nem menthető. Próbálja ki az Eszközök > Táblák javítása lehetőséget."
+
+#: includes/ab/class-ajax-campaigns.php:193
+msgid "A/B Campaign saved!"
+msgstr "Az A/B-kampány elmentve!"
+
+#: includes/ab/class-ajax-campaigns.php:218
+msgid "Missing campaign UID."
+msgstr "Hiányzik a kampány UID-je."
+
+#: includes/ab/class-ajax-campaigns.php:222
+msgid "Campaign not found or already deleted."
+msgstr "A kampány nem található, vagy már törölve van."
+
+#: includes/ab/class-ajax-campaigns.php:224
+msgid "Campaign deleted."
+msgstr "A kampány törölve."
+
+#: includes/ab/class-front-ab.php:100
+msgid "Open Popup"
+msgstr "Popup megnyitása"
+
+#: includes/ab/class-pro-ab.php:44 includes/ab/class-pro-ab.php:45 includes/ab/class-pro-ab.php:59 includes/ab/class-pro-ab.php:98 templates/ab-view.php:5 templates/ab-view.php:10
+msgid "A/B Campaigns"
+msgstr "A/B-kampányok"
+
+#: includes/ab/class-pro-ab.php:61
+msgid "Split-test popup variations and keep the winner. Activate your ZapPopPop Pro licence to manage A/B campaigns."
+msgstr "Popupváltozatok osztott tesztelése és a győztes megtartása. Az A/B-kampányok kezeléséhez aktiválja a ZapPopPop Pro licencét."
+
+#: includes/ab/class-pro-ab.php:150
+msgid "Restored A/B Test"
+msgstr "Visszaállított A/B-teszt"
+
+#: includes/ab/class-pro-ab.php:176
+msgid "Database error during restore. No changes were kept."
+msgstr "Adatbázishiba a visszaállítás közben. Nem maradt meg módosítás."
+
+#: includes/ab/class-pro-ab.php:189 includes/ab/class-pro-ab.php:193
+msgid "A/B Experiments"
+msgstr "A/B-kísérletek"
+
+#: includes/elements/class-pro-element-imageselect.php:14
+msgid "Image Select"
+msgstr "Képválasztó"
+
+#: includes/elements/class-pro-element-progress.php:14
+msgid "Progress Bar"
+msgstr "Folyamatjelző sáv"
+
+#: includes/elements/class-pro-element-rating.php:14
+msgid "Star Rating"
+msgstr "Csillagos értékelés"
+
+#: includes/elements/class-pro-element-tile.php:14
+msgid "Tile Select"
+msgstr "Csempeválasztó"
+
+#: includes/elements/class-pro-elements.php:144
+msgid "Rating Data"
+msgstr "Értékelési adatok"
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28
+msgid "Download link has expired or is invalid."
+msgstr "A letöltési hivatkozás lejárt vagy érvénytelen."
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28 includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "Invalid Download"
+msgstr "Érvénytelen letöltés"
+
+#: includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "The file is no longer available."
+msgstr "A fájl már nem érhető el."
+
+#: includes/modules/class-zappoppop-addon-sms.php:13
+msgid "Twilio account SID, auth token, from number, and recipient number are required."
+msgstr "A Twilio-fiók SID-je, az auth token, a feladó száma és a címzett száma kötelező."
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:42
+msgid "Missing coupon code."
+msgstr "Hiányzik a kuponkód."
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:47
+msgid "Coupon applied to cart successfully!"
+msgstr "A kupon sikeresen alkalmazva a kosárra!"
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:49
+msgid "Unable to apply coupon to cart."
+msgstr "A kupon nem alkalmazható a kosárra."
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:21 includes/modules/class-zappoppop-ajax-mailchimp.php:22
+msgid "Permission denied."
+msgstr "Hozzáférés megtagadva."
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:25
+msgid "Enter a valid GetResponse API key."
+msgstr "Adjon meg érvényes GetResponse API-kulcsot."
+
+#: includes/modules/class-zappoppop-ajax-mailchimp.php:26
+msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
+msgstr "Adjon meg érvényes MailChimp API-kulcsot (például 0123456789abcdef-us21)."
+
+#: includes/modules/class-zappoppop-autoresponder.php:96
+msgid "Thank you for subscribing!\n\nEnjoy your offer."
+msgstr "Köszönjük a feliratkozást!\n\nÉlvezze az ajánlatát."
+
+#: includes/modules/class-zappoppop-double-optin.php:18
+msgid "Please confirm your email address"
+msgstr "Kérjük, erősítse meg az e-mail-címét"
+
+#: includes/modules/class-zappoppop-double-optin.php:19
+msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
+msgstr "Kedves látogató!\n\nKérjük, erősítse meg az e-mail-címét az alábbi hivatkozásra kattintva:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nKöszönjük."
+
+#: includes/modules/class-zappoppop-double-optin.php:22
+msgid "Thank you!"
+msgstr "Köszönjük!"
+
+#: includes/modules/class-zappoppop-getresponse.php:210 includes/modules/class-zappoppop-mailchimp.php:222
+msgid "Invalid API key."
+msgstr "Érvénytelen API-kulcs."
+
+#: includes/modules/class-zappoppop-getresponse.php:232
+msgid "GetResponse returned HTTP %d."
+msgstr "A GetResponse HTTP %d állapotot adott vissza."
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Email Address"
+msgstr "E-mail-cím"
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Full name"
+msgstr "Teljes név"
+
+#: includes/modules/class-zappoppop-getresponse.php:265
+msgid "API key or campaign is missing."
+msgstr "Hiányzik az API-kulcs vagy a kampány."
+
+#: includes/modules/class-zappoppop-getresponse.php:267 includes/modules/class-zappoppop-mailchimp.php:304
+msgid "Invalid email address."
+msgstr "Érvénytelen e-mail-cím."
+
+#: includes/modules/class-zappoppop-mailchimp.php:246
+msgid "MailChimp returned HTTP %d."
+msgstr "A MailChimp HTTP %d állapotot adott vissza."
+
+#: includes/modules/class-zappoppop-mailchimp.php:263 includes/modules/class-zappoppop-mailchimp.php:277
+msgid "Select an audience first."
+msgstr "Előbb válasszon közönséget."
+
+#: includes/modules/class-zappoppop-mailchimp.php:266
+msgid "Email address"
+msgstr "E-mail-cím"
+
+#: includes/modules/class-zappoppop-mailchimp.php:302
+msgid "API key or audience is missing."
+msgstr "Hiányzik az API-kulcs vagy a közönség."
+
+#: includes/modules/class-zappoppop-protect.php:207 includes/modules/class-zappoppop-protect.php:215 includes/modules/class-zappoppop-protect.php:278
+msgid "ZapPopPop submissions"
+msgstr "ZapPopPop-beküldések"
+
+#: includes/modules/class-zappoppop-side-tabs.php:117
+msgid "Offer"
+msgstr "Ajánlat"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:372
+msgid "(no title)"
+msgstr "(nincs cím)"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:398
+msgid "Visitors (logged out)"
+msgstr "Látogatók (kijelentkezve)"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:399 includes/modules/class-zappoppop-woo-cart.php:722
+msgid "Search..."
+msgstr "Keresés..."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:400 includes/modules/class-zappoppop-woo-cart.php:723
+msgid "Nothing found."
+msgstr "Nincs találat."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:404
+msgid "OnLoad"
+msgstr "Betöltéskor"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:405
+msgid "OnScroll"
+msgstr "Görgetéskor"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:406
+msgid "OnExit"
+msgstr "Kilépéskor"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:407
+msgid "OnInactivity"
+msgstr "Inaktivitáskor"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:415
+msgid "hrs"
+msgstr "óra"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:417
+msgid "sec"
+msgstr "mp"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:419
+msgid "Close delay 0 keeps the popup open until it is closed."
+msgstr "A 0 bezárási késleltetés nyitva tartja a popupot, amíg be nem zárják."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:427
+msgid "End"
+msgstr "Vége"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:434
+msgid "URL"
+msgstr "URL"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
+msgid "All"
+msgstr "Mind"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:444
+msgid "URL contains"
+msgstr "Az URL tartalmazza"
+
+#: includes/modules/class-zappoppop-woo-cart.php:709
+msgid "Any"
+msgstr "Bármely"
+
+#: includes/modules/class-zappoppop-woo-cart.php:717
+msgid "items"
+msgstr "tétel"
+
+#: includes/modules/class-zappoppop-woo-cart.php:718
+msgid "A value of 0 turns that condition off."
+msgstr "A 0 érték kikapcsolja az adott feltételt."
+
+#: includes/modules/class-zappoppop-woo-cart.php:730
+msgid "0 = detect it from your WooCommerce free shipping method."
+msgstr "0 = felismerés a WooCommerce ingyenes szállítási módjából."
+
+#: includes/modules/class-zappoppop-woo-cart.php:732
+msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
+msgstr "Írja be ezeket bármely szövegrétegbe. Az Élő előnézet mintaértékeket mutat; a látogatók a saját kosarukat látják."
+
+#: includes/modules/class-zappoppop-woo-cart.php:740
+msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
+msgstr "Egy meglévő WooCommerce-kupon. Ez tölti ki a {coupon_code} értéket és a visszaszámlálót. A kód látható az oldal forrásában, ezért ne használjon privát kódot."
+
+#: includes/modules/class-zappoppop-woo-cart.php:744
+msgid "Give a button the link #zpp-apply-coupon."
+msgstr "Adja a gomb hivatkozásának a #zpp-apply-coupon értéket."
+
+#: includes/modules/class-zappoppop-woo-cart.php:752
+msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
+msgstr "Terméklapok: a popup egyetlen más oldalon sem jelenik meg. Kiválasztott termékek: csak az alábbi termékeken vagy kategóriákban (ha nincs kiválasztva, minden terméklapon)."
+
+#: includes/modules/class-zappoppop-woo-cart.php:763
+msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
+msgstr "Az Automatikus a látogató kosarának keresztértékesítéseit használja, majd a benne lévő termékek kiegészítő értékesítéseit. Állítsa be őket az egyes WooCommerce-termékeknél."
+
+#: includes/modules/class-zappoppop-woo-cart.php:765
+msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
+msgstr "Adja a gomb hivatkozásának a #zpp-add-upsell értéket a termék kosárba tételéhez (a popup ezután bezárul), vagy a #zpp-view-upsell értéket az oldalának megnyitásához. A változó termékek csak a megtekintési hivatkozást használhatják."
+
+#: includes/modules/class-zappoppop-woo-cart.php:770
+msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
+msgstr "Egyszer kerül elküldésre azoknak a látogatóknak, akik a popup űrlapját bejelölt hozzájárulási négyzettel és a kosarukban lévő tételekkel küldik be. Hozzájárulás nélkül semmi sem kerül mentésre."
+
+#: includes/modules/class-zappoppop-woo-cart.php:772
+msgid "minutes"
+msgstr "perc"
+
+#: includes/modules/class-zappoppop-woo-cart.php:774
+msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
+msgstr "Adjon az űrlaphoz egy jelölőnégyzet-réteget (például \"Küldjenek e-mailben emlékeztetőt a kosaramról\"), és írja be ugyanazt a nevet a Haladó > Mező neve mezőbe. Ha nincs bejelölve = semmi sem kerül mentésre."
+
+#: includes/modules/class-zappoppop-woo-cart.php:779
+msgid "Coupon code (optional)"
+msgstr "Kuponkód (opcionális)"
+
+#: includes/modules/class-zappoppop-woo-cart.php:781
+msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
+msgstr "Nem kerül elküldésre e-mail, ha ugyanezzel a címmel rendelést adtak le. Minden e-mail tartalmaz leiratkozási hivatkozást; a leiratkozott címek soha többé nem kerülnek mentésre. A küldés a WordPress cron és a wp_mail() függvényt használja."
+
+#: includes/modules/class-zappoppop-woo-cart.php:782
+msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
+msgstr "A visszaszámláló és a lejárati dátum a kupon WooCommerce-beli tényleges lejárati dátumából származik."
+
+#: includes/modules/class-zappoppop-woo-cart.php:783
+msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
+msgstr "Ingyenes szállítás sáv: adjon hozzá egy Folyamatjelző sáv réteget, állítsa a módját \"Automatikus: WooCommerce ingyenes szállítás\" értékre, és a címkéjét így írja meg: Adjon hozzá {shipping_remaining} értékben az ingyenes szállításhoz || Megkapta az ingyenes szállítást!"
+
+#: includes/modules/class-zappoppop-woo-recover.php:401
+msgid "Use code %s at checkout."
+msgstr "Használja a(z) %s kódot a pénztárnál."
+
+#: includes/modules/class-zappoppop-woo-recover.php:408
+msgid "Return to your cart"
+msgstr "Vissza a kosárhoz"
+
+#: includes/modules/class-zappoppop-woo-recover.php:411
+msgid "You are receiving this because you asked for a cart reminder on %s."
+msgstr "Ezt azért kapja, mert kosár-emlékeztetőt kért itt: %s."
+
+#: includes/modules/class-zappoppop-woo-recover.php:412 includes/modules/class-zappoppop-woo-recover.php:433
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "You have been unsubscribed. We will not send you cart reminders again."
+msgstr "Leiratkozott. Többé nem küldünk Önnek kosár-emlékeztetőket."
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "This unsubscribe link is not valid."
+msgstr "Ez a leiratkozási hivatkozás érvénytelen."
+
+#: includes/modules/class-zappoppop-woo-recover.php:506 includes/modules/class-zappoppop-woo-recover.php:514
+msgid "ZapPopPop abandoned cart emails"
+msgstr "ZapPopPop elhagyott kosár e-mailek"
+
+#: includes/modules/class-zappoppop-woo-recover.php:530
+msgid "Abandoned cart emails"
+msgstr "Elhagyott kosár e-mailek"
+
+#: includes/modules/class-zappoppop-woo-recover.php:533
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
+msgid "Status"
+msgstr "Állapot"
+
+#: includes/modules/class-zappoppop-woo-recover.php:535
+msgid "Saved on"
+msgstr "Mentve ekkor:"
+
+#: includes/modules/class-zappoppop-woo-recover.php:536
+msgid "Cart lines"
+msgstr "Kosársorok"
+
+#: includes/modules/class-zappoppop-woo-recover.php:558
+msgid "The address is kept on a do-not-email list because the person unsubscribed."
+msgstr "A cím egy e-mailezési tiltólistán van, mert a személy leiratkozott."
+
+#: includes/modules/class-zappoppop-woocommerce.php:98
+msgid "Generated by ZapPopPop campaign"
+msgstr "A ZapPopPop kampány által generálva"
+
+#: includes/stats/class-admin-stats.php:86
+msgid "Rank"
+msgstr "Rang"
+
+#: includes/stats/class-admin-stats.php:87
+msgid "Popup Campaign"
+msgstr "Popup-kampány"
+
+#: includes/stats/class-admin-stats.php:88
+msgid "Label Color"
+msgstr "Címke színe"
+
+#: includes/stats/class-admin-stats.php:89
+msgid "Country"
+msgstr "Ország"
+
+#: includes/stats/class-admin-stats.php:90
+msgid "Device"
+msgstr "Eszköz"
+
+#: includes/stats/class-admin-stats.php:91 templates/stats/chart.php:29
+msgid "Impressions"
+msgstr "Megjelenítések"
+
+#: includes/stats/class-admin-stats.php:92
+msgid "Captured Leads"
+msgstr "Rögzített érdeklődők"
+
+#: includes/stats/class-admin-stats.php:93 templates/stats/kpi-summary.php:23
+msgid "Conversion Rate"
+msgstr "Konverziós arány"
+
+#: includes/stats/class-admin-stats.php:163
+msgid "Invalid popup or color."
+msgstr "Érvénytelen popup vagy szín."
+
+#: includes/stats/class-pro-stats.php:49 includes/stats/class-pro-stats.php:50 includes/stats/class-pro-stats.php:64 includes/stats/class-pro-stats.php:102 templates/stats-view.php:62 templates/stats-view.php:66
+msgid "Statistics"
+msgstr "Statisztikák"
+
+#: includes/stats/class-pro-stats.php:66
+msgid "Track impressions, leads and conversion rates over time. Activate your ZapPopPop Pro licence to open the Statistics dashboard."
+msgstr "Követheti a megjelenítéseket, érdeklődőket és konverziós arányokat az idő függvényében. A Statisztikák irányítópult megnyitásához aktiválja a ZapPopPop Pro licencét."
+
+#: includes/stats/class-pro-stats.php:97
+msgid "Maximum of %d series reached"
+msgstr "Elérte a(z) %d sorozatos maximumot"
+
+#: includes/stats/class-pro-stats.php:106
+msgid "Daily Impressions"
+msgstr "Napi megjelenítések"
+
+#: includes/stats/class-pro-stats.php:128
+msgid "Once Weekly"
+msgstr "Hetente egyszer"
+
+#: includes/stats/class-pro-stats.php:188
+msgid "No activity recorded."
+msgstr "Nincs rögzített tevékenység."
+
+#: modules/acc-popup-overlay/admin.js:163
+msgid "Maximum of 20 custom backgrounds."
+msgstr "Legfeljebb 20 egyéni háttér."
+
+#: modules/acc-popup-overlay/admin.js:170
+msgid "Delete this background?"
+msgstr "Törli ezt a hátteret?"
+
+#: modules/acc-popup-overlay/admin.js:179
+msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
+msgstr "A WordPress Média nem érhető el. Adja meg a kép URL-jét (JPG/PNG):"
+
+#: modules/acc-popup-overlay/admin.js:199
+msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
+msgstr "Válasszon JPEG vagy PNG képet (.jpg, .jpeg, .png)."
+
+#: modules/acc-popup-overlay/admin.js:202
+msgid "Please enter the animation HTML / JS."
+msgstr "Adja meg az animáció HTML / JS kódját."
+
+#: templates/license-edd.php:44 templates/license-page.php:24
+msgid "Licensing is not set up yet"
+msgstr "A licencelés még nincs beállítva"
+
+#: templates/license-edd.php:46
+msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
+msgstr "A ZapPopPop Pro az Easy Digital Downloadson keresztül ellenőrzi a licenckulcsot és szállítja a frissítéseket. Adja hozzá az áruház adatait a wp-config.php fájlhoz, a \"That's all, stop editing!\" feliratú sor fölé:"
+
+#: templates/license-edd.php:48
+msgid "Store home URL (https)"
+msgstr "Az áruház kezdőlapjának URL-je (https)"
+
+#: templates/license-edd.php:49
+msgid "Download ID of ZapPopPop Pro in your store"
+msgstr "A ZapPopPop Pro letöltési azonosítója az áruházában"
+
+#: templates/license-edd.php:52 templates/license-page.php:32 templates/locked-page.php:23
+msgid "Your campaigns, statistics and settings are safe. Everything you created stays stored and keeps working on your site."
+msgstr "A kampányai, statisztikái és beállításai biztonságban vannak. Minden, amit létrehozott, tárolva marad, és tovább működik a webhelyén."
+
+#: templates/license-edd.php:60
+msgid "Licence key"
+msgstr "Licenckulcs"
+
+#: templates/license-edd.php:70
+msgid "Your licence has expired. Every Pro feature keeps working; renew it to receive updates and support."
+msgstr "A licence lejárt. Minden Pro funkció tovább működik; újítsa meg a frissítések és a támogatás igénybevételéhez."
+
+#: templates/license-edd.php:75
+msgid "Expires"
+msgstr "Lejár"
+
+#: templates/license-edd.php:77
+msgid "Last checked"
+msgstr "Utoljára ellenőrizve"
+
+#: templates/license-edd.php:81
+msgid "Check now"
+msgstr "Ellenőrzés most"
+
+#: templates/license-edd.php:82
+msgid "Deactivate"
+msgstr "Deaktiválás"
+
+#: templates/license-edd.php:85
+msgid "Enter your licence key"
+msgstr "Adja meg a licenckulcsát"
+
+#: templates/license-edd.php:87
+msgid "You can find the key in your purchase receipt and in your account on the store."
+msgstr "A kulcsot a vásárlási nyugtáján és az áruházban lévő fiókjában találja."
+
+#: templates/license-edd.php:93
+msgid "Only a network administrator can change the licence."
+msgstr "A licencet csak hálózati adminisztrátor módosíthatja."
+
+#: templates/license-edd.php:102
+msgid "Licence server"
+msgstr "Licencszerver"
+
+#: templates/license-edd.php:105
+msgid "Store"
+msgstr "Áruház"
+
+#: templates/license-edd.php:107 templates/license-page.php:28
+msgid "Product ID"
+msgstr "Termékazonosító"
+
+#: templates/license-edd.php:109
+msgid "This site"
+msgstr "Ez a webhely"
+
+#: templates/license-edd.php:112
+msgid "Activating uses one site slot. Deactivate the licence before you move the site to another domain. Updates arrive in Dashboard > Updates while the licence is active."
+msgstr "Az aktiválás egy webhelyhelyet használ fel. Deaktiválja a licencet, mielőtt a webhelyet másik domainre költözteti. A frissítések a Vezérlőpult > Frissítések alatt érkeznek, amíg a licenc aktív."
+
+#: templates/license-page.php:26
+msgid "ZapPopPop Pro uses Freemius for licence keys, updates and your account. Add the product details from your Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) to zappoppop-pro.php, or define them in wp-config.php:"
+msgstr "A ZapPopPop Pro a Freemiust használja a licenckulcsokhoz, a frissítésekhez és a fiókjához. Adja hozzá a termék adatait a Freemius fejlesztői vezérlőpultjáról (Products > ZapPopPop Pro > SDK Integration) a zappoppop-pro.php fájlhoz, vagy definiálja őket a wp-config.php fájlban:"
+
+#: templates/license-page.php:29
+msgid "Public key (starts with pk_)"
+msgstr "Nyilvános kulcs (pk_-val kezdődik)"
+
+#: templates/license-page.php:30
+msgid "Product slug"
+msgstr "Termék-slug"
+
+#: templates/settings-library-rows.php:15
+msgid "Canvas Confetti"
+msgstr "Canvas Confetti"
+
+#: templates/settings-library-rows.php:15
+msgid "Celebratory confetti particle bursts on lead capture and prize unlocks."
+msgstr "Ünnepi konfetti-részecskekitörések érdeklődő-szerzéskor és nyeremény-feloldáskor."
+
+#: templates/settings-library-rows.php:20
+msgid "Canvas Fireworks"
+msgstr "Canvas Fireworks"
+
+#: templates/settings-library-rows.php:20
+msgid "Particle fireworks display for discount unlock screens."
+msgstr "Részecskés tűzijáték-bemutató a kedvezmény-feloldó képernyőkhöz."
+
+#: templates/settings-library-rows.php:25
+msgid "Signature Pad"
+msgstr "Aláírásmező"
+
+#: templates/settings-library-rows.php:25
+msgid "HTML5 canvas digital signature capture input fields."
+msgstr "HTML5 canvas alapú digitális aláírás-rögzítő beviteli mezők."
+
+#: templates/settings-library-rows.php:30
+msgid "Math Formula Parser"
+msgstr "Matematikai képletelemző"
+
+#: templates/settings-library-rows.php:30
+msgid "Dynamic client-side math evaluation for quote calculators."
+msgstr "Dinamikus kliensoldali matematikai kiértékelés árajánlat-kalkulátorokhoz."
+
+#: templates/settings-performance-rows.php:11
+msgid "Google Analytics Integration"
+msgstr "Google Analytics-integráció"
+
+#: templates/settings-performance-rows.php:16
+msgid "Automatically dispatch popup impressions, conversions, and close events to gtag() and dataLayer"
+msgstr "A popupmegjelenítések, konverziók és bezárási események automatikus küldése a gtag() és a dataLayer felé"
+
+#: templates/settings-performance-rows.php:22
+msgid "AdBlock Detection Engine"
+msgstr "AdBlock-észlelő motor"
+
+#: templates/settings-performance-rows.php:27
+msgid "Enable global AdBlock extension monitoring script to trigger anti-adblock campaigns"
+msgstr "A globális AdBlock-bővítményfigyelő szkript engedélyezése az anti-adblock kampányok indításához"
+
+#: templates/settings-security.php:17
+msgid "Bot Protection & Geo-Targeting Rules"
+msgstr "Botvédelem és földrajzi célzási szabályok"
+
+#: templates/settings-security.php:19
+msgid "These rules need an active ZapPopPop Pro licence. Your saved choices are kept."
+msgstr "Ezekhez a szabályokhoz aktív ZapPopPop Pro licenc szükséges. A mentett választásai megmaradnak."
+
+#: templates/settings-security.php:23
+msgid "Email Validation Mode"
+msgstr "E-mail-érvényesítési mód"
+
+#: templates/settings-security.php:26
+msgid "Standard RFC Syntax Check"
+msgstr "Szabványos RFC-szintaxis-ellenőrzés"
+
+#: templates/settings-security.php:27
+msgid "Syntax Check + Block Disposable Domains (10MinuteMail, Mailinator)"
+msgstr "Szintaxis-ellenőrzés + eldobható domainek tiltása (10MinuteMail, Mailinator)"
+
+#: templates/settings-security.php:29
+msgid "Rejects throwaway and temporary email addresses from polluting your CRM."
+msgstr "Elutasítja az eldobható és ideiglenes e-mail-címeket, hogy ne szennyezzék a CRM-et."
+
+#: templates/settings-security.php:33
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: templates/settings-security.php:38
+msgid "Enable Google reCAPTCHA verification on all lead submission forms"
+msgstr "Google reCAPTCHA-ellenőrzés engedélyezése minden érdeklődő-beküldési űrlapon"
+
+#: templates/settings-security.php:43
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA webhelykulcs"
+
+#: templates/settings-security.php:49
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA titkos kulcs"
+
+#: templates/settings-security.php:55
+msgid "reCAPTCHA v3 Minimum Score"
+msgstr "reCAPTCHA v3 minimális pontszám"
+
+#: templates/settings-security.php:58
+msgid "Submissions scoring below this are rejected (0.1 = lenient, 0.9 = strict). Default 0.4. Requires a reCAPTCHA v3 key pair."
+msgstr "Az ez alatti pontszámú beküldések elutasításra kerülnek (0,1 = engedékeny, 0,9 = szigorú). Alapértelmezés: 0,4. reCAPTCHA v3 kulcspárt igényel."
+
+#: templates/settings-security.php:62
+msgid "IP Rate Limiting"
+msgstr "IP-alapú sebességkorlátozás"
+
+#: templates/settings-security.php:65
+msgid "submissions allowed per IP per hour"
+msgstr "engedélyezett beküldés IP-nként óránként"
+
+#: templates/settings-security.php:66
+msgid "Throttles aggressive bot submissions and prevents form spam."
+msgstr "Korlátozza az agresszív botbeküldéseket, és megakadályozza az űrlapspamet."
+
+#: templates/settings-security.php:70
+msgid "IP Geo-Targeting"
+msgstr "IP-alapú földrajzi célzás"
+
+#: templates/settings-security.php:75
+msgid "Enable IP-based country and regional targeting rules"
+msgstr "IP-alapú ország- és régiócélzási szabályok engedélyezése"
+
+#: templates/settings-security.php:80
+msgid "GeoIP Resolution Service"
+msgstr "GeoIP-feloldó szolgáltatás"
+
+#: templates/settings-security.php:83
+msgid "None (Cloudflare CF-IPCountry header only, no external lookups)"
+msgstr "Nincs (csak a Cloudflare CF-IPCountry fejléc, külső lekérdezések nélkül)"
+
+#: templates/settings-security.php:84
+msgid "ipapi.co (JSON API)"
+msgstr "ipapi.co (JSON API)"
+
+#: templates/settings-security.php:87
+msgid "Provider used to detect visitor countries for geo-whitelisting and blacklisting."
+msgstr "A látogatók országának észlelésére használt szolgáltató a földrajzi engedélyezési és tiltólisták számára."
+
+#: templates/tracking-sections.php:7
+msgid "Statistics & Reports"
+msgstr "Statisztikák és jelentések"
+
+#: templates/tracking-sections.php:9
+msgid "Daily Stats Retention"
+msgstr "Napi statisztikák megőrzése"
+
+#: templates/tracking-sections.php:9
+msgid "days (0 = keep forever)"
+msgstr "nap (0 = örökre megtartja)"
+
+#: templates/tracking-sections.php:10
+msgid "Weekly Email Report"
+msgstr "Heti e-mail-jelentés"
+
+#: templates/tracking-sections.php:10
+msgid "Email impressions, leads and CR per campaign every week"
+msgstr "A megjelenítések, érdeklődők és konverziós arány e-mailben küldése kampányonként hetente"
+
+#: templates/tracking-sections.php:12
+msgid "Report Recipient"
+msgstr "Jelentés címzettje"
+
+#: templates/tracking-sections.php:17
+msgid "A/B Testing"
+msgstr "A/B-tesztelés"
+
+#: templates/tracking-sections.php:20
+msgid "Default Embed Type"
+msgstr "Alapértelmezett beágyazási típus"
+
+#: templates/tracking-sections.php:23
+msgid "Inline Popup"
+msgstr "Beágyazott popup"
+
+#: templates/tracking-sections.php:24
+msgid "On-Load Popup"
+msgstr "Betöltéskor megjelenő popup"
+
+#: templates/tracking-sections.php:26
+msgid "Used by [zappoppop_ab] when the shortcode has no mode attribute."
+msgstr "A [zappoppop_ab] használja, ha a shortcode-nak nincs mód attribútuma."
+
+#: templates/tracking-sections.php:29
+msgid "Variant Cookie Lifetime"
+msgstr "Változatsüti élettartama"
+
+#: templates/tracking-sections.php:29
+msgid "days"
+msgstr "nap"
+
+#: templates/tracking-sections.php:30
+msgid "Sticky Variant by User"
+msgstr "Felhasználóhoz kötött változat"
+
+#: templates/tracking-sections.php:30
+msgid "Logged-in visitors always see the same variant on every device"
+msgstr "A bejelentkezett látogatók minden eszközön mindig ugyanazt a változatot látják"
+
+#: templates/tracking-sections.php:31
+msgid "Auto-Promote Winner"
+msgstr "Győztes automatikus előléptetése"
+
+#: templates/tracking-sections.php:31
+msgid "Keep only the best variant once the result is statistically significant"
+msgstr "Csak a legjobb változat megtartása, amint az eredmény statisztikailag szignifikáns"
+
+#: templates/tracking-sections.php:31
+msgid "Uses each popup's lifetime impressions and leads. Checked daily."
+msgstr "Az egyes popupok élettartam alatti megjelenítéseit és érdeklődőit használja. Naponta ellenőrzi."
+
+#: templates/tracking-sections.php:32
+msgid "Minimum Impressions per Variant"
+msgstr "Legkevesebb megjelenítés változatonként"
+
+#: templates/tracking-sections.php:34
+msgid "Confidence Level"
+msgstr "Megbízhatósági szint"
+
+#: templates/tracking-sections.php:45
+msgid "Cache Compatibility"
+msgstr "Gyorsítótár-kompatibilitás"
+
+#: templates/tracking-sections.php:47
+msgid "Exclude A/B Pages from Page Cache"
+msgstr "A/B-oldalak kizárása az oldal-gyorsítótárból"
+
+#: templates/tracking-sections.php:47
+msgid "Send the DONOTCACHEPAGE flag on pages that contain [zappoppop_ab]"
+msgstr "A DONOTCACHEPAGE jelző küldése a [zappoppop_ab]-t tartalmazó oldalakon"
+
+#: templates/tracking-sections.php:47
+msgid "Honoured by WP Rocket, W3 Total Cache, LiteSpeed and WP Super Cache."
+msgstr "A WP Rocket, a W3 Total Cache, a LiteSpeed és a WP Super Cache tiszteletben tartja."
+
+#: templates/ab/bar-actions.php:8
+msgid "New A/B Campaign"
+msgstr "Új A/B-kampány"
+
+#: templates/ab/modal-create.php:12
+msgid "Create A/B Split Testing Experiment"
+msgstr "A/B osztott tesztelési kísérlet létrehozása"
+
+#: templates/ab/modal-create.php:13
+msgid "Close"
+msgstr "Bezárás"
+
+#: templates/ab/modal-create.php:17
+msgid "Campaign Title"
+msgstr "Kampány címe"
+
+#: templates/ab/modal-create.php:18
+msgid "e.g. Summer Promo Headline Test"
+msgstr "pl. Nyári promóció címsorteszt"
+
+#: templates/ab/modal-create.php:20
+msgid "Select Popups for Testing (Minimum 2)"
+msgstr "Válassza ki a tesztelendő popupokat (legalább 2)"
+
+#: templates/ab/modal-create.php:21
+msgid "Traffic will be distributed randomly across your selected variations."
+msgstr "A forgalom véletlenszerűen oszlik el a kiválasztott változatok között."
+
+#: templates/ab/modal-create.php:25
+msgid "No published popups available. Please create and publish popups in the builder first."
+msgstr "Nincs elérhető közzétett popup. Előbb hozzon létre és tegyen közzé popupokat a szerkesztőben."
+
+#: templates/ab/modal-create.php:30
+msgid "inactive"
+msgstr "inaktív"
+
+#: templates/ab/modal-create.php:38
+msgid "Launch Campaign"
+msgstr "Kampány indítása"
+
+#: templates/ab/pagination.php:25
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s elem"
+msgstr[1] "%s elem"
+
+#: templates/ab/pagination.php:30
+msgid "First page"
+msgstr "Első oldal"
+
+#: templates/ab/pagination.php:31
+msgid "Previous page"
+msgstr "Előző oldal"
+
+#: templates/ab/pagination.php:33
+msgid "%1$s of %2$s"
+msgstr "%1$s / %2$s"
+
+#: templates/ab/pagination.php:35
+msgid "Next page"
+msgstr "Következő oldal"
+
+#: templates/ab/pagination.php:36
+msgid "Last page"
+msgstr "Utolsó oldal"
+
+#: templates/ab/table.php:22
+msgid "Campaign"
+msgstr "Kampány"
+
+#: templates/ab/table.php:23
+msgid "Variations & Performance"
+msgstr "Változatok és teljesítmény"
+
+#: templates/ab/table.php:25
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: templates/ab/table.php:44
+msgid "No campaigns match your filters."
+msgstr "Egyetlen kampány sem felel meg a szűrőknek."
+
+#: templates/ab/table.php:46
+msgid "No A/B testing campaigns found. Click \"New A/B Campaign\" in the top bar to launch your first split-test experiment."
+msgstr "Nem található A/B-tesztelési kampány. Az első osztott tesztelési kísérlet indításához kattintson a felső sávon az \"Új A/B-kampány\" gombra."
+
+#: templates/ab/table.php:66
+msgid "Created:"
+msgstr "Létrehozva:"
+
+#: templates/ab/table.php:69
+msgid "Restore"
+msgstr "Visszaállítás"
+
+#: templates/ab/table.php:70
+msgid "Delete Permanently"
+msgstr "Végleges törlés"
+
+#: templates/ab/table.php:72
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: templates/ab/table.php:73 templates/ab/table.php:104 templates/ab/toolbar.php:10 templates/stats/chart.php:41 templates/stats/chart.php:59 templates/stats/table-top-campaigns.php:82
+msgid "Trash"
+msgstr "Kuka"
+
+#: templates/ab/table.php:79
+msgid "No variations attached."
+msgstr "Nincsenek csatolt változatok."
+
+#: templates/ab/table.php:92
+msgid "Variant %s"
+msgstr "%s változat"
+
+#: templates/ab/table.php:93
+msgid "%s%% CR"
+msgstr "%s%% CR"
+
+#: templates/ab/table.php:96
+msgid "Impr:"
+msgstr "Megj.:"
+
+#: templates/ab/table.php:96
+msgid "• Leads:"
+msgstr "• Érdeklődők:"
+
+#: templates/ab/table.php:106 templates/ab/toolbar.php:9
+msgid "Inactive"
+msgstr "Inaktív"
+
+#: templates/ab/table.php:107
+msgid "Campaign active"
+msgstr "A kampány aktív"
+
+#: templates/ab/table.php:113
+msgid "Click to copy shortcode"
+msgstr "Kattintson a shortcode másolásához"
+
+#: templates/ab/toolbar.php:26
+msgid "Search campaigns:"
+msgstr "Kampányok keresése:"
+
+#: templates/ab/toolbar.php:27
+msgid "Title or UID"
+msgstr "Cím vagy UID"
+
+#: templates/ab/toolbar.php:28
+msgid "Search Campaigns"
+msgstr "Kampányok keresése"
+
+#: templates/ab/toolbar.php:30
+msgid "Clear"
+msgstr "Törlés"
+
+#: templates/builder/ribbon-tools.php:3
+msgid "8. Progress Bar (progress)"
+msgstr "8. Folyamatjelző sáv (progress)"
+
+#: templates/builder/ribbon-tools.php:3
+msgid "Progress"
+msgstr "Folyamat"
+
+#: templates/builder/ribbon-tools.php:6
+msgid "19. Image Select (imageselect)"
+msgstr "19. Képválasztó (imageselect)"
+
+#: templates/builder/ribbon-tools.php:6
+msgid "ImgSel"
+msgstr "Képv."
+
+#: templates/builder/ribbon-tools.php:9
+msgid "20. Tile (tile)"
+msgstr "20. Csempe (tile)"
+
+#: templates/builder/ribbon-tools.php:9
+msgid "Tile"
+msgstr "Csempe"
+
+#: templates/builder/ribbon-tools.php:12
+msgid "25. Rating (rating)"
+msgstr "25. Értékelés (rating)"
+
+#: templates/builder/ribbon-tools.php:12
+msgid "Rating"
+msgstr "Értékelés"
+
+#: templates/builder/elements/elem-08-progress.php:6
+msgid "8. Progress Bar Settings"
+msgstr "8. Folyamatjelző sáv beállításai"
+
+#: templates/builder/elements/elem-08-progress.php:8
+msgid "PROGRESS MODE"
+msgstr "FOLYAMAT MÓDJA"
+
+#: templates/builder/elements/elem-08-progress.php:10
+msgid "Manual (fixed percent)"
+msgstr "Kézi (fix százalék)"
+
+#: templates/builder/elements/elem-08-progress.php:11
+msgid "Auto: Form completion"
+msgstr "Automatikus: űrlapkitöltés"
+
+#: templates/builder/elements/elem-08-progress.php:12
+msgid "Auto: Canvas steps"
+msgstr "Automatikus: vászonlépések"
+
+#: templates/builder/elements/elem-08-progress.php:18
+msgid "FILL PERCENT (0–100%)"
+msgstr "KITÖLTÖTTSÉG SZÁZALÉKA (0–100%)"
+
+#: templates/builder/elements/elem-08-progress.php:22
+msgid "FILL BAR COLOR"
+msgstr "KITÖLTŐ SÁV SZÍNE"
+
+#: templates/builder/elements/elem-08-progress.php:27
+msgid "TRACK (BACKGROUND) COLOR"
+msgstr "SÁV (HÁTTÉR) SZÍNE"
+
+#: templates/builder/elements/elem-08-progress.php:30
+msgid "PROGRESS LABEL TEXT"
+msgstr "FOLYAMATJELZŐ FELIRAT SZÖVEGE"
+
+#: templates/builder/elements/elem-08-progress.php:31
+msgid "e.g. 65% Complete — Almost There!"
+msgstr "pl. 65% Kész — mindjárt megvan!"
+
+#: templates/builder/elements/elem-08-progress.php:34
+msgid "Striped Bar"
+msgstr "Csíkozott sáv"
+
+#: templates/builder/elements/elem-08-progress.php:37
+msgid "Animated Stripes"
+msgstr "Animált csíkok"
+
+#: templates/builder/elements/elem-08-progress.php:40
+msgid "Show %"
+msgstr "% megjelenítése"
+
+#: templates/builder/elements/elem-08-progress.php:47
+msgid "PROGRESS VALUE:"
+msgstr "FOLYAMAT ÉRTÉKE:"
+
+#: templates/builder/elements/elem-08-progress.php:49
+msgid "BAR FILL COLOR"
+msgstr "SÁV KITÖLTÉSI SZÍNE"
+
+#: templates/builder/elements/elem-19-imageselect.php:6
+msgid "19. Visual Image Select Grid"
+msgstr "19. Vizuális képválasztó rács"
+
+#: templates/builder/elements/elem-19-imageselect.php:7
+msgid "IMAGE CHOICES (LABEL + IMAGE URL)"
+msgstr "KÉPVÁLASZTÁSOK (CÍMKE + KÉP URL-JE)"
+
+#: templates/builder/elements/elem-19-imageselect.php:11
+msgid "Label"
+msgstr "Címke"
+
+#: templates/builder/elements/elem-19-imageselect.php:205 templates/builder/elements/elem-20-tile.php:11
+msgid "GRID COLUMNS"
+msgstr "RÁCSOSZLOPOK"
+
+#: templates/builder/elements/elem-19-imageselect.php:207 templates/builder/elements/elem-20-tile.php:13
+msgid "2 Columns"
+msgstr "2 oszlop"
+
+#: templates/builder/elements/elem-19-imageselect.php:208 templates/builder/elements/elem-20-tile.php:14
+msgid "3 Columns"
+msgstr "3 oszlop"
+
+#: templates/builder/elements/elem-19-imageselect.php:209 templates/builder/elements/elem-20-tile.php:15
+msgid "4 Columns"
+msgstr "4 oszlop"
+
+#: templates/builder/elements/elem-19-imageselect.php:213
+msgid "ACTIVE BORDER"
+msgstr "AKTÍV SZEGÉLY"
+
+#: templates/builder/elements/elem-19-imageselect.php:218
+msgid "Allow Multiple Image Selections"
+msgstr "Több képválasztás engedélyezése"
+
+#: templates/builder/elements/elem-20-tile.php:6
+msgid "20. Interactive Tile Selector"
+msgstr "20. Interaktív csempeválasztó"
+
+#: templates/builder/elements/elem-20-tile.php:7
+msgid "TILE CHOICES (ONE PER LINE)"
+msgstr "CSEMPE-VÁLASZTÁSOK (SORONKÉNT EGY)"
+
+#: templates/builder/elements/elem-20-tile.php:19
+msgid "ACTIVE ACCENT"
+msgstr "AKTÍV KIEMELÉS"
+
+#: templates/builder/elements/elem-20-tile.php:24
+msgid "Allow Multi-Tile Selection"
+msgstr "Több csempe kiválasztásának engedélyezése"
+
+#: templates/builder/elements/elem-25-rating.php:6
+msgid "25. Interactive Rating Scale"
+msgstr "25. Interaktív értékelési skála"
+
+#: templates/builder/elements/elem-25-rating.php:9
+msgid "SCALE MAX"
+msgstr "SKÁLA MAXIMUMA"
+
+#: templates/builder/elements/elem-25-rating.php:11
+msgid "5 Stars / Icons"
+msgstr "5 csillag / ikon"
+
+#: templates/builder/elements/elem-25-rating.php:12
+msgid "10 Stars / Icons"
+msgstr "10 csillag / ikon"
+
+#: templates/builder/elements/elem-25-rating.php:16
+msgid "ICON GLYPH"
+msgstr "IKONJEL"
+
+#: templates/builder/elements/elem-25-rating.php:18
+msgid "★ Star"
+msgstr "★ Csillag"
+
+#: templates/builder/elements/elem-25-rating.php:19
+msgid "♥ Heart"
+msgstr "♥ Szív"
+
+#: templates/builder/elements/elem-25-rating.php:20
+msgid "👍 Thumbs Up"
+msgstr "👍 Felfelé mutató hüvelykujj"
+
+#: templates/builder/elements/elem-25-rating.php:26
+msgid "ACTIVE COLOR"
+msgstr "AKTÍV SZÍN"
+
+#: templates/builder/elements/elem-25-rating.php:30
+msgid "INACTIVE COLOR"
+msgstr "INAKTÍV SZÍN"
+
+#: templates/builder/elements/elem-25-rating.php:38
+msgid "DEFAULT STAR RATING (1-5)"
+msgstr "ALAPÉRTELMEZETT CSILLAGÉRTÉKELÉS (1–5)"
+
+#: templates/builder/elements/elem-25-rating.php:40
+msgid "STAR COLOR"
+msgstr "CSILLAG SZÍNE"
+
+#: templates/builder/elements/elem-25-rating.php:42
+msgid "FIELD NAME / TOKEN"
+msgstr "MEZŐ NEVE / TOKEN"
+
+#: templates/stats/chart.php:27
+msgid "Performance Timeline"
+msgstr "Teljesítmény-idővonal"
+
+#: templates/stats/chart.php:30
+msgid "Leads"
+msgstr "Érdeklődők"
+
+#: templates/stats/chart.php:32
+msgid "Chart data (%d)"
+msgstr "Diagramadatok (%d)"
+
+#: templates/stats/chart.php:34 templates/stats/data.php:99
+msgid "All popups (total)"
+msgstr "Összes popup (összesen)"
+
+#: templates/stats/chart.php:46
+msgid "Max %d series"
+msgstr "Legfeljebb %d sorozat"
+
+#: templates/stats/data.php:62
+msgid "Untitled Popup"
+msgstr "Névtelen popup"
+
+#: templates/stats/header.php:8
+msgid "Visual Statistics & Analytics"
+msgstr "Vizuális statisztikák és analitika"
+
+#: templates/stats/header.php:9
+msgid "Track campaign performance, conversion velocity, and audience engagement trends."
+msgstr "Kövesse a kampányteljesítményt, a konverziós sebességet és a közönség-elköteleződési trendeket."
+
+#: templates/stats/header.php:15
+msgid "Last 7 Days"
+msgstr "Elmúlt 7 nap"
+
+#: templates/stats/header.php:20
+msgid "Last 30 Days"
+msgstr "Elmúlt 30 nap"
+
+#: templates/stats/header.php:25
+msgid "All Time"
+msgstr "Teljes időszak"
+
+#: templates/stats/kpi-summary.php:8
+msgid "Period Impressions"
+msgstr "Időszaki megjelenítések"
+
+#: templates/stats/kpi-summary.php:10
+msgid "Views recorded"
+msgstr "Rögzített megtekintések"
+
+#: templates/stats/kpi-summary.php:13
+msgid "Leads Captured"
+msgstr "Rögzített érdeklődők"
+
+#: templates/stats/kpi-summary.php:15
+msgid "Form completions"
+msgstr "Űrlapkitöltések"
+
+#: templates/stats/kpi-summary.php:18
+msgid "Confirmed Leads"
+msgstr "Megerősített érdeklődők"
+
+#: templates/stats/kpi-summary.php:20
+msgid "Verified double opt-in"
+msgstr "Ellenőrzött kétlépcsős feliratkozás"
+
+#: templates/stats/kpi-summary.php:25
+msgid "Submissions / Views"
+msgstr "Beküldések / megtekintések"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Desktop"
+msgstr "Asztali"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Mobile"
+msgstr "Mobil"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Tablet"
+msgstr "Táblagép"
+
+#: templates/stats/table-top-campaigns.php:26
+msgid "Top Performing Campaigns"
+msgstr "Legjobban teljesítő kampányok"
+
+#: templates/stats/table-top-campaigns.php:31
+msgid "Per page"
+msgstr "Oldalanként"
+
+#: templates/stats/table-top-campaigns.php:38
+msgid "Columns"
+msgstr "Oszlopok"
+
+#: templates/stats/table-top-campaigns.php:41 templates/stats/table-top-campaigns.php:59
+msgid "Drag to reposition"
+msgstr "Húzza az áthelyezéshez"
+
+#: templates/stats/table-top-campaigns.php:65
+msgid "No campaign records available to rank."
+msgstr "Nincs rangsorolható kampányrekord."
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Label color"
+msgstr "Címke színe"
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Pick a label color"
+msgstr "Címkeszín kiválasztása"
+
+#: templates/stats/table-top-campaigns.php:88
+msgid "Delete label"
+msgstr "Címke törlése"
+
+#: templates/stats/table-top-campaigns.php:121
+msgid "%1$d popups - page %2$d of %3$d"
+msgstr "%1$d popup – %2$d. oldal / %3$d"

@@ -1,0 +1,2622 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zappoppop-pro\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: zappoppop-pro.php
+msgid "ZapPopPop Pro"
+msgstr "ZapPopPop Pro"
+
+#: zappoppop-pro.php
+msgid "https://zappoppop.com/"
+msgstr "https://zappoppop.com/"
+
+#: zappoppop-pro.php
+msgid "Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics."
+msgstr "ZapPopPop 的 Pro 附加组件：额外的构建器元素、模块、模板、A/B 活动和统计。"
+
+#: zappoppop-pro.php
+msgid "ZapPopPop"
+msgstr "ZapPopPop"
+
+#: assets/js/stats.js:31 assets/js/stats.js:45
+msgid "Error"
+msgstr "错误"
+
+#: assets/js/stats.js:34
+msgid "Request failed (HTTP %s)"
+msgstr "请求失败（HTTP %s）"
+
+#: assets/js/stats.js:34
+msgid "Request failed"
+msgstr "请求失败"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:10
+msgid "10 Stars"
+msgstr "10 颗星"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:11
+msgid "5 Stars"
+msgstr "5 颗星"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:12 includes/modules/class-zappoppop-targeting-triggers.php:441
+msgid "A post matches when it is in any selected category, tag or post list."
+msgstr "当文章属于所选分类、标签或文章列表中的任意一个时即匹配。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:13 includes/modules/class-zappoppop-woo-cart.php:768
+msgid "Abandoned cart email"
+msgstr "弃购购物车邮件"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:14 includes/modules/class-zappoppop-targeting-triggers.php:423
+msgid "Activity"
+msgstr "活动"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:15
+msgid "Add field"
+msgstr "添加字段"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:16 includes/modules/class-zappoppop-targeting-triggers.php:442
+msgid "All pages"
+msgstr "所有页面"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:17 includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
+msgid "All roles"
+msgstr "所有角色"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:18 includes/modules/class-zappoppop-targeting-triggers.php:438
+msgid "Also show on category archive pages"
+msgstr "同时显示在分类归档页面"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:19 includes/modules/class-zappoppop-targeting-triggers.php:440
+msgid "Also show on tag archive pages"
+msgstr "同时显示在标签归档页面"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:20 includes/modules/class-zappoppop-targeting-triggers.php:424
+msgid "Always"
+msgstr "始终"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:21 includes/modules/class-zappoppop-woo-cart.php:736
+msgid "Amount left for free shipping"
+msgstr "距免运费还差的金额"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:22 includes/modules/class-zappoppop-woo-cart.php:749
+msgid "Anywhere"
+msgstr "任意位置"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:23 includes/modules/class-zappoppop-woo-cart.php:737
+msgid "Applied coupon code"
+msgstr "已应用的优惠券代码"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:24
+msgid "Apply Image Select Size Preset"
+msgstr "应用图片选择尺寸预设"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:25 includes/modules/class-zappoppop-woo-cart.php:741
+msgid "Apply it to the cart automatically"
+msgstr "自动应用到购物车"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:26 templates/builder/elements/elem-08-progress.php:13
+msgid "Auto: WooCommerce free shipping"
+msgstr "自动：WooCommerce 免运费"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:27 includes/modules/class-zappoppop-woo-cart.php:760
+msgid "Automatic"
+msgstr "自动"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:28
+msgid "Bottom center"
+msgstr "底部居中"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:29
+msgid "Bottom left"
+msgstr "左下"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:30
+msgid "Bottom right"
+msgstr "右下"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:31 includes/modules/class-zappoppop-woo-cart.php:713
+msgid "Cart conditions"
+msgstr "购物车条件"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:32 includes/modules/class-zappoppop-woo-cart.php:734
+msgid "Cart subtotal"
+msgstr "购物车小计"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:33 includes/modules/class-zappoppop-woo-cart.php:733
+msgid "Cart total"
+msgstr "购物车总计"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:34 includes/modules/class-zappoppop-woo-cart.php:706
+msgid "Cart-aware display rules and live cart text for this popup."
+msgstr "此弹窗的购物车感知显示规则和实时购物车文本。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:35 includes/modules/class-zappoppop-targeting-triggers.php:435
+msgid "Categories"
+msgstr "分类"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:36 includes/modules/class-zappoppop-targeting-triggers.php:425
+msgid "Certain period"
+msgstr "特定时间段"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:37
+msgid "Change Progress Bar"
+msgstr "更改进度条"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:38
+msgid "Change Progress Mode"
+msgstr "更改进度模式"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:39 includes/modules/class-zappoppop-targeting-triggers.php:408
+msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
+msgstr "选择弹窗出现的时机。在选择之前，弹窗保持其默认行为。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:40 includes/modules/class-zappoppop-woo-cart.php:759
+msgid "Chosen by you"
+msgstr "由您选择"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:41 includes/modules/class-zappoppop-targeting-triggers.php:418
+msgid "Close delay"
+msgstr "关闭延迟"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:42 includes/modules/class-zappoppop-woo-cart.php:754
+msgid "Comma-separated product IDs. Empty = off."
+msgstr "以逗号分隔的商品 ID。为空 = 关闭。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:43 includes/modules/class-zappoppop-woo-cart.php:720
+msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
+msgstr "以逗号分隔。购物车中包含其中任一商品时显示弹窗。为空 = 关闭。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:44
+msgid "Confirmation URL"
+msgstr "确认 URL"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:45 includes/modules/class-zappoppop-woo-cart.php:773
+msgid "Consent field name"
+msgstr "同意字段名称"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:46 includes/modules/class-zappoppop-woo-cart.php:738
+msgid "Coupon"
+msgstr "优惠券"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:47 includes/modules/class-zappoppop-woo-cart.php:739
+msgid "Coupon code"
+msgstr "优惠券代码"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:48 includes/modules/class-zappoppop-woo-cart.php:746
+msgid "Coupon countdown"
+msgstr "优惠券倒计时"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:49 includes/modules/class-zappoppop-woo-cart.php:747
+msgid "Coupon expiry date"
+msgstr "优惠券到期日期"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:50
+msgid "Default Rating"
+msgstr "默认评分"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:51 includes/modules/class-zappoppop-woo-cart.php:731
+msgid "Dynamic text"
+msgstr "动态文本"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:52
+msgid "Email me a reminder about my cart"
+msgstr "通过邮件提醒我购物车的内容"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:53 includes/modules/class-zappoppop-woo-cart.php:777
+msgid "Email message"
+msgstr "邮件内容"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:54 includes/modules/class-zappoppop-woo-cart.php:775
+msgid "Email subject"
+msgstr "邮件主题"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:55 includes/modules/class-zappoppop-woo-cart.php:711
+msgid "Empty"
+msgstr "为空"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:56 includes/modules/class-zappoppop-woo-cart.php:712
+msgid "Empty ignores the conditions below."
+msgstr "为空则忽略下方条件。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:57 includes/class-pro-module-html-strings.php:64
+msgid "Enable Double Opt-In"
+msgstr "启用双重确认订阅"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:58 includes/modules/class-zappoppop-targeting-triggers.php:403
+msgid "Enable Targeting Triggers"
+msgstr "启用定位触发器"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:59 includes/modules/class-zappoppop-woo-cart.php:705
+msgid "Enable WooCommerce Cart"
+msgstr "启用 WooCommerce 购物车"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:60 includes/modules/class-zappoppop-targeting-triggers.php:411
+msgid "Every time"
+msgstr "每次"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:61
+msgid "Fill the rating from a URL query parameter, e.g. ?rating=4."
+msgstr "从 URL 查询参数填充评分，例如 ?rating=4。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:62 includes/modules/class-zappoppop-woo-cart.php:728
+msgid "Free shipping"
+msgstr "免运费"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:63 includes/modules/class-zappoppop-woo-cart.php:729
+msgid "Free shipping threshold"
+msgstr "免运费门槛"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:64 includes/modules/class-zappoppop-woo-cart.php:710
+msgid "Has items"
+msgstr "有商品"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:65 includes/modules/class-zappoppop-targeting-triggers.php:431
+msgid "Homepage"
+msgstr "首页"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:66
+msgid "How many stars or icons the rating scale shows."
+msgstr "评分量表显示多少颗星或图标。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:67 includes/modules/class-zappoppop-targeting-triggers.php:422
+msgid "Inactivity delay"
+msgstr "不活动延迟"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:68
+msgid "Insert subscriber value"
+msgstr "插入订阅者值"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:69 includes/modules/class-zappoppop-woo-cart.php:716
+msgid "Maximum subtotal"
+msgstr "最大小计"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:70
+msgid "Middle left"
+msgstr "左侧居中"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:71
+msgid "Middle right"
+msgstr "右侧居中"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:72 includes/modules/class-zappoppop-woo-cart.php:714
+msgid "Minimum items"
+msgstr "最少商品数"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:73 includes/modules/class-zappoppop-woo-cart.php:715
+msgid "Minimum subtotal"
+msgstr "最小小计"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:74
+msgid "New Image Select Preset"
+msgstr "新建图片选择预设"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:75
+msgid "No field selected"
+msgstr "未选择字段"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:76 includes/modules/class-zappoppop-woo-cart.php:724
+msgid "No product categories found."
+msgstr "未找到商品分类。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:77
+msgid "No rating"
+msgstr "无评分"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:78
+msgid "None (color overlay only)"
+msgstr "无（仅颜色叠加层）"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:79
+msgid "Number of Stars"
+msgstr "星星数量"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:80 includes/modules/class-zappoppop-woo-cart.php:735
+msgid "Number of items"
+msgstr "商品数量"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:81 includes/modules/class-zappoppop-woo-cart.php:758
+msgid "Offer an upsell product"
+msgstr "推荐追加销售商品"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:82 includes/modules/class-zappoppop-targeting-triggers.php:412
+msgid "Once only"
+msgstr "仅一次"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:83 includes/modules/class-zappoppop-targeting-triggers.php:413
+msgid "Once per period"
+msgstr "每个时间段一次"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:84 includes/modules/class-zappoppop-targeting-triggers.php:445
+msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
+msgstr "每行一个。当页面地址包含其中任意一项时显示弹窗。为空 = 所有 URL。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:85 includes/modules/class-zappoppop-woo-cart.php:745
+msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
+msgstr "只能应用此代码。如果它无效或已过期，则不会发生任何事情。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:86
+msgid "Open"
+msgstr "打开"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:87 includes/modules/class-zappoppop-targeting-triggers.php:433
+msgid "Pages"
+msgstr "页面"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:88 includes/modules/class-zappoppop-targeting-triggers.php:410
+msgid "Periodicity"
+msgstr "周期"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:89
+msgid "Picture"
+msgstr "图片"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:90 includes/modules/class-zappoppop-targeting-triggers.php:401
+msgid "Popup Targeting"
+msgstr "弹窗定位"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:91 includes/class-pro-module-html-strings.php:99
+msgid "Popup position"
+msgstr "弹窗位置"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:92 includes/modules/class-zappoppop-targeting-triggers.php:432
+msgid "Posts"
+msgstr "文章"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:93
+msgid "Pre-selected rating when the form loads. Choose No rating to leave it empty."
+msgstr "表单加载时预选的评分。选择“无评分”可保持为空。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:94 includes/modules/class-zappoppop-woo-cart.php:719
+msgid "Product IDs"
+msgstr "商品 ID"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:95 includes/modules/class-zappoppop-woo-cart.php:721
+msgid "Product categories"
+msgstr "商品分类"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:96 includes/modules/class-zappoppop-woo-cart.php:755
+msgid "Product page categories"
+msgstr "商品页面分类"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:97 includes/modules/class-zappoppop-woo-cart.php:750
+msgid "Product pages"
+msgstr "商品页面"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:98 includes/modules/class-zappoppop-woo-cart.php:753
+msgid "Products"
+msgstr "商品"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:99
+msgid "Remove icon"
+msgstr "移除图标"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:100
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:101 includes/modules/class-zappoppop-targeting-triggers.php:420
+msgid "Scrolling offset"
+msgstr "滚动偏移"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:102 includes/modules/class-zappoppop-targeting-triggers.php:421
+msgid "Scrolling offset unit"
+msgstr "滚动偏移单位"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:103
+msgid "Select icon"
+msgstr "选择图标"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:104 includes/modules/class-zappoppop-woo-cart.php:751
+msgid "Selected products"
+msgstr "所选商品"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:105 includes/class-pro-module-html-strings.php:110
+msgid "Send Welcome Email"
+msgstr "发送欢迎邮件"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:106 includes/modules/class-zappoppop-woo-cart.php:769
+msgid "Send a cart reminder email"
+msgstr "发送购物车提醒邮件"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:107 includes/modules/class-zappoppop-woo-cart.php:771
+msgid "Send after"
+msgstr "在此时间后发送"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:108 includes/modules/class-zappoppop-targeting-triggers.php:414
+msgid "Show again after"
+msgstr "在此时间后再次显示"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:109 includes/modules/class-zappoppop-woo-cart.php:748
+msgid "Show on pages"
+msgstr "在以下页面显示"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:110 includes/modules/class-zappoppop-woo-cart.php:726
+msgid "Show right after an item is added to the cart"
+msgstr "商品加入购物车后立即显示"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:111 includes/modules/class-zappoppop-woo-cart.php:708
+msgid "Show this popup when the cart is"
+msgstr "在购物车处于以下状态时显示此弹窗"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:112 includes/modules/class-zappoppop-woo-cart.php:780
+msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
+msgstr "显示在邮件中，并在访客返回购物车时应用。请使用真实的 WooCommerce 优惠券。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:113 includes/modules/class-zappoppop-targeting-triggers.php:429
+msgid "Site Area"
+msgstr "站点区域"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:114 includes/modules/class-zappoppop-targeting-triggers.php:430
+msgid "Sitewide"
+msgstr "全站"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:115 includes/modules/class-zappoppop-targeting-triggers.php:437
+msgid "Specific"
+msgstr "指定"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:116 includes/modules/class-zappoppop-targeting-triggers.php:443
+msgid "Specific pages"
+msgstr "指定页面"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118 includes/modules/class-zappoppop-targeting-triggers.php:416
+msgid "Start delay"
+msgstr "开始延迟"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:118
+msgid "Store the submitted rating with the lead record."
+msgstr "将提交的评分与潜在客户记录一并保存。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:119
+msgid "Subscriber values"
+msgstr "订阅者值"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:120 includes/modules/class-zappoppop-targeting-triggers.php:439
+msgid "Tags"
+msgstr "标签"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:121 includes/modules/class-zappoppop-targeting-triggers.php:409
+msgid "Target Properties"
+msgstr "定位属性"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:122 includes/class-pro-module-html-strings.php:127
+msgid "Thank you. We have already got your request."
+msgstr "谢谢。我们已收到您的请求。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:123
+msgid "The URL parameter to read, e.g. rating for ?rating=4."
+msgstr "要读取的 URL 参数，例如 ?rating=4 对应 rating。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:124 includes/modules/class-zappoppop-woo-cart.php:764
+msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
+msgstr "没有可用的追加销售商品时（例如该商品已在购物车中或缺货）不会显示弹窗。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:125 includes/modules/class-zappoppop-woo-cart.php:725
+msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
+msgstr "当购物车中含有所选任一分类的商品时显示弹窗。未选择 = 关闭。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:126 includes/modules/class-zappoppop-woo-cart.php:762
+msgid "The product to offer. A variation ID is allowed."
+msgstr "要推荐的商品。可以填写变体 ID。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:127 includes/modules/class-zappoppop-woo-cart.php:756
+msgid "This rule is checked on the server, so it also works with full-page caches."
+msgstr "此规则在服务器上检查，因此也适用于整页缓存。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:128
+msgid "Top center"
+msgstr "顶部居中"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:129
+msgid "Top left"
+msgstr "左上"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:130
+msgid "Top right"
+msgstr "右上"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:131 includes/modules/class-zappoppop-woo-cart.php:704
+msgid "Turn the WooCommerce cart features for this popup on or off"
+msgstr "为此弹窗开启或关闭 WooCommerce 购物车功能"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:132 includes/modules/class-zappoppop-targeting-triggers.php:402
+msgid "Turn the entire Targeting Triggers setting on or off"
+msgstr "开启或关闭整个定位触发器设置"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:133 includes/modules/class-zappoppop-woo-cart.php:757
+msgid "Upsell"
+msgstr "追加销售"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:134 includes/modules/class-zappoppop-woo-cart.php:761
+msgid "Upsell product ID"
+msgstr "追加销售商品 ID"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:135 includes/modules/class-zappoppop-woo-cart.php:766
+msgid "Upsell product name"
+msgstr "追加销售商品名称"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:136 includes/modules/class-zappoppop-woo-cart.php:767
+msgid "Upsell product price"
+msgstr "追加销售商品价格"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:137 includes/modules/class-zappoppop-targeting-triggers.php:428
+msgid "User Roles"
+msgstr "用户角色"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:138 includes/modules/class-zappoppop-woo-cart.php:743
+msgid "When a button is clicked"
+msgstr "点击按钮时"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:139 includes/modules/class-zappoppop-woo-cart.php:742
+msgid "When the popup opens"
+msgstr "弹窗打开时"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:140 includes/modules/class-zappoppop-woo-cart.php:707
+msgid "WooCommerce is not active on this site, so the cart rules are ignored."
+msgstr "此站点未启用 WooCommerce，因此购物车规则将被忽略。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:141 includes/modules/class-zappoppop-woo-cart.php:727
+msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
+msgstr "适用于 AJAX 加入购物车和购物车区块。每次页面浏览仅显示一次，且仅在上述条件匹配时显示。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:142 includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
+msgid "You left something in your cart"
+msgstr "您的购物车里还有商品"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:143 includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
+msgid "Your cart is saved. Come back any time to finish your order."
+msgstr "您的购物车已保存。随时回来完成订单。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:144 includes/modules/class-zappoppop-double-optin.php:22
+msgid "Your email address successfully confirmed."
+msgstr "您的电子邮件地址已成功确认。"
+
+#: assets/js/zappoppop-pro-i18n-catalog.js:145
+msgid "e.g. rating"
+msgstr "例如 rating"
+
+#: assets/js/ab/ab-actions.js:29 includes/ab/class-ajax-campaigns.php:64 includes/ab/class-ajax-campaigns.php:178
+msgid "Please enter a campaign title."
+msgstr "请输入活动标题。"
+
+#: assets/js/ab/ab-actions.js:34
+msgid "Please select at least 2 popups for split-testing."
+msgstr "请至少选择 2 个弹窗进行分流测试。"
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Error:"
+msgstr "错误："
+
+#: assets/js/ab/ab-actions.js:54
+msgid "Unable to create campaign."
+msgstr "无法创建活动。"
+
+#: assets/js/ab/ab-actions.js:58
+msgid "Network error while saving campaign."
+msgstr "保存活动时出现网络错误。"
+
+#: assets/js/ab/ab-actions.js:80
+msgid "Permanently delete this A/B testing campaign? This cannot be undone."
+msgstr "永久删除此 A/B 测试活动？此操作无法撤销。"
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Deletion Error:"
+msgstr "删除错误："
+
+#: assets/js/ab/ab-actions.js:96
+msgid "Unable to delete campaign."
+msgstr "无法删除活动。"
+
+#: assets/js/ab/ab-actions.js:99
+msgid "Network error while deleting campaign."
+msgstr "删除活动时出现网络错误。"
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "ACTIVE"
+msgstr "已启用"
+
+#: assets/js/ab/ab-edit.js:74 templates/ab/table.php:64
+msgid "INACTIVE"
+msgstr "未启用"
+
+#: assets/js/ab/ab-edit.js:77
+msgid "Could not update status."
+msgstr "无法更新状态。"
+
+#: assets/js/ab/ab-edit.js:81
+msgid "Server error while updating status."
+msgstr "更新状态时服务器出错。"
+
+#: assets/js/ab/ab-trash.js:38
+msgid "Could not update campaign."
+msgstr "无法更新活动。"
+
+#: assets/js/ab/ab-trash.js:42
+msgid "Server error while updating campaign."
+msgstr "更新活动时服务器出错。"
+
+#: assets/js/builder/elements.js:369
+msgid "%s Star"
+msgid_plural "%s Stars"
+msgstr[0] "%s 颗星"
+
+#: assets/js/front/elements.js:278
+msgid "Please select a rating."
+msgstr "请选择评分。"
+
+#: includes/class-pro-admin.php:25 includes/class-pro-admin.php:36 templates/license-edd.php:30 templates/license-page.php:6 templates/license-page.php:15
+msgid "License"
+msgstr "许可证"
+
+#: includes/class-pro-admin.php:41 includes/class-pro-admin.php:66 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您没有访问此页面的足够权限。"
+
+#: includes/class-pro-edd-updater.php:58
+msgid "ZapPopPop Pro add-on."
+msgstr "ZapPopPop Pro 附加组件。"
+
+#: includes/class-pro-edd.php:119
+msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
+msgstr "尚未设置授权。请将商店 URL 和产品 ID 添加到 wp-config.php。"
+
+#: includes/class-pro-edd.php:133
+msgid "The licence server did not answer. Please try again later."
+msgstr "许可证服务器没有响应。请稍后重试。"
+
+#: includes/class-pro-edd.php:137
+msgid "The licence server sent an unexpected answer."
+msgstr "许可证服务器返回了意外的响应。"
+
+#: includes/class-pro-edd.php:148 includes/class-pro-edd.php:188
+msgid "Enter your licence key."
+msgstr "请输入您的许可证密钥。"
+
+#: includes/class-pro-edd.php:161
+msgid "Licence activated. Thank you!"
+msgstr "许可证已激活。谢谢！"
+
+#: includes/class-pro-edd.php:173
+msgid "There is no licence to deactivate."
+msgstr "没有可停用的许可证。"
+
+#: includes/class-pro-edd.php:181
+msgid "Licence deactivated for this site."
+msgstr "此站点的许可证已停用。"
+
+#: includes/class-pro-edd.php:202
+msgid "Your licence is active."
+msgstr "您的许可证已激活。"
+
+#: includes/class-pro-edd.php:224
+msgid "Security check failed. Please go back and try again."
+msgstr "安全检查失败。请返回后重试。"
+
+#: includes/class-pro-edd.php:227
+msgid "You do not have sufficient permissions to manage the licence."
+msgstr "您没有管理许可证的足够权限。"
+
+#: includes/class-pro-edd.php:267
+msgid "Lifetime"
+msgstr "终身"
+
+#: includes/class-pro-edd.php:275 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
+msgid "Active"
+msgstr "已激活"
+
+#: includes/class-pro-edd.php:276 templates/license-edd.php:21
+msgid "Expired"
+msgstr "已过期"
+
+#: includes/class-pro-edd.php:277 includes/class-pro-edd.php:284 templates/license-edd.php:15
+msgid "Not activated"
+msgstr "未激活"
+
+#: includes/class-pro-edd.php:278
+msgid "Not activated on this site"
+msgstr "此站点上未激活"
+
+#: includes/class-pro-edd.php:279
+msgid "Disabled"
+msgstr "已禁用"
+
+#: includes/class-pro-edd.php:280
+msgid "Revoked"
+msgstr "已吊销"
+
+#: includes/class-pro-edd.php:281 includes/class-pro-edd.php:282
+msgid "Invalid key"
+msgstr "密钥无效"
+
+#: includes/class-pro-edd.php:292
+msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
+msgstr "此许可证已于 %s 过期。Pro 功能在其已激活的站点上仍可继续使用；请续订以获取更新和支持。"
+
+#: includes/class-pro-edd.php:293
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "此许可证已过期。请续订以获取更新和支持。"
+
+#: includes/class-pro-edd.php:296
+msgid "This licence key is not valid. Please check it and try again."
+msgstr "此许可证密钥无效。请检查后重试。"
+
+#: includes/class-pro-edd.php:298
+msgid "This licence has no activations left. Deactivate it on another site or upgrade your plan."
+msgstr "此许可证已无剩余激活次数。请在其他站点上停用它，或升级您的套餐。"
+
+#: includes/class-pro-edd.php:301
+msgid "This licence is not active on this site. Activate it again."
+msgstr "此许可证在此站点上未激活。请重新激活。"
+
+#: includes/class-pro-edd.php:304
+msgid "This licence has been disabled. Please contact support."
+msgstr "此许可证已被禁用。请联系支持团队。"
+
+#: includes/class-pro-edd.php:307
+msgid "This key belongs to a different product."
+msgstr "此密钥属于另一个产品。"
+
+#: includes/class-pro-edd.php:309
+msgid "The licence could not be verified. Please try again or contact support."
+msgstr "无法验证许可证。请重试或联系支持团队。"
+
+#: includes/class-pro-extensions.php:108
+msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
+msgstr "需要有效的 ZapPopPop Pro 许可证。您已保存的选择会被保留。"
+
+#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:158 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "激活许可证"
+
+#: includes/class-pro-module-html-strings.php:24
+msgid "#c2185b"
+msgstr "#c2185b"
+
+#: includes/class-pro-module-html-strings.php:25
+msgid "+ Add"
+msgstr "+ 添加"
+
+#: includes/class-pro-module-html-strings.php:26
+msgid "6px"
+msgstr "6px"
+
+#: includes/class-pro-module-html-strings.php:27
+msgid "<canvas id=\"c\"></canvas><script>...</script>"
+msgstr "<canvas id=\"c\"></canvas><script>...</script>"
+
+#: includes/class-pro-module-html-strings.php:28
+msgid "A tab pinned to the screen edge. Visitors click it to open this popup, even after they closed it."
+msgstr "固定在屏幕边缘的标签。访客点击它即可打开此弹窗，即使之前已将其关闭。"
+
+#: includes/class-pro-module-html-strings.php:29
+msgid "ANIMATION"
+msgstr "动画"
+
+#: includes/class-pro-module-html-strings.php:30
+msgid "Add a personal data key field"
+msgstr "添加个人数据键字段"
+
+#: includes/class-pro-module-html-strings.php:31
+msgid "All Visitors"
+msgstr "所有访客"
+
+#: includes/class-pro-module-html-strings.php:32
+msgid "Animation (HTML / JS)"
+msgstr "动画 (HTML / JS)"
+
+#: includes/class-pro-module-html-strings.php:33
+msgid "Animation on successful form submit"
+msgstr "表单提交成功时的动画"
+
+#: includes/class-pro-module-html-strings.php:34
+msgid "Antibot protection"
+msgstr "防机器人保护"
+
+#: includes/class-pro-module-html-strings.php:35
+msgid "Appearance"
+msgstr "外观"
+
+#: includes/class-pro-module-html-strings.php:36
+msgid "Applies to the canvas currently selected in Canvas Settings."
+msgstr "适用于在“画布设置”中当前选中的画布。"
+
+#: includes/class-pro-module-html-strings.php:37 templates/stats/chart.php:47
+msgid "Apply"
+msgstr "应用"
+
+#: includes/class-pro-module-html-strings.php:38
+msgid "Back Entrances"
+msgstr "向后进入"
+
+#: includes/class-pro-module-html-strings.php:39
+msgid "Back Exits"
+msgstr "向后退出"
+
+#: includes/class-pro-module-html-strings.php:40
+msgid "Background Opacity (picture / animation)"
+msgstr "背景不透明度（图片 / 动画）"
+
+#: includes/class-pro-module-html-strings.php:41
+msgid "Background Overlay Opacity"
+msgstr "背景遮罩不透明度"
+
+#: includes/class-pro-module-html-strings.php:42
+msgid "Background Type"
+msgstr "背景类型"
+
+#: includes/class-pro-module-html-strings.php:43
+msgid "Bottom"
+msgstr "底部"
+
+#: includes/class-pro-module-html-strings.php:44
+msgid "Bounce"
+msgstr "弹跳"
+
+#: includes/class-pro-module-html-strings.php:45
+msgid "Bouncing Entrances"
+msgstr "弹跳进入"
+
+#: includes/class-pro-module-html-strings.php:46
+msgid "Bouncing Exits"
+msgstr "弹跳退出"
+
+#: includes/class-pro-module-html-strings.php:47
+msgid "Burst + Fireworks"
+msgstr "爆发 + 烟花"
+
+#: includes/class-pro-module-html-strings.php:48 templates/ab/modal-create.php:37
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/class-pro-module-html-strings.php:49
+msgid "Check IP-address"
+msgstr "检查 IP 地址"
+
+#: includes/class-pro-module-html-strings.php:50
+msgid "Check form data"
+msgstr "检查表单数据"
+
+#: includes/class-pro-module-html-strings.php:51
+msgid "Confetti Burst (built-in)"
+msgstr "彩纸爆发（内置）"
+
+#: includes/class-pro-module-html-strings.php:52
+msgid "Confetti Cannons (needs Canvas Confetti library)"
+msgstr "彩纸礼炮（需要 Canvas Confetti 库）"
+
+#: includes/class-pro-module-html-strings.php:53
+msgid "Confetti Rain (built-in)"
+msgstr "彩纸雨（内置）"
+
+#: includes/class-pro-module-html-strings.php:54
+msgid "Configure appearance entrance and disappearance exit animations for this canvas."
+msgstr "为此画布配置出现（入场）和消失（退场）动画。"
+
+#: includes/class-pro-module-html-strings.php:55
+msgid "Control what is stored with each submission, protect the form against repeated submissions and tune the page behaviour while the popup is visible."
+msgstr "控制每次提交所存储的内容，保护表单免受重复提交，并调整弹窗可见期间的页面行为。"
+
+#: includes/class-pro-module-html-strings.php:56
+msgid "Custom Background"
+msgstr "自定义背景"
+
+#: includes/class-pro-module-html-strings.php:57
+msgid "Default (confetti + enabled libraries)"
+msgstr "默认（彩纸 + 已启用的库）"
+
+#: includes/class-pro-module-html-strings.php:58
+msgid "Disable page scrollbar"
+msgstr "禁用页面滚动条"
+
+#: includes/class-pro-module-html-strings.php:59
+msgid "Disappearance"
+msgstr "消失"
+
+#: includes/class-pro-module-html-strings.php:60
+msgid "Distance kept between the popup and each screen edge. 0 sticks the popup to the edge; a higher value moves it away. On screens smaller than the popup it scales down to fit."
+msgstr "弹窗与各屏幕边缘之间保持的距离。0 表示弹窗贴紧边缘；更大的值会使其远离边缘。在小于弹窗的屏幕上，它会缩小以适应。"
+
+#: includes/class-pro-module-html-strings.php:61
+msgid "Duration"
+msgstr "时长"
+
+#: includes/class-pro-module-html-strings.php:62
+msgid "Email Subject"
+msgstr "邮件主题"
+
+#: includes/class-pro-module-html-strings.php:63
+msgid "Empty = the visitor email"
+msgstr "为空 = 访客邮箱"
+
+#: includes/class-pro-module-html-strings.php:65
+msgid "Enable Overlay"
+msgstr "启用遮罩"
+
+#: includes/class-pro-module-html-strings.php:66
+msgid "Enable Sticky Side Tab"
+msgstr "启用固定侧边标签"
+
+#: includes/class-pro-module-html-strings.php:67
+msgid "Enable protection against repeated submissions"
+msgstr "启用防重复提交保护"
+
+#: includes/class-pro-module-html-strings.php:68
+msgid "Error message"
+msgstr "错误消息"
+
+#: includes/class-pro-module-html-strings.php:69
+msgid "Every submission stays \"pending\" until the visitor clicks the confirmation link. Notifications set to \"After double opt-in confirmation\" are sent at that moment."
+msgstr "在访客点击确认链接之前，每次提交都保持“待处理”状态。设为“双重确认订阅确认后”的通知将在此时发送。"
+
+#: includes/class-pro-module-html-strings.php:70
+msgid "Fade"
+msgstr "淡入淡出"
+
+#: includes/class-pro-module-html-strings.php:71
+msgid "Fading Entrances"
+msgstr "淡入进入"
+
+#: includes/class-pro-module-html-strings.php:72
+msgid "Fading Exits"
+msgstr "淡出退出"
+
+#: includes/class-pro-module-html-strings.php:73
+msgid "Feedback / Offer"
+msgstr "反馈 / 优惠"
+
+#: includes/class-pro-module-html-strings.php:74
+msgid "Fields that hold the personal data key, usually the email field. WordPress uses them to find, export and erase a person's submissions (Tools > Export / Erase Personal Data)."
+msgstr "保存个人数据键的字段，通常是电子邮件字段。WordPress 用它们来查找、导出和擦除某人的提交记录（工具 > 导出 / 删除个人数据）。"
+
+#: includes/class-pro-module-html-strings.php:75
+msgid "Fireworks (needs Canvas Fireworks library)"
+msgstr "烟花（需要 Canvas Fireworks 库）"
+
+#: includes/class-pro-module-html-strings.php:76 includes/modules/class-zappoppop-targeting-triggers.php:426
+msgid "From"
+msgstr "从"
+
+#: includes/class-pro-module-html-strings.php:77
+msgid "Guests Only"
+msgstr "仅访客"
+
+#: includes/class-pro-module-html-strings.php:78
+msgid "HTML / CSS / JS"
+msgstr "HTML / CSS / JS"
+
+#: includes/class-pro-module-html-strings.php:79
+msgid "If set, the visitor is redirected here after confirming (instead of the message)."
+msgstr "如已设置，访客在确认后将被重定向到此处（而不是显示消息）。"
+
+#: includes/class-pro-module-html-strings.php:80 templates/builder/elements/elem-19-imageselect.php:12
+msgid "Image URL"
+msgstr "图片 URL"
+
+#: includes/class-pro-module-html-strings.php:81
+msgid "Left"
+msgstr "左"
+
+#: includes/class-pro-module-html-strings.php:82
+msgid "Left Edge"
+msgstr "左边缘"
+
+#: includes/class-pro-module-html-strings.php:83
+msgid "Library-based effects require enabling the matching library under ZapPopPop → Settings → Libraries."
+msgstr "基于库的效果需要在 ZapPopPop → 设置 → 库 下启用相应的库。"
+
+#: includes/class-pro-module-html-strings.php:84
+msgid "Locks the page scrollbar while this popup is visible."
+msgstr "在此弹窗可见时锁定页面滚动条。"
+
+#: includes/class-pro-module-html-strings.php:85
+msgid "Logged-In Users Only"
+msgstr "仅已登录用户"
+
+#: includes/class-pro-module-html-strings.php:86
+msgid "Media"
+msgstr "媒体"
+
+#: includes/class-pro-module-html-strings.php:87
+msgid "Message"
+msgstr "消息"
+
+#: includes/class-pro-module-html-strings.php:88
+msgid "Name"
+msgstr "姓名"
+
+#: includes/class-pro-module-html-strings.php:89
+msgid "None"
+msgstr "无"
+
+#: includes/class-pro-module-html-strings.php:90
+msgid "Overlay Color"
+msgstr "遮罩颜色"
+
+#: includes/class-pro-module-html-strings.php:91
+msgid "Page"
+msgstr "页面"
+
+#: includes/class-pro-module-html-strings.php:92
+msgid "Personal data key fields"
+msgstr "个人数据键字段"
+
+#: includes/class-pro-module-html-strings.php:93
+msgid "Picture (JPEG / PNG)"
+msgstr "图片 (JPEG / PNG)"
+
+#: includes/class-pro-module-html-strings.php:94
+msgid "Pin a tab to the screen edge"
+msgstr "将标签固定到屏幕边缘"
+
+#: includes/class-pro-module-html-strings.php:95
+msgid "Play"
+msgstr "播放"
+
+#: includes/class-pro-module-html-strings.php:96
+msgid "Play Canvas Animation"
+msgstr "播放画布动画"
+
+#: includes/class-pro-module-html-strings.php:97
+msgid "Play disappearance animation when the canvas closes"
+msgstr "画布关闭时播放消失动画"
+
+#: includes/class-pro-module-html-strings.php:98
+msgid "Play disappearance on close"
+msgstr "关闭时播放消失动画"
+
+#: includes/class-pro-module-html-strings.php:100
+msgid "Recipient"
+msgstr "收件人"
+
+#: includes/class-pro-module-html-strings.php:101
+msgid "Repeated submission delay"
+msgstr "重复提交延迟"
+
+#: includes/class-pro-module-html-strings.php:102
+msgid "Right"
+msgstr "右"
+
+#: includes/class-pro-module-html-strings.php:103
+msgid "Right Edge"
+msgstr "右边缘"
+
+#: includes/class-pro-module-html-strings.php:104
+msgid "Runs in a sandboxed frame behind the popup. Scripts require the unfiltered_html capability (administrators on single-site installs)."
+msgstr "在弹窗后面的沙盒框架中运行。脚本需要 unfiltered_html 权限（单站点安装中的管理员）。"
+
+#: includes/class-pro-module-html-strings.php:105
+msgid "Save IP-address"
+msgstr "保存 IP 地址"
+
+#: includes/class-pro-module-html-strings.php:106
+msgid "Save User-Agent"
+msgstr "保存 User-Agent"
+
+#: includes/class-pro-module-html-strings.php:107
+msgid "Screen Edge"
+msgstr "屏幕边缘"
+
+#: includes/class-pro-module-html-strings.php:108
+msgid "Screen edge padding"
+msgstr "屏幕边缘内边距"
+
+#: includes/class-pro-module-html-strings.php:109
+msgid "Send Technical Info by email"
+msgstr "通过邮件发送技术信息"
+
+#: includes/class-pro-module-html-strings.php:111
+msgid "Show Technical Info on log record details"
+msgstr "在日志记录详情中显示技术信息"
+
+#: includes/class-pro-module-html-strings.php:112
+msgid "Show the overlay behind the popup"
+msgstr "显示弹窗后面的遮罩"
+
+#: includes/class-pro-module-html-strings.php:113
+msgid "Slide"
+msgstr "滑动"
+
+#: includes/class-pro-module-html-strings.php:114
+msgid "Slide-in Animation"
+msgstr "滑入动画"
+
+#: includes/class-pro-module-html-strings.php:115
+msgid "Sliding Entrances"
+msgstr "滑动进入"
+
+#: includes/class-pro-module-html-strings.php:116
+msgid "Sliding Exits"
+msgstr "滑动退出"
+
+#: includes/class-pro-module-html-strings.php:117
+msgid "Star Burst (built-in)"
+msgstr "星爆（内置）"
+
+#: includes/class-pro-module-html-strings.php:119
+msgid "Stick to edge (set all padding to 0)"
+msgstr "贴紧边缘（将所有内边距设为 0）"
+
+#: includes/class-pro-module-html-strings.php:120
+msgid "Subject"
+msgstr "主题"
+
+#: includes/class-pro-module-html-strings.php:121
+msgid "Tab Background"
+msgstr "标签背景"
+
+#: includes/class-pro-module-html-strings.php:122
+msgid "Tab Corner Radius"
+msgstr "标签圆角"
+
+#: includes/class-pro-module-html-strings.php:123
+msgid "Tab Label"
+msgstr "标签文字"
+
+#: includes/class-pro-module-html-strings.php:124
+msgid "Technical info"
+msgstr "技术信息"
+
+#: includes/class-pro-module-html-strings.php:125
+msgid "Technical info is the IP-address and the User-Agent. The email option adds it to the {{form-data}} merge tag."
+msgstr "技术信息是指 IP 地址和 User-Agent。邮件选项会将其添加到 {{form-data}} 合并标签中。"
+
+#: includes/class-pro-module-html-strings.php:126
+msgid "Thank you for subscribing!"
+msgstr "感谢您的订阅！"
+
+#: includes/class-pro-module-html-strings.php:128
+msgid "Thank-you URL"
+msgstr "感谢页 URL"
+
+#: includes/class-pro-module-html-strings.php:129
+msgid "Thank-you message"
+msgstr "感谢消息"
+
+#: includes/class-pro-module-html-strings.php:130
+msgid "The popup is only shown to the chosen visitors. Popups opened by a button or an onload shortcode ignore this rule."
+msgstr "弹窗仅向所选访客显示。通过按钮或加载时短代码打开的弹窗会忽略此规则。"
+
+#: includes/class-pro-module-html-strings.php:131
+msgid "The same data (and / or the same IP-address) is refused during the delay and the visitor sees the error message."
+msgstr "在延迟期间会拒绝相同的数据（和 / 或相同的 IP 地址），访客会看到错误消息。"
+
+#: includes/class-pro-module-html-strings.php:132
+msgid "Top"
+msgstr "顶部"
+
+#: includes/class-pro-module-html-strings.php:133
+msgid "Use the tag button to insert the subscriber's values, for example {{email}} or {{field-name}} (the older {email} form still works). Sent to the visitor's email after a successful submit; with Double Opt-In, once the link is confirmed."
+msgstr "使用标记按钮插入订阅者的值，例如 {{email}} 或 {{field-name}}（较旧的 {email} 形式仍然有效）。提交成功后发送到访客邮箱；启用双重确认订阅时，则在确认链接后发送。"
+
+#: includes/class-pro-module-html-strings.php:134
+msgid "Visitor Authentication"
+msgstr "访客身份验证"
+
+#: includes/class-pro-module-html-strings.php:135 includes/modules/class-zappoppop-autoresponder.php:95
+msgid "Welcome! Here is your reward"
+msgstr "欢迎！这是您的奖励"
+
+#: includes/class-pro-module-html-strings.php:136
+msgid "Zooming Entrances"
+msgstr "缩放进入"
+
+#: includes/class-pro-module-html-strings.php:137
+msgid "Zooming Exits"
+msgstr "缩放退出"
+
+#: includes/class-pro-module-html-strings.php:138
+msgid "e.g. Winter Snow"
+msgstr "例如 冬日飘雪"
+
+#: includes/class-pro-module-html-strings.php:139
+msgid "email"
+msgstr "email"
+
+#: includes/class-pro-module-html-strings.php:140
+msgid "https://"
+msgstr "https://"
+
+#: includes/class-pro-module-html-strings.php:141
+msgid "https://.../image.jpg"
+msgstr "https://.../image.jpg"
+
+#: includes/class-pro-module-html-strings.php:142
+msgid "ms"
+msgstr "ms"
+
+#: includes/class-pro-module-html-strings.php:143
+msgid "name"
+msgstr "name"
+
+#: includes/class-pro-module-html-strings.php:144
+msgid "px"
+msgstr "px"
+
+#: includes/class-pro-module-html-strings.php:145
+msgid "seconds"
+msgstr "秒"
+
+#: includes/class-pro-module-strings.php:28
+msgid "Animation"
+msgstr "动画"
+
+#: includes/class-pro-module-strings.php:29
+msgid "Open and close animations for the popup."
+msgstr "弹窗的打开和关闭动画。"
+
+#: includes/class-pro-module-strings.php:32
+msgid "Autoresponder"
+msgstr "自动回复"
+
+#: includes/class-pro-module-strings.php:33
+msgid "Automatic reply sent to subscribers after they submit."
+msgstr "订阅者提交后发送给他们的自动回复。"
+
+#: includes/class-pro-module-strings.php:36
+msgid "Double Opt-In"
+msgstr "双重确认订阅"
+
+#: includes/class-pro-module-strings.php:37
+msgid "Double opt-in confirmation for subscribers."
+msgstr "订阅者的双重确认订阅。"
+
+#: includes/class-pro-module-strings.php:40
+msgid "Popup Overlay"
+msgstr "弹窗遮罩"
+
+#: includes/class-pro-module-strings.php:41
+msgid "Page overlay behind the popup: colour, opacity, image or animation."
+msgstr "弹窗后面的页面遮罩：颜色、不透明度、图片或动画。"
+
+#: includes/class-pro-module-strings.php:44
+msgid "Popup Positions"
+msgstr "弹窗位置"
+
+#: includes/class-pro-module-strings.php:45
+msgid "Popup position on screen: top, bottom, left or right."
+msgstr "弹窗在屏幕上的位置：顶部、底部、左侧或右侧。"
+
+#: includes/class-pro-module-strings.php:48
+msgid "Security & Protections"
+msgstr "安全与保护"
+
+#: includes/class-pro-module-strings.php:49
+msgid "Technical info, repeated submission (antibot) protection, page scrollbar lock and personal data keys."
+msgstr "技术信息、重复提交（防机器人）保护、页面滚动条锁定和个人数据键。"
+
+#: includes/class-pro-module-strings.php:52
+msgid "Side Tabs"
+msgstr "侧边标签"
+
+#: includes/class-pro-module-strings.php:53
+msgid "Sticky side tabs attached to the screen edge, with icon, colour, corner radius and slide-in animation."
+msgstr "附着在屏幕边缘的固定侧边标签，带有图标、颜色、圆角和滑入动画。"
+
+#: includes/class-pro-module-strings.php:56
+msgid "Success Celebration"
+msgstr "成功庆祝"
+
+#: includes/class-pro-module-strings.php:57
+msgid "Celebration animation after a successful submit."
+msgstr "提交成功后的庆祝动画。"
+
+#: includes/class-pro-module-strings.php:60
+msgid "Targeting Triggers"
+msgstr "定位触发器"
+
+#: includes/class-pro-module-strings.php:61
+msgid "Show rules by event, schedule, role, area and URL."
+msgstr "按事件、日程、角色、区域和 URL 显示规则。"
+
+#: includes/class-pro-module-strings.php:64
+msgid "Targeting"
+msgstr "定位"
+
+#: includes/class-pro-module-strings.php:65
+msgid "Visitor authentication, targeting and attribution rules."
+msgstr "访客身份验证、定位和归因规则。"
+
+#: includes/class-pro-module-strings.php:68 includes/modules/class-zappoppop-woo-cart.php:703
+msgid "WooCommerce Cart"
+msgstr "WooCommerce 购物车"
+
+#: includes/class-pro-module-strings.php:69
+msgid "Show popups by cart contents and fill live cart values into popup text."
+msgstr "根据购物车内容显示弹窗，并将实时购物车值填入弹窗文本。"
+
+#: includes/class-pro-plugin.php:109
+msgid "Outdated %1$s: minimum required %2$s"
+msgstr "%1$s 版本过旧：至少需要 %2$s"
+
+#: includes/class-pro-plugin.php:111
+msgid "Missing %1$s: minimum required %2$s"
+msgstr "缺少 %1$s：至少需要 %2$s"
+
+#: includes/class-pro-plugin.php:116
+msgid "This plugin is not fully active."
+msgstr "此插件尚未完全启用。"
+
+#: includes/class-pro-plugin.php:142
+msgid "ZapPopPop Pro needs the ZapPopPop plugin. Install and activate ZapPopPop first."
+msgstr "ZapPopPop Pro 需要 ZapPopPop 插件。请先安装并启用 ZapPopPop。"
+
+#: includes/class-pro-plugin.php:146
+msgid "ZapPopPop Pro needs a newer version of ZapPopPop. Please update ZapPopPop."
+msgstr "ZapPopPop Pro 需要更新版本的 ZapPopPop。请更新 ZapPopPop。"
+
+#: includes/class-pro-plugin.php:156
+msgid "ZapPopPop Pro is not activated. Pro templates and modules stay locked until you enter your licence key."
+msgstr "ZapPopPop Pro 尚未激活。在您输入许可证密钥之前，Pro 模板和模块将保持锁定。"
+
+#: includes/class-pro-protection.php:100
+msgid "Security & Geolocation"
+msgstr "安全与地理位置"
+
+#: includes/class-pro-protection.php:150
+msgid "Submission rate limit exceeded. Please wait a while before submitting again."
+msgstr "已超出提交频率限制。请稍等片刻后再提交。"
+
+#: includes/class-pro-protection.php:158
+msgid "Bot verification failed. Please refresh the page and try again."
+msgstr "机器人验证失败。请刷新页面后重试。"
+
+#: includes/class-pro-protection.php:166
+msgid "Disposable or temporary email addresses are not permitted. Please use a valid personal or business email."
+msgstr "不允许使用一次性或临时邮箱地址。请使用有效的个人或企业邮箱。"
+
+#: includes/ab/class-ajax-campaigns.php:22 includes/stats/class-admin-stats.php:126
+msgid "Unauthorized action."
+msgstr "未授权的操作。"
+
+#: includes/ab/class-ajax-campaigns.php:26 includes/stats/class-admin-stats.php:130
+msgid "Security check failed. Please refresh the page."
+msgstr "安全检查失败。请刷新页面。"
+
+#: includes/ab/class-ajax-campaigns.php:37 includes/ab/class-ajax-campaigns.php:93 includes/ab/class-ajax-campaigns.php:155 includes/ab/class-ajax-campaigns.php:198 includes/stats/class-admin-stats.php:144 includes/stats/class-admin-stats.php:173 includes/stats/class-admin-stats.php:198
+msgid "Unauthorized user capability."
+msgstr "用户权限未授权。"
+
+#: includes/ab/class-ajax-campaigns.php:48 includes/ab/class-ajax-campaigns.php:104 includes/ab/class-ajax-campaigns.php:166 includes/ab/class-ajax-campaigns.php:209 includes/stats/class-admin-stats.php:155 includes/stats/class-admin-stats.php:184 includes/stats/class-admin-stats.php:209
+msgid "Invalid security token."
+msgstr "安全令牌无效。"
+
+#: includes/ab/class-ajax-campaigns.php:61 includes/ab/class-ajax-campaigns.php:115 includes/ab/class-ajax-campaigns.php:136
+msgid "Campaign not found."
+msgstr "未找到活动。"
+
+#: includes/ab/class-ajax-campaigns.php:67
+msgid "Select at least 2 popups for split-testing."
+msgstr "请至少选择 2 个弹窗进行分流测试。"
+
+#: includes/ab/class-ajax-campaigns.php:75
+msgid "At least 2 of the selected popups must exist."
+msgstr "所选弹窗中至少有 2 个必须存在。"
+
+#: includes/ab/class-ajax-campaigns.php:86 includes/ab/class-ajax-campaigns.php:124 includes/ab/class-ajax-campaigns.php:140
+msgid "Database error while saving."
+msgstr "保存时数据库出错。"
+
+#: includes/ab/class-ajax-campaigns.php:119
+msgid "Restore this campaign before changing its status."
+msgstr "更改此活动状态之前请先恢复它。"
+
+#: includes/ab/class-ajax-campaigns.php:191
+msgid "Database error: could not save the campaign. Try Tools > Repair Tables."
+msgstr "数据库错误：无法保存活动。请尝试“工具 > 修复表”。"
+
+#: includes/ab/class-ajax-campaigns.php:193
+msgid "A/B Campaign saved!"
+msgstr "A/B 活动已保存！"
+
+#: includes/ab/class-ajax-campaigns.php:218
+msgid "Missing campaign UID."
+msgstr "缺少活动 UID。"
+
+#: includes/ab/class-ajax-campaigns.php:222
+msgid "Campaign not found or already deleted."
+msgstr "未找到活动或已被删除。"
+
+#: includes/ab/class-ajax-campaigns.php:224
+msgid "Campaign deleted."
+msgstr "活动已删除。"
+
+#: includes/ab/class-front-ab.php:100
+msgid "Open Popup"
+msgstr "打开弹窗"
+
+#: includes/ab/class-pro-ab.php:44 includes/ab/class-pro-ab.php:45 includes/ab/class-pro-ab.php:59 includes/ab/class-pro-ab.php:98 templates/ab-view.php:5 templates/ab-view.php:10
+msgid "A/B Campaigns"
+msgstr "A/B 活动"
+
+#: includes/ab/class-pro-ab.php:61
+msgid "Split-test popup variations and keep the winner. Activate your ZapPopPop Pro licence to manage A/B campaigns."
+msgstr "对弹窗变体进行分流测试并保留优胜者。激活您的 ZapPopPop Pro 许可证以管理 A/B 活动。"
+
+#: includes/ab/class-pro-ab.php:150
+msgid "Restored A/B Test"
+msgstr "已恢复的 A/B 测试"
+
+#: includes/ab/class-pro-ab.php:176
+msgid "Database error during restore. No changes were kept."
+msgstr "恢复期间数据库出错。未保留任何更改。"
+
+#: includes/ab/class-pro-ab.php:189 includes/ab/class-pro-ab.php:193
+msgid "A/B Experiments"
+msgstr "A/B 实验"
+
+#: includes/elements/class-pro-element-imageselect.php:14
+msgid "Image Select"
+msgstr "图片选择"
+
+#: includes/elements/class-pro-element-progress.php:14
+msgid "Progress Bar"
+msgstr "进度条"
+
+#: includes/elements/class-pro-element-rating.php:14
+msgid "Star Rating"
+msgstr "星级评分"
+
+#: includes/elements/class-pro-element-tile.php:14
+msgid "Tile Select"
+msgstr "方块选择"
+
+#: includes/elements/class-pro-elements.php:144
+msgid "Rating Data"
+msgstr "评分数据"
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28
+msgid "Download link has expired or is invalid."
+msgstr "下载链接已过期或无效。"
+
+#: includes/modules/class-zappoppop-addon-downloads.php:28 includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "Invalid Download"
+msgstr "无效的下载"
+
+#: includes/modules/class-zappoppop-addon-downloads.php:41
+msgid "The file is no longer available."
+msgstr "文件已不可用。"
+
+#: includes/modules/class-zappoppop-addon-sms.php:13
+msgid "Twilio account SID, auth token, from number, and recipient number are required."
+msgstr "必须提供 Twilio 账户 SID、验证令牌、发送号码和接收号码。"
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:42
+msgid "Missing coupon code."
+msgstr "缺少优惠券代码。"
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:47
+msgid "Coupon applied to cart successfully!"
+msgstr "优惠券已成功应用到购物车！"
+
+#: includes/modules/class-zappoppop-addon-woocommerce.php:49
+msgid "Unable to apply coupon to cart."
+msgstr "无法将优惠券应用到购物车。"
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:21 includes/modules/class-zappoppop-ajax-mailchimp.php:22
+msgid "Permission denied."
+msgstr "权限被拒绝。"
+
+#: includes/modules/class-zappoppop-ajax-getresponse.php:25
+msgid "Enter a valid GetResponse API key."
+msgstr "请输入有效的 GetResponse API 密钥。"
+
+#: includes/modules/class-zappoppop-ajax-mailchimp.php:26
+msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
+msgstr "请输入有效的 MailChimp API 密钥（例如 0123456789abcdef-us21）。"
+
+#: includes/modules/class-zappoppop-autoresponder.php:96
+msgid "Thank you for subscribing!\n\nEnjoy your offer."
+msgstr "感谢您的订阅！\n\n请享受您的优惠。"
+
+#: includes/modules/class-zappoppop-double-optin.php:18
+msgid "Please confirm your email address"
+msgstr "请确认您的电子邮件地址"
+
+#: includes/modules/class-zappoppop-double-optin.php:19
+msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
+msgstr "尊敬的访客！\n\n请点击以下链接确认您的电子邮件地址：\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\n谢谢。"
+
+#: includes/modules/class-zappoppop-double-optin.php:22
+msgid "Thank you!"
+msgstr "谢谢！"
+
+#: includes/modules/class-zappoppop-getresponse.php:210 includes/modules/class-zappoppop-mailchimp.php:222
+msgid "Invalid API key."
+msgstr "API 密钥无效。"
+
+#: includes/modules/class-zappoppop-getresponse.php:232
+msgid "GetResponse returned HTTP %d."
+msgstr "GetResponse 返回了 HTTP %d。"
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Email Address"
+msgstr "电子邮件地址"
+
+#: includes/modules/class-zappoppop-getresponse.php:252
+msgid "Full name"
+msgstr "全名"
+
+#: includes/modules/class-zappoppop-getresponse.php:265
+msgid "API key or campaign is missing."
+msgstr "缺少 API 密钥或活动。"
+
+#: includes/modules/class-zappoppop-getresponse.php:267 includes/modules/class-zappoppop-mailchimp.php:304
+msgid "Invalid email address."
+msgstr "电子邮件地址无效。"
+
+#: includes/modules/class-zappoppop-mailchimp.php:246
+msgid "MailChimp returned HTTP %d."
+msgstr "MailChimp 返回了 HTTP %d。"
+
+#: includes/modules/class-zappoppop-mailchimp.php:263 includes/modules/class-zappoppop-mailchimp.php:277
+msgid "Select an audience first."
+msgstr "请先选择受众。"
+
+#: includes/modules/class-zappoppop-mailchimp.php:266
+msgid "Email address"
+msgstr "电子邮件地址"
+
+#: includes/modules/class-zappoppop-mailchimp.php:302
+msgid "API key or audience is missing."
+msgstr "缺少 API 密钥或受众。"
+
+#: includes/modules/class-zappoppop-protect.php:207 includes/modules/class-zappoppop-protect.php:215 includes/modules/class-zappoppop-protect.php:278
+msgid "ZapPopPop submissions"
+msgstr "ZapPopPop 提交记录"
+
+#: includes/modules/class-zappoppop-side-tabs.php:117
+msgid "Offer"
+msgstr "优惠"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:372
+msgid "(no title)"
+msgstr "（无标题）"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:398
+msgid "Visitors (logged out)"
+msgstr "访客（未登录）"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:399 includes/modules/class-zappoppop-woo-cart.php:722
+msgid "Search..."
+msgstr "搜索..."
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:400 includes/modules/class-zappoppop-woo-cart.php:723
+msgid "Nothing found."
+msgstr "未找到任何内容。"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:404
+msgid "OnLoad"
+msgstr "加载时"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:405
+msgid "OnScroll"
+msgstr "滚动时"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:406
+msgid "OnExit"
+msgstr "离开时"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:407
+msgid "OnInactivity"
+msgstr "不活动时"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:415
+msgid "hrs"
+msgstr "小时"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:417
+msgid "sec"
+msgstr "秒"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:419
+msgid "Close delay 0 keeps the popup open until it is closed."
+msgstr "关闭延迟为 0 时，弹窗将保持打开，直到被关闭。"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:427
+msgid "End"
+msgstr "结束"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:434
+msgid "URL"
+msgstr "URL"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
+msgid "All"
+msgstr "全部"
+
+#: includes/modules/class-zappoppop-targeting-triggers.php:444
+msgid "URL contains"
+msgstr "URL 包含"
+
+#: includes/modules/class-zappoppop-woo-cart.php:709
+msgid "Any"
+msgstr "任意"
+
+#: includes/modules/class-zappoppop-woo-cart.php:717
+msgid "items"
+msgstr "项"
+
+#: includes/modules/class-zappoppop-woo-cart.php:718
+msgid "A value of 0 turns that condition off."
+msgstr "值为 0 则关闭该条件。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:730
+msgid "0 = detect it from your WooCommerce free shipping method."
+msgstr "0 = 根据您的 WooCommerce 免运费方式自动检测。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:732
+msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
+msgstr "将它们输入任意文本图层。实时预览显示示例值；访客看到的是他们自己的购物车。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:740
+msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
+msgstr "现有的 WooCommerce 优惠券。它会填充 {coupon_code} 和倒计时。该代码在页面源码中可见，因此请勿使用私密代码。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:744
+msgid "Give a button the link #zpp-apply-coupon."
+msgstr "为按钮设置链接 #zpp-apply-coupon。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:752
+msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
+msgstr "商品页面：弹窗不会在任何其他页面显示。所选商品：仅在下方商品或分类上显示（未选择 = 所有商品页面）。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:763
+msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
+msgstr "“自动”会使用访客购物车的交叉销售商品，然后使用其中商品的追加销售商品。请在每个 WooCommerce 商品上设置它们。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:765
+msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
+msgstr "为按钮设置链接 #zpp-add-upsell 可将商品加入购物车（之后弹窗关闭），或设置 #zpp-view-upsell 以打开其页面。可变商品只能使用查看链接。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:770
+msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
+msgstr "仅向勾选同意框且购物车中有商品的情况下提交此弹窗表单的访客发送一次。未经同意不会保存任何内容。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:772
+msgid "minutes"
+msgstr "分钟"
+
+#: includes/modules/class-zappoppop-woo-cart.php:774
+msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
+msgstr "向表单添加一个复选框图层（例如“通过邮件提醒我购物车的内容”），并在其“高级 > 字段名称”中输入相同的名称。未勾选 = 不保存任何内容。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:779
+msgid "Coupon code (optional)"
+msgstr "优惠券代码（可选）"
+
+#: includes/modules/class-zappoppop-woo-cart.php:781
+msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
+msgstr "如果已使用相同地址下单，则不会发送邮件。每封邮件都带有退订链接；已退订的地址不会再次被保存。发送使用 WordPress cron 和 wp_mail()。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:782
+msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
+msgstr "倒计时和到期日期来自 WooCommerce 中优惠券的实际到期日期。"
+
+#: includes/modules/class-zappoppop-woo-cart.php:783
+msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
+msgstr "免运费栏：添加一个进度条图层，将其模式设为“自动：WooCommerce 免运费”，并按如下方式编写其标签：再添加 {shipping_remaining} 即可免运费 || 您已获得免运费！"
+
+#: includes/modules/class-zappoppop-woo-recover.php:401
+msgid "Use code %s at checkout."
+msgstr "结账时使用代码 %s。"
+
+#: includes/modules/class-zappoppop-woo-recover.php:408
+msgid "Return to your cart"
+msgstr "返回您的购物车"
+
+#: includes/modules/class-zappoppop-woo-recover.php:411
+msgid "You are receiving this because you asked for a cart reminder on %s."
+msgstr "您收到此邮件是因为您在 %s 请求了购物车提醒。"
+
+#: includes/modules/class-zappoppop-woo-recover.php:412 includes/modules/class-zappoppop-woo-recover.php:433
+msgid "Unsubscribe"
+msgstr "退订"
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "You have been unsubscribed. We will not send you cart reminders again."
+msgstr "您已退订。我们不会再向您发送购物车提醒。"
+
+#: includes/modules/class-zappoppop-woo-recover.php:432
+msgid "This unsubscribe link is not valid."
+msgstr "此退订链接无效。"
+
+#: includes/modules/class-zappoppop-woo-recover.php:506 includes/modules/class-zappoppop-woo-recover.php:514
+msgid "ZapPopPop abandoned cart emails"
+msgstr "ZapPopPop 弃购购物车邮件"
+
+#: includes/modules/class-zappoppop-woo-recover.php:530
+msgid "Abandoned cart emails"
+msgstr "弃购购物车邮件"
+
+#: includes/modules/class-zappoppop-woo-recover.php:533
+msgid "Email"
+msgstr "电子邮件"
+
+#: includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
+msgid "Status"
+msgstr "状态"
+
+#: includes/modules/class-zappoppop-woo-recover.php:535
+msgid "Saved on"
+msgstr "保存于"
+
+#: includes/modules/class-zappoppop-woo-recover.php:536
+msgid "Cart lines"
+msgstr "购物车明细"
+
+#: includes/modules/class-zappoppop-woo-recover.php:558
+msgid "The address is kept on a do-not-email list because the person unsubscribed."
+msgstr "该地址因本人已退订而被保留在不发邮件名单中。"
+
+#: includes/modules/class-zappoppop-woocommerce.php:98
+msgid "Generated by ZapPopPop campaign"
+msgstr "由 ZapPopPop 活动生成"
+
+#: includes/stats/class-admin-stats.php:86
+msgid "Rank"
+msgstr "排名"
+
+#: includes/stats/class-admin-stats.php:87
+msgid "Popup Campaign"
+msgstr "弹窗活动"
+
+#: includes/stats/class-admin-stats.php:88
+msgid "Label Color"
+msgstr "标签颜色"
+
+#: includes/stats/class-admin-stats.php:89
+msgid "Country"
+msgstr "国家/地区"
+
+#: includes/stats/class-admin-stats.php:90
+msgid "Device"
+msgstr "设备"
+
+#: includes/stats/class-admin-stats.php:91 templates/stats/chart.php:29
+msgid "Impressions"
+msgstr "展示次数"
+
+#: includes/stats/class-admin-stats.php:92
+msgid "Captured Leads"
+msgstr "已获取的潜在客户"
+
+#: includes/stats/class-admin-stats.php:93 templates/stats/kpi-summary.php:23
+msgid "Conversion Rate"
+msgstr "转化率"
+
+#: includes/stats/class-admin-stats.php:163
+msgid "Invalid popup or color."
+msgstr "弹窗或颜色无效。"
+
+#: includes/stats/class-pro-stats.php:49 includes/stats/class-pro-stats.php:50 includes/stats/class-pro-stats.php:64 includes/stats/class-pro-stats.php:102 templates/stats-view.php:62 templates/stats-view.php:66
+msgid "Statistics"
+msgstr "统计"
+
+#: includes/stats/class-pro-stats.php:66
+msgid "Track impressions, leads and conversion rates over time. Activate your ZapPopPop Pro licence to open the Statistics dashboard."
+msgstr "跟踪展示次数、潜在客户和转化率随时间的变化。激活您的 ZapPopPop Pro 许可证以打开统计仪表盘。"
+
+#: includes/stats/class-pro-stats.php:97
+msgid "Maximum of %d series reached"
+msgstr "已达到最多 %d 个系列的上限"
+
+#: includes/stats/class-pro-stats.php:106
+msgid "Daily Impressions"
+msgstr "每日展示次数"
+
+#: includes/stats/class-pro-stats.php:128
+msgid "Once Weekly"
+msgstr "每周一次"
+
+#: includes/stats/class-pro-stats.php:188
+msgid "No activity recorded."
+msgstr "没有已记录的活动。"
+
+#: modules/acc-popup-overlay/admin.js:163
+msgid "Maximum of 20 custom backgrounds."
+msgstr "最多 20 个自定义背景。"
+
+#: modules/acc-popup-overlay/admin.js:170
+msgid "Delete this background?"
+msgstr "删除此背景？"
+
+#: modules/acc-popup-overlay/admin.js:179
+msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
+msgstr "WordPress 媒体库不可用。请输入图片 URL（JPG/PNG）："
+
+#: modules/acc-popup-overlay/admin.js:199
+msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
+msgstr "请选择 JPEG 或 PNG 图片（.jpg、.jpeg、.png）。"
+
+#: modules/acc-popup-overlay/admin.js:202
+msgid "Please enter the animation HTML / JS."
+msgstr "请输入动画 HTML / JS。"
+
+#: templates/license-edd.php:44 templates/license-page.php:24
+msgid "Licensing is not set up yet"
+msgstr "尚未设置授权"
+
+#: templates/license-edd.php:46
+msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
+msgstr "ZapPopPop Pro 通过 Easy Digital Downloads 检查您的许可证密钥并提供更新。请将您的商店信息添加到 wp-config.php 中，位于写有“That's all, stop editing!”的那一行之上："
+
+#: templates/license-edd.php:48
+msgid "Store home URL (https)"
+msgstr "商店主页 URL (https)"
+
+#: templates/license-edd.php:49
+msgid "Download ID of ZapPopPop Pro in your store"
+msgstr "您的商店中 ZapPopPop Pro 的下载 ID"
+
+#: templates/license-edd.php:52 templates/license-page.php:32 templates/locked-page.php:23
+msgid "Your campaigns, statistics and settings are safe. Everything you created stays stored and keeps working on your site."
+msgstr "您的活动、统计和设置都是安全的。您创建的所有内容都会保留，并在您的站点上继续正常运行。"
+
+#: templates/license-edd.php:60
+msgid "Licence key"
+msgstr "许可证密钥"
+
+#: templates/license-edd.php:70
+msgid "Your licence has expired. Every Pro feature keeps working; renew it to receive updates and support."
+msgstr "您的许可证已过期。所有 Pro 功能仍可继续使用；请续订以获取更新和支持。"
+
+#: templates/license-edd.php:75
+msgid "Expires"
+msgstr "到期"
+
+#: templates/license-edd.php:77
+msgid "Last checked"
+msgstr "上次检查"
+
+#: templates/license-edd.php:81
+msgid "Check now"
+msgstr "立即检查"
+
+#: templates/license-edd.php:82
+msgid "Deactivate"
+msgstr "停用"
+
+#: templates/license-edd.php:85
+msgid "Enter your licence key"
+msgstr "输入您的许可证密钥"
+
+#: templates/license-edd.php:87
+msgid "You can find the key in your purchase receipt and in your account on the store."
+msgstr "您可以在购买收据和商店账户中找到该密钥。"
+
+#: templates/license-edd.php:93
+msgid "Only a network administrator can change the licence."
+msgstr "只有网络管理员才能更改许可证。"
+
+#: templates/license-edd.php:102
+msgid "Licence server"
+msgstr "许可证服务器"
+
+#: templates/license-edd.php:105
+msgid "Store"
+msgstr "商店"
+
+#: templates/license-edd.php:107 templates/license-page.php:28
+msgid "Product ID"
+msgstr "产品 ID"
+
+#: templates/license-edd.php:109
+msgid "This site"
+msgstr "此站点"
+
+#: templates/license-edd.php:112
+msgid "Activating uses one site slot. Deactivate the licence before you move the site to another domain. Updates arrive in Dashboard > Updates while the licence is active."
+msgstr "激活会占用一个站点名额。将站点迁移到其他域名之前，请先停用许可证。许可证有效期间，更新会在“仪表盘 > 更新”中推送。"
+
+#: templates/license-page.php:26
+msgid "ZapPopPop Pro uses Freemius for licence keys, updates and your account. Add the product details from your Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) to zappoppop-pro.php, or define them in wp-config.php:"
+msgstr "ZapPopPop Pro 使用 Freemius 处理许可证密钥、更新和您的账户。请将您 Freemius 开发者仪表盘中的产品详情（Products > ZapPopPop Pro > SDK Integration）添加到 zappoppop-pro.php，或在 wp-config.php 中定义："
+
+#: templates/license-page.php:29
+msgid "Public key (starts with pk_)"
+msgstr "公钥（以 pk_ 开头）"
+
+#: templates/license-page.php:30
+msgid "Product slug"
+msgstr "产品别名"
+
+#: templates/settings-library-rows.php:15
+msgid "Canvas Confetti"
+msgstr "Canvas Confetti"
+
+#: templates/settings-library-rows.php:15
+msgid "Celebratory confetti particle bursts on lead capture and prize unlocks."
+msgstr "获取潜在客户和解锁奖品时的庆祝彩纸粒子爆发。"
+
+#: templates/settings-library-rows.php:20
+msgid "Canvas Fireworks"
+msgstr "Canvas Fireworks"
+
+#: templates/settings-library-rows.php:20
+msgid "Particle fireworks display for discount unlock screens."
+msgstr "用于折扣解锁界面的粒子烟花效果。"
+
+#: templates/settings-library-rows.php:25
+msgid "Signature Pad"
+msgstr "签名板"
+
+#: templates/settings-library-rows.php:25
+msgid "HTML5 canvas digital signature capture input fields."
+msgstr "基于 HTML5 画布的数字签名采集输入字段。"
+
+#: templates/settings-library-rows.php:30
+msgid "Math Formula Parser"
+msgstr "数学公式解析器"
+
+#: templates/settings-library-rows.php:30
+msgid "Dynamic client-side math evaluation for quote calculators."
+msgstr "用于报价计算器的动态客户端数学运算。"
+
+#: templates/settings-performance-rows.php:11
+msgid "Google Analytics Integration"
+msgstr "Google Analytics 集成"
+
+#: templates/settings-performance-rows.php:16
+msgid "Automatically dispatch popup impressions, conversions, and close events to gtag() and dataLayer"
+msgstr "自动将弹窗展示、转化和关闭事件发送到 gtag() 和 dataLayer"
+
+#: templates/settings-performance-rows.php:22
+msgid "AdBlock Detection Engine"
+msgstr "AdBlock 检测引擎"
+
+#: templates/settings-performance-rows.php:27
+msgid "Enable global AdBlock extension monitoring script to trigger anti-adblock campaigns"
+msgstr "启用全局 AdBlock 扩展监控脚本以触发反广告拦截活动"
+
+#: templates/settings-security.php:17
+msgid "Bot Protection & Geo-Targeting Rules"
+msgstr "机器人防护与地理定位规则"
+
+#: templates/settings-security.php:19
+msgid "These rules need an active ZapPopPop Pro licence. Your saved choices are kept."
+msgstr "这些规则需要有效的 ZapPopPop Pro 许可证。您已保存的选择会被保留。"
+
+#: templates/settings-security.php:23
+msgid "Email Validation Mode"
+msgstr "邮箱验证模式"
+
+#: templates/settings-security.php:26
+msgid "Standard RFC Syntax Check"
+msgstr "标准 RFC 语法检查"
+
+#: templates/settings-security.php:27
+msgid "Syntax Check + Block Disposable Domains (10MinuteMail, Mailinator)"
+msgstr "语法检查 + 阻止一次性域名（10MinuteMail、Mailinator）"
+
+#: templates/settings-security.php:29
+msgid "Rejects throwaway and temporary email addresses from polluting your CRM."
+msgstr "拒绝一次性和临时邮箱地址，避免污染您的 CRM。"
+
+#: templates/settings-security.php:33
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: templates/settings-security.php:38
+msgid "Enable Google reCAPTCHA verification on all lead submission forms"
+msgstr "在所有潜在客户提交表单上启用 Google reCAPTCHA 验证"
+
+#: templates/settings-security.php:43
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA 站点密钥"
+
+#: templates/settings-security.php:49
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA 密钥（Secret Key）"
+
+#: templates/settings-security.php:55
+msgid "reCAPTCHA v3 Minimum Score"
+msgstr "reCAPTCHA v3 最低分数"
+
+#: templates/settings-security.php:58
+msgid "Submissions scoring below this are rejected (0.1 = lenient, 0.9 = strict). Default 0.4. Requires a reCAPTCHA v3 key pair."
+msgstr "得分低于此值的提交将被拒绝（0.1 = 宽松，0.9 = 严格）。默认 0.4。需要 reCAPTCHA v3 密钥对。"
+
+#: templates/settings-security.php:62
+msgid "IP Rate Limiting"
+msgstr "IP 速率限制"
+
+#: templates/settings-security.php:65
+msgid "submissions allowed per IP per hour"
+msgstr "每个 IP 每小时允许的提交数"
+
+#: templates/settings-security.php:66
+msgid "Throttles aggressive bot submissions and prevents form spam."
+msgstr "限制激进的机器人提交并防止表单垃圾信息。"
+
+#: templates/settings-security.php:70
+msgid "IP Geo-Targeting"
+msgstr "IP 地理定位"
+
+#: templates/settings-security.php:75
+msgid "Enable IP-based country and regional targeting rules"
+msgstr "启用基于 IP 的国家和地区定位规则"
+
+#: templates/settings-security.php:80
+msgid "GeoIP Resolution Service"
+msgstr "GeoIP 解析服务"
+
+#: templates/settings-security.php:83
+msgid "None (Cloudflare CF-IPCountry header only, no external lookups)"
+msgstr "无（仅使用 Cloudflare CF-IPCountry 标头，不进行外部查询）"
+
+#: templates/settings-security.php:84
+msgid "ipapi.co (JSON API)"
+msgstr "ipapi.co (JSON API)"
+
+#: templates/settings-security.php:87
+msgid "Provider used to detect visitor countries for geo-whitelisting and blacklisting."
+msgstr "用于检测访客国家/地区的提供商，供地理白名单和黑名单使用。"
+
+#: templates/tracking-sections.php:7
+msgid "Statistics & Reports"
+msgstr "统计与报告"
+
+#: templates/tracking-sections.php:9
+msgid "Daily Stats Retention"
+msgstr "每日统计保留期"
+
+#: templates/tracking-sections.php:9
+msgid "days (0 = keep forever)"
+msgstr "天（0 = 永久保留）"
+
+#: templates/tracking-sections.php:10
+msgid "Weekly Email Report"
+msgstr "每周邮件报告"
+
+#: templates/tracking-sections.php:10
+msgid "Email impressions, leads and CR per campaign every week"
+msgstr "每周按活动通过邮件发送展示次数、潜在客户和转化率"
+
+#: templates/tracking-sections.php:12
+msgid "Report Recipient"
+msgstr "报告收件人"
+
+#: templates/tracking-sections.php:17
+msgid "A/B Testing"
+msgstr "A/B 测试"
+
+#: templates/tracking-sections.php:20
+msgid "Default Embed Type"
+msgstr "默认嵌入类型"
+
+#: templates/tracking-sections.php:23
+msgid "Inline Popup"
+msgstr "内嵌弹窗"
+
+#: templates/tracking-sections.php:24
+msgid "On-Load Popup"
+msgstr "加载时弹窗"
+
+#: templates/tracking-sections.php:26
+msgid "Used by [zappoppop_ab] when the shortcode has no mode attribute."
+msgstr "当短代码没有 mode 属性时，由 [zappoppop_ab] 使用。"
+
+#: templates/tracking-sections.php:29
+msgid "Variant Cookie Lifetime"
+msgstr "变体 Cookie 有效期"
+
+#: templates/tracking-sections.php:29
+msgid "days"
+msgstr "天"
+
+#: templates/tracking-sections.php:30
+msgid "Sticky Variant by User"
+msgstr "按用户固定变体"
+
+#: templates/tracking-sections.php:30
+msgid "Logged-in visitors always see the same variant on every device"
+msgstr "已登录的访客在每台设备上始终看到相同的变体"
+
+#: templates/tracking-sections.php:31
+msgid "Auto-Promote Winner"
+msgstr "自动推广优胜者"
+
+#: templates/tracking-sections.php:31
+msgid "Keep only the best variant once the result is statistically significant"
+msgstr "结果在统计上显著后仅保留最佳变体"
+
+#: templates/tracking-sections.php:31
+msgid "Uses each popup's lifetime impressions and leads. Checked daily."
+msgstr "使用每个弹窗的累计展示次数和潜在客户数。每日检查一次。"
+
+#: templates/tracking-sections.php:32
+msgid "Minimum Impressions per Variant"
+msgstr "每个变体的最少展示次数"
+
+#: templates/tracking-sections.php:34
+msgid "Confidence Level"
+msgstr "置信水平"
+
+#: templates/tracking-sections.php:45
+msgid "Cache Compatibility"
+msgstr "缓存兼容性"
+
+#: templates/tracking-sections.php:47
+msgid "Exclude A/B Pages from Page Cache"
+msgstr "将 A/B 页面排除在页面缓存之外"
+
+#: templates/tracking-sections.php:47
+msgid "Send the DONOTCACHEPAGE flag on pages that contain [zappoppop_ab]"
+msgstr "在包含 [zappoppop_ab] 的页面上发送 DONOTCACHEPAGE 标志"
+
+#: templates/tracking-sections.php:47
+msgid "Honoured by WP Rocket, W3 Total Cache, LiteSpeed and WP Super Cache."
+msgstr "WP Rocket、W3 Total Cache、LiteSpeed 和 WP Super Cache 均会遵循。"
+
+#: templates/ab/bar-actions.php:8
+msgid "New A/B Campaign"
+msgstr "新建 A/B 活动"
+
+#: templates/ab/modal-create.php:12
+msgid "Create A/B Split Testing Experiment"
+msgstr "创建 A/B 分流测试实验"
+
+#: templates/ab/modal-create.php:13
+msgid "Close"
+msgstr "关闭"
+
+#: templates/ab/modal-create.php:17
+msgid "Campaign Title"
+msgstr "活动标题"
+
+#: templates/ab/modal-create.php:18
+msgid "e.g. Summer Promo Headline Test"
+msgstr "例如 夏季促销标题测试"
+
+#: templates/ab/modal-create.php:20
+msgid "Select Popups for Testing (Minimum 2)"
+msgstr "选择要测试的弹窗（至少 2 个）"
+
+#: templates/ab/modal-create.php:21
+msgid "Traffic will be distributed randomly across your selected variations."
+msgstr "流量将随机分配到您选择的变体。"
+
+#: templates/ab/modal-create.php:25
+msgid "No published popups available. Please create and publish popups in the builder first."
+msgstr "没有可用的已发布弹窗。请先在构建器中创建并发布弹窗。"
+
+#: templates/ab/modal-create.php:30
+msgid "inactive"
+msgstr "未启用"
+
+#: templates/ab/modal-create.php:38
+msgid "Launch Campaign"
+msgstr "启动活动"
+
+#: templates/ab/pagination.php:25
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s 项"
+
+#: templates/ab/pagination.php:30
+msgid "First page"
+msgstr "首页"
+
+#: templates/ab/pagination.php:31
+msgid "Previous page"
+msgstr "上一页"
+
+#: templates/ab/pagination.php:33
+msgid "%1$s of %2$s"
+msgstr "第 %1$s 页，共 %2$s 页"
+
+#: templates/ab/pagination.php:35
+msgid "Next page"
+msgstr "下一页"
+
+#: templates/ab/pagination.php:36
+msgid "Last page"
+msgstr "末页"
+
+#: templates/ab/table.php:22
+msgid "Campaign"
+msgstr "活动"
+
+#: templates/ab/table.php:23
+msgid "Variations & Performance"
+msgstr "变体与表现"
+
+#: templates/ab/table.php:25
+msgid "Shortcode"
+msgstr "短代码"
+
+#: templates/ab/table.php:44
+msgid "No campaigns match your filters."
+msgstr "没有活动符合您的筛选条件。"
+
+#: templates/ab/table.php:46
+msgid "No A/B testing campaigns found. Click \"New A/B Campaign\" in the top bar to launch your first split-test experiment."
+msgstr "未找到 A/B 测试活动。点击顶部栏中的“新建 A/B 活动”以启动您的第一个分流测试实验。"
+
+#: templates/ab/table.php:66
+msgid "Created:"
+msgstr "创建于："
+
+#: templates/ab/table.php:69
+msgid "Restore"
+msgstr "恢复"
+
+#: templates/ab/table.php:70
+msgid "Delete Permanently"
+msgstr "永久删除"
+
+#: templates/ab/table.php:72
+msgid "Edit"
+msgstr "编辑"
+
+#: templates/ab/table.php:73 templates/ab/table.php:104 templates/ab/toolbar.php:10 templates/stats/chart.php:41 templates/stats/chart.php:59 templates/stats/table-top-campaigns.php:82
+msgid "Trash"
+msgstr "回收站"
+
+#: templates/ab/table.php:79
+msgid "No variations attached."
+msgstr "没有关联的变体。"
+
+#: templates/ab/table.php:92
+msgid "Variant %s"
+msgstr "变体 %s"
+
+#: templates/ab/table.php:93
+msgid "%s%% CR"
+msgstr "转化率 %s%%"
+
+#: templates/ab/table.php:96
+msgid "Impr:"
+msgstr "展示："
+
+#: templates/ab/table.php:96
+msgid "• Leads:"
+msgstr "• 潜在客户："
+
+#: templates/ab/table.php:106 templates/ab/toolbar.php:9
+msgid "Inactive"
+msgstr "未启用"
+
+#: templates/ab/table.php:107
+msgid "Campaign active"
+msgstr "活动已启用"
+
+#: templates/ab/table.php:113
+msgid "Click to copy shortcode"
+msgstr "点击复制短代码"
+
+#: templates/ab/toolbar.php:26
+msgid "Search campaigns:"
+msgstr "搜索活动："
+
+#: templates/ab/toolbar.php:27
+msgid "Title or UID"
+msgstr "标题或 UID"
+
+#: templates/ab/toolbar.php:28
+msgid "Search Campaigns"
+msgstr "搜索活动"
+
+#: templates/ab/toolbar.php:30
+msgid "Clear"
+msgstr "清除"
+
+#: templates/builder/ribbon-tools.php:3
+msgid "8. Progress Bar (progress)"
+msgstr "8. 进度条 (progress)"
+
+#: templates/builder/ribbon-tools.php:3
+msgid "Progress"
+msgstr "进度"
+
+#: templates/builder/ribbon-tools.php:6
+msgid "19. Image Select (imageselect)"
+msgstr "19. 图片选择 (imageselect)"
+
+#: templates/builder/ribbon-tools.php:6
+msgid "ImgSel"
+msgstr "图选"
+
+#: templates/builder/ribbon-tools.php:9
+msgid "20. Tile (tile)"
+msgstr "20. 方块 (tile)"
+
+#: templates/builder/ribbon-tools.php:9
+msgid "Tile"
+msgstr "方块"
+
+#: templates/builder/ribbon-tools.php:12
+msgid "25. Rating (rating)"
+msgstr "25. 评分 (rating)"
+
+#: templates/builder/ribbon-tools.php:12
+msgid "Rating"
+msgstr "评分"
+
+#: templates/builder/elements/elem-08-progress.php:6
+msgid "8. Progress Bar Settings"
+msgstr "8. 进度条设置"
+
+#: templates/builder/elements/elem-08-progress.php:8
+msgid "PROGRESS MODE"
+msgstr "进度模式"
+
+#: templates/builder/elements/elem-08-progress.php:10
+msgid "Manual (fixed percent)"
+msgstr "手动（固定百分比）"
+
+#: templates/builder/elements/elem-08-progress.php:11
+msgid "Auto: Form completion"
+msgstr "自动：表单完成度"
+
+#: templates/builder/elements/elem-08-progress.php:12
+msgid "Auto: Canvas steps"
+msgstr "自动：画布步骤"
+
+#: templates/builder/elements/elem-08-progress.php:18
+msgid "FILL PERCENT (0–100%)"
+msgstr "填充百分比（0–100%）"
+
+#: templates/builder/elements/elem-08-progress.php:22
+msgid "FILL BAR COLOR"
+msgstr "填充条颜色"
+
+#: templates/builder/elements/elem-08-progress.php:27
+msgid "TRACK (BACKGROUND) COLOR"
+msgstr "轨道（背景）颜色"
+
+#: templates/builder/elements/elem-08-progress.php:30
+msgid "PROGRESS LABEL TEXT"
+msgstr "进度标签文本"
+
+#: templates/builder/elements/elem-08-progress.php:31
+msgid "e.g. 65% Complete — Almost There!"
+msgstr "例如 完成 65% — 马上就好！"
+
+#: templates/builder/elements/elem-08-progress.php:34
+msgid "Striped Bar"
+msgstr "条纹条"
+
+#: templates/builder/elements/elem-08-progress.php:37
+msgid "Animated Stripes"
+msgstr "动画条纹"
+
+#: templates/builder/elements/elem-08-progress.php:40
+msgid "Show %"
+msgstr "显示 %"
+
+#: templates/builder/elements/elem-08-progress.php:47
+msgid "PROGRESS VALUE:"
+msgstr "进度值："
+
+#: templates/builder/elements/elem-08-progress.php:49
+msgid "BAR FILL COLOR"
+msgstr "条填充颜色"
+
+#: templates/builder/elements/elem-19-imageselect.php:6
+msgid "19. Visual Image Select Grid"
+msgstr "19. 可视化图片选择网格"
+
+#: templates/builder/elements/elem-19-imageselect.php:7
+msgid "IMAGE CHOICES (LABEL + IMAGE URL)"
+msgstr "图片选项（标签 + 图片 URL）"
+
+#: templates/builder/elements/elem-19-imageselect.php:11
+msgid "Label"
+msgstr "标签"
+
+#: templates/builder/elements/elem-19-imageselect.php:205 templates/builder/elements/elem-20-tile.php:11
+msgid "GRID COLUMNS"
+msgstr "网格列数"
+
+#: templates/builder/elements/elem-19-imageselect.php:207 templates/builder/elements/elem-20-tile.php:13
+msgid "2 Columns"
+msgstr "2 列"
+
+#: templates/builder/elements/elem-19-imageselect.php:208 templates/builder/elements/elem-20-tile.php:14
+msgid "3 Columns"
+msgstr "3 列"
+
+#: templates/builder/elements/elem-19-imageselect.php:209 templates/builder/elements/elem-20-tile.php:15
+msgid "4 Columns"
+msgstr "4 列"
+
+#: templates/builder/elements/elem-19-imageselect.php:213
+msgid "ACTIVE BORDER"
+msgstr "活动边框"
+
+#: templates/builder/elements/elem-19-imageselect.php:218
+msgid "Allow Multiple Image Selections"
+msgstr "允许选择多张图片"
+
+#: templates/builder/elements/elem-20-tile.php:6
+msgid "20. Interactive Tile Selector"
+msgstr "20. 交互式方块选择器"
+
+#: templates/builder/elements/elem-20-tile.php:7
+msgid "TILE CHOICES (ONE PER LINE)"
+msgstr "方块选项（每行一个）"
+
+#: templates/builder/elements/elem-20-tile.php:19
+msgid "ACTIVE ACCENT"
+msgstr "活动强调色"
+
+#: templates/builder/elements/elem-20-tile.php:24
+msgid "Allow Multi-Tile Selection"
+msgstr "允许选择多个方块"
+
+#: templates/builder/elements/elem-25-rating.php:6
+msgid "25. Interactive Rating Scale"
+msgstr "25. 交互式评分量表"
+
+#: templates/builder/elements/elem-25-rating.php:9
+msgid "SCALE MAX"
+msgstr "量表最大值"
+
+#: templates/builder/elements/elem-25-rating.php:11
+msgid "5 Stars / Icons"
+msgstr "5 星 / 图标"
+
+#: templates/builder/elements/elem-25-rating.php:12
+msgid "10 Stars / Icons"
+msgstr "10 星 / 图标"
+
+#: templates/builder/elements/elem-25-rating.php:16
+msgid "ICON GLYPH"
+msgstr "图标字形"
+
+#: templates/builder/elements/elem-25-rating.php:18
+msgid "★ Star"
+msgstr "★ 星形"
+
+#: templates/builder/elements/elem-25-rating.php:19
+msgid "♥ Heart"
+msgstr "♥ 爱心"
+
+#: templates/builder/elements/elem-25-rating.php:20
+msgid "👍 Thumbs Up"
+msgstr "👍 点赞"
+
+#: templates/builder/elements/elem-25-rating.php:26
+msgid "ACTIVE COLOR"
+msgstr "活动颜色"
+
+#: templates/builder/elements/elem-25-rating.php:30
+msgid "INACTIVE COLOR"
+msgstr "未启用颜色"
+
+#: templates/builder/elements/elem-25-rating.php:38
+msgid "DEFAULT STAR RATING (1-5)"
+msgstr "默认星级评分（1-5）"
+
+#: templates/builder/elements/elem-25-rating.php:40
+msgid "STAR COLOR"
+msgstr "星星颜色"
+
+#: templates/builder/elements/elem-25-rating.php:42
+msgid "FIELD NAME / TOKEN"
+msgstr "字段名称 / 标记"
+
+#: templates/stats/chart.php:27
+msgid "Performance Timeline"
+msgstr "表现时间线"
+
+#: templates/stats/chart.php:30
+msgid "Leads"
+msgstr "潜在客户"
+
+#: templates/stats/chart.php:32
+msgid "Chart data (%d)"
+msgstr "图表数据（%d）"
+
+#: templates/stats/chart.php:34 templates/stats/data.php:99
+msgid "All popups (total)"
+msgstr "所有弹窗（合计）"
+
+#: templates/stats/chart.php:46
+msgid "Max %d series"
+msgstr "最多 %d 个系列"
+
+#: templates/stats/data.php:62
+msgid "Untitled Popup"
+msgstr "未命名弹窗"
+
+#: templates/stats/header.php:8
+msgid "Visual Statistics & Analytics"
+msgstr "可视化统计与分析"
+
+#: templates/stats/header.php:9
+msgid "Track campaign performance, conversion velocity, and audience engagement trends."
+msgstr "跟踪活动表现、转化速度和受众参与趋势。"
+
+#: templates/stats/header.php:15
+msgid "Last 7 Days"
+msgstr "最近 7 天"
+
+#: templates/stats/header.php:20
+msgid "Last 30 Days"
+msgstr "最近 30 天"
+
+#: templates/stats/header.php:25
+msgid "All Time"
+msgstr "全部时间"
+
+#: templates/stats/kpi-summary.php:8
+msgid "Period Impressions"
+msgstr "期间展示次数"
+
+#: templates/stats/kpi-summary.php:10
+msgid "Views recorded"
+msgstr "已记录的浏览"
+
+#: templates/stats/kpi-summary.php:13
+msgid "Leads Captured"
+msgstr "已获取的潜在客户"
+
+#: templates/stats/kpi-summary.php:15
+msgid "Form completions"
+msgstr "表单完成数"
+
+#: templates/stats/kpi-summary.php:18
+msgid "Confirmed Leads"
+msgstr "已确认的潜在客户"
+
+#: templates/stats/kpi-summary.php:20
+msgid "Verified double opt-in"
+msgstr "已验证的双重确认订阅"
+
+#: templates/stats/kpi-summary.php:25
+msgid "Submissions / Views"
+msgstr "提交 / 浏览"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Desktop"
+msgstr "桌面"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Mobile"
+msgstr "移动"
+
+#: templates/stats/table-top-campaigns.php:13
+msgid "Tablet"
+msgstr "平板"
+
+#: templates/stats/table-top-campaigns.php:26
+msgid "Top Performing Campaigns"
+msgstr "表现最佳的活动"
+
+#: templates/stats/table-top-campaigns.php:31
+msgid "Per page"
+msgstr "每页"
+
+#: templates/stats/table-top-campaigns.php:38
+msgid "Columns"
+msgstr "列"
+
+#: templates/stats/table-top-campaigns.php:41 templates/stats/table-top-campaigns.php:59
+msgid "Drag to reposition"
+msgstr "拖动以重新定位"
+
+#: templates/stats/table-top-campaigns.php:65
+msgid "No campaign records available to rank."
+msgstr "没有可排名的活动记录。"
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Label color"
+msgstr "标签颜色"
+
+#: templates/stats/table-top-campaigns.php:87
+msgid "Pick a label color"
+msgstr "选择标签颜色"
+
+#: templates/stats/table-top-campaigns.php:88
+msgid "Delete label"
+msgstr "删除标签"
+
+#: templates/stats/table-top-campaigns.php:121
+msgid "%1$d popups - page %2$d of %3$d"
+msgstr "%1$d 个弹窗 - 第 %2$d 页，共 %3$d 页"

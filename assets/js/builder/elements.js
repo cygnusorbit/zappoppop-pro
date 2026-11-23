@@ -366,7 +366,7 @@
     }
     function fillDefaults(max, cur) {
         var h = '<option value="">No rating</option>';
-        for (var i = 1; i <= max; i++) { h += '<option value="' + i + '">' + i + (i === 1 ? ' Star' : ' Stars') + '</option>'; }
+        for (var i = 1; i <= max; i++) { h += '<option value="' + i + '">' + wp.i18n.sprintf(wp.i18n._n('%s Star', '%s Stars', i, 'zappoppop-pro'), i) + '</option>'; }
         var $d = $('#prop-rt-data-default').html(h);
         var n = parseInt(cur, 10);
         $d.val((n >= 1 && n <= max) ? String(n) : '');

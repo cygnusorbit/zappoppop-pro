@@ -3,6 +3,8 @@
 /* === ZAPPOPPOP_IMGSEL_RUNTIME_START === */
 (function() {
     'use strict';
+    var __ = (window.wp && wp.i18n && wp.i18n.__) ? wp.i18n.__ : function (t) { return t; };
+    var sprintf = (window.wp && wp.i18n && wp.i18n.sprintf) ? wp.i18n.sprintf : function (t) { var a = Array.prototype.slice.call(arguments, 1), i = 0; return String(t).replace(/%(\d+\$)?[sd]/g, function () { return a[i++]; }); };
     if (window.__zppImgSel) return;
     window.__zppImgSel = true;
     function fire(el, name) {
@@ -51,6 +53,8 @@
 /* === ZAPPOPPOP_TILE_RUNTIME_START === */
 (function() {
     'use strict';
+    var __ = (window.wp && wp.i18n && wp.i18n.__) ? wp.i18n.__ : function (t) { return t; };
+    var sprintf = (window.wp && wp.i18n && wp.i18n.sprintf) ? wp.i18n.sprintf : function (t) { var a = Array.prototype.slice.call(arguments, 1), i = 0; return String(t).replace(/%(\d+\$)?[sd]/g, function () { return a[i++]; }); };
     if (window.__zppTile) return;
     window.__zppTile = true;
     function fire(el, name) {
@@ -101,6 +105,8 @@
 /* === ZAPPOPPOP_TILE_BOX_RUNTIME_START === */
 (function() {
     'use strict';
+    var __ = (window.wp && wp.i18n && wp.i18n.__) ? wp.i18n.__ : function (t) { return t; };
+    var sprintf = (window.wp && wp.i18n && wp.i18n.sprintf) ? wp.i18n.sprintf : function (t) { var a = Array.prototype.slice.call(arguments, 1), i = 0; return String(t).replace(/%(\d+\$)?[sd]/g, function () { return a[i++]; }); };
     if (window.__zppTileBox) return;
     window.__zppTileBox = true;
     function clear() {
@@ -145,6 +151,8 @@
 /* === ZAPPOPPOP_RATING_RUNTIME_START === */
 (function() {
     'use strict';
+    var __ = (window.wp && wp.i18n && wp.i18n.__) ? wp.i18n.__ : function (t) { return t; };
+    var sprintf = (window.wp && wp.i18n && wp.i18n.sprintf) ? wp.i18n.sprintf : function (t) { var a = Array.prototype.slice.call(arguments, 1), i = 0; return String(t).replace(/%(\d+\$)?[sd]/g, function () { return a[i++]; }); };
     if (window.__zppRating) return;
     window.__zppRating = true;
 
@@ -267,7 +275,7 @@
             var b = document.createElement('div');
             b.className = 'zappoppop-error-bubble';
             b.setAttribute('data-rating', '1');
-            b.textContent = inp.getAttribute('data-error-msg') || 'Please select a rating.';
+            b.textContent = inp.getAttribute('data-error-msg') || __('Please select a rating.', 'zappoppop-pro');
             var r = w.getBoundingClientRect();
             b.style.cssText = 'position:absolute;top:' + (r.top + window.pageYOffset - 34) + 'px;left:' + (r.left + window.pageXOffset) + 'px;background:#ef4444;color:#fff;padding:6px 12px;border-radius:0px;font-size:12px;font-weight:600;z-index:9999999;box-shadow:0 4px 12px rgba(239,68,68,.3);';
             document.body.appendChild(b);
