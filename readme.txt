@@ -5,7 +5,7 @@ Tags: popup, modal, popup builder, optin, lead generation
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.13
+Stable tag: 1.0.14
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,8 +50,6 @@ ZapPopPop Pro communicates with external services only when the site administrat
 
 * **Geolocation (ipapi.co / ip-api.com)** - used only when country targeting is enabled with a remote provider. Sends the visitor IP address to resolve a country code. ipapi.co: https://ipapi.co/privacy/ - ip-api.com: https://ip-api.com/docs/legal
 * **Google reCAPTCHA** - used only when reCAPTCHA is enabled on a form. Sends the reCAPTCHA token and visitor IP to https://www.google.com/recaptcha/api/siteverify. Terms: https://policies.google.com/terms - Privacy: https://policies.google.com/privacy
-* **Mailchimp** - used only when the Mailchimp module is enabled. Sends submitted form fields to the Mailchimp API. Terms: https://mailchimp.com/legal/terms/ - Privacy: https://mailchimp.com/legal/privacy
-* **GetResponse** - used only when the GetResponse module is enabled. Sends submitted form fields to https://api.getresponse.com. Terms: https://www.getresponse.com/legal/terms-of-service - Privacy: https://www.getresponse.com/legal/privacy
 * **Twilio** - used only when SMS alerts are enabled. Sends alert text and configured numbers to https://api.twilio.com. Terms: https://www.twilio.com/legal/tos - Privacy: https://www.twilio.com/legal/privacy
 * **YouTube / Vimeo** - used only when a video element is placed in a popup. YouTube: https://policies.google.com/privacy - Vimeo: https://vimeo.com/privacy
 * **Webhooks** - used only when a webhook URL is configured. Sends the submission payload to that destination URL.

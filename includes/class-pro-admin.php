@@ -4,8 +4,7 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * License sub-page (ZapPopPop > License). Once Freemius is configured the SDK shows its own activation screen on this
- * page and, after activation, its Account page. Until then the page explains how to switch licensing on.
+ * License sub-page (ZapPopPop > License): enter, check and deactivate the Easy Digital Downloads licence key.
  * Reuses core's admin bar, theme variables and card look.
  */
 class ZapPopPop_Pro_Admin {
@@ -19,18 +18,12 @@ class ZapPopPop_Pro_Admin {
     }
 
     public static function menu($parent) {
-        if (ZapPopPop_Pro_Freemius::is_configured() && !ZapPopPop_Pro_Freemius::in_activation_mode()) {
-            return;
-        }
         add_submenu_page($parent, __('License', 'zappoppop-pro'), __('License', 'zappoppop-pro'), 'manage_options', self::PAGE, array(__CLASS__, 'render'));
     }
 
-    /** Network admin: same License sub-page under core's network page, so the SDK can take it over. */
+    /** Network admin: same License sub-page under core's network page. */
     public static function network_menu() {
         if (!class_exists('ZapPopPop_Multisite') || !ZapPopPop_Multisite::network_active()) {
-            return;
-        }
-        if (ZapPopPop_Pro_Freemius::is_configured() && !ZapPopPop_Pro_Freemius::in_activation_mode()) {
             return;
         }
         add_submenu_page('zappoppop-network', __('License', 'zappoppop-pro'), __('License', 'zappoppop-pro'), 'manage_network_options', self::PAGE, array(__CLASS__, 'render_network'));

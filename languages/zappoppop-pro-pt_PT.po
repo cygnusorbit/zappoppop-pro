@@ -23,6 +23,678 @@ msgstr "Extra Pro para o ZapPopPop: elementos adicionais do construtor, módulos
 msgid "ZapPopPop"
 msgstr "ZapPopPop"
 
+#: _to_delete/includes/modules/class-zappoppop-ajax-getresponse.php:21 _to_delete/includes/modules/class-zappoppop-ajax-mailchimp.php:22
+msgid "Permission denied."
+msgstr "Permissão negada."
+
+#: _to_delete/includes/modules/class-zappoppop-ajax-getresponse.php:25
+msgid "Enter a valid GetResponse API key."
+msgstr "Introduza uma chave API GetResponse válida."
+
+#: _to_delete/includes/modules/class-zappoppop-ajax-mailchimp.php:26
+msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
+msgstr "Introduza uma chave API MailChimp válida (por exemplo 0123456789abcdef-us21)."
+
+#: _to_delete/includes/modules/class-zappoppop-autoresponder.php:95 includes/class-pro-module-html-strings.php:135
+msgid "Welcome! Here is your reward"
+msgstr "Bem-vindo! Aqui está a sua recompensa"
+
+#: _to_delete/includes/modules/class-zappoppop-autoresponder.php:96
+msgid "Thank you for subscribing!\n\nEnjoy your offer."
+msgstr "Obrigado por subscrever!\n\nAproveite a sua oferta."
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:18
+msgid "Please confirm your email address"
+msgstr "Confirme o seu endereço de email"
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:19
+msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
+msgstr "Caro visitante!\n\nConfirme o seu endereço de email clicando na ligação seguinte:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nObrigado."
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:22
+msgid "Thank you!"
+msgstr "Obrigado!"
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:22 assets/js/zappoppop-pro-i18n-catalog.js:144
+msgid "Your email address successfully confirmed."
+msgstr "O seu endereço de email foi confirmado com sucesso."
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:210 _to_delete/includes/modules/class-zappoppop-mailchimp.php:222
+msgid "Invalid API key."
+msgstr "Chave API inválida."
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:232
+msgid "GetResponse returned HTTP %d."
+msgstr "O GetResponse devolveu HTTP %d."
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:252
+msgid "Email Address"
+msgstr "Endereço de email"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:252
+msgid "Full name"
+msgstr "Nome completo"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:265
+msgid "API key or campaign is missing."
+msgstr "Falta a chave API ou a campanha."
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:267 _to_delete/includes/modules/class-zappoppop-mailchimp.php:304
+msgid "Invalid email address."
+msgstr "Endereço de email inválido."
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:246
+msgid "MailChimp returned HTTP %d."
+msgstr "O MailChimp devolveu HTTP %d."
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:263 _to_delete/includes/modules/class-zappoppop-mailchimp.php:277
+msgid "Select an audience first."
+msgstr "Selecione primeiro uma audiência."
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:266
+msgid "Email address"
+msgstr "Endereço de email"
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:302
+msgid "API key or audience is missing."
+msgstr "Falta a chave API ou a audiência."
+
+#: _to_delete/includes/modules/class-zappoppop-protect.php:207 _to_delete/includes/modules/class-zappoppop-protect.php:215 _to_delete/includes/modules/class-zappoppop-protect.php:278
+msgid "ZapPopPop submissions"
+msgstr "Submissões do ZapPopPop"
+
+#: _to_delete/includes/modules/class-zappoppop-side-tabs.php:117
+msgid "Offer"
+msgstr "Oferta"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:372
+msgid "(no title)"
+msgstr "(sem título)"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:391 _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:397 assets/js/zappoppop-pro-i18n-catalog.js:17
+msgid "All roles"
+msgstr "Todas as funções"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:391 _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:398
+msgid "Visitors (logged out)"
+msgstr "Visitantes (sem sessão iniciada)"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:399 _to_delete/includes/modules/class-zappoppop-woo-cart.php:722
+msgid "Search..."
+msgstr "Pesquisar..."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:400 _to_delete/includes/modules/class-zappoppop-woo-cart.php:723
+msgid "Nothing found."
+msgstr "Nada encontrado."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:401 assets/js/zappoppop-pro-i18n-catalog.js:90
+msgid "Popup Targeting"
+msgstr "Segmentação do popup"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:402 assets/js/zappoppop-pro-i18n-catalog.js:132
+msgid "Turn the entire Targeting Triggers setting on or off"
+msgstr "Ative ou desative toda a definição de acionadores de segmentação"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:403 assets/js/zappoppop-pro-i18n-catalog.js:58
+msgid "Enable Targeting Triggers"
+msgstr "Ativar acionadores de segmentação"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:404
+msgid "OnLoad"
+msgstr "Ao carregar"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:405
+msgid "OnScroll"
+msgstr "Ao deslocar"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:406
+msgid "OnExit"
+msgstr "Ao sair"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:407
+msgid "OnInactivity"
+msgstr "Na inatividade"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:408 assets/js/zappoppop-pro-i18n-catalog.js:39
+msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
+msgstr "Escolha quando o popup aparece. Até ser selecionada uma opção, o popup mantém o comportamento predefinido."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:409 assets/js/zappoppop-pro-i18n-catalog.js:121
+msgid "Target Properties"
+msgstr "Propriedades do alvo"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:410 assets/js/zappoppop-pro-i18n-catalog.js:88
+msgid "Periodicity"
+msgstr "Periodicidade"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:411 assets/js/zappoppop-pro-i18n-catalog.js:60
+msgid "Every time"
+msgstr "Sempre que"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:412 assets/js/zappoppop-pro-i18n-catalog.js:82
+msgid "Once only"
+msgstr "Apenas uma vez"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:413 assets/js/zappoppop-pro-i18n-catalog.js:83
+msgid "Once per period"
+msgstr "Uma vez por período"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:414 assets/js/zappoppop-pro-i18n-catalog.js:108
+msgid "Show again after"
+msgstr "Mostrar novamente após"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:415
+msgid "hrs"
+msgstr "h"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:416 assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118
+msgid "Start delay"
+msgstr "Atraso inicial"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:417
+msgid "sec"
+msgstr "seg"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:418 assets/js/zappoppop-pro-i18n-catalog.js:41
+msgid "Close delay"
+msgstr "Atraso de fecho"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:419
+msgid "Close delay 0 keeps the popup open until it is closed."
+msgstr "Um atraso de fecho de 0 mantém o popup aberto até ser fechado."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:420 assets/js/zappoppop-pro-i18n-catalog.js:101
+msgid "Scrolling offset"
+msgstr "Deslocamento de scroll"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:421 assets/js/zappoppop-pro-i18n-catalog.js:102
+msgid "Scrolling offset unit"
+msgstr "Unidade do deslocamento de scroll"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:422 assets/js/zappoppop-pro-i18n-catalog.js:67
+msgid "Inactivity delay"
+msgstr "Atraso de inatividade"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:423 assets/js/zappoppop-pro-i18n-catalog.js:14
+msgid "Activity"
+msgstr "Atividade"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:424 assets/js/zappoppop-pro-i18n-catalog.js:20
+msgid "Always"
+msgstr "Sempre"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:425 assets/js/zappoppop-pro-i18n-catalog.js:36
+msgid "Certain period"
+msgstr "Período determinado"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:426 includes/class-pro-module-html-strings.php:76
+msgid "From"
+msgstr "De"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:427
+msgid "End"
+msgstr "Fim"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:428 assets/js/zappoppop-pro-i18n-catalog.js:137
+msgid "User Roles"
+msgstr "Funções de utilizador"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:429 assets/js/zappoppop-pro-i18n-catalog.js:113
+msgid "Site Area"
+msgstr "Área do site"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:430 assets/js/zappoppop-pro-i18n-catalog.js:114
+msgid "Sitewide"
+msgstr "Em todo o site"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:431 assets/js/zappoppop-pro-i18n-catalog.js:65
+msgid "Homepage"
+msgstr "Página inicial"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:432 assets/js/zappoppop-pro-i18n-catalog.js:92
+msgid "Posts"
+msgstr "Artigos"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:433 assets/js/zappoppop-pro-i18n-catalog.js:87
+msgid "Pages"
+msgstr "Páginas"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:434
+msgid "URL"
+msgstr "URL"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:435 assets/js/zappoppop-pro-i18n-catalog.js:35
+msgid "Categories"
+msgstr "Categorias"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
+msgid "All"
+msgstr "Todos"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:437 assets/js/zappoppop-pro-i18n-catalog.js:115
+msgid "Specific"
+msgstr "Específico"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:438 assets/js/zappoppop-pro-i18n-catalog.js:18
+msgid "Also show on category archive pages"
+msgstr "Mostrar também nas páginas de arquivo de categorias"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:439 assets/js/zappoppop-pro-i18n-catalog.js:120
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:440 assets/js/zappoppop-pro-i18n-catalog.js:19
+msgid "Also show on tag archive pages"
+msgstr "Mostrar também nas páginas de arquivo de etiquetas"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:441 assets/js/zappoppop-pro-i18n-catalog.js:12
+msgid "A post matches when it is in any selected category, tag or post list."
+msgstr "Um artigo corresponde quando está em qualquer categoria, etiqueta ou lista de artigos selecionada."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:442 assets/js/zappoppop-pro-i18n-catalog.js:16
+msgid "All pages"
+msgstr "Todas as páginas"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:443 assets/js/zappoppop-pro-i18n-catalog.js:116
+msgid "Specific pages"
+msgstr "Páginas específicas"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:444
+msgid "URL contains"
+msgstr "O URL contém"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:445 assets/js/zappoppop-pro-i18n-catalog.js:84
+msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
+msgstr "Um por linha. O popup aparece quando o endereço da página contém algum deles. Vazio = todos os URL."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:703 includes/class-pro-module-strings.php:68
+msgid "WooCommerce Cart"
+msgstr "Carrinho WooCommerce"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:704 assets/js/zappoppop-pro-i18n-catalog.js:131
+msgid "Turn the WooCommerce cart features for this popup on or off"
+msgstr "Ative ou desative as funcionalidades do carrinho WooCommerce para este popup"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:705 assets/js/zappoppop-pro-i18n-catalog.js:59
+msgid "Enable WooCommerce Cart"
+msgstr "Ativar carrinho WooCommerce"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:706 assets/js/zappoppop-pro-i18n-catalog.js:34
+msgid "Cart-aware display rules and live cart text for this popup."
+msgstr "Regras de apresentação baseadas no carrinho e texto de carrinho em direto para este popup."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:707 assets/js/zappoppop-pro-i18n-catalog.js:140
+msgid "WooCommerce is not active on this site, so the cart rules are ignored."
+msgstr "O WooCommerce não está ativo neste site, pelo que as regras do carrinho são ignoradas."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:708 assets/js/zappoppop-pro-i18n-catalog.js:111
+msgid "Show this popup when the cart is"
+msgstr "Mostrar este popup quando o carrinho está"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:709
+msgid "Any"
+msgstr "Qualquer"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:710 assets/js/zappoppop-pro-i18n-catalog.js:64
+msgid "Has items"
+msgstr "Tem artigos"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:711 assets/js/zappoppop-pro-i18n-catalog.js:55
+msgid "Empty"
+msgstr "Vazio"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:712 assets/js/zappoppop-pro-i18n-catalog.js:56
+msgid "Empty ignores the conditions below."
+msgstr "Vazio ignora as condições abaixo."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:713 assets/js/zappoppop-pro-i18n-catalog.js:31
+msgid "Cart conditions"
+msgstr "Condições do carrinho"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:714 assets/js/zappoppop-pro-i18n-catalog.js:72
+msgid "Minimum items"
+msgstr "Mínimo de artigos"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:715 assets/js/zappoppop-pro-i18n-catalog.js:73
+msgid "Minimum subtotal"
+msgstr "Subtotal mínimo"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:716 assets/js/zappoppop-pro-i18n-catalog.js:69
+msgid "Maximum subtotal"
+msgstr "Subtotal máximo"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:717
+msgid "items"
+msgstr "artigos"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:718
+msgid "A value of 0 turns that condition off."
+msgstr "Um valor de 0 desativa essa condição."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:719 assets/js/zappoppop-pro-i18n-catalog.js:94
+msgid "Product IDs"
+msgstr "IDs de produtos"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:720 assets/js/zappoppop-pro-i18n-catalog.js:43
+msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
+msgstr "Separados por vírgulas. O popup aparece quando qualquer um destes produtos está no carrinho. Vazio = desativado."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:721 assets/js/zappoppop-pro-i18n-catalog.js:95
+msgid "Product categories"
+msgstr "Categorias de produtos"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:724 assets/js/zappoppop-pro-i18n-catalog.js:76
+msgid "No product categories found."
+msgstr "Nenhuma categoria de produtos encontrada."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:725 assets/js/zappoppop-pro-i18n-catalog.js:125
+msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
+msgstr "O popup aparece quando o carrinho contém um produto de qualquer categoria selecionada. Nenhuma selecionada = desativado."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:726 assets/js/zappoppop-pro-i18n-catalog.js:110
+msgid "Show right after an item is added to the cart"
+msgstr "Mostrar logo após um artigo ser adicionado ao carrinho"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:727 assets/js/zappoppop-pro-i18n-catalog.js:141
+msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
+msgstr "Funciona com o adicionar ao carrinho por AJAX e com o bloco do carrinho. Mostrado uma vez por visualização de página e só quando as condições acima correspondem."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:728 assets/js/zappoppop-pro-i18n-catalog.js:62
+msgid "Free shipping"
+msgstr "Portes grátis"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:729 assets/js/zappoppop-pro-i18n-catalog.js:63
+msgid "Free shipping threshold"
+msgstr "Limiar de portes grátis"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:730
+msgid "0 = detect it from your WooCommerce free shipping method."
+msgstr "0 = detetar a partir do seu método de portes grátis do WooCommerce."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:731 assets/js/zappoppop-pro-i18n-catalog.js:51
+msgid "Dynamic text"
+msgstr "Texto dinâmico"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:732
+msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
+msgstr "Escreva-os em qualquer camada de texto. A Pré-visualização em direto mostra valores de exemplo; os visitantes veem o seu próprio carrinho."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:733 assets/js/zappoppop-pro-i18n-catalog.js:33
+msgid "Cart total"
+msgstr "Total do carrinho"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:734 assets/js/zappoppop-pro-i18n-catalog.js:32
+msgid "Cart subtotal"
+msgstr "Subtotal do carrinho"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:735 assets/js/zappoppop-pro-i18n-catalog.js:80
+msgid "Number of items"
+msgstr "Número de artigos"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:736 assets/js/zappoppop-pro-i18n-catalog.js:21
+msgid "Amount left for free shipping"
+msgstr "Montante em falta para portes grátis"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:737 assets/js/zappoppop-pro-i18n-catalog.js:23
+msgid "Applied coupon code"
+msgstr "Código de cupão aplicado"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:738 assets/js/zappoppop-pro-i18n-catalog.js:46
+msgid "Coupon"
+msgstr "Cupão"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:739 assets/js/zappoppop-pro-i18n-catalog.js:47
+msgid "Coupon code"
+msgstr "Código de cupão"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:740
+msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
+msgstr "Um cupão existente do WooCommerce. Preenche {coupon_code} e a contagem decrescente. O código é visível no código-fonte da página, por isso não use um código privado."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:741 assets/js/zappoppop-pro-i18n-catalog.js:25
+msgid "Apply it to the cart automatically"
+msgstr "Aplicá-lo automaticamente ao carrinho"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:742 assets/js/zappoppop-pro-i18n-catalog.js:139
+msgid "When the popup opens"
+msgstr "Quando o popup abre"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:743 assets/js/zappoppop-pro-i18n-catalog.js:138
+msgid "When a button is clicked"
+msgstr "Quando um botão é clicado"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:744
+msgid "Give a button the link #zpp-apply-coupon."
+msgstr "Dê a um botão a ligação #zpp-apply-coupon."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:745 assets/js/zappoppop-pro-i18n-catalog.js:85
+msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
+msgstr "Só este código pode ser aplicado. Se for inválido ou tiver expirado, nada acontece."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:746 assets/js/zappoppop-pro-i18n-catalog.js:48
+msgid "Coupon countdown"
+msgstr "Contagem decrescente do cupão"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:747 assets/js/zappoppop-pro-i18n-catalog.js:49
+msgid "Coupon expiry date"
+msgstr "Data de expiração do cupão"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:748 assets/js/zappoppop-pro-i18n-catalog.js:109
+msgid "Show on pages"
+msgstr "Mostrar nas páginas"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:749 assets/js/zappoppop-pro-i18n-catalog.js:22
+msgid "Anywhere"
+msgstr "Em qualquer lado"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:750 assets/js/zappoppop-pro-i18n-catalog.js:97
+msgid "Product pages"
+msgstr "Páginas de produto"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:751 assets/js/zappoppop-pro-i18n-catalog.js:104
+msgid "Selected products"
+msgstr "Produtos selecionados"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:752
+msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
+msgstr "Páginas de produto: o popup não é mostrado em nenhuma outra página. Produtos selecionados: apenas nos produtos ou categorias abaixo (nenhum selecionado = todas as páginas de produto)."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:753 assets/js/zappoppop-pro-i18n-catalog.js:98
+msgid "Products"
+msgstr "Produtos"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:754 assets/js/zappoppop-pro-i18n-catalog.js:42
+msgid "Comma-separated product IDs. Empty = off."
+msgstr "IDs de produtos separados por vírgulas. Vazio = desativado."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:755 assets/js/zappoppop-pro-i18n-catalog.js:96
+msgid "Product page categories"
+msgstr "Categorias de páginas de produto"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:756 assets/js/zappoppop-pro-i18n-catalog.js:127
+msgid "This rule is checked on the server, so it also works with full-page caches."
+msgstr "Esta regra é verificada no servidor, pelo que também funciona com caches de página inteira."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:757 assets/js/zappoppop-pro-i18n-catalog.js:133
+msgid "Upsell"
+msgstr "Upsell"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:758 assets/js/zappoppop-pro-i18n-catalog.js:81
+msgid "Offer an upsell product"
+msgstr "Oferecer um produto de upsell"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:759 assets/js/zappoppop-pro-i18n-catalog.js:40
+msgid "Chosen by you"
+msgstr "Escolhido por si"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:760 assets/js/zappoppop-pro-i18n-catalog.js:27
+msgid "Automatic"
+msgstr "Automático"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:761 assets/js/zappoppop-pro-i18n-catalog.js:134
+msgid "Upsell product ID"
+msgstr "ID do produto de upsell"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:762 assets/js/zappoppop-pro-i18n-catalog.js:126
+msgid "The product to offer. A variation ID is allowed."
+msgstr "O produto a oferecer. É permitido um ID de variação."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:763
+msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
+msgstr "Automático usa primeiro os cross-sells do carrinho do visitante e depois os upsells dos produtos nele. Defina-os em cada produto WooCommerce."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:764 assets/js/zappoppop-pro-i18n-catalog.js:124
+msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
+msgstr "O popup não é mostrado quando não há upsell disponível, por exemplo quando o produto já está no carrinho ou esgotado."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:765
+msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
+msgstr "Dê a um botão a ligação #zpp-add-upsell para adicionar o produto ao carrinho (o popup fecha depois) ou #zpp-view-upsell para abrir a sua página. Os produtos variáveis só podem usar a ligação de visualização."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:766 assets/js/zappoppop-pro-i18n-catalog.js:135
+msgid "Upsell product name"
+msgstr "Nome do produto de upsell"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:767 assets/js/zappoppop-pro-i18n-catalog.js:136
+msgid "Upsell product price"
+msgstr "Preço do produto de upsell"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:768 assets/js/zappoppop-pro-i18n-catalog.js:13
+msgid "Abandoned cart email"
+msgstr "Email de carrinho abandonado"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:769 assets/js/zappoppop-pro-i18n-catalog.js:106
+msgid "Send a cart reminder email"
+msgstr "Enviar email de lembrete do carrinho"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:770
+msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
+msgstr "Enviado uma vez aos visitantes que submetem o formulário deste popup com a caixa de consentimento marcada e artigos no carrinho. Nada é guardado sem consentimento."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:771 assets/js/zappoppop-pro-i18n-catalog.js:107
+msgid "Send after"
+msgstr "Enviar após"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:772
+msgid "minutes"
+msgstr "minutos"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:773 assets/js/zappoppop-pro-i18n-catalog.js:45
+msgid "Consent field name"
+msgstr "Nome do campo de consentimento"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:774
+msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
+msgstr "Adicione uma camada de caixa de verificação ao formulário (por exemplo \"Enviem-me um lembrete do meu carrinho por email\") e escreva o mesmo nome em Avançado > Nome do campo. Desmarcada = nada é guardado."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:775 assets/js/zappoppop-pro-i18n-catalog.js:54
+msgid "Email subject"
+msgstr "Assunto do email"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:776 _to_delete/includes/modules/class-zappoppop-woo-recover.php:385 assets/js/zappoppop-pro-i18n-catalog.js:142
+msgid "You left something in your cart"
+msgstr "Deixou algo no seu carrinho"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:777 assets/js/zappoppop-pro-i18n-catalog.js:53
+msgid "Email message"
+msgstr "Mensagem de email"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:778 _to_delete/includes/modules/class-zappoppop-woo-recover.php:393 assets/js/zappoppop-pro-i18n-catalog.js:143
+msgid "Your cart is saved. Come back any time to finish your order."
+msgstr "O seu carrinho está guardado. Volte quando quiser para concluir a encomenda."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:779
+msgid "Coupon code (optional)"
+msgstr "Código de cupão (opcional)"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:780 assets/js/zappoppop-pro-i18n-catalog.js:112
+msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
+msgstr "Mostrado no email e aplicado quando o visitante regressa ao carrinho. Use um cupão real do WooCommerce."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:781
+msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
+msgstr "Não é enviado nenhum email se tiver sido feita uma encomenda com o mesmo endereço. Todos os emails têm uma ligação de cancelamento de subscrição; os endereços cancelados nunca voltam a ser guardados. O envio usa o cron do WordPress e wp_mail()."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:782
+msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
+msgstr "A contagem decrescente e a data de expiração vêm da data de expiração real do cupão no WooCommerce."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:783
+msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
+msgstr "Barra de portes grátis: adicione uma camada Barra de progresso, defina o seu modo como \"Auto: portes grátis do WooCommerce\" e escreva a etiqueta assim: Adicione {shipping_remaining} para portes grátis || Tem portes grátis!"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:401
+msgid "Use code %s at checkout."
+msgstr "Use o código %s no checkout."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:408
+msgid "Return to your cart"
+msgstr "Regressar ao carrinho"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:411
+msgid "You are receiving this because you asked for a cart reminder on %s."
+msgstr "Está a receber isto porque pediu um lembrete do carrinho em %s."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:412 _to_delete/includes/modules/class-zappoppop-woo-recover.php:433
+msgid "Unsubscribe"
+msgstr "Cancelar subscrição"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:432
+msgid "You have been unsubscribed. We will not send you cart reminders again."
+msgstr "A sua subscrição foi cancelada. Não voltaremos a enviar-lhe lembretes do carrinho."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:432
+msgid "This unsubscribe link is not valid."
+msgstr "Esta ligação de cancelamento de subscrição não é válida."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:506 _to_delete/includes/modules/class-zappoppop-woo-recover.php:514
+msgid "ZapPopPop abandoned cart emails"
+msgstr "Emails de carrinho abandonado do ZapPopPop"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:530
+msgid "Abandoned cart emails"
+msgstr "Emails de carrinho abandonado"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:533
+msgid "Email"
+msgstr "Email"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
+msgid "Status"
+msgstr "Estado"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:535
+msgid "Saved on"
+msgstr "Guardado em"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:536
+msgid "Cart lines"
+msgstr "Linhas do carrinho"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:558
+msgid "The address is kept on a do-not-email list because the person unsubscribed."
+msgstr "O endereço é mantido numa lista de não enviar emails porque a pessoa cancelou a subscrição."
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:163
+msgid "Maximum of 20 custom backgrounds."
+msgstr "Máximo de 20 fundos personalizados."
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:170
+msgid "Delete this background?"
+msgstr "Eliminar este fundo?"
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:179
+msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
+msgstr "O Multimédia do WordPress não está disponível. Introduza o URL da imagem (JPG/PNG):"
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:199
+msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
+msgstr "Escolha uma imagem JPEG ou PNG (.jpg, .jpeg, .png)."
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:202
+msgid "Please enter the animation HTML / JS."
+msgstr "Introduza o HTML / JS da animação."
+
 #: assets/js/stats.js:31 assets/js/stats.js:45
 msgid "Error"
 msgstr "Erro"
@@ -43,69 +715,17 @@ msgstr "10 estrelas"
 msgid "5 Stars"
 msgstr "5 estrelas"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:12 includes/modules/class-zappoppop-targeting-triggers.php:441
-msgid "A post matches when it is in any selected category, tag or post list."
-msgstr "Um artigo corresponde quando está em qualquer categoria, etiqueta ou lista de artigos selecionada."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:13 includes/modules/class-zappoppop-woo-cart.php:768
-msgid "Abandoned cart email"
-msgstr "Email de carrinho abandonado"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:14 includes/modules/class-zappoppop-targeting-triggers.php:423
-msgid "Activity"
-msgstr "Atividade"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:15
 msgid "Add field"
 msgstr "Adicionar campo"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:16 includes/modules/class-zappoppop-targeting-triggers.php:442
-msgid "All pages"
-msgstr "Todas as páginas"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:17 includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
-msgid "All roles"
-msgstr "Todas as funções"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:18 includes/modules/class-zappoppop-targeting-triggers.php:438
-msgid "Also show on category archive pages"
-msgstr "Mostrar também nas páginas de arquivo de categorias"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:19 includes/modules/class-zappoppop-targeting-triggers.php:440
-msgid "Also show on tag archive pages"
-msgstr "Mostrar também nas páginas de arquivo de etiquetas"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:20 includes/modules/class-zappoppop-targeting-triggers.php:424
-msgid "Always"
-msgstr "Sempre"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:21 includes/modules/class-zappoppop-woo-cart.php:736
-msgid "Amount left for free shipping"
-msgstr "Montante em falta para portes grátis"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:22 includes/modules/class-zappoppop-woo-cart.php:749
-msgid "Anywhere"
-msgstr "Em qualquer lado"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:23 includes/modules/class-zappoppop-woo-cart.php:737
-msgid "Applied coupon code"
-msgstr "Código de cupão aplicado"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:24
 msgid "Apply Image Select Size Preset"
 msgstr "Aplicar predefinição de tamanho de seleção de imagem"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:25 includes/modules/class-zappoppop-woo-cart.php:741
-msgid "Apply it to the cart automatically"
-msgstr "Aplicá-lo automaticamente ao carrinho"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:26 templates/builder/elements/elem-08-progress.php:13
 msgid "Auto: WooCommerce free shipping"
 msgstr "Auto: portes grátis do WooCommerce"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:27 includes/modules/class-zappoppop-woo-cart.php:760
-msgid "Automatic"
-msgstr "Automático"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:28
 msgid "Bottom center"
@@ -119,30 +739,6 @@ msgstr "Em baixo à esquerda"
 msgid "Bottom right"
 msgstr "Em baixo à direita"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:31 includes/modules/class-zappoppop-woo-cart.php:713
-msgid "Cart conditions"
-msgstr "Condições do carrinho"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:32 includes/modules/class-zappoppop-woo-cart.php:734
-msgid "Cart subtotal"
-msgstr "Subtotal do carrinho"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:33 includes/modules/class-zappoppop-woo-cart.php:733
-msgid "Cart total"
-msgstr "Total do carrinho"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:34 includes/modules/class-zappoppop-woo-cart.php:706
-msgid "Cart-aware display rules and live cart text for this popup."
-msgstr "Regras de apresentação baseadas no carrinho e texto de carrinho em direto para este popup."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:35 includes/modules/class-zappoppop-targeting-triggers.php:435
-msgid "Categories"
-msgstr "Categorias"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:36 includes/modules/class-zappoppop-targeting-triggers.php:425
-msgid "Certain period"
-msgstr "Período determinado"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:37
 msgid "Change Progress Bar"
 msgstr "Alterar barra de progresso"
@@ -151,129 +747,33 @@ msgstr "Alterar barra de progresso"
 msgid "Change Progress Mode"
 msgstr "Alterar modo de progresso"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:39 includes/modules/class-zappoppop-targeting-triggers.php:408
-msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
-msgstr "Escolha quando o popup aparece. Até ser selecionada uma opção, o popup mantém o comportamento predefinido."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:40 includes/modules/class-zappoppop-woo-cart.php:759
-msgid "Chosen by you"
-msgstr "Escolhido por si"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:41 includes/modules/class-zappoppop-targeting-triggers.php:418
-msgid "Close delay"
-msgstr "Atraso de fecho"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:42 includes/modules/class-zappoppop-woo-cart.php:754
-msgid "Comma-separated product IDs. Empty = off."
-msgstr "IDs de produtos separados por vírgulas. Vazio = desativado."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:43 includes/modules/class-zappoppop-woo-cart.php:720
-msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
-msgstr "Separados por vírgulas. O popup aparece quando qualquer um destes produtos está no carrinho. Vazio = desativado."
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:44
 msgid "Confirmation URL"
 msgstr "URL de confirmação"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:45 includes/modules/class-zappoppop-woo-cart.php:773
-msgid "Consent field name"
-msgstr "Nome do campo de consentimento"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:46 includes/modules/class-zappoppop-woo-cart.php:738
-msgid "Coupon"
-msgstr "Cupão"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:47 includes/modules/class-zappoppop-woo-cart.php:739
-msgid "Coupon code"
-msgstr "Código de cupão"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:48 includes/modules/class-zappoppop-woo-cart.php:746
-msgid "Coupon countdown"
-msgstr "Contagem decrescente do cupão"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:49 includes/modules/class-zappoppop-woo-cart.php:747
-msgid "Coupon expiry date"
-msgstr "Data de expiração do cupão"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:50
 msgid "Default Rating"
 msgstr "Classificação predefinida"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:51 includes/modules/class-zappoppop-woo-cart.php:731
-msgid "Dynamic text"
-msgstr "Texto dinâmico"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:52
 msgid "Email me a reminder about my cart"
 msgstr "Enviem-me um lembrete do meu carrinho por email"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:53 includes/modules/class-zappoppop-woo-cart.php:777
-msgid "Email message"
-msgstr "Mensagem de email"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:54 includes/modules/class-zappoppop-woo-cart.php:775
-msgid "Email subject"
-msgstr "Assunto do email"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:55 includes/modules/class-zappoppop-woo-cart.php:711
-msgid "Empty"
-msgstr "Vazio"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:56 includes/modules/class-zappoppop-woo-cart.php:712
-msgid "Empty ignores the conditions below."
-msgstr "Vazio ignora as condições abaixo."
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:57 includes/class-pro-module-html-strings.php:64
 msgid "Enable Double Opt-In"
 msgstr "Ativar double opt-in"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:58 includes/modules/class-zappoppop-targeting-triggers.php:403
-msgid "Enable Targeting Triggers"
-msgstr "Ativar acionadores de segmentação"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:59 includes/modules/class-zappoppop-woo-cart.php:705
-msgid "Enable WooCommerce Cart"
-msgstr "Ativar carrinho WooCommerce"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:60 includes/modules/class-zappoppop-targeting-triggers.php:411
-msgid "Every time"
-msgstr "Sempre que"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:61
 msgid "Fill the rating from a URL query parameter, e.g. ?rating=4."
 msgstr "Preenche a classificação a partir de um parâmetro de consulta do URL, p. ex. ?rating=4."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:62 includes/modules/class-zappoppop-woo-cart.php:728
-msgid "Free shipping"
-msgstr "Portes grátis"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:63 includes/modules/class-zappoppop-woo-cart.php:729
-msgid "Free shipping threshold"
-msgstr "Limiar de portes grátis"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:64 includes/modules/class-zappoppop-woo-cart.php:710
-msgid "Has items"
-msgstr "Tem artigos"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:65 includes/modules/class-zappoppop-targeting-triggers.php:431
-msgid "Homepage"
-msgstr "Página inicial"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:66
 msgid "How many stars or icons the rating scale shows."
 msgstr "Quantas estrelas ou ícones a escala de classificação mostra."
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:67 includes/modules/class-zappoppop-targeting-triggers.php:422
-msgid "Inactivity delay"
-msgstr "Atraso de inatividade"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:68
 msgid "Insert subscriber value"
 msgstr "Inserir valor do subscritor"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:69 includes/modules/class-zappoppop-woo-cart.php:716
-msgid "Maximum subtotal"
-msgstr "Subtotal máximo"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:70
 msgid "Middle left"
@@ -283,14 +783,6 @@ msgstr "Ao meio à esquerda"
 msgid "Middle right"
 msgstr "Ao meio à direita"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:72 includes/modules/class-zappoppop-woo-cart.php:714
-msgid "Minimum items"
-msgstr "Mínimo de artigos"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:73 includes/modules/class-zappoppop-woo-cart.php:715
-msgid "Minimum subtotal"
-msgstr "Subtotal mínimo"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:74
 msgid "New Image Select Preset"
 msgstr "Nova predefinição de seleção de imagem"
@@ -298,10 +790,6 @@ msgstr "Nova predefinição de seleção de imagem"
 #: assets/js/zappoppop-pro-i18n-catalog.js:75
 msgid "No field selected"
 msgstr "Nenhum campo selecionado"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:76 includes/modules/class-zappoppop-woo-cart.php:724
-msgid "No product categories found."
-msgstr "Nenhuma categoria de produtos encontrada."
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:77
 msgid "No rating"
@@ -315,81 +803,21 @@ msgstr "Nenhum (apenas sobreposição de cor)"
 msgid "Number of Stars"
 msgstr "Número de estrelas"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:80 includes/modules/class-zappoppop-woo-cart.php:735
-msgid "Number of items"
-msgstr "Número de artigos"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:81 includes/modules/class-zappoppop-woo-cart.php:758
-msgid "Offer an upsell product"
-msgstr "Oferecer um produto de upsell"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:82 includes/modules/class-zappoppop-targeting-triggers.php:412
-msgid "Once only"
-msgstr "Apenas uma vez"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:83 includes/modules/class-zappoppop-targeting-triggers.php:413
-msgid "Once per period"
-msgstr "Uma vez por período"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:84 includes/modules/class-zappoppop-targeting-triggers.php:445
-msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
-msgstr "Um por linha. O popup aparece quando o endereço da página contém algum deles. Vazio = todos os URL."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:85 includes/modules/class-zappoppop-woo-cart.php:745
-msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
-msgstr "Só este código pode ser aplicado. Se for inválido ou tiver expirado, nada acontece."
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:86
 msgid "Open"
 msgstr "Abrir"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:87 includes/modules/class-zappoppop-targeting-triggers.php:433
-msgid "Pages"
-msgstr "Páginas"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:88 includes/modules/class-zappoppop-targeting-triggers.php:410
-msgid "Periodicity"
-msgstr "Periodicidade"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:89
 msgid "Picture"
 msgstr "Imagem"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:90 includes/modules/class-zappoppop-targeting-triggers.php:401
-msgid "Popup Targeting"
-msgstr "Segmentação do popup"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:91 includes/class-pro-module-html-strings.php:99
 msgid "Popup position"
 msgstr "Posição do popup"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:92 includes/modules/class-zappoppop-targeting-triggers.php:432
-msgid "Posts"
-msgstr "Artigos"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:93
 msgid "Pre-selected rating when the form loads. Choose No rating to leave it empty."
 msgstr "Classificação pré-selecionada quando o formulário carrega. Escolha Sem classificação para o deixar vazio."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:94 includes/modules/class-zappoppop-woo-cart.php:719
-msgid "Product IDs"
-msgstr "IDs de produtos"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:95 includes/modules/class-zappoppop-woo-cart.php:721
-msgid "Product categories"
-msgstr "Categorias de produtos"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:96 includes/modules/class-zappoppop-woo-cart.php:755
-msgid "Product page categories"
-msgstr "Categorias de páginas de produto"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:97 includes/modules/class-zappoppop-woo-cart.php:750
-msgid "Product pages"
-msgstr "Páginas de produto"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:98 includes/modules/class-zappoppop-woo-cart.php:753
-msgid "Products"
-msgstr "Produtos"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:99
 msgid "Remove icon"
@@ -399,73 +827,13 @@ msgstr "Remover ícone"
 msgid "Save Changes"
 msgstr "Guardar alterações"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:101 includes/modules/class-zappoppop-targeting-triggers.php:420
-msgid "Scrolling offset"
-msgstr "Deslocamento de scroll"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:102 includes/modules/class-zappoppop-targeting-triggers.php:421
-msgid "Scrolling offset unit"
-msgstr "Unidade do deslocamento de scroll"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:103
 msgid "Select icon"
 msgstr "Selecionar ícone"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:104 includes/modules/class-zappoppop-woo-cart.php:751
-msgid "Selected products"
-msgstr "Produtos selecionados"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:105 includes/class-pro-module-html-strings.php:110
 msgid "Send Welcome Email"
 msgstr "Enviar email de boas-vindas"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:106 includes/modules/class-zappoppop-woo-cart.php:769
-msgid "Send a cart reminder email"
-msgstr "Enviar email de lembrete do carrinho"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:107 includes/modules/class-zappoppop-woo-cart.php:771
-msgid "Send after"
-msgstr "Enviar após"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:108 includes/modules/class-zappoppop-targeting-triggers.php:414
-msgid "Show again after"
-msgstr "Mostrar novamente após"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:109 includes/modules/class-zappoppop-woo-cart.php:748
-msgid "Show on pages"
-msgstr "Mostrar nas páginas"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:110 includes/modules/class-zappoppop-woo-cart.php:726
-msgid "Show right after an item is added to the cart"
-msgstr "Mostrar logo após um artigo ser adicionado ao carrinho"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:111 includes/modules/class-zappoppop-woo-cart.php:708
-msgid "Show this popup when the cart is"
-msgstr "Mostrar este popup quando o carrinho está"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:112 includes/modules/class-zappoppop-woo-cart.php:780
-msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
-msgstr "Mostrado no email e aplicado quando o visitante regressa ao carrinho. Use um cupão real do WooCommerce."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:113 includes/modules/class-zappoppop-targeting-triggers.php:429
-msgid "Site Area"
-msgstr "Área do site"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:114 includes/modules/class-zappoppop-targeting-triggers.php:430
-msgid "Sitewide"
-msgstr "Em todo o site"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:115 includes/modules/class-zappoppop-targeting-triggers.php:437
-msgid "Specific"
-msgstr "Específico"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:116 includes/modules/class-zappoppop-targeting-triggers.php:443
-msgid "Specific pages"
-msgstr "Páginas específicas"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118 includes/modules/class-zappoppop-targeting-triggers.php:416
-msgid "Start delay"
-msgstr "Atraso inicial"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:118
 msgid "Store the submitted rating with the lead record."
@@ -475,14 +843,6 @@ msgstr "Guarda a classificação enviada juntamente com o registo do lead."
 msgid "Subscriber values"
 msgstr "Valores do subscritor"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:120 includes/modules/class-zappoppop-targeting-triggers.php:439
-msgid "Tags"
-msgstr "Etiquetas"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:121 includes/modules/class-zappoppop-targeting-triggers.php:409
-msgid "Target Properties"
-msgstr "Propriedades do alvo"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:122 includes/class-pro-module-html-strings.php:127
 msgid "Thank you. We have already got your request."
 msgstr "Obrigado. Já recebemos o seu pedido."
@@ -490,22 +850,6 @@ msgstr "Obrigado. Já recebemos o seu pedido."
 #: assets/js/zappoppop-pro-i18n-catalog.js:123
 msgid "The URL parameter to read, e.g. rating for ?rating=4."
 msgstr "O parâmetro do URL a ler, p. ex. rating para ?rating=4."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:124 includes/modules/class-zappoppop-woo-cart.php:764
-msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
-msgstr "O popup não é mostrado quando não há upsell disponível, por exemplo quando o produto já está no carrinho ou esgotado."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:125 includes/modules/class-zappoppop-woo-cart.php:725
-msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
-msgstr "O popup aparece quando o carrinho contém um produto de qualquer categoria selecionada. Nenhuma selecionada = desativado."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:126 includes/modules/class-zappoppop-woo-cart.php:762
-msgid "The product to offer. A variation ID is allowed."
-msgstr "O produto a oferecer. É permitido um ID de variação."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:127 includes/modules/class-zappoppop-woo-cart.php:756
-msgid "This rule is checked on the server, so it also works with full-page caches."
-msgstr "Esta regra é verificada no servidor, pelo que também funciona com caches de página inteira."
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:128
 msgid "Top center"
@@ -518,62 +862,6 @@ msgstr "Em cima à esquerda"
 #: assets/js/zappoppop-pro-i18n-catalog.js:130
 msgid "Top right"
 msgstr "Em cima à direita"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:131 includes/modules/class-zappoppop-woo-cart.php:704
-msgid "Turn the WooCommerce cart features for this popup on or off"
-msgstr "Ative ou desative as funcionalidades do carrinho WooCommerce para este popup"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:132 includes/modules/class-zappoppop-targeting-triggers.php:402
-msgid "Turn the entire Targeting Triggers setting on or off"
-msgstr "Ative ou desative toda a definição de acionadores de segmentação"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:133 includes/modules/class-zappoppop-woo-cart.php:757
-msgid "Upsell"
-msgstr "Upsell"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:134 includes/modules/class-zappoppop-woo-cart.php:761
-msgid "Upsell product ID"
-msgstr "ID do produto de upsell"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:135 includes/modules/class-zappoppop-woo-cart.php:766
-msgid "Upsell product name"
-msgstr "Nome do produto de upsell"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:136 includes/modules/class-zappoppop-woo-cart.php:767
-msgid "Upsell product price"
-msgstr "Preço do produto de upsell"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:137 includes/modules/class-zappoppop-targeting-triggers.php:428
-msgid "User Roles"
-msgstr "Funções de utilizador"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:138 includes/modules/class-zappoppop-woo-cart.php:743
-msgid "When a button is clicked"
-msgstr "Quando um botão é clicado"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:139 includes/modules/class-zappoppop-woo-cart.php:742
-msgid "When the popup opens"
-msgstr "Quando o popup abre"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:140 includes/modules/class-zappoppop-woo-cart.php:707
-msgid "WooCommerce is not active on this site, so the cart rules are ignored."
-msgstr "O WooCommerce não está ativo neste site, pelo que as regras do carrinho são ignoradas."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:141 includes/modules/class-zappoppop-woo-cart.php:727
-msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
-msgstr "Funciona com o adicionar ao carrinho por AJAX e com o bloco do carrinho. Mostrado uma vez por visualização de página e só quando as condições acima correspondem."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:142 includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
-msgid "You left something in your cart"
-msgstr "Deixou algo no seu carrinho"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:143 includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
-msgid "Your cart is saved. Come back any time to finish your order."
-msgstr "O seu carrinho está guardado. Volte quando quiser para concluir a encomenda."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:144 includes/modules/class-zappoppop-double-optin.php:22
-msgid "Your email address successfully confirmed."
-msgstr "O seu endereço de email foi confirmado com sucesso."
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:145
 msgid "e.g. rating"
@@ -649,11 +937,11 @@ msgstr[1] "%s estrelas"
 msgid "Please select a rating."
 msgstr "Selecione uma classificação."
 
-#: includes/class-pro-admin.php:25 includes/class-pro-admin.php:36 templates/license-edd.php:30 templates/license-page.php:6 templates/license-page.php:15
+#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 templates/license-edd.php:30 templates/license-page.php:6
 msgid "License"
 msgstr "Licença"
 
-#: includes/class-pro-admin.php:41 includes/class-pro-admin.php:66 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
+#: includes/class-pro-admin.php:34 includes/class-pro-admin.php:59 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Não tem permissões suficientes para aceder a esta página."
 
@@ -661,23 +949,23 @@ msgstr "Não tem permissões suficientes para aceder a esta página."
 msgid "ZapPopPop Pro add-on."
 msgstr "Extra ZapPopPop Pro."
 
-#: includes/class-pro-edd.php:119
+#: includes/class-pro-edd.php:117
 msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
 msgstr "O licenciamento ainda não está configurado. Adicione o URL da loja e o ID do produto a wp-config.php."
 
-#: includes/class-pro-edd.php:133
+#: includes/class-pro-edd.php:131
 msgid "The licence server did not answer. Please try again later."
 msgstr "O servidor de licenças não respondeu. Tente novamente mais tarde."
 
-#: includes/class-pro-edd.php:137
+#: includes/class-pro-edd.php:135
 msgid "The licence server sent an unexpected answer."
 msgstr "O servidor de licenças enviou uma resposta inesperada."
 
-#: includes/class-pro-edd.php:148 includes/class-pro-edd.php:188
+#: includes/class-pro-edd.php:146 includes/class-pro-edd.php:189
 msgid "Enter your licence key."
 msgstr "Introduza a sua chave de licença."
 
-#: includes/class-pro-edd.php:161
+#: includes/class-pro-edd.php:159
 msgid "Licence activated. Thank you!"
 msgstr "Licença ativada. Obrigado!"
 
@@ -685,83 +973,87 @@ msgstr "Licença ativada. Obrigado!"
 msgid "There is no licence to deactivate."
 msgstr "Não existe nenhuma licença para desativar."
 
-#: includes/class-pro-edd.php:181
+#: includes/class-pro-edd.php:182
 msgid "Licence deactivated for this site."
 msgstr "Licença desativada para este site."
 
-#: includes/class-pro-edd.php:202
+#: includes/class-pro-edd.php:203
 msgid "Your licence is active."
 msgstr "A sua licença está ativa."
 
-#: includes/class-pro-edd.php:224
+#: includes/class-pro-edd.php:225
 msgid "Security check failed. Please go back and try again."
 msgstr "Falha na verificação de segurança. Volte atrás e tente novamente."
 
-#: includes/class-pro-edd.php:227
+#: includes/class-pro-edd.php:228
 msgid "You do not have sufficient permissions to manage the licence."
 msgstr "Não tem permissões suficientes para gerir a licença."
 
-#: includes/class-pro-edd.php:267
+#: includes/class-pro-edd.php:241
+msgid "Add-on licences synced."
+msgstr "Licenças das extensões sincronizadas."
+
+#: includes/class-pro-edd.php:272
 msgid "Lifetime"
 msgstr "Vitalícia"
 
-#: includes/class-pro-edd.php:275 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
+#: includes/class-pro-edd.php:280 includes/class-pro-pass.php:396 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
 msgid "Active"
 msgstr "Ativa"
 
-#: includes/class-pro-edd.php:276 templates/license-edd.php:21
+#: includes/class-pro-edd.php:281 includes/class-pro-pass.php:399 templates/license-edd.php:21
 msgid "Expired"
 msgstr "Expirada"
 
-#: includes/class-pro-edd.php:277 includes/class-pro-edd.php:284 templates/license-edd.php:15
+#: includes/class-pro-edd.php:282 includes/class-pro-edd.php:289 templates/license-edd.php:15
 msgid "Not activated"
 msgstr "Não ativada"
 
-#: includes/class-pro-edd.php:278
+#: includes/class-pro-edd.php:283
 msgid "Not activated on this site"
 msgstr "Não ativada neste site"
 
-#: includes/class-pro-edd.php:279
+#: includes/class-pro-edd.php:284
 msgid "Disabled"
 msgstr "Desativada"
 
-#: includes/class-pro-edd.php:280
+#: includes/class-pro-edd.php:285
 msgid "Revoked"
 msgstr "Revogada"
 
-#: includes/class-pro-edd.php:281 includes/class-pro-edd.php:282
+#: includes/class-pro-edd.php:286 includes/class-pro-edd.php:287
 msgid "Invalid key"
 msgstr "Chave inválida"
 
-#: includes/class-pro-edd.php:292
+#: includes/class-pro-edd.php:297
 msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
 msgstr "Esta licença expirou em %s. As funcionalidades Pro continuam a funcionar nos sites onde já estava ativa; renove-a para receber atualizações e suporte."
 
-#: includes/class-pro-edd.php:293
+#: includes/class-pro-edd.php:298
 msgid "This licence has expired. Renew it to receive updates and support."
 msgstr "Esta licença expirou. Renove-a para receber atualizações e suporte."
 
-#: includes/class-pro-edd.php:296
+#: includes/class-pro-edd.php:301
 msgid "This licence key is not valid. Please check it and try again."
 msgstr "Esta chave de licença não é válida. Verifique-a e tente novamente."
 
-#: includes/class-pro-edd.php:298
+#: includes/class-pro-edd.php:303
 msgid "This licence has no activations left. Deactivate it on another site or upgrade your plan."
 msgstr "Esta licença não tem ativações restantes. Desative-a noutro site ou atualize o seu plano."
 
-#: includes/class-pro-edd.php:301
+#: includes/class-pro-edd.php:306
 msgid "This licence is not active on this site. Activate it again."
 msgstr "Esta licença não está ativa neste site. Ative-a novamente."
 
-#: includes/class-pro-edd.php:304
+#: includes/class-pro-edd.php:309
 msgid "This licence has been disabled. Please contact support."
 msgstr "Esta licença foi desativada. Contacte o suporte."
 
-#: includes/class-pro-edd.php:307
+#: includes/class-pro-edd.php:312
 msgid "This key belongs to a different product."
 msgstr "Esta chave pertence a um produto diferente."
 
-#: includes/class-pro-edd.php:309
+#: includes/class-pro-edd.php:314
 msgid "The licence could not be verified. Please try again or contact support."
 msgstr "Não foi possível verificar a licença. Tente novamente ou contacte o suporte."
 
@@ -769,7 +1061,7 @@ msgstr "Não foi possível verificar a licença. Tente novamente ou contacte o s
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr "Requer uma licença ZapPopPop Pro ativa. A sua escolha guardada é mantida."
 
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:158 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
 msgid "Activate licence"
 msgstr "Ativar licença"
 
@@ -976,10 +1268,6 @@ msgstr "Campos que contêm a chave de dados pessoais, normalmente o campo de ema
 #: includes/class-pro-module-html-strings.php:75
 msgid "Fireworks (needs Canvas Fireworks library)"
 msgstr "Fogo de artifício (requer a biblioteca Canvas Fireworks)"
-
-#: includes/class-pro-module-html-strings.php:76 includes/modules/class-zappoppop-targeting-triggers.php:426
-msgid "From"
-msgstr "De"
 
 #: includes/class-pro-module-html-strings.php:77
 msgid "Guests Only"
@@ -1197,10 +1485,6 @@ msgstr "Use o botão de etiqueta para inserir os valores do subscritor, por exem
 msgid "Visitor Authentication"
 msgstr "Autenticação do visitante"
 
-#: includes/class-pro-module-html-strings.php:135 includes/modules/class-zappoppop-autoresponder.php:95
-msgid "Welcome! Here is your reward"
-msgstr "Bem-vindo! Aqui está a sua recompensa"
-
 #: includes/class-pro-module-html-strings.php:136
 msgid "Zooming Entrances"
 msgstr "Entradas com zoom"
@@ -1321,35 +1605,59 @@ msgstr "Segmentação"
 msgid "Visitor authentication, targeting and attribution rules."
 msgstr "Autenticação de visitantes, segmentação e regras de atribuição."
 
-#: includes/class-pro-module-strings.php:68 includes/modules/class-zappoppop-woo-cart.php:703
-msgid "WooCommerce Cart"
-msgstr "Carrinho WooCommerce"
-
 #: includes/class-pro-module-strings.php:69
 msgid "Show popups by cart contents and fill live cart values into popup text."
 msgstr "Mostre popups consoante o conteúdo do carrinho e preencha valores do carrinho em direto no texto do popup."
 
-#: includes/class-pro-plugin.php:109
+#: includes/class-pro-pass.php:77
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: includes/class-pro-pass.php:78
+msgid "Subscribe popup form submissions to Mailchimp audiences with merge fields, groups, tags and double opt-in."
+msgstr "Subscrever as submissões de formulários do popup em audiências do Mailchimp, com campos de união, grupos, etiquetas e dupla confirmação."
+
+#: includes/class-pro-pass.php:83
+msgid "GetResponse"
+msgstr "GetResponse"
+
+#: includes/class-pro-pass.php:84
+msgid "Add popup form submissions to GetResponse campaigns with custom field mapping."
+msgstr "Adicionar as submissões de formulários do popup a campanhas do GetResponse, com mapeamento de campos personalizados."
+
+#: includes/class-pro-pass.php:278
+msgid "All Access"
+msgstr "All Access"
+
+#: includes/class-pro-pass.php:393
+msgid "Not installed"
+msgstr "Não instalado"
+
+#: includes/class-pro-pass.php:402
+msgid "Not in your licence"
+msgstr "Não incluída na sua licença"
+
+#: includes/class-pro-plugin.php:122
 msgid "Outdated %1$s: minimum required %2$s"
 msgstr "%1$s desatualizado: mínimo exigido %2$s"
 
-#: includes/class-pro-plugin.php:111
+#: includes/class-pro-plugin.php:124
 msgid "Missing %1$s: minimum required %2$s"
 msgstr "%1$s em falta: mínimo exigido %2$s"
 
-#: includes/class-pro-plugin.php:116
+#: includes/class-pro-plugin.php:129
 msgid "This plugin is not fully active."
 msgstr "Este plugin não está totalmente ativo."
 
-#: includes/class-pro-plugin.php:142
+#: includes/class-pro-plugin.php:155
 msgid "ZapPopPop Pro needs the ZapPopPop plugin. Install and activate ZapPopPop first."
 msgstr "O ZapPopPop Pro precisa do plugin ZapPopPop. Instale e ative primeiro o ZapPopPop."
 
-#: includes/class-pro-plugin.php:146
+#: includes/class-pro-plugin.php:159
 msgid "ZapPopPop Pro needs a newer version of ZapPopPop. Please update ZapPopPop."
 msgstr "O ZapPopPop Pro precisa de uma versão mais recente do ZapPopPop. Atualize o ZapPopPop."
 
-#: includes/class-pro-plugin.php:156
+#: includes/class-pro-plugin.php:169
 msgid "ZapPopPop Pro is not activated. Pro templates and modules stay locked until you enter your licence key."
 msgstr "O ZapPopPop Pro não está ativado. Os modelos e módulos Pro permanecem bloqueados até introduzir a chave de licença."
 
@@ -1497,262 +1805,6 @@ msgstr "Cupão aplicado ao carrinho com sucesso!"
 msgid "Unable to apply coupon to cart."
 msgstr "Não foi possível aplicar o cupão ao carrinho."
 
-#: includes/modules/class-zappoppop-ajax-getresponse.php:21 includes/modules/class-zappoppop-ajax-mailchimp.php:22
-msgid "Permission denied."
-msgstr "Permissão negada."
-
-#: includes/modules/class-zappoppop-ajax-getresponse.php:25
-msgid "Enter a valid GetResponse API key."
-msgstr "Introduza uma chave API GetResponse válida."
-
-#: includes/modules/class-zappoppop-ajax-mailchimp.php:26
-msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
-msgstr "Introduza uma chave API MailChimp válida (por exemplo 0123456789abcdef-us21)."
-
-#: includes/modules/class-zappoppop-autoresponder.php:96
-msgid "Thank you for subscribing!\n\nEnjoy your offer."
-msgstr "Obrigado por subscrever!\n\nAproveite a sua oferta."
-
-#: includes/modules/class-zappoppop-double-optin.php:18
-msgid "Please confirm your email address"
-msgstr "Confirme o seu endereço de email"
-
-#: includes/modules/class-zappoppop-double-optin.php:19
-msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
-msgstr "Caro visitante!\n\nConfirme o seu endereço de email clicando na ligação seguinte:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nObrigado."
-
-#: includes/modules/class-zappoppop-double-optin.php:22
-msgid "Thank you!"
-msgstr "Obrigado!"
-
-#: includes/modules/class-zappoppop-getresponse.php:210 includes/modules/class-zappoppop-mailchimp.php:222
-msgid "Invalid API key."
-msgstr "Chave API inválida."
-
-#: includes/modules/class-zappoppop-getresponse.php:232
-msgid "GetResponse returned HTTP %d."
-msgstr "O GetResponse devolveu HTTP %d."
-
-#: includes/modules/class-zappoppop-getresponse.php:252
-msgid "Email Address"
-msgstr "Endereço de email"
-
-#: includes/modules/class-zappoppop-getresponse.php:252
-msgid "Full name"
-msgstr "Nome completo"
-
-#: includes/modules/class-zappoppop-getresponse.php:265
-msgid "API key or campaign is missing."
-msgstr "Falta a chave API ou a campanha."
-
-#: includes/modules/class-zappoppop-getresponse.php:267 includes/modules/class-zappoppop-mailchimp.php:304
-msgid "Invalid email address."
-msgstr "Endereço de email inválido."
-
-#: includes/modules/class-zappoppop-mailchimp.php:246
-msgid "MailChimp returned HTTP %d."
-msgstr "O MailChimp devolveu HTTP %d."
-
-#: includes/modules/class-zappoppop-mailchimp.php:263 includes/modules/class-zappoppop-mailchimp.php:277
-msgid "Select an audience first."
-msgstr "Selecione primeiro uma audiência."
-
-#: includes/modules/class-zappoppop-mailchimp.php:266
-msgid "Email address"
-msgstr "Endereço de email"
-
-#: includes/modules/class-zappoppop-mailchimp.php:302
-msgid "API key or audience is missing."
-msgstr "Falta a chave API ou a audiência."
-
-#: includes/modules/class-zappoppop-protect.php:207 includes/modules/class-zappoppop-protect.php:215 includes/modules/class-zappoppop-protect.php:278
-msgid "ZapPopPop submissions"
-msgstr "Submissões do ZapPopPop"
-
-#: includes/modules/class-zappoppop-side-tabs.php:117
-msgid "Offer"
-msgstr "Oferta"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:372
-msgid "(no title)"
-msgstr "(sem título)"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:398
-msgid "Visitors (logged out)"
-msgstr "Visitantes (sem sessão iniciada)"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:399 includes/modules/class-zappoppop-woo-cart.php:722
-msgid "Search..."
-msgstr "Pesquisar..."
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:400 includes/modules/class-zappoppop-woo-cart.php:723
-msgid "Nothing found."
-msgstr "Nada encontrado."
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:404
-msgid "OnLoad"
-msgstr "Ao carregar"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:405
-msgid "OnScroll"
-msgstr "Ao deslocar"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:406
-msgid "OnExit"
-msgstr "Ao sair"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:407
-msgid "OnInactivity"
-msgstr "Na inatividade"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:415
-msgid "hrs"
-msgstr "h"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:417
-msgid "sec"
-msgstr "seg"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:419
-msgid "Close delay 0 keeps the popup open until it is closed."
-msgstr "Um atraso de fecho de 0 mantém o popup aberto até ser fechado."
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:427
-msgid "End"
-msgstr "Fim"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:434
-msgid "URL"
-msgstr "URL"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
-msgid "All"
-msgstr "Todos"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:444
-msgid "URL contains"
-msgstr "O URL contém"
-
-#: includes/modules/class-zappoppop-woo-cart.php:709
-msgid "Any"
-msgstr "Qualquer"
-
-#: includes/modules/class-zappoppop-woo-cart.php:717
-msgid "items"
-msgstr "artigos"
-
-#: includes/modules/class-zappoppop-woo-cart.php:718
-msgid "A value of 0 turns that condition off."
-msgstr "Um valor de 0 desativa essa condição."
-
-#: includes/modules/class-zappoppop-woo-cart.php:730
-msgid "0 = detect it from your WooCommerce free shipping method."
-msgstr "0 = detetar a partir do seu método de portes grátis do WooCommerce."
-
-#: includes/modules/class-zappoppop-woo-cart.php:732
-msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
-msgstr "Escreva-os em qualquer camada de texto. A Pré-visualização em direto mostra valores de exemplo; os visitantes veem o seu próprio carrinho."
-
-#: includes/modules/class-zappoppop-woo-cart.php:740
-msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
-msgstr "Um cupão existente do WooCommerce. Preenche {coupon_code} e a contagem decrescente. O código é visível no código-fonte da página, por isso não use um código privado."
-
-#: includes/modules/class-zappoppop-woo-cart.php:744
-msgid "Give a button the link #zpp-apply-coupon."
-msgstr "Dê a um botão a ligação #zpp-apply-coupon."
-
-#: includes/modules/class-zappoppop-woo-cart.php:752
-msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
-msgstr "Páginas de produto: o popup não é mostrado em nenhuma outra página. Produtos selecionados: apenas nos produtos ou categorias abaixo (nenhum selecionado = todas as páginas de produto)."
-
-#: includes/modules/class-zappoppop-woo-cart.php:763
-msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
-msgstr "Automático usa primeiro os cross-sells do carrinho do visitante e depois os upsells dos produtos nele. Defina-os em cada produto WooCommerce."
-
-#: includes/modules/class-zappoppop-woo-cart.php:765
-msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
-msgstr "Dê a um botão a ligação #zpp-add-upsell para adicionar o produto ao carrinho (o popup fecha depois) ou #zpp-view-upsell para abrir a sua página. Os produtos variáveis só podem usar a ligação de visualização."
-
-#: includes/modules/class-zappoppop-woo-cart.php:770
-msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
-msgstr "Enviado uma vez aos visitantes que submetem o formulário deste popup com a caixa de consentimento marcada e artigos no carrinho. Nada é guardado sem consentimento."
-
-#: includes/modules/class-zappoppop-woo-cart.php:772
-msgid "minutes"
-msgstr "minutos"
-
-#: includes/modules/class-zappoppop-woo-cart.php:774
-msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
-msgstr "Adicione uma camada de caixa de verificação ao formulário (por exemplo \"Enviem-me um lembrete do meu carrinho por email\") e escreva o mesmo nome em Avançado > Nome do campo. Desmarcada = nada é guardado."
-
-#: includes/modules/class-zappoppop-woo-cart.php:779
-msgid "Coupon code (optional)"
-msgstr "Código de cupão (opcional)"
-
-#: includes/modules/class-zappoppop-woo-cart.php:781
-msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
-msgstr "Não é enviado nenhum email se tiver sido feita uma encomenda com o mesmo endereço. Todos os emails têm uma ligação de cancelamento de subscrição; os endereços cancelados nunca voltam a ser guardados. O envio usa o cron do WordPress e wp_mail()."
-
-#: includes/modules/class-zappoppop-woo-cart.php:782
-msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
-msgstr "A contagem decrescente e a data de expiração vêm da data de expiração real do cupão no WooCommerce."
-
-#: includes/modules/class-zappoppop-woo-cart.php:783
-msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
-msgstr "Barra de portes grátis: adicione uma camada Barra de progresso, defina o seu modo como \"Auto: portes grátis do WooCommerce\" e escreva a etiqueta assim: Adicione {shipping_remaining} para portes grátis || Tem portes grátis!"
-
-#: includes/modules/class-zappoppop-woo-recover.php:401
-msgid "Use code %s at checkout."
-msgstr "Use o código %s no checkout."
-
-#: includes/modules/class-zappoppop-woo-recover.php:408
-msgid "Return to your cart"
-msgstr "Regressar ao carrinho"
-
-#: includes/modules/class-zappoppop-woo-recover.php:411
-msgid "You are receiving this because you asked for a cart reminder on %s."
-msgstr "Está a receber isto porque pediu um lembrete do carrinho em %s."
-
-#: includes/modules/class-zappoppop-woo-recover.php:412 includes/modules/class-zappoppop-woo-recover.php:433
-msgid "Unsubscribe"
-msgstr "Cancelar subscrição"
-
-#: includes/modules/class-zappoppop-woo-recover.php:432
-msgid "You have been unsubscribed. We will not send you cart reminders again."
-msgstr "A sua subscrição foi cancelada. Não voltaremos a enviar-lhe lembretes do carrinho."
-
-#: includes/modules/class-zappoppop-woo-recover.php:432
-msgid "This unsubscribe link is not valid."
-msgstr "Esta ligação de cancelamento de subscrição não é válida."
-
-#: includes/modules/class-zappoppop-woo-recover.php:506 includes/modules/class-zappoppop-woo-recover.php:514
-msgid "ZapPopPop abandoned cart emails"
-msgstr "Emails de carrinho abandonado do ZapPopPop"
-
-#: includes/modules/class-zappoppop-woo-recover.php:530
-msgid "Abandoned cart emails"
-msgstr "Emails de carrinho abandonado"
-
-#: includes/modules/class-zappoppop-woo-recover.php:533
-msgid "Email"
-msgstr "Email"
-
-#: includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
-msgid "Status"
-msgstr "Estado"
-
-#: includes/modules/class-zappoppop-woo-recover.php:535
-msgid "Saved on"
-msgstr "Guardado em"
-
-#: includes/modules/class-zappoppop-woo-recover.php:536
-msgid "Cart lines"
-msgstr "Linhas do carrinho"
-
-#: includes/modules/class-zappoppop-woo-recover.php:558
-msgid "The address is kept on a do-not-email list because the person unsubscribed."
-msgstr "O endereço é mantido numa lista de não enviar emails porque a pessoa cancelou a subscrição."
-
 #: includes/modules/class-zappoppop-woocommerce.php:98
 msgid "Generated by ZapPopPop campaign"
 msgstr "Gerado pela campanha ZapPopPop"
@@ -1817,27 +1869,7 @@ msgstr "Uma vez por semana"
 msgid "No activity recorded."
 msgstr "Nenhuma atividade registada."
 
-#: modules/acc-popup-overlay/admin.js:163
-msgid "Maximum of 20 custom backgrounds."
-msgstr "Máximo de 20 fundos personalizados."
-
-#: modules/acc-popup-overlay/admin.js:170
-msgid "Delete this background?"
-msgstr "Eliminar este fundo?"
-
-#: modules/acc-popup-overlay/admin.js:179
-msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
-msgstr "O Multimédia do WordPress não está disponível. Introduza o URL da imagem (JPG/PNG):"
-
-#: modules/acc-popup-overlay/admin.js:199
-msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
-msgstr "Escolha uma imagem JPEG ou PNG (.jpg, .jpeg, .png)."
-
-#: modules/acc-popup-overlay/admin.js:202
-msgid "Please enter the animation HTML / JS."
-msgstr "Introduza o HTML / JS da animação."
-
-#: templates/license-edd.php:44 templates/license-page.php:24
+#: templates/license-edd.php:44
 msgid "Licensing is not set up yet"
 msgstr "O licenciamento ainda não está configurado"
 
@@ -1853,7 +1885,7 @@ msgstr "URL inicial da loja (https)"
 msgid "Download ID of ZapPopPop Pro in your store"
 msgstr "ID de transferência do ZapPopPop Pro na sua loja"
 
-#: templates/license-edd.php:52 templates/license-page.php:32 templates/locked-page.php:23
+#: templates/license-edd.php:52 templates/locked-page.php:23
 msgid "Your campaigns, statistics and settings are safe. Everything you created stays stored and keeps working on your site."
 msgstr "As suas campanhas, estatísticas e definições estão seguras. Tudo o que criou continua guardado e a funcionar no seu site."
 
@@ -1893,37 +1925,41 @@ msgstr "Pode encontrar a chave no recibo de compra e na sua conta na loja."
 msgid "Only a network administrator can change the licence."
 msgstr "Só um administrador da rede pode alterar a licença."
 
-#: templates/license-edd.php:102
+#: templates/license-edd.php:103
 msgid "Licence server"
 msgstr "Servidor de licenças"
 
-#: templates/license-edd.php:105
+#: templates/license-edd.php:106
 msgid "Store"
 msgstr "Loja"
 
-#: templates/license-edd.php:107 templates/license-page.php:28
+#: templates/license-edd.php:108
 msgid "Product ID"
 msgstr "ID do produto"
 
-#: templates/license-edd.php:109
+#: templates/license-edd.php:110
 msgid "This site"
 msgstr "Este site"
 
-#: templates/license-edd.php:112
+#: templates/license-edd.php:113
 msgid "Activating uses one site slot. Deactivate the licence before you move the site to another domain. Updates arrive in Dashboard > Updates while the licence is active."
 msgstr "A ativação usa um espaço de site. Desative a licença antes de mover o site para outro domínio. As atualizações chegam a Painel > Atualizações enquanto a licença estiver ativa."
 
-#: templates/license-page.php:26
-msgid "ZapPopPop Pro uses Freemius for licence keys, updates and your account. Add the product details from your Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) to zappoppop-pro.php, or define them in wp-config.php:"
-msgstr "O ZapPopPop Pro usa o Freemius para chaves de licença, atualizações e a sua conta. Adicione os dados do produto a partir do Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) a zappoppop-pro.php ou defina-os em wp-config.php:"
+#: templates/license-products.php:21
+msgid "Add-ons on this licence"
+msgstr "Extensões desta licença"
 
-#: templates/license-page.php:29
-msgid "Public key (starts with pk_)"
-msgstr "Chave pública (começa por pk_)"
+#: templates/license-products.php:35
+msgid "Your key does not cover every add-on. An All Access Pass unlocks Pro and all add-ons with one key."
+msgstr "A sua chave não cobre todas as extensões. Um All Access Pass desbloqueia o Pro e todas as extensões com uma única chave."
 
-#: templates/license-page.php:30
-msgid "Product slug"
-msgstr "Slug do produto"
+#: templates/license-products.php:37
+msgid "Install an add-on like any plugin. It is activated with the key above and updated from Dashboard > Updates."
+msgstr "Instalar uma extensão como qualquer plugin. É ativada com a chave acima e atualizada em Painel > Atualizações."
+
+#: templates/license-products.php:43
+msgid "Sync add-ons"
+msgstr "Sincronizar extensões"
 
 #: templates/settings-library-rows.php:15
 msgid "Canvas Confetti"

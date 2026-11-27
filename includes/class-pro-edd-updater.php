@@ -4,7 +4,7 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * Plugin updates from the EDD store (replaces what the Freemius SDK did). The store only returns a download
+ * Plugin updates from the EDD store. The store only returns a download
  * package for a valid or expired-but-entitled licence, so this class never decides who may update.
  */
 class ZapPopPop_Pro_EDD_Updater {
@@ -80,7 +80,7 @@ class ZapPopPop_Pro_EDD_Updater {
         return self::to_object($r);
     }
 
-    protected static function to_object(array $r) {
+    public static function to_object(array $r) {
         $o              = new stdClass();
         $o->id          = ZAPPOPPOP_PRO_BASENAME;
         $o->plugin      = ZAPPOPPOP_PRO_BASENAME;

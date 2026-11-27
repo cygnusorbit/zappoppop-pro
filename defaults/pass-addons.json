@@ -1,0 +1,81 @@
+{
+    "addons": [
+        {
+            "slug": "zappoppop-success-celebration",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_SUCCESS_CELEBRATION",
+            "name": "Success Celebration",
+            "description": "Success Celebration for ZapPopPop Pro: choose the animation that plays after a successful form submit.",
+            "icon": "dashicons-smiley"
+        },
+        {
+            "slug": "zappoppop-popup-overlay",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_POPUP_OVERLAY",
+            "name": "Popup Overlay",
+            "description": "Popup Overlay for ZapPopPop Pro: colour, opacity, image or animation behind the popup.",
+            "icon": "dashicons-format-image"
+        },
+        {
+            "slug": "zappoppop-popup-positions",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_POPUP_POSITIONS",
+            "name": "Popup Positions",
+            "description": "Popup Positions for ZapPopPop Pro: choose where the popup sits on the screen.",
+            "icon": "dashicons-move"
+        },
+        {
+            "slug": "zappoppop-targeting-triggers",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_TARGETING_TRIGGERS",
+            "name": "Targeting Triggers",
+            "description": "Targeting Triggers for ZapPopPop Pro: show the popup on load, scroll, exit intent or inactivity, with periodicity, user role and site area rules.",
+            "icon": "dashicons-location"
+        },
+        {
+            "slug": "zappoppop-targeting",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_TARGETING",
+            "name": "Targeting",
+            "description": "Targeting for ZapPopPop Pro: show the popup to every visitor, only guests or only logged-in users.",
+            "icon": "dashicons-groups"
+        },
+        {
+            "slug": "zappoppop-side-tabs",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_SIDE_TABS",
+            "name": "Side Tabs",
+            "description": "Side Tabs for ZapPopPop Pro: sticky tabs on the screen edge that open the popup, with icon, colour and corner radius.",
+            "icon": "dashicons-align-right"
+        },
+        {
+            "slug": "zappoppop-animation",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_ANIMATION",
+            "name": "Animation",
+            "description": "Animation for ZapPopPop Pro: open and close animations for the popup.",
+            "icon": "dashicons-controls-play"
+        },
+        {
+            "slug": "zappoppop-double-optin",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_DOUBLE_OPTIN",
+            "name": "Double Opt-In",
+            "description": "Double Opt-In for ZapPopPop Pro: email a confirmation link to each new lead and confirm it before the lead counts.",
+            "icon": "dashicons-email-alt2"
+        },
+        {
+            "slug": "zappoppop-autoresponder",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_AUTORESPONDER",
+            "name": "Autoresponder",
+            "description": "Autoresponder for ZapPopPop Pro: send an automatic email to each new lead, after confirmation when Double Opt-In is on.",
+            "icon": "dashicons-email"
+        },
+        {
+            "slug": "zappoppop-security",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_SECURITY",
+            "name": "Security & Protections",
+            "description": "Security & Protections for ZapPopPop Pro: anti-bot checks, duplicate protection, technical data policy and privacy export and erase tools.",
+            "icon": "dashicons-shield"
+        },
+        {
+            "slug": "zappoppop-woo-cart",
+            "const": "ZAPPOPPOP_PRO_EDD_ID_WOO_CART",
+            "name": "WooCommerce Cart",
+            "description": "WooCommerce Cart & Recovery for ZapPopPop Pro: show popups by cart contents, free-shipping bars, coupons, upsells and abandoned-cart emails.",
+            "icon": "dashicons-cart"
+        }
+    ]
+}

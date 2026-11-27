@@ -23,6 +23,678 @@ msgstr "ส่วนเสริม Pro สำหรับ ZapPopPop: องค�
 msgid "ZapPopPop"
 msgstr "ZapPopPop"
 
+#: _to_delete/includes/modules/class-zappoppop-ajax-getresponse.php:21 _to_delete/includes/modules/class-zappoppop-ajax-mailchimp.php:22
+msgid "Permission denied."
+msgstr "ปฏิเสธการเข้าถึง"
+
+#: _to_delete/includes/modules/class-zappoppop-ajax-getresponse.php:25
+msgid "Enter a valid GetResponse API key."
+msgstr "กรอกคีย์ API ของ GetResponse ที่ถูกต้อง"
+
+#: _to_delete/includes/modules/class-zappoppop-ajax-mailchimp.php:26
+msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
+msgstr "กรอกคีย์ API ของ MailChimp ที่ถูกต้อง (เช่น 0123456789abcdef-us21)"
+
+#: _to_delete/includes/modules/class-zappoppop-autoresponder.php:95 includes/class-pro-module-html-strings.php:135
+msgid "Welcome! Here is your reward"
+msgstr "ยินดีต้อนรับ! นี่คือรางวัลของคุณ"
+
+#: _to_delete/includes/modules/class-zappoppop-autoresponder.php:96
+msgid "Thank you for subscribing!\n\nEnjoy your offer."
+msgstr "ขอบคุณที่สมัครรับข้อมูล!\n\nขอให้สนุกกับข้อเสนอของคุณ"
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:18
+msgid "Please confirm your email address"
+msgstr "กรุณายืนยันที่อยู่อีเมลของคุณ"
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:19
+msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
+msgstr "เรียนผู้เยี่ยมชม!\n\nกรุณายืนยันที่อยู่อีเมลของคุณโดยคลิกลิงก์ต่อไปนี้:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nขอบคุณ"
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:22
+msgid "Thank you!"
+msgstr "ขอบคุณ!"
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:22 assets/js/zappoppop-pro-i18n-catalog.js:144
+msgid "Your email address successfully confirmed."
+msgstr "ยืนยันที่อยู่อีเมลของคุณสำเร็จแล้ว"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:210 _to_delete/includes/modules/class-zappoppop-mailchimp.php:222
+msgid "Invalid API key."
+msgstr "คีย์ API ไม่ถูกต้อง"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:232
+msgid "GetResponse returned HTTP %d."
+msgstr "GetResponse ส่งคืน HTTP %d"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:252
+msgid "Email Address"
+msgstr "ที่อยู่อีเมล"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:252
+msgid "Full name"
+msgstr "ชื่อเต็ม"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:265
+msgid "API key or campaign is missing."
+msgstr "ไม่มีคีย์ API หรือแคมเปญ"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:267 _to_delete/includes/modules/class-zappoppop-mailchimp.php:304
+msgid "Invalid email address."
+msgstr "ที่อยู่อีเมลไม่ถูกต้อง"
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:246
+msgid "MailChimp returned HTTP %d."
+msgstr "MailChimp ส่งคืน HTTP %d"
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:263 _to_delete/includes/modules/class-zappoppop-mailchimp.php:277
+msgid "Select an audience first."
+msgstr "เลือกกลุ่มเป้าหมายก่อน"
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:266
+msgid "Email address"
+msgstr "ที่อยู่อีเมล"
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:302
+msgid "API key or audience is missing."
+msgstr "ไม่มีคีย์ API หรือกลุ่มเป้าหมาย"
+
+#: _to_delete/includes/modules/class-zappoppop-protect.php:207 _to_delete/includes/modules/class-zappoppop-protect.php:215 _to_delete/includes/modules/class-zappoppop-protect.php:278
+msgid "ZapPopPop submissions"
+msgstr "การส่งข้อมูล ZapPopPop"
+
+#: _to_delete/includes/modules/class-zappoppop-side-tabs.php:117
+msgid "Offer"
+msgstr "ข้อเสนอ"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:372
+msgid "(no title)"
+msgstr "(ไม่มีชื่อ)"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:391 _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:397 assets/js/zappoppop-pro-i18n-catalog.js:17
+msgid "All roles"
+msgstr "ทุกบทบาท"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:391 _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:398
+msgid "Visitors (logged out)"
+msgstr "ผู้เยี่ยมชม (ไม่ได้ล็อกอิน)"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:399 _to_delete/includes/modules/class-zappoppop-woo-cart.php:722
+msgid "Search..."
+msgstr "ค้นหา..."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:400 _to_delete/includes/modules/class-zappoppop-woo-cart.php:723
+msgid "Nothing found."
+msgstr "ไม่พบสิ่งใด"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:401 assets/js/zappoppop-pro-i18n-catalog.js:90
+msgid "Popup Targeting"
+msgstr "การกำหนดเป้าหมายป๊อปอัป"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:402 assets/js/zappoppop-pro-i18n-catalog.js:132
+msgid "Turn the entire Targeting Triggers setting on or off"
+msgstr "เปิดหรือปิดการตั้งค่าทริกเกอร์การกำหนดเป้าหมายทั้งหมด"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:403 assets/js/zappoppop-pro-i18n-catalog.js:58
+msgid "Enable Targeting Triggers"
+msgstr "เปิดใช้ทริกเกอร์การกำหนดเป้าหมาย"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:404
+msgid "OnLoad"
+msgstr "เมื่อโหลด"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:405
+msgid "OnScroll"
+msgstr "เมื่อเลื่อน"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:406
+msgid "OnExit"
+msgstr "เมื่อออก"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:407
+msgid "OnInactivity"
+msgstr "เมื่อไม่มีกิจกรรม"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:408 assets/js/zappoppop-pro-i18n-catalog.js:39
+msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
+msgstr "เลือกว่าป๊อปอัปจะแสดงเมื่อใด จนกว่าจะเลือก ป๊อปอัปจะคงพฤติกรรมเริ่มต้นไว้"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:409 assets/js/zappoppop-pro-i18n-catalog.js:121
+msgid "Target Properties"
+msgstr "คุณสมบัติเป้าหมาย"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:410 assets/js/zappoppop-pro-i18n-catalog.js:88
+msgid "Periodicity"
+msgstr "ความถี่"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:411 assets/js/zappoppop-pro-i18n-catalog.js:60
+msgid "Every time"
+msgstr "ทุกครั้ง"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:412 assets/js/zappoppop-pro-i18n-catalog.js:82
+msgid "Once only"
+msgstr "ครั้งเดียวเท่านั้น"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:413 assets/js/zappoppop-pro-i18n-catalog.js:83
+msgid "Once per period"
+msgstr "หนึ่งครั้งต่อช่วงเวลา"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:414 assets/js/zappoppop-pro-i18n-catalog.js:108
+msgid "Show again after"
+msgstr "แสดงอีกครั้งหลังจาก"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:415
+msgid "hrs"
+msgstr "ชม."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:416 assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118
+msgid "Start delay"
+msgstr "การหน่วงเวลาเริ่ม"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:417
+msgid "sec"
+msgstr "วิ"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:418 assets/js/zappoppop-pro-i18n-catalog.js:41
+msgid "Close delay"
+msgstr "การหน่วงเวลาปิด"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:419
+msgid "Close delay 0 keeps the popup open until it is closed."
+msgstr "การหน่วงเวลาปิดเป็น 0 จะคงป๊อปอัปเปิดไว้จนกว่าจะถูกปิด"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:420 assets/js/zappoppop-pro-i18n-catalog.js:101
+msgid "Scrolling offset"
+msgstr "ระยะเลื่อน"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:421 assets/js/zappoppop-pro-i18n-catalog.js:102
+msgid "Scrolling offset unit"
+msgstr "หน่วยระยะเลื่อน"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:422 assets/js/zappoppop-pro-i18n-catalog.js:67
+msgid "Inactivity delay"
+msgstr "การหน่วงเวลาไม่มีกิจกรรม"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:423 assets/js/zappoppop-pro-i18n-catalog.js:14
+msgid "Activity"
+msgstr "กิจกรรม"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:424 assets/js/zappoppop-pro-i18n-catalog.js:20
+msgid "Always"
+msgstr "เสมอ"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:425 assets/js/zappoppop-pro-i18n-catalog.js:36
+msgid "Certain period"
+msgstr "ช่วงเวลาที่กำหนด"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:426 includes/class-pro-module-html-strings.php:76
+msgid "From"
+msgstr "จาก"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:427
+msgid "End"
+msgstr "สิ้นสุด"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:428 assets/js/zappoppop-pro-i18n-catalog.js:137
+msgid "User Roles"
+msgstr "บทบาทผู้ใช้"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:429 assets/js/zappoppop-pro-i18n-catalog.js:113
+msgid "Site Area"
+msgstr "พื้นที่เว็บไซต์"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:430 assets/js/zappoppop-pro-i18n-catalog.js:114
+msgid "Sitewide"
+msgstr "ทั้งเว็บไซต์"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:431 assets/js/zappoppop-pro-i18n-catalog.js:65
+msgid "Homepage"
+msgstr "หน้าแรก"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:432 assets/js/zappoppop-pro-i18n-catalog.js:92
+msgid "Posts"
+msgstr "โพสต์"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:433 assets/js/zappoppop-pro-i18n-catalog.js:87
+msgid "Pages"
+msgstr "หน้า"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:434
+msgid "URL"
+msgstr "URL"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:435 assets/js/zappoppop-pro-i18n-catalog.js:35
+msgid "Categories"
+msgstr "หมวดหมู่"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
+msgid "All"
+msgstr "ทั้งหมด"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:437 assets/js/zappoppop-pro-i18n-catalog.js:115
+msgid "Specific"
+msgstr "เฉพาะเจาะจง"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:438 assets/js/zappoppop-pro-i18n-catalog.js:18
+msgid "Also show on category archive pages"
+msgstr "แสดงในหน้าเก็บถาวรของหมวดหมู่ด้วย"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:439 assets/js/zappoppop-pro-i18n-catalog.js:120
+msgid "Tags"
+msgstr "แท็ก"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:440 assets/js/zappoppop-pro-i18n-catalog.js:19
+msgid "Also show on tag archive pages"
+msgstr "แสดงในหน้าเก็บถาวรของแท็กด้วย"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:441 assets/js/zappoppop-pro-i18n-catalog.js:12
+msgid "A post matches when it is in any selected category, tag or post list."
+msgstr "โพสต์จะตรงเงื่อนไขเมื่ออยู่ในหมวดหมู่ แท็ก หรือรายการโพสต์ใดก็ได้ที่เลือก"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:442 assets/js/zappoppop-pro-i18n-catalog.js:16
+msgid "All pages"
+msgstr "ทุกหน้า"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:443 assets/js/zappoppop-pro-i18n-catalog.js:116
+msgid "Specific pages"
+msgstr "หน้าเฉพาะ"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:444
+msgid "URL contains"
+msgstr "URL มี"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:445 assets/js/zappoppop-pro-i18n-catalog.js:84
+msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
+msgstr "หนึ่งรายการต่อบรรทัด ป๊อปอัปจะแสดงเมื่อที่อยู่หน้าเว็บมีรายการใดรายการหนึ่ง ว่าง = ทุก URL"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:703 includes/class-pro-module-strings.php:68
+msgid "WooCommerce Cart"
+msgstr "ตะกร้า WooCommerce"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:704 assets/js/zappoppop-pro-i18n-catalog.js:131
+msgid "Turn the WooCommerce cart features for this popup on or off"
+msgstr "เปิดหรือปิดฟีเจอร์ตะกร้า WooCommerce สำหรับป๊อปอัปนี้"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:705 assets/js/zappoppop-pro-i18n-catalog.js:59
+msgid "Enable WooCommerce Cart"
+msgstr "เปิดใช้ตะกร้า WooCommerce"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:706 assets/js/zappoppop-pro-i18n-catalog.js:34
+msgid "Cart-aware display rules and live cart text for this popup."
+msgstr "กฎการแสดงผลที่รับรู้ตะกร้าและข้อความตะกร้าแบบสดสำหรับป๊อปอัปนี้"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:707 assets/js/zappoppop-pro-i18n-catalog.js:140
+msgid "WooCommerce is not active on this site, so the cart rules are ignored."
+msgstr "WooCommerce ไม่ได้เปิดใช้งานบนเว็บไซต์นี้ จึงไม่สนใจกฎตะกร้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:708 assets/js/zappoppop-pro-i18n-catalog.js:111
+msgid "Show this popup when the cart is"
+msgstr "แสดงป๊อปอัปนี้เมื่อตะกร้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:709
+msgid "Any"
+msgstr "ใดก็ได้"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:710 assets/js/zappoppop-pro-i18n-catalog.js:64
+msgid "Has items"
+msgstr "มีสินค้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:711 assets/js/zappoppop-pro-i18n-catalog.js:55
+msgid "Empty"
+msgstr "ว่าง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:712 assets/js/zappoppop-pro-i18n-catalog.js:56
+msgid "Empty ignores the conditions below."
+msgstr "ว่างจะไม่สนใจเงื่อนไขด้านล่าง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:713 assets/js/zappoppop-pro-i18n-catalog.js:31
+msgid "Cart conditions"
+msgstr "เงื่อนไขตะกร้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:714 assets/js/zappoppop-pro-i18n-catalog.js:72
+msgid "Minimum items"
+msgstr "จำนวนสินค้าขั้นต่ำ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:715 assets/js/zappoppop-pro-i18n-catalog.js:73
+msgid "Minimum subtotal"
+msgstr "ยอดรวมย่อยขั้นต่ำ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:716 assets/js/zappoppop-pro-i18n-catalog.js:69
+msgid "Maximum subtotal"
+msgstr "ยอดรวมย่อยสูงสุด"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:717
+msgid "items"
+msgstr "รายการ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:718
+msgid "A value of 0 turns that condition off."
+msgstr "ค่า 0 จะปิดเงื่อนไขนั้น"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:719 assets/js/zappoppop-pro-i18n-catalog.js:94
+msgid "Product IDs"
+msgstr "รหัสสินค้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:720 assets/js/zappoppop-pro-i18n-catalog.js:43
+msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
+msgstr "คั่นด้วยจุลภาค ป๊อปอัปจะแสดงเมื่อมีสินค้าเหล่านี้รายการใดในตะกร้า ว่าง = ปิด"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:721 assets/js/zappoppop-pro-i18n-catalog.js:95
+msgid "Product categories"
+msgstr "หมวดหมู่สินค้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:724 assets/js/zappoppop-pro-i18n-catalog.js:76
+msgid "No product categories found."
+msgstr "ไม่พบหมวดหมู่สินค้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:725 assets/js/zappoppop-pro-i18n-catalog.js:125
+msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
+msgstr "ป๊อปอัปจะแสดงเมื่อตะกร้ามีสินค้าจากหมวดหมู่ที่เลือก ไม่เลือกเลย = ปิด"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:726 assets/js/zappoppop-pro-i18n-catalog.js:110
+msgid "Show right after an item is added to the cart"
+msgstr "แสดงทันทีหลังเพิ่มสินค้าลงตะกร้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:727 assets/js/zappoppop-pro-i18n-catalog.js:141
+msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
+msgstr "ใช้ได้กับการเพิ่มลงตะกร้าผ่าน AJAX และบล็อกตะกร้า แสดงหนึ่งครั้งต่อการดูหน้าและเฉพาะเมื่อตรงตามเงื่อนไขด้านบน"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:728 assets/js/zappoppop-pro-i18n-catalog.js:62
+msgid "Free shipping"
+msgstr "จัดส่งฟรี"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:729 assets/js/zappoppop-pro-i18n-catalog.js:63
+msgid "Free shipping threshold"
+msgstr "เกณฑ์จัดส่งฟรี"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:730
+msgid "0 = detect it from your WooCommerce free shipping method."
+msgstr "0 = ตรวจจับจากวิธีจัดส่งฟรีของ WooCommerce"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:731 assets/js/zappoppop-pro-i18n-catalog.js:51
+msgid "Dynamic text"
+msgstr "ข้อความไดนามิก"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:732
+msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
+msgstr "พิมพ์สิ่งเหล่านี้ในเลเยอร์ข้อความใดก็ได้ ตัวอย่างสดจะแสดงค่าตัวอย่าง ผู้เยี่ยมชมจะเห็นตะกร้าของตนเอง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:733 assets/js/zappoppop-pro-i18n-catalog.js:33
+msgid "Cart total"
+msgstr "ยอดรวมของตะกร้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:734 assets/js/zappoppop-pro-i18n-catalog.js:32
+msgid "Cart subtotal"
+msgstr "ยอดรวมย่อยของตะกร้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:735 assets/js/zappoppop-pro-i18n-catalog.js:80
+msgid "Number of items"
+msgstr "จำนวนสินค้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:736 assets/js/zappoppop-pro-i18n-catalog.js:21
+msgid "Amount left for free shipping"
+msgstr "ยอดที่เหลือสำหรับจัดส่งฟรี"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:737 assets/js/zappoppop-pro-i18n-catalog.js:23
+msgid "Applied coupon code"
+msgstr "รหัสคูปองที่ใช้"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:738 assets/js/zappoppop-pro-i18n-catalog.js:46
+msgid "Coupon"
+msgstr "คูปอง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:739 assets/js/zappoppop-pro-i18n-catalog.js:47
+msgid "Coupon code"
+msgstr "รหัสคูปอง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:740
+msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
+msgstr "คูปอง WooCommerce ที่มีอยู่ จะเติมค่าให้ {coupon_code} และการนับถอยหลัง รหัสมองเห็นได้ในซอร์สของหน้า จึงไม่ควรใช้รหัสส่วนตัว"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:741 assets/js/zappoppop-pro-i18n-catalog.js:25
+msgid "Apply it to the cart automatically"
+msgstr "ใช้กับตะกร้าโดยอัตโนมัติ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:742 assets/js/zappoppop-pro-i18n-catalog.js:139
+msgid "When the popup opens"
+msgstr "เมื่อป๊อปอัปเปิด"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:743 assets/js/zappoppop-pro-i18n-catalog.js:138
+msgid "When a button is clicked"
+msgstr "เมื่อคลิกปุ่ม"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:744
+msgid "Give a button the link #zpp-apply-coupon."
+msgstr "ตั้งลิงก์ของปุ่มเป็น #zpp-apply-coupon"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:745 assets/js/zappoppop-pro-i18n-catalog.js:85
+msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
+msgstr "ใช้ได้เฉพาะรหัสนี้ หากไม่ถูกต้องหรือหมดอายุ จะไม่มีอะไรเกิดขึ้น"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:746 assets/js/zappoppop-pro-i18n-catalog.js:48
+msgid "Coupon countdown"
+msgstr "นับถอยหลังคูปอง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:747 assets/js/zappoppop-pro-i18n-catalog.js:49
+msgid "Coupon expiry date"
+msgstr "วันหมดอายุคูปอง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:748 assets/js/zappoppop-pro-i18n-catalog.js:109
+msgid "Show on pages"
+msgstr "แสดงบนหน้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:749 assets/js/zappoppop-pro-i18n-catalog.js:22
+msgid "Anywhere"
+msgstr "ทุกที่"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:750 assets/js/zappoppop-pro-i18n-catalog.js:97
+msgid "Product pages"
+msgstr "หน้าสินค้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:751 assets/js/zappoppop-pro-i18n-catalog.js:104
+msgid "Selected products"
+msgstr "สินค้าที่เลือก"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:752
+msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
+msgstr "หน้าสินค้า: ป๊อปอัปจะไม่แสดงบนหน้าอื่น สินค้าที่เลือก: เฉพาะสินค้าหรือหมวดหมู่ด้านล่าง (ไม่เลือกเลย = ทุกหน้าสินค้า)"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:753 assets/js/zappoppop-pro-i18n-catalog.js:98
+msgid "Products"
+msgstr "สินค้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:754 assets/js/zappoppop-pro-i18n-catalog.js:42
+msgid "Comma-separated product IDs. Empty = off."
+msgstr "รหัสสินค้าคั่นด้วยจุลภาค ว่าง = ปิด"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:755 assets/js/zappoppop-pro-i18n-catalog.js:96
+msgid "Product page categories"
+msgstr "หมวดหมู่หน้าสินค้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:756 assets/js/zappoppop-pro-i18n-catalog.js:127
+msgid "This rule is checked on the server, so it also works with full-page caches."
+msgstr "กฎนี้ตรวจสอบที่เซิร์ฟเวอร์ จึงใช้ได้กับแคชทั้งหน้าด้วย"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:757 assets/js/zappoppop-pro-i18n-catalog.js:133
+msgid "Upsell"
+msgstr "อัปเซลล์"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:758 assets/js/zappoppop-pro-i18n-catalog.js:81
+msgid "Offer an upsell product"
+msgstr "เสนอสินค้าอัปเซลล์"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:759 assets/js/zappoppop-pro-i18n-catalog.js:40
+msgid "Chosen by you"
+msgstr "คุณเป็นผู้เลือก"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:760 assets/js/zappoppop-pro-i18n-catalog.js:27
+msgid "Automatic"
+msgstr "อัตโนมัติ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:761 assets/js/zappoppop-pro-i18n-catalog.js:134
+msgid "Upsell product ID"
+msgstr "รหัสสินค้าอัปเซลล์"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:762 assets/js/zappoppop-pro-i18n-catalog.js:126
+msgid "The product to offer. A variation ID is allowed."
+msgstr "สินค้าที่จะเสนอ อนุญาตให้ใช้รหัสตัวเลือกสินค้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:763
+msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
+msgstr "อัตโนมัติจะใช้ครอสเซลล์ของตะกร้าผู้เยี่ยมชม แล้วจึงใช้อัปเซลล์ของสินค้าในตะกร้า ตั้งค่าได้ที่สินค้า WooCommerce แต่ละรายการ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:764 assets/js/zappoppop-pro-i18n-catalog.js:124
+msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
+msgstr "ป๊อปอัปจะไม่แสดงเมื่อไม่มีอัปเซลล์ เช่น เมื่อสินค้าอยู่ในตะกร้าแล้วหรือสินค้าหมด"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:765
+msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
+msgstr "ตั้งลิงก์ของปุ่มเป็น #zpp-add-upsell เพื่อเพิ่มสินค้าลงตะกร้า (แล้วป๊อปอัปจะปิด) หรือ #zpp-view-upsell เพื่อเปิดหน้าสินค้า สินค้าแบบมีตัวเลือกใช้ได้เฉพาะลิงก์ดู"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:766 assets/js/zappoppop-pro-i18n-catalog.js:135
+msgid "Upsell product name"
+msgstr "ชื่อสินค้าอัปเซลล์"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:767 assets/js/zappoppop-pro-i18n-catalog.js:136
+msgid "Upsell product price"
+msgstr "ราคาสินค้าอัปเซลล์"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:768 assets/js/zappoppop-pro-i18n-catalog.js:13
+msgid "Abandoned cart email"
+msgstr "อีเมลตะกร้าที่ถูกทิ้ง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:769 assets/js/zappoppop-pro-i18n-catalog.js:106
+msgid "Send a cart reminder email"
+msgstr "ส่งอีเมลเตือนตะกร้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:770
+msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
+msgstr "ส่งหนึ่งครั้งถึงผู้เยี่ยมชมที่ส่งฟอร์มของป๊อปอัปนี้โดยติ๊กช่องยินยอมและมีสินค้าในตะกร้า จะไม่บันทึกสิ่งใดหากไม่ได้รับความยินยอม"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:771 assets/js/zappoppop-pro-i18n-catalog.js:107
+msgid "Send after"
+msgstr "ส่งหลังจาก"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:772
+msgid "minutes"
+msgstr "นาที"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:773 assets/js/zappoppop-pro-i18n-catalog.js:45
+msgid "Consent field name"
+msgstr "ชื่อช่องความยินยอม"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:774
+msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
+msgstr "เพิ่มเลเยอร์ช่องทำเครื่องหมายลงในฟอร์ม (เช่น \"ส่งอีเมลเตือนเกี่ยวกับตะกร้าของฉัน\") และพิมพ์ชื่อเดียวกันในขั้นสูง > ชื่อช่อง หากไม่ติ๊ก = ไม่บันทึกสิ่งใด"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:775 assets/js/zappoppop-pro-i18n-catalog.js:54
+msgid "Email subject"
+msgstr "หัวเรื่องอีเมล"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:776 _to_delete/includes/modules/class-zappoppop-woo-recover.php:385 assets/js/zappoppop-pro-i18n-catalog.js:142
+msgid "You left something in your cart"
+msgstr "คุณทิ้งสินค้าไว้ในตะกร้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:777 assets/js/zappoppop-pro-i18n-catalog.js:53
+msgid "Email message"
+msgstr "ข้อความอีเมล"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:778 _to_delete/includes/modules/class-zappoppop-woo-recover.php:393 assets/js/zappoppop-pro-i18n-catalog.js:143
+msgid "Your cart is saved. Come back any time to finish your order."
+msgstr "บันทึกตะกร้าของคุณแล้ว กลับมาเมื่อใดก็ได้เพื่อสั่งซื้อให้เสร็จ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:779
+msgid "Coupon code (optional)"
+msgstr "รหัสคูปอง (ไม่บังคับ)"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:780 assets/js/zappoppop-pro-i18n-catalog.js:112
+msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
+msgstr "แสดงในอีเมลและใช้เมื่อผู้เยี่ยมชมกลับมาที่ตะกร้า ใช้คูปอง WooCommerce จริง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:781
+msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
+msgstr "จะไม่ส่งอีเมลหากมีการสั่งซื้อด้วยที่อยู่เดียวกัน ทุกอีเมลมีลิงก์ยกเลิกการสมัคร ที่อยู่ที่ยกเลิกแล้วจะไม่ถูกบันทึกอีก การส่งใช้ WordPress cron และ wp_mail()"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:782
+msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
+msgstr "การนับถอยหลังและวันหมดอายุมาจากวันหมดอายุจริงของคูปองใน WooCommerce"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:783
+msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
+msgstr "แถบจัดส่งฟรี: เพิ่มเลเยอร์แถบความคืบหน้า ตั้งโหมดเป็น \"อัตโนมัติ: จัดส่งฟรีของ WooCommerce\" และเขียนป้ายชื่อดังนี้: เพิ่ม {shipping_remaining} เพื่อรับจัดส่งฟรี || คุณได้รับจัดส่งฟรีแล้ว!"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:401
+msgid "Use code %s at checkout."
+msgstr "ใช้รหัส %s ตอนชำระเงิน"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:408
+msgid "Return to your cart"
+msgstr "กลับไปที่ตะกร้าของคุณ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:411
+msgid "You are receiving this because you asked for a cart reminder on %s."
+msgstr "คุณได้รับอีเมลนี้เพราะคุณขอการเตือนตะกร้าที่ %s"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:412 _to_delete/includes/modules/class-zappoppop-woo-recover.php:433
+msgid "Unsubscribe"
+msgstr "ยกเลิกการสมัคร"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:432
+msgid "You have been unsubscribed. We will not send you cart reminders again."
+msgstr "คุณยกเลิกการสมัครแล้ว เราจะไม่ส่งอีเมลเตือนตะกร้าถึงคุณอีก"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:432
+msgid "This unsubscribe link is not valid."
+msgstr "ลิงก์ยกเลิกการสมัครนี้ไม่ถูกต้อง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:506 _to_delete/includes/modules/class-zappoppop-woo-recover.php:514
+msgid "ZapPopPop abandoned cart emails"
+msgstr "อีเมลตะกร้าที่ถูกทิ้งของ ZapPopPop"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:530
+msgid "Abandoned cart emails"
+msgstr "อีเมลตะกร้าที่ถูกทิ้ง"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:533
+msgid "Email"
+msgstr "อีเมล"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
+msgid "Status"
+msgstr "สถานะ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:535
+msgid "Saved on"
+msgstr "บันทึกเมื่อ"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:536
+msgid "Cart lines"
+msgstr "รายการในตะกร้า"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:558
+msgid "The address is kept on a do-not-email list because the person unsubscribed."
+msgstr "ที่อยู่นี้ถูกเก็บไว้ในรายการห้ามส่งอีเมลเพราะบุคคลนั้นยกเลิกการสมัคร"
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:163
+msgid "Maximum of 20 custom backgrounds."
+msgstr "สูงสุด 20 พื้นหลังกำหนดเอง"
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:170
+msgid "Delete this background?"
+msgstr "ลบพื้นหลังนี้หรือไม่"
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:179
+msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
+msgstr "สื่อ WordPress ไม่พร้อมใช้งาน กรอก URL รูปภาพ (JPG/PNG):"
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:199
+msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
+msgstr "กรุณาเลือกรูปภาพ JPEG หรือ PNG (.jpg, .jpeg, .png)"
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:202
+msgid "Please enter the animation HTML / JS."
+msgstr "กรุณากรอก HTML / JS ของแอนิเมชัน"
+
 #: assets/js/stats.js:31 assets/js/stats.js:45
 msgid "Error"
 msgstr "ข้อผิดพลาด"
@@ -43,69 +715,17 @@ msgstr "10 ดาว"
 msgid "5 Stars"
 msgstr "5 ดาว"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:12 includes/modules/class-zappoppop-targeting-triggers.php:441
-msgid "A post matches when it is in any selected category, tag or post list."
-msgstr "โพสต์จะตรงเงื่อนไขเมื่ออยู่ในหมวดหมู่ แท็ก หรือรายการโพสต์ใดก็ได้ที่เลือก"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:13 includes/modules/class-zappoppop-woo-cart.php:768
-msgid "Abandoned cart email"
-msgstr "อีเมลตะกร้าที่ถูกทิ้ง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:14 includes/modules/class-zappoppop-targeting-triggers.php:423
-msgid "Activity"
-msgstr "กิจกรรม"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:15
 msgid "Add field"
 msgstr "เพิ่มช่อง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:16 includes/modules/class-zappoppop-targeting-triggers.php:442
-msgid "All pages"
-msgstr "ทุกหน้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:17 includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
-msgid "All roles"
-msgstr "ทุกบทบาท"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:18 includes/modules/class-zappoppop-targeting-triggers.php:438
-msgid "Also show on category archive pages"
-msgstr "แสดงในหน้าเก็บถาวรของหมวดหมู่ด้วย"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:19 includes/modules/class-zappoppop-targeting-triggers.php:440
-msgid "Also show on tag archive pages"
-msgstr "แสดงในหน้าเก็บถาวรของแท็กด้วย"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:20 includes/modules/class-zappoppop-targeting-triggers.php:424
-msgid "Always"
-msgstr "เสมอ"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:21 includes/modules/class-zappoppop-woo-cart.php:736
-msgid "Amount left for free shipping"
-msgstr "ยอดที่เหลือสำหรับจัดส่งฟรี"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:22 includes/modules/class-zappoppop-woo-cart.php:749
-msgid "Anywhere"
-msgstr "ทุกที่"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:23 includes/modules/class-zappoppop-woo-cart.php:737
-msgid "Applied coupon code"
-msgstr "รหัสคูปองที่ใช้"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:24
 msgid "Apply Image Select Size Preset"
 msgstr "ใช้พรีเซ็ตขนาดการเลือกรูปภาพ"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:25 includes/modules/class-zappoppop-woo-cart.php:741
-msgid "Apply it to the cart automatically"
-msgstr "ใช้กับตะกร้าโดยอัตโนมัติ"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:26 templates/builder/elements/elem-08-progress.php:13
 msgid "Auto: WooCommerce free shipping"
 msgstr "อัตโนมัติ: จัดส่งฟรีของ WooCommerce"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:27 includes/modules/class-zappoppop-woo-cart.php:760
-msgid "Automatic"
-msgstr "อัตโนมัติ"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:28
 msgid "Bottom center"
@@ -119,30 +739,6 @@ msgstr "ซ้ายล่าง"
 msgid "Bottom right"
 msgstr "ขวาล่าง"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:31 includes/modules/class-zappoppop-woo-cart.php:713
-msgid "Cart conditions"
-msgstr "เงื่อนไขตะกร้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:32 includes/modules/class-zappoppop-woo-cart.php:734
-msgid "Cart subtotal"
-msgstr "ยอดรวมย่อยของตะกร้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:33 includes/modules/class-zappoppop-woo-cart.php:733
-msgid "Cart total"
-msgstr "ยอดรวมของตะกร้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:34 includes/modules/class-zappoppop-woo-cart.php:706
-msgid "Cart-aware display rules and live cart text for this popup."
-msgstr "กฎการแสดงผลที่รับรู้ตะกร้าและข้อความตะกร้าแบบสดสำหรับป๊อปอัปนี้"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:35 includes/modules/class-zappoppop-targeting-triggers.php:435
-msgid "Categories"
-msgstr "หมวดหมู่"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:36 includes/modules/class-zappoppop-targeting-triggers.php:425
-msgid "Certain period"
-msgstr "ช่วงเวลาที่กำหนด"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:37
 msgid "Change Progress Bar"
 msgstr "เปลี่ยนแถบความคืบหน้า"
@@ -151,129 +747,33 @@ msgstr "เปลี่ยนแถบความคืบหน้า"
 msgid "Change Progress Mode"
 msgstr "เปลี่ยนโหมดความคืบหน้า"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:39 includes/modules/class-zappoppop-targeting-triggers.php:408
-msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
-msgstr "เลือกว่าป๊อปอัปจะแสดงเมื่อใด จนกว่าจะเลือก ป๊อปอัปจะคงพฤติกรรมเริ่มต้นไว้"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:40 includes/modules/class-zappoppop-woo-cart.php:759
-msgid "Chosen by you"
-msgstr "คุณเป็นผู้เลือก"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:41 includes/modules/class-zappoppop-targeting-triggers.php:418
-msgid "Close delay"
-msgstr "การหน่วงเวลาปิด"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:42 includes/modules/class-zappoppop-woo-cart.php:754
-msgid "Comma-separated product IDs. Empty = off."
-msgstr "รหัสสินค้าคั่นด้วยจุลภาค ว่าง = ปิด"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:43 includes/modules/class-zappoppop-woo-cart.php:720
-msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
-msgstr "คั่นด้วยจุลภาค ป๊อปอัปจะแสดงเมื่อมีสินค้าเหล่านี้รายการใดในตะกร้า ว่าง = ปิด"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:44
 msgid "Confirmation URL"
 msgstr "URL ยืนยัน"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:45 includes/modules/class-zappoppop-woo-cart.php:773
-msgid "Consent field name"
-msgstr "ชื่อช่องความยินยอม"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:46 includes/modules/class-zappoppop-woo-cart.php:738
-msgid "Coupon"
-msgstr "คูปอง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:47 includes/modules/class-zappoppop-woo-cart.php:739
-msgid "Coupon code"
-msgstr "รหัสคูปอง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:48 includes/modules/class-zappoppop-woo-cart.php:746
-msgid "Coupon countdown"
-msgstr "นับถอยหลังคูปอง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:49 includes/modules/class-zappoppop-woo-cart.php:747
-msgid "Coupon expiry date"
-msgstr "วันหมดอายุคูปอง"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:50
 msgid "Default Rating"
 msgstr "คะแนนเริ่มต้น"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:51 includes/modules/class-zappoppop-woo-cart.php:731
-msgid "Dynamic text"
-msgstr "ข้อความไดนามิก"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:52
 msgid "Email me a reminder about my cart"
 msgstr "ส่งอีเมลเตือนเกี่ยวกับตะกร้าของฉัน"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:53 includes/modules/class-zappoppop-woo-cart.php:777
-msgid "Email message"
-msgstr "ข้อความอีเมล"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:54 includes/modules/class-zappoppop-woo-cart.php:775
-msgid "Email subject"
-msgstr "หัวเรื่องอีเมล"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:55 includes/modules/class-zappoppop-woo-cart.php:711
-msgid "Empty"
-msgstr "ว่าง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:56 includes/modules/class-zappoppop-woo-cart.php:712
-msgid "Empty ignores the conditions below."
-msgstr "ว่างจะไม่สนใจเงื่อนไขด้านล่าง"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:57 includes/class-pro-module-html-strings.php:64
 msgid "Enable Double Opt-In"
 msgstr "เปิดใช้ Double Opt-In"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:58 includes/modules/class-zappoppop-targeting-triggers.php:403
-msgid "Enable Targeting Triggers"
-msgstr "เปิดใช้ทริกเกอร์การกำหนดเป้าหมาย"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:59 includes/modules/class-zappoppop-woo-cart.php:705
-msgid "Enable WooCommerce Cart"
-msgstr "เปิดใช้ตะกร้า WooCommerce"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:60 includes/modules/class-zappoppop-targeting-triggers.php:411
-msgid "Every time"
-msgstr "ทุกครั้ง"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:61
 msgid "Fill the rating from a URL query parameter, e.g. ?rating=4."
 msgstr "กรอกคะแนนจากพารามิเตอร์คิวรีของ URL เช่น ?rating=4"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:62 includes/modules/class-zappoppop-woo-cart.php:728
-msgid "Free shipping"
-msgstr "จัดส่งฟรี"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:63 includes/modules/class-zappoppop-woo-cart.php:729
-msgid "Free shipping threshold"
-msgstr "เกณฑ์จัดส่งฟรี"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:64 includes/modules/class-zappoppop-woo-cart.php:710
-msgid "Has items"
-msgstr "มีสินค้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:65 includes/modules/class-zappoppop-targeting-triggers.php:431
-msgid "Homepage"
-msgstr "หน้าแรก"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:66
 msgid "How many stars or icons the rating scale shows."
 msgstr "จำนวนดาวหรือไอคอนที่มาตราส่วนคะแนนแสดง"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:67 includes/modules/class-zappoppop-targeting-triggers.php:422
-msgid "Inactivity delay"
-msgstr "การหน่วงเวลาไม่มีกิจกรรม"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:68
 msgid "Insert subscriber value"
 msgstr "แทรกค่าผู้สมัคร"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:69 includes/modules/class-zappoppop-woo-cart.php:716
-msgid "Maximum subtotal"
-msgstr "ยอดรวมย่อยสูงสุด"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:70
 msgid "Middle left"
@@ -283,14 +783,6 @@ msgstr "กลางซ้าย"
 msgid "Middle right"
 msgstr "กลางขวา"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:72 includes/modules/class-zappoppop-woo-cart.php:714
-msgid "Minimum items"
-msgstr "จำนวนสินค้าขั้นต่ำ"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:73 includes/modules/class-zappoppop-woo-cart.php:715
-msgid "Minimum subtotal"
-msgstr "ยอดรวมย่อยขั้นต่ำ"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:74
 msgid "New Image Select Preset"
 msgstr "พรีเซ็ตการเลือกรูปภาพใหม่"
@@ -298,10 +790,6 @@ msgstr "พรีเซ็ตการเลือกรูปภาพใหม
 #: assets/js/zappoppop-pro-i18n-catalog.js:75
 msgid "No field selected"
 msgstr "ไม่ได้เลือกช่อง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:76 includes/modules/class-zappoppop-woo-cart.php:724
-msgid "No product categories found."
-msgstr "ไม่พบหมวดหมู่สินค้า"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:77
 msgid "No rating"
@@ -315,81 +803,21 @@ msgstr "ไม่มี (เฉพาะโอเวอร์เลย์สี)
 msgid "Number of Stars"
 msgstr "จำนวนดาว"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:80 includes/modules/class-zappoppop-woo-cart.php:735
-msgid "Number of items"
-msgstr "จำนวนสินค้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:81 includes/modules/class-zappoppop-woo-cart.php:758
-msgid "Offer an upsell product"
-msgstr "เสนอสินค้าอัปเซลล์"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:82 includes/modules/class-zappoppop-targeting-triggers.php:412
-msgid "Once only"
-msgstr "ครั้งเดียวเท่านั้น"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:83 includes/modules/class-zappoppop-targeting-triggers.php:413
-msgid "Once per period"
-msgstr "หนึ่งครั้งต่อช่วงเวลา"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:84 includes/modules/class-zappoppop-targeting-triggers.php:445
-msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
-msgstr "หนึ่งรายการต่อบรรทัด ป๊อปอัปจะแสดงเมื่อที่อยู่หน้าเว็บมีรายการใดรายการหนึ่ง ว่าง = ทุก URL"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:85 includes/modules/class-zappoppop-woo-cart.php:745
-msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
-msgstr "ใช้ได้เฉพาะรหัสนี้ หากไม่ถูกต้องหรือหมดอายุ จะไม่มีอะไรเกิดขึ้น"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:86
 msgid "Open"
 msgstr "เปิด"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:87 includes/modules/class-zappoppop-targeting-triggers.php:433
-msgid "Pages"
-msgstr "หน้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:88 includes/modules/class-zappoppop-targeting-triggers.php:410
-msgid "Periodicity"
-msgstr "ความถี่"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:89
 msgid "Picture"
 msgstr "รูปภาพ"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:90 includes/modules/class-zappoppop-targeting-triggers.php:401
-msgid "Popup Targeting"
-msgstr "การกำหนดเป้าหมายป๊อปอัป"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:91 includes/class-pro-module-html-strings.php:99
 msgid "Popup position"
 msgstr "ตำแหน่งป๊อปอัป"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:92 includes/modules/class-zappoppop-targeting-triggers.php:432
-msgid "Posts"
-msgstr "โพสต์"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:93
 msgid "Pre-selected rating when the form loads. Choose No rating to leave it empty."
 msgstr "คะแนนที่เลือกไว้ล่วงหน้าเมื่อโหลดฟอร์ม เลือกไม่มีคะแนนเพื่อปล่อยว่าง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:94 includes/modules/class-zappoppop-woo-cart.php:719
-msgid "Product IDs"
-msgstr "รหัสสินค้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:95 includes/modules/class-zappoppop-woo-cart.php:721
-msgid "Product categories"
-msgstr "หมวดหมู่สินค้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:96 includes/modules/class-zappoppop-woo-cart.php:755
-msgid "Product page categories"
-msgstr "หมวดหมู่หน้าสินค้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:97 includes/modules/class-zappoppop-woo-cart.php:750
-msgid "Product pages"
-msgstr "หน้าสินค้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:98 includes/modules/class-zappoppop-woo-cart.php:753
-msgid "Products"
-msgstr "สินค้า"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:99
 msgid "Remove icon"
@@ -399,73 +827,13 @@ msgstr "ลบไอคอน"
 msgid "Save Changes"
 msgstr "บันทึกการเปลี่ยนแปลง"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:101 includes/modules/class-zappoppop-targeting-triggers.php:420
-msgid "Scrolling offset"
-msgstr "ระยะเลื่อน"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:102 includes/modules/class-zappoppop-targeting-triggers.php:421
-msgid "Scrolling offset unit"
-msgstr "หน่วยระยะเลื่อน"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:103
 msgid "Select icon"
 msgstr "เลือกไอคอน"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:104 includes/modules/class-zappoppop-woo-cart.php:751
-msgid "Selected products"
-msgstr "สินค้าที่เลือก"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:105 includes/class-pro-module-html-strings.php:110
 msgid "Send Welcome Email"
 msgstr "ส่งอีเมลต้อนรับ"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:106 includes/modules/class-zappoppop-woo-cart.php:769
-msgid "Send a cart reminder email"
-msgstr "ส่งอีเมลเตือนตะกร้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:107 includes/modules/class-zappoppop-woo-cart.php:771
-msgid "Send after"
-msgstr "ส่งหลังจาก"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:108 includes/modules/class-zappoppop-targeting-triggers.php:414
-msgid "Show again after"
-msgstr "แสดงอีกครั้งหลังจาก"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:109 includes/modules/class-zappoppop-woo-cart.php:748
-msgid "Show on pages"
-msgstr "แสดงบนหน้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:110 includes/modules/class-zappoppop-woo-cart.php:726
-msgid "Show right after an item is added to the cart"
-msgstr "แสดงทันทีหลังเพิ่มสินค้าลงตะกร้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:111 includes/modules/class-zappoppop-woo-cart.php:708
-msgid "Show this popup when the cart is"
-msgstr "แสดงป๊อปอัปนี้เมื่อตะกร้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:112 includes/modules/class-zappoppop-woo-cart.php:780
-msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
-msgstr "แสดงในอีเมลและใช้เมื่อผู้เยี่ยมชมกลับมาที่ตะกร้า ใช้คูปอง WooCommerce จริง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:113 includes/modules/class-zappoppop-targeting-triggers.php:429
-msgid "Site Area"
-msgstr "พื้นที่เว็บไซต์"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:114 includes/modules/class-zappoppop-targeting-triggers.php:430
-msgid "Sitewide"
-msgstr "ทั้งเว็บไซต์"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:115 includes/modules/class-zappoppop-targeting-triggers.php:437
-msgid "Specific"
-msgstr "เฉพาะเจาะจง"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:116 includes/modules/class-zappoppop-targeting-triggers.php:443
-msgid "Specific pages"
-msgstr "หน้าเฉพาะ"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118 includes/modules/class-zappoppop-targeting-triggers.php:416
-msgid "Start delay"
-msgstr "การหน่วงเวลาเริ่ม"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:118
 msgid "Store the submitted rating with the lead record."
@@ -475,14 +843,6 @@ msgstr "บันทึกคะแนนที่ส่งไว้พร้อ
 msgid "Subscriber values"
 msgstr "ค่าผู้สมัคร"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:120 includes/modules/class-zappoppop-targeting-triggers.php:439
-msgid "Tags"
-msgstr "แท็ก"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:121 includes/modules/class-zappoppop-targeting-triggers.php:409
-msgid "Target Properties"
-msgstr "คุณสมบัติเป้าหมาย"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:122 includes/class-pro-module-html-strings.php:127
 msgid "Thank you. We have already got your request."
 msgstr "ขอบคุณ เราได้รับคำขอของคุณแล้ว"
@@ -490,22 +850,6 @@ msgstr "ขอบคุณ เราได้รับคำขอของค�
 #: assets/js/zappoppop-pro-i18n-catalog.js:123
 msgid "The URL parameter to read, e.g. rating for ?rating=4."
 msgstr "พารามิเตอร์ URL ที่จะอ่าน เช่น rating สำหรับ ?rating=4"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:124 includes/modules/class-zappoppop-woo-cart.php:764
-msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
-msgstr "ป๊อปอัปจะไม่แสดงเมื่อไม่มีอัปเซลล์ เช่น เมื่อสินค้าอยู่ในตะกร้าแล้วหรือสินค้าหมด"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:125 includes/modules/class-zappoppop-woo-cart.php:725
-msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
-msgstr "ป๊อปอัปจะแสดงเมื่อตะกร้ามีสินค้าจากหมวดหมู่ที่เลือก ไม่เลือกเลย = ปิด"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:126 includes/modules/class-zappoppop-woo-cart.php:762
-msgid "The product to offer. A variation ID is allowed."
-msgstr "สินค้าที่จะเสนอ อนุญาตให้ใช้รหัสตัวเลือกสินค้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:127 includes/modules/class-zappoppop-woo-cart.php:756
-msgid "This rule is checked on the server, so it also works with full-page caches."
-msgstr "กฎนี้ตรวจสอบที่เซิร์ฟเวอร์ จึงใช้ได้กับแคชทั้งหน้าด้วย"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:128
 msgid "Top center"
@@ -518,62 +862,6 @@ msgstr "ซ้ายบน"
 #: assets/js/zappoppop-pro-i18n-catalog.js:130
 msgid "Top right"
 msgstr "ขวาบน"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:131 includes/modules/class-zappoppop-woo-cart.php:704
-msgid "Turn the WooCommerce cart features for this popup on or off"
-msgstr "เปิดหรือปิดฟีเจอร์ตะกร้า WooCommerce สำหรับป๊อปอัปนี้"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:132 includes/modules/class-zappoppop-targeting-triggers.php:402
-msgid "Turn the entire Targeting Triggers setting on or off"
-msgstr "เปิดหรือปิดการตั้งค่าทริกเกอร์การกำหนดเป้าหมายทั้งหมด"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:133 includes/modules/class-zappoppop-woo-cart.php:757
-msgid "Upsell"
-msgstr "อัปเซลล์"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:134 includes/modules/class-zappoppop-woo-cart.php:761
-msgid "Upsell product ID"
-msgstr "รหัสสินค้าอัปเซลล์"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:135 includes/modules/class-zappoppop-woo-cart.php:766
-msgid "Upsell product name"
-msgstr "ชื่อสินค้าอัปเซลล์"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:136 includes/modules/class-zappoppop-woo-cart.php:767
-msgid "Upsell product price"
-msgstr "ราคาสินค้าอัปเซลล์"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:137 includes/modules/class-zappoppop-targeting-triggers.php:428
-msgid "User Roles"
-msgstr "บทบาทผู้ใช้"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:138 includes/modules/class-zappoppop-woo-cart.php:743
-msgid "When a button is clicked"
-msgstr "เมื่อคลิกปุ่ม"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:139 includes/modules/class-zappoppop-woo-cart.php:742
-msgid "When the popup opens"
-msgstr "เมื่อป๊อปอัปเปิด"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:140 includes/modules/class-zappoppop-woo-cart.php:707
-msgid "WooCommerce is not active on this site, so the cart rules are ignored."
-msgstr "WooCommerce ไม่ได้เปิดใช้งานบนเว็บไซต์นี้ จึงไม่สนใจกฎตะกร้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:141 includes/modules/class-zappoppop-woo-cart.php:727
-msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
-msgstr "ใช้ได้กับการเพิ่มลงตะกร้าผ่าน AJAX และบล็อกตะกร้า แสดงหนึ่งครั้งต่อการดูหน้าและเฉพาะเมื่อตรงตามเงื่อนไขด้านบน"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:142 includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
-msgid "You left something in your cart"
-msgstr "คุณทิ้งสินค้าไว้ในตะกร้า"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:143 includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
-msgid "Your cart is saved. Come back any time to finish your order."
-msgstr "บันทึกตะกร้าของคุณแล้ว กลับมาเมื่อใดก็ได้เพื่อสั่งซื้อให้เสร็จ"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:144 includes/modules/class-zappoppop-double-optin.php:22
-msgid "Your email address successfully confirmed."
-msgstr "ยืนยันที่อยู่อีเมลของคุณสำเร็จแล้ว"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:145
 msgid "e.g. rating"
@@ -648,11 +936,11 @@ msgstr[0] "%s ดาว"
 msgid "Please select a rating."
 msgstr "โปรดเลือกคะแนน"
 
-#: includes/class-pro-admin.php:25 includes/class-pro-admin.php:36 templates/license-edd.php:30 templates/license-page.php:6 templates/license-page.php:15
+#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 templates/license-edd.php:30 templates/license-page.php:6
 msgid "License"
 msgstr "ใบอนุญาต"
 
-#: includes/class-pro-admin.php:41 includes/class-pro-admin.php:66 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
+#: includes/class-pro-admin.php:34 includes/class-pro-admin.php:59 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
 msgid "You do not have sufficient permissions to access this page."
 msgstr "คุณไม่มีสิทธิ์เพียงพอที่จะเข้าถึงหน้านี้"
 
@@ -660,23 +948,23 @@ msgstr "คุณไม่มีสิทธิ์เพียงพอที่
 msgid "ZapPopPop Pro add-on."
 msgstr "ส่วนเสริม ZapPopPop Pro"
 
-#: includes/class-pro-edd.php:119
+#: includes/class-pro-edd.php:117
 msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
 msgstr "ยังไม่ได้ตั้งค่าการออกใบอนุญาต เพิ่ม URL ของร้านค้าและรหัสสินค้าใน wp-config.php"
 
-#: includes/class-pro-edd.php:133
+#: includes/class-pro-edd.php:131
 msgid "The licence server did not answer. Please try again later."
 msgstr "เซิร์ฟเวอร์ใบอนุญาตไม่ตอบสนอง โปรดลองอีกครั้งในภายหลัง"
 
-#: includes/class-pro-edd.php:137
+#: includes/class-pro-edd.php:135
 msgid "The licence server sent an unexpected answer."
 msgstr "เซิร์ฟเวอร์ใบอนุญาตส่งการตอบกลับที่ไม่คาดคิด"
 
-#: includes/class-pro-edd.php:148 includes/class-pro-edd.php:188
+#: includes/class-pro-edd.php:146 includes/class-pro-edd.php:189
 msgid "Enter your licence key."
 msgstr "กรอกคีย์ใบอนุญาตของคุณ"
 
-#: includes/class-pro-edd.php:161
+#: includes/class-pro-edd.php:159
 msgid "Licence activated. Thank you!"
 msgstr "เปิดใช้งานใบอนุญาตแล้ว ขอบคุณ!"
 
@@ -684,83 +972,87 @@ msgstr "เปิดใช้งานใบอนุญาตแล้ว ข�
 msgid "There is no licence to deactivate."
 msgstr "ไม่มีใบอนุญาตให้ปิดใช้งาน"
 
-#: includes/class-pro-edd.php:181
+#: includes/class-pro-edd.php:182
 msgid "Licence deactivated for this site."
 msgstr "ปิดใช้งานใบอนุญาตสำหรับเว็บไซต์นี้แล้ว"
 
-#: includes/class-pro-edd.php:202
+#: includes/class-pro-edd.php:203
 msgid "Your licence is active."
 msgstr "ใบอนุญาตของคุณใช้งานอยู่"
 
-#: includes/class-pro-edd.php:224
+#: includes/class-pro-edd.php:225
 msgid "Security check failed. Please go back and try again."
 msgstr "การตรวจสอบความปลอดภัยล้มเหลว กรุณาย้อนกลับและลองอีกครั้ง"
 
-#: includes/class-pro-edd.php:227
+#: includes/class-pro-edd.php:228
 msgid "You do not have sufficient permissions to manage the licence."
 msgstr "คุณไม่มีสิทธิ์เพียงพอที่จะจัดการใบอนุญาต"
 
-#: includes/class-pro-edd.php:267
+#: includes/class-pro-edd.php:241
+msgid "Add-on licences synced."
+msgstr "ซิงค์ใบอนุญาตของส่วนเสริมแล้ว"
+
+#: includes/class-pro-edd.php:272
 msgid "Lifetime"
 msgstr "ตลอดชีพ"
 
-#: includes/class-pro-edd.php:275 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
+#: includes/class-pro-edd.php:280 includes/class-pro-pass.php:396 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
 msgid "Active"
 msgstr "ใช้งานอยู่"
 
-#: includes/class-pro-edd.php:276 templates/license-edd.php:21
+#: includes/class-pro-edd.php:281 includes/class-pro-pass.php:399 templates/license-edd.php:21
 msgid "Expired"
 msgstr "หมดอายุ"
 
-#: includes/class-pro-edd.php:277 includes/class-pro-edd.php:284 templates/license-edd.php:15
+#: includes/class-pro-edd.php:282 includes/class-pro-edd.php:289 templates/license-edd.php:15
 msgid "Not activated"
 msgstr "ยังไม่เปิดใช้งาน"
 
-#: includes/class-pro-edd.php:278
+#: includes/class-pro-edd.php:283
 msgid "Not activated on this site"
 msgstr "ยังไม่เปิดใช้งานบนเว็บไซต์นี้"
 
-#: includes/class-pro-edd.php:279
+#: includes/class-pro-edd.php:284
 msgid "Disabled"
 msgstr "ปิดใช้งาน"
 
-#: includes/class-pro-edd.php:280
+#: includes/class-pro-edd.php:285
 msgid "Revoked"
 msgstr "ถูกเพิกถอน"
 
-#: includes/class-pro-edd.php:281 includes/class-pro-edd.php:282
+#: includes/class-pro-edd.php:286 includes/class-pro-edd.php:287
 msgid "Invalid key"
 msgstr "คีย์ไม่ถูกต้อง"
 
-#: includes/class-pro-edd.php:292
+#: includes/class-pro-edd.php:297
 msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
 msgstr "ใบอนุญาตนี้หมดอายุเมื่อ %s ฟีเจอร์ Pro ยังใช้งานได้ต่อบนเว็บไซต์ที่เปิดใช้งานไว้แล้ว ต่ออายุเพื่อรับการอัปเดตและการสนับสนุน"
 
-#: includes/class-pro-edd.php:293
+#: includes/class-pro-edd.php:298
 msgid "This licence has expired. Renew it to receive updates and support."
 msgstr "ใบอนุญาตนี้หมดอายุแล้ว ต่ออายุเพื่อรับการอัปเดตและการสนับสนุน"
 
-#: includes/class-pro-edd.php:296
+#: includes/class-pro-edd.php:301
 msgid "This licence key is not valid. Please check it and try again."
 msgstr "คีย์ใบอนุญาตนี้ไม่ถูกต้อง กรุณาตรวจสอบและลองอีกครั้ง"
 
-#: includes/class-pro-edd.php:298
+#: includes/class-pro-edd.php:303
 msgid "This licence has no activations left. Deactivate it on another site or upgrade your plan."
 msgstr "ใบอนุญาตนี้ไม่มีสิทธิ์เปิดใช้งานเหลือ ปิดใช้งานบนเว็บไซต์อื่นหรืออัปเกรดแพ็กเกจของคุณ"
 
-#: includes/class-pro-edd.php:301
+#: includes/class-pro-edd.php:306
 msgid "This licence is not active on this site. Activate it again."
 msgstr "ใบอนุญาตนี้ไม่ได้ใช้งานบนเว็บไซต์นี้ เปิดใช้งานอีกครั้ง"
 
-#: includes/class-pro-edd.php:304
+#: includes/class-pro-edd.php:309
 msgid "This licence has been disabled. Please contact support."
 msgstr "ใบอนุญาตนี้ถูกปิดใช้งาน กรุณาติดต่อฝ่ายสนับสนุน"
 
-#: includes/class-pro-edd.php:307
+#: includes/class-pro-edd.php:312
 msgid "This key belongs to a different product."
 msgstr "คีย์นี้เป็นของสินค้าอื่น"
 
-#: includes/class-pro-edd.php:309
+#: includes/class-pro-edd.php:314
 msgid "The licence could not be verified. Please try again or contact support."
 msgstr "ไม่สามารถตรวจสอบใบอนุญาตได้ โปรดลองอีกครั้งหรือติดต่อฝ่ายสนับสนุน"
 
@@ -768,7 +1060,7 @@ msgstr "ไม่สามารถตรวจสอบใบอนุญาต
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr "ต้องมีใบอนุญาต ZapPopPop Pro ที่ใช้งานอยู่ ตัวเลือกที่บันทึกไว้ของคุณจะยังคงอยู่"
 
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:158 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
 msgid "Activate licence"
 msgstr "เปิดใช้งานใบอนุญาต"
 
@@ -975,10 +1267,6 @@ msgstr "ช่องที่เก็บคีย์ข้อมูลส่ว
 #: includes/class-pro-module-html-strings.php:75
 msgid "Fireworks (needs Canvas Fireworks library)"
 msgstr "ดอกไม้ไฟ (ต้องใช้ไลบรารี Canvas Fireworks)"
-
-#: includes/class-pro-module-html-strings.php:76 includes/modules/class-zappoppop-targeting-triggers.php:426
-msgid "From"
-msgstr "จาก"
 
 #: includes/class-pro-module-html-strings.php:77
 msgid "Guests Only"
@@ -1196,10 +1484,6 @@ msgstr "ใช้ปุ่มแท็กเพื่อแทรกค่าข
 msgid "Visitor Authentication"
 msgstr "การยืนยันตัวตนผู้เยี่ยมชม"
 
-#: includes/class-pro-module-html-strings.php:135 includes/modules/class-zappoppop-autoresponder.php:95
-msgid "Welcome! Here is your reward"
-msgstr "ยินดีต้อนรับ! นี่คือรางวัลของคุณ"
-
 #: includes/class-pro-module-html-strings.php:136
 msgid "Zooming Entrances"
 msgstr "การเข้าแบบซูม"
@@ -1320,35 +1604,59 @@ msgstr "การกำหนดเป้าหมาย"
 msgid "Visitor authentication, targeting and attribution rules."
 msgstr "กฎการยืนยันตัวตนผู้เยี่ยมชม การกำหนดเป้าหมาย และการระบุแหล่งที่มา"
 
-#: includes/class-pro-module-strings.php:68 includes/modules/class-zappoppop-woo-cart.php:703
-msgid "WooCommerce Cart"
-msgstr "ตะกร้า WooCommerce"
-
 #: includes/class-pro-module-strings.php:69
 msgid "Show popups by cart contents and fill live cart values into popup text."
 msgstr "แสดงป๊อปอัปตามเนื้อหาในตะกร้าและเติมค่าตะกร้าแบบสดลงในข้อความป๊อปอัป"
 
-#: includes/class-pro-plugin.php:109
+#: includes/class-pro-pass.php:77
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: includes/class-pro-pass.php:78
+msgid "Subscribe popup form submissions to Mailchimp audiences with merge fields, groups, tags and double opt-in."
+msgstr "สมัครสมาชิกการส่งฟอร์มของป๊อปอัปเข้ากลุ่มเป้าหมาย Mailchimp พร้อมฟิลด์ผสาน กลุ่ม แท็ก และดับเบิลออปต์อิน"
+
+#: includes/class-pro-pass.php:83
+msgid "GetResponse"
+msgstr "GetResponse"
+
+#: includes/class-pro-pass.php:84
+msgid "Add popup form submissions to GetResponse campaigns with custom field mapping."
+msgstr "เพิ่มการส่งฟอร์มของป๊อปอัปไปยังแคมเปญ GetResponse พร้อมการแมปฟิลด์กำหนดเอง"
+
+#: includes/class-pro-pass.php:278
+msgid "All Access"
+msgstr "All Access"
+
+#: includes/class-pro-pass.php:393
+msgid "Not installed"
+msgstr "ยังไม่ได้ติดตั้ง"
+
+#: includes/class-pro-pass.php:402
+msgid "Not in your licence"
+msgstr "ไม่อยู่ในใบอนุญาตของคุณ"
+
+#: includes/class-pro-plugin.php:122
 msgid "Outdated %1$s: minimum required %2$s"
 msgstr "%1$s ล้าสมัย: ต้องการขั้นต่ำ %2$s"
 
-#: includes/class-pro-plugin.php:111
+#: includes/class-pro-plugin.php:124
 msgid "Missing %1$s: minimum required %2$s"
 msgstr "ไม่พบ %1$s: ต้องการขั้นต่ำ %2$s"
 
-#: includes/class-pro-plugin.php:116
+#: includes/class-pro-plugin.php:129
 msgid "This plugin is not fully active."
 msgstr "ปลั๊กอินนี้ยังไม่ทำงานเต็มที่"
 
-#: includes/class-pro-plugin.php:142
+#: includes/class-pro-plugin.php:155
 msgid "ZapPopPop Pro needs the ZapPopPop plugin. Install and activate ZapPopPop first."
 msgstr "ZapPopPop Pro ต้องใช้ปลั๊กอิน ZapPopPop ติดตั้งและเปิดใช้งาน ZapPopPop ก่อน"
 
-#: includes/class-pro-plugin.php:146
+#: includes/class-pro-plugin.php:159
 msgid "ZapPopPop Pro needs a newer version of ZapPopPop. Please update ZapPopPop."
 msgstr "ZapPopPop Pro ต้องใช้ ZapPopPop เวอร์ชันใหม่กว่า กรุณาอัปเดต ZapPopPop"
 
-#: includes/class-pro-plugin.php:156
+#: includes/class-pro-plugin.php:169
 msgid "ZapPopPop Pro is not activated. Pro templates and modules stay locked until you enter your licence key."
 msgstr "ZapPopPop Pro ยังไม่ได้เปิดใช้งาน เทมเพลตและโมดูล Pro จะยังถูกล็อกจนกว่าคุณจะกรอกคีย์ใบอนุญาต"
 
@@ -1496,262 +1804,6 @@ msgstr "ใช้คูปองกับตะกร้าสำเร็จ!"
 msgid "Unable to apply coupon to cart."
 msgstr "ไม่สามารถใช้คูปองกับตะกร้าได้"
 
-#: includes/modules/class-zappoppop-ajax-getresponse.php:21 includes/modules/class-zappoppop-ajax-mailchimp.php:22
-msgid "Permission denied."
-msgstr "ปฏิเสธการเข้าถึง"
-
-#: includes/modules/class-zappoppop-ajax-getresponse.php:25
-msgid "Enter a valid GetResponse API key."
-msgstr "กรอกคีย์ API ของ GetResponse ที่ถูกต้อง"
-
-#: includes/modules/class-zappoppop-ajax-mailchimp.php:26
-msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
-msgstr "กรอกคีย์ API ของ MailChimp ที่ถูกต้อง (เช่น 0123456789abcdef-us21)"
-
-#: includes/modules/class-zappoppop-autoresponder.php:96
-msgid "Thank you for subscribing!\n\nEnjoy your offer."
-msgstr "ขอบคุณที่สมัครรับข้อมูล!\n\nขอให้สนุกกับข้อเสนอของคุณ"
-
-#: includes/modules/class-zappoppop-double-optin.php:18
-msgid "Please confirm your email address"
-msgstr "กรุณายืนยันที่อยู่อีเมลของคุณ"
-
-#: includes/modules/class-zappoppop-double-optin.php:19
-msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
-msgstr "เรียนผู้เยี่ยมชม!\n\nกรุณายืนยันที่อยู่อีเมลของคุณโดยคลิกลิงก์ต่อไปนี้:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nขอบคุณ"
-
-#: includes/modules/class-zappoppop-double-optin.php:22
-msgid "Thank you!"
-msgstr "ขอบคุณ!"
-
-#: includes/modules/class-zappoppop-getresponse.php:210 includes/modules/class-zappoppop-mailchimp.php:222
-msgid "Invalid API key."
-msgstr "คีย์ API ไม่ถูกต้อง"
-
-#: includes/modules/class-zappoppop-getresponse.php:232
-msgid "GetResponse returned HTTP %d."
-msgstr "GetResponse ส่งคืน HTTP %d"
-
-#: includes/modules/class-zappoppop-getresponse.php:252
-msgid "Email Address"
-msgstr "ที่อยู่อีเมล"
-
-#: includes/modules/class-zappoppop-getresponse.php:252
-msgid "Full name"
-msgstr "ชื่อเต็ม"
-
-#: includes/modules/class-zappoppop-getresponse.php:265
-msgid "API key or campaign is missing."
-msgstr "ไม่มีคีย์ API หรือแคมเปญ"
-
-#: includes/modules/class-zappoppop-getresponse.php:267 includes/modules/class-zappoppop-mailchimp.php:304
-msgid "Invalid email address."
-msgstr "ที่อยู่อีเมลไม่ถูกต้อง"
-
-#: includes/modules/class-zappoppop-mailchimp.php:246
-msgid "MailChimp returned HTTP %d."
-msgstr "MailChimp ส่งคืน HTTP %d"
-
-#: includes/modules/class-zappoppop-mailchimp.php:263 includes/modules/class-zappoppop-mailchimp.php:277
-msgid "Select an audience first."
-msgstr "เลือกกลุ่มเป้าหมายก่อน"
-
-#: includes/modules/class-zappoppop-mailchimp.php:266
-msgid "Email address"
-msgstr "ที่อยู่อีเมล"
-
-#: includes/modules/class-zappoppop-mailchimp.php:302
-msgid "API key or audience is missing."
-msgstr "ไม่มีคีย์ API หรือกลุ่มเป้าหมาย"
-
-#: includes/modules/class-zappoppop-protect.php:207 includes/modules/class-zappoppop-protect.php:215 includes/modules/class-zappoppop-protect.php:278
-msgid "ZapPopPop submissions"
-msgstr "การส่งข้อมูล ZapPopPop"
-
-#: includes/modules/class-zappoppop-side-tabs.php:117
-msgid "Offer"
-msgstr "ข้อเสนอ"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:372
-msgid "(no title)"
-msgstr "(ไม่มีชื่อ)"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:398
-msgid "Visitors (logged out)"
-msgstr "ผู้เยี่ยมชม (ไม่ได้ล็อกอิน)"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:399 includes/modules/class-zappoppop-woo-cart.php:722
-msgid "Search..."
-msgstr "ค้นหา..."
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:400 includes/modules/class-zappoppop-woo-cart.php:723
-msgid "Nothing found."
-msgstr "ไม่พบสิ่งใด"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:404
-msgid "OnLoad"
-msgstr "เมื่อโหลด"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:405
-msgid "OnScroll"
-msgstr "เมื่อเลื่อน"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:406
-msgid "OnExit"
-msgstr "เมื่อออก"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:407
-msgid "OnInactivity"
-msgstr "เมื่อไม่มีกิจกรรม"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:415
-msgid "hrs"
-msgstr "ชม."
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:417
-msgid "sec"
-msgstr "วิ"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:419
-msgid "Close delay 0 keeps the popup open until it is closed."
-msgstr "การหน่วงเวลาปิดเป็น 0 จะคงป๊อปอัปเปิดไว้จนกว่าจะถูกปิด"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:427
-msgid "End"
-msgstr "สิ้นสุด"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:434
-msgid "URL"
-msgstr "URL"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
-msgid "All"
-msgstr "ทั้งหมด"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:444
-msgid "URL contains"
-msgstr "URL มี"
-
-#: includes/modules/class-zappoppop-woo-cart.php:709
-msgid "Any"
-msgstr "ใดก็ได้"
-
-#: includes/modules/class-zappoppop-woo-cart.php:717
-msgid "items"
-msgstr "รายการ"
-
-#: includes/modules/class-zappoppop-woo-cart.php:718
-msgid "A value of 0 turns that condition off."
-msgstr "ค่า 0 จะปิดเงื่อนไขนั้น"
-
-#: includes/modules/class-zappoppop-woo-cart.php:730
-msgid "0 = detect it from your WooCommerce free shipping method."
-msgstr "0 = ตรวจจับจากวิธีจัดส่งฟรีของ WooCommerce"
-
-#: includes/modules/class-zappoppop-woo-cart.php:732
-msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
-msgstr "พิมพ์สิ่งเหล่านี้ในเลเยอร์ข้อความใดก็ได้ ตัวอย่างสดจะแสดงค่าตัวอย่าง ผู้เยี่ยมชมจะเห็นตะกร้าของตนเอง"
-
-#: includes/modules/class-zappoppop-woo-cart.php:740
-msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
-msgstr "คูปอง WooCommerce ที่มีอยู่ จะเติมค่าให้ {coupon_code} และการนับถอยหลัง รหัสมองเห็นได้ในซอร์สของหน้า จึงไม่ควรใช้รหัสส่วนตัว"
-
-#: includes/modules/class-zappoppop-woo-cart.php:744
-msgid "Give a button the link #zpp-apply-coupon."
-msgstr "ตั้งลิงก์ของปุ่มเป็น #zpp-apply-coupon"
-
-#: includes/modules/class-zappoppop-woo-cart.php:752
-msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
-msgstr "หน้าสินค้า: ป๊อปอัปจะไม่แสดงบนหน้าอื่น สินค้าที่เลือก: เฉพาะสินค้าหรือหมวดหมู่ด้านล่าง (ไม่เลือกเลย = ทุกหน้าสินค้า)"
-
-#: includes/modules/class-zappoppop-woo-cart.php:763
-msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
-msgstr "อัตโนมัติจะใช้ครอสเซลล์ของตะกร้าผู้เยี่ยมชม แล้วจึงใช้อัปเซลล์ของสินค้าในตะกร้า ตั้งค่าได้ที่สินค้า WooCommerce แต่ละรายการ"
-
-#: includes/modules/class-zappoppop-woo-cart.php:765
-msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
-msgstr "ตั้งลิงก์ของปุ่มเป็น #zpp-add-upsell เพื่อเพิ่มสินค้าลงตะกร้า (แล้วป๊อปอัปจะปิด) หรือ #zpp-view-upsell เพื่อเปิดหน้าสินค้า สินค้าแบบมีตัวเลือกใช้ได้เฉพาะลิงก์ดู"
-
-#: includes/modules/class-zappoppop-woo-cart.php:770
-msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
-msgstr "ส่งหนึ่งครั้งถึงผู้เยี่ยมชมที่ส่งฟอร์มของป๊อปอัปนี้โดยติ๊กช่องยินยอมและมีสินค้าในตะกร้า จะไม่บันทึกสิ่งใดหากไม่ได้รับความยินยอม"
-
-#: includes/modules/class-zappoppop-woo-cart.php:772
-msgid "minutes"
-msgstr "นาที"
-
-#: includes/modules/class-zappoppop-woo-cart.php:774
-msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
-msgstr "เพิ่มเลเยอร์ช่องทำเครื่องหมายลงในฟอร์ม (เช่น \"ส่งอีเมลเตือนเกี่ยวกับตะกร้าของฉัน\") และพิมพ์ชื่อเดียวกันในขั้นสูง > ชื่อช่อง หากไม่ติ๊ก = ไม่บันทึกสิ่งใด"
-
-#: includes/modules/class-zappoppop-woo-cart.php:779
-msgid "Coupon code (optional)"
-msgstr "รหัสคูปอง (ไม่บังคับ)"
-
-#: includes/modules/class-zappoppop-woo-cart.php:781
-msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
-msgstr "จะไม่ส่งอีเมลหากมีการสั่งซื้อด้วยที่อยู่เดียวกัน ทุกอีเมลมีลิงก์ยกเลิกการสมัคร ที่อยู่ที่ยกเลิกแล้วจะไม่ถูกบันทึกอีก การส่งใช้ WordPress cron และ wp_mail()"
-
-#: includes/modules/class-zappoppop-woo-cart.php:782
-msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
-msgstr "การนับถอยหลังและวันหมดอายุมาจากวันหมดอายุจริงของคูปองใน WooCommerce"
-
-#: includes/modules/class-zappoppop-woo-cart.php:783
-msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
-msgstr "แถบจัดส่งฟรี: เพิ่มเลเยอร์แถบความคืบหน้า ตั้งโหมดเป็น \"อัตโนมัติ: จัดส่งฟรีของ WooCommerce\" และเขียนป้ายชื่อดังนี้: เพิ่ม {shipping_remaining} เพื่อรับจัดส่งฟรี || คุณได้รับจัดส่งฟรีแล้ว!"
-
-#: includes/modules/class-zappoppop-woo-recover.php:401
-msgid "Use code %s at checkout."
-msgstr "ใช้รหัส %s ตอนชำระเงิน"
-
-#: includes/modules/class-zappoppop-woo-recover.php:408
-msgid "Return to your cart"
-msgstr "กลับไปที่ตะกร้าของคุณ"
-
-#: includes/modules/class-zappoppop-woo-recover.php:411
-msgid "You are receiving this because you asked for a cart reminder on %s."
-msgstr "คุณได้รับอีเมลนี้เพราะคุณขอการเตือนตะกร้าที่ %s"
-
-#: includes/modules/class-zappoppop-woo-recover.php:412 includes/modules/class-zappoppop-woo-recover.php:433
-msgid "Unsubscribe"
-msgstr "ยกเลิกการสมัคร"
-
-#: includes/modules/class-zappoppop-woo-recover.php:432
-msgid "You have been unsubscribed. We will not send you cart reminders again."
-msgstr "คุณยกเลิกการสมัครแล้ว เราจะไม่ส่งอีเมลเตือนตะกร้าถึงคุณอีก"
-
-#: includes/modules/class-zappoppop-woo-recover.php:432
-msgid "This unsubscribe link is not valid."
-msgstr "ลิงก์ยกเลิกการสมัครนี้ไม่ถูกต้อง"
-
-#: includes/modules/class-zappoppop-woo-recover.php:506 includes/modules/class-zappoppop-woo-recover.php:514
-msgid "ZapPopPop abandoned cart emails"
-msgstr "อีเมลตะกร้าที่ถูกทิ้งของ ZapPopPop"
-
-#: includes/modules/class-zappoppop-woo-recover.php:530
-msgid "Abandoned cart emails"
-msgstr "อีเมลตะกร้าที่ถูกทิ้ง"
-
-#: includes/modules/class-zappoppop-woo-recover.php:533
-msgid "Email"
-msgstr "อีเมล"
-
-#: includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
-msgid "Status"
-msgstr "สถานะ"
-
-#: includes/modules/class-zappoppop-woo-recover.php:535
-msgid "Saved on"
-msgstr "บันทึกเมื่อ"
-
-#: includes/modules/class-zappoppop-woo-recover.php:536
-msgid "Cart lines"
-msgstr "รายการในตะกร้า"
-
-#: includes/modules/class-zappoppop-woo-recover.php:558
-msgid "The address is kept on a do-not-email list because the person unsubscribed."
-msgstr "ที่อยู่นี้ถูกเก็บไว้ในรายการห้ามส่งอีเมลเพราะบุคคลนั้นยกเลิกการสมัคร"
-
 #: includes/modules/class-zappoppop-woocommerce.php:98
 msgid "Generated by ZapPopPop campaign"
 msgstr "สร้างโดยแคมเปญ ZapPopPop"
@@ -1816,27 +1868,7 @@ msgstr "สัปดาห์ละครั้ง"
 msgid "No activity recorded."
 msgstr "ไม่มีกิจกรรมที่บันทึกไว้"
 
-#: modules/acc-popup-overlay/admin.js:163
-msgid "Maximum of 20 custom backgrounds."
-msgstr "สูงสุด 20 พื้นหลังกำหนดเอง"
-
-#: modules/acc-popup-overlay/admin.js:170
-msgid "Delete this background?"
-msgstr "ลบพื้นหลังนี้หรือไม่"
-
-#: modules/acc-popup-overlay/admin.js:179
-msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
-msgstr "สื่อ WordPress ไม่พร้อมใช้งาน กรอก URL รูปภาพ (JPG/PNG):"
-
-#: modules/acc-popup-overlay/admin.js:199
-msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
-msgstr "กรุณาเลือกรูปภาพ JPEG หรือ PNG (.jpg, .jpeg, .png)"
-
-#: modules/acc-popup-overlay/admin.js:202
-msgid "Please enter the animation HTML / JS."
-msgstr "กรุณากรอก HTML / JS ของแอนิเมชัน"
-
-#: templates/license-edd.php:44 templates/license-page.php:24
+#: templates/license-edd.php:44
 msgid "Licensing is not set up yet"
 msgstr "ยังไม่ได้ตั้งค่าการออกใบอนุญาต"
 
@@ -1852,7 +1884,7 @@ msgstr "URL หน้าแรกของร้านค้า (https)"
 msgid "Download ID of ZapPopPop Pro in your store"
 msgstr "รหัสดาวน์โหลดของ ZapPopPop Pro ในร้านค้าของคุณ"
 
-#: templates/license-edd.php:52 templates/license-page.php:32 templates/locked-page.php:23
+#: templates/license-edd.php:52 templates/locked-page.php:23
 msgid "Your campaigns, statistics and settings are safe. Everything you created stays stored and keeps working on your site."
 msgstr "แคมเปญ สถิติ และการตั้งค่าของคุณปลอดภัย ทุกสิ่งที่คุณสร้างยังคงถูกจัดเก็บและทำงานต่อบนเว็บไซต์ของคุณ"
 
@@ -1892,37 +1924,41 @@ msgstr "คุณสามารถหาคีย์ได้ในใบเส
 msgid "Only a network administrator can change the licence."
 msgstr "เฉพาะผู้ดูแลเครือข่ายเท่านั้นที่เปลี่ยนใบอนุญาตได้"
 
-#: templates/license-edd.php:102
+#: templates/license-edd.php:103
 msgid "Licence server"
 msgstr "เซิร์ฟเวอร์ใบอนุญาต"
 
-#: templates/license-edd.php:105
+#: templates/license-edd.php:106
 msgid "Store"
 msgstr "ร้านค้า"
 
-#: templates/license-edd.php:107 templates/license-page.php:28
+#: templates/license-edd.php:108
 msgid "Product ID"
 msgstr "รหัสสินค้า"
 
-#: templates/license-edd.php:109
+#: templates/license-edd.php:110
 msgid "This site"
 msgstr "เว็บไซต์นี้"
 
-#: templates/license-edd.php:112
+#: templates/license-edd.php:113
 msgid "Activating uses one site slot. Deactivate the licence before you move the site to another domain. Updates arrive in Dashboard > Updates while the licence is active."
 msgstr "การเปิดใช้งานใช้สิทธิ์เว็บไซต์หนึ่งช่อง ปิดใช้งานใบอนุญาตก่อนย้ายเว็บไซต์ไปโดเมนอื่น การอัปเดตจะมาที่แดชบอร์ด > อัปเดต ขณะที่ใบอนุญาตใช้งานอยู่"
 
-#: templates/license-page.php:26
-msgid "ZapPopPop Pro uses Freemius for licence keys, updates and your account. Add the product details from your Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) to zappoppop-pro.php, or define them in wp-config.php:"
-msgstr "ZapPopPop Pro ใช้ Freemius สำหรับคีย์ใบอนุญาต การอัปเดต และบัญชีของคุณ เพิ่มรายละเอียดสินค้าจาก Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) ลงใน zappoppop-pro.php หรือกำหนดใน wp-config.php:"
+#: templates/license-products.php:21
+msgid "Add-ons on this licence"
+msgstr "ส่วนเสริมในใบอนุญาตนี้"
 
-#: templates/license-page.php:29
-msgid "Public key (starts with pk_)"
-msgstr "คีย์สาธารณะ (ขึ้นต้นด้วย pk_)"
+#: templates/license-products.php:35
+msgid "Your key does not cover every add-on. An All Access Pass unlocks Pro and all add-ons with one key."
+msgstr "คีย์ของคุณไม่ครอบคลุมส่วนเสริมทั้งหมด All Access Pass ปลดล็อก Pro และส่วนเสริมทั้งหมดด้วยคีย์เดียว"
 
-#: templates/license-page.php:30
-msgid "Product slug"
-msgstr "สลักสินค้า"
+#: templates/license-products.php:37
+msgid "Install an add-on like any plugin. It is activated with the key above and updated from Dashboard > Updates."
+msgstr "ติดตั้งส่วนเสริมเหมือนปลั๊กอินทั่วไป เปิดใช้งานด้วยคีย์ด้านบนและอัปเดตจากแดชบอร์ด > การอัปเดต"
+
+#: templates/license-products.php:43
+msgid "Sync add-ons"
+msgstr "ซิงค์ส่วนเสริม"
 
 #: templates/settings-library-rows.php:15
 msgid "Canvas Confetti"

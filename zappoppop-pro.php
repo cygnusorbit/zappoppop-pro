@@ -3,7 +3,7 @@
  * Plugin Name: ZapPopPop Pro
  * Plugin URI: https://zappoppop.com/
  * Description: Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics.
- * Version: 1.0.13
+ * Version: 1.0.14
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: ZapPopPop
@@ -21,7 +21,7 @@ if (defined('ZAPPOPPOP_PRO_VERSION')) {
     return;
 }
 
-define('ZAPPOPPOP_PRO_VERSION', '1.0.13');
+define('ZAPPOPPOP_PRO_VERSION', '1.0.14');
 define('ZAPPOPPOP_PRO_FILE', __FILE__);
 define('ZAPPOPPOP_PRO_PATH', plugin_dir_path(__FILE__));
 define('ZAPPOPPOP_PRO_URL', plugin_dir_url(__FILE__));
@@ -32,33 +32,6 @@ define('ZAPPOPPOP_PRO_MIN_API', 1);
 define('ZAPPOPPOP_PRO_MIN_CORE', '1.0.00');
 
 /*
- * ================================ FREEMIUS LICENSING ================================
- * Pro is sold as a paid-only Freemius product. Fill in the three values below (or define
- * them in wp-config.php; those win) with the data from your Freemius Developer Dashboard:
- * Products > ZapPopPop Pro > SDK Integration.
- *
- *   ZAPPOPPOP_PRO_FS_ID    Product ID (a number).
- *   ZAPPOPPOP_PRO_FS_KEY   Public key (starts with pk_). Never put the secret key here.
- *   ZAPPOPPOP_PRO_FS_SLUG  Product slug, exactly as in Freemius.
- *
- * While the ID is 0 the Freemius SDK stays off and Pro stays locked.
- * ================================================================================
- */
-if (!defined('ZAPPOPPOP_PRO_FS_ID')) {
-    define('ZAPPOPPOP_PRO_FS_ID', 45025);
-}
-if (!defined('ZAPPOPPOP_PRO_FS_KEY')) {
-    define('ZAPPOPPOP_PRO_FS_KEY', 'pk_21d6e1f66c95c7b00ce1117f56015');
-}
-if (!defined('ZAPPOPPOP_PRO_FS_SLUG')) {
-    define('ZAPPOPPOP_PRO_FS_SLUG', 'zappoppop');
-}
-if (!defined('ZAPPOPPOP_PRO_FS_PREMIUM_SLUG')) {
-    /* Folder name of this plugin, as set in Freemius. */
-    define('ZAPPOPPOP_PRO_FS_PREMIUM_SLUG', 'zappoppop-pro');
-}
-
-/*
  * ============================ EASY DIGITAL DOWNLOADS LICENSING ============================
  * Default licence provider. Pro talks to the EDD Software Licensing add-on on your store.
  * The store URL and Download ID are built in, so customers only enter their licence key.
@@ -67,9 +40,6 @@ if (!defined('ZAPPOPPOP_PRO_FS_PREMIUM_SLUG')) {
  *
  *   define( 'ZAPPOPPOP_PRO_EDD_URL', 'https://your-store.com/' );   Store home URL (https).
  *   define( 'ZAPPOPPOP_PRO_EDD_ITEM_ID', 123 );                     Download ID of ZapPopPop Pro.
- *
- * Optional: keep using Freemius instead of EDD.
- *   define( 'ZAPPOPPOP_PRO_LICENSE_PROVIDER', 'freemius' );
  * ==========================================================================================
  */
 if (!defined('ZAPPOPPOP_PRO_EDD_URL')) {
@@ -78,22 +48,27 @@ if (!defined('ZAPPOPPOP_PRO_EDD_URL')) {
 if (!defined('ZAPPOPPOP_PRO_EDD_ITEM_ID')) {
     define('ZAPPOPPOP_PRO_EDD_ITEM_ID', 3030);
 }
-require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-freemius.php';
+/*
+ * All Access Pass: Download IDs of the paid add-on plugins in your store. 0 = not on sale yet, so the add-on stays hidden
+ * and never contacts the store. Define them in wp-config.php (a wp-config.php value wins) or fill them in here once
+ * the downloads exist:  ZAPPOPPOP_PRO_EDD_ID_WOO_CART, ZAPPOPPOP_PRO_EDD_ID_MAILCHIMP, ZAPPOPPOP_PRO_EDD_ID_GETRESPONSE.
+ */
+foreach (array('ZAPPOPPOP_PRO_EDD_ID_WOO_CART', 'ZAPPOPPOP_PRO_EDD_ID_MAILCHIMP', 'ZAPPOPPOP_PRO_EDD_ID_GETRESPONSE', 'ZAPPOPPOP_PRO_EDD_ID_SUCCESS_CELEBRATION', 'ZAPPOPPOP_PRO_EDD_ID_POPUP_OVERLAY', 'ZAPPOPPOP_PRO_EDD_ID_POPUP_POSITIONS', 'ZAPPOPPOP_PRO_EDD_ID_TARGETING_TRIGGERS', 'ZAPPOPPOP_PRO_EDD_ID_TARGETING', 'ZAPPOPPOP_PRO_EDD_ID_SIDE_TABS', 'ZAPPOPPOP_PRO_EDD_ID_ANIMATION', 'ZAPPOPPOP_PRO_EDD_ID_DOUBLE_OPTIN', 'ZAPPOPPOP_PRO_EDD_ID_AUTORESPONDER', 'ZAPPOPPOP_PRO_EDD_ID_SECURITY') as $zappoppop_pro_const) {
+    if (!defined($zappoppop_pro_const)) {
+        define($zappoppop_pro_const, 0);
+    }
+}
+unset($zappoppop_pro_const);
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-edd-updater.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-edd.php';
+require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-pass.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-multisite.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-uninstall.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-license.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-admin.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-plugin.php';
 
-ZapPopPop_Pro_Freemius::init();
 ZapPopPop_Pro_EDD::init();
+ZapPopPop_Pro_Pass::hooks();
 
-if (!function_exists('zappoppop_pro')) {
-    /* Helper for the Freemius SDK instance, as used in the Freemius documentation. */
-    function zappoppop_pro() {
-        return ZapPopPop_Pro_Freemius::fs();
-    }
-}
 ZapPopPop_Pro_Plugin::boot();

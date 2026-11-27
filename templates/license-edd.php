@@ -96,6 +96,7 @@ $show_note  = isset($_GET['zappoppop_edd']) && $lic['message'] !== ''; // phpcs:
                 </div>
             </div>
             <div>
+<?php include ZAPPOPPOP_PRO_PATH . 'templates/license-products.php'; ?>
                 <div class="zpp-lic-card">
                     <div class="zpp-lic-head">
                         <span class="dashicons dashicons-cloud"></span>

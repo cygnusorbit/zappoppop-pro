@@ -4,9 +4,9 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * Easy Digital Downloads Software Licensing client (the default licence provider).
+ * Easy Digital Downloads Software Licensing client (the licence provider).
  *
- * Policy (same as the Freemius bridge): an active or an expired licence keeps every Pro feature working;
+ * Policy: an active or an expired licence keeps every Pro feature working;
  * expiry only stops updates and support. A licence that was never activated on this site, or that is
  * disabled, revoked or deactivated, locks Pro. A store that cannot be reached never locks a site: the last
  * known status is kept. Status lives in a site option, so a multisite network shares one licence.
@@ -20,9 +20,6 @@ class ZapPopPop_Pro_EDD {
     const ACTION = 'zappoppop_pro_edd';
 
     public static function init() {
-        if (ZapPopPop_Pro_License::provider() !== 'edd') {
-            return;
-        }
         add_action('admin_post_' . self::ACTION, array(__CLASS__, 'handle_post'));
         add_action(self::CRON, array(__CLASS__, 'cron_check'));
         add_action('init', array(__CLASS__, 'schedule'));
@@ -84,6 +81,7 @@ class ZapPopPop_Pro_EDD {
         update_site_option(self::OPTION, $d);
         delete_site_transient(ZapPopPop_Pro_EDD_Updater::CACHE);
         delete_site_transient('update_plugins');
+        do_action('zappoppop_pro_edd_saved');
     }
 
     public static function get_key() {
@@ -158,7 +156,9 @@ class ZapPopPop_Pro_EDD {
             $d['status']    = isset($r['license']) ? sanitize_key($r['license']) : 'valid';
             $d['activated'] = 1;
             $d['expires']   = isset($r['expires']) ? sanitize_text_field($r['expires']) : '';
-            return self::finish($d, true, __('Licence activated. Thank you!', 'zappoppop-pro'));
+            $d = self::finish($d, true, __('Licence activated. Thank you!', 'zappoppop-pro'));
+            do_action('zappoppop_pro_edd_activated');
+            return $d;
         }
         $code           = sanitize_key(isset($r['error']) ? $r['error'] : (isset($r['license']) ? $r['license'] : 'invalid'));
         $d['status']    = $code;
@@ -172,6 +172,7 @@ class ZapPopPop_Pro_EDD {
         if ($d['key'] === '') {
             return self::finish($d, false, __('There is no licence to deactivate.', 'zappoppop-pro'));
         }
+        do_action('zappoppop_pro_edd_deactivating');
         $r = self::request('deactivate_license', $d['key']);
         if (is_wp_error($r)) {
             /* Keep the activation: the store slot is only freed when the store confirms. */
@@ -234,6 +235,10 @@ class ZapPopPop_Pro_EDD {
             self::deactivate();
         } elseif ($do === 'check') {
             self::refresh();
+            do_action('zappoppop_pro_edd_checked');
+        } elseif ($do === 'sync') {
+            do_action('zappoppop_pro_edd_checked');
+            self::finish(self::data(), true, __('Add-on licences synced.', 'zappoppop-pro'));
         }
         $network = !empty($_POST['zappoppop_network']) && is_multisite() && current_user_can('manage_network_options');
         wp_safe_redirect(add_query_arg('zappoppop_edd', '1', self::page_url($network)));

@@ -23,6 +23,678 @@ msgstr "افزونهٔ Pro برای ZapPopPop: عناصر اضافی سازند�
 msgid "ZapPopPop"
 msgstr "ZapPopPop"
 
+#: _to_delete/includes/modules/class-zappoppop-ajax-getresponse.php:21 _to_delete/includes/modules/class-zappoppop-ajax-mailchimp.php:22
+msgid "Permission denied."
+msgstr "دسترسی رد شد."
+
+#: _to_delete/includes/modules/class-zappoppop-ajax-getresponse.php:25
+msgid "Enter a valid GetResponse API key."
+msgstr "یک کلید API معتبر GetResponse وارد کنید."
+
+#: _to_delete/includes/modules/class-zappoppop-ajax-mailchimp.php:26
+msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
+msgstr "یک کلید API معتبر MailChimp وارد کنید (مثلاً 0123456789abcdef-us21)."
+
+#: _to_delete/includes/modules/class-zappoppop-autoresponder.php:95 includes/class-pro-module-html-strings.php:135
+msgid "Welcome! Here is your reward"
+msgstr "خوش آمدید! این هم پاداش شما"
+
+#: _to_delete/includes/modules/class-zappoppop-autoresponder.php:96
+msgid "Thank you for subscribing!\n\nEnjoy your offer."
+msgstr "از اشتراک شما سپاسگزاریم!\n\nاز پیشنهاد خود لذت ببرید."
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:18
+msgid "Please confirm your email address"
+msgstr "لطفاً نشانی ایمیل خود را تأیید کنید"
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:19
+msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
+msgstr "بازدیدکنندهٔ گرامی!\n\nلطفاً با کلیک روی پیوند زیر نشانی ایمیل خود را تأیید کنید:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nسپاس."
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:22
+msgid "Thank you!"
+msgstr "سپاسگزاریم!"
+
+#: _to_delete/includes/modules/class-zappoppop-double-optin.php:22 assets/js/zappoppop-pro-i18n-catalog.js:144
+msgid "Your email address successfully confirmed."
+msgstr "نشانی ایمیل شما با موفقیت تأیید شد."
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:210 _to_delete/includes/modules/class-zappoppop-mailchimp.php:222
+msgid "Invalid API key."
+msgstr "کلید API نامعتبر."
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:232
+msgid "GetResponse returned HTTP %d."
+msgstr "GetResponse کد HTTP %d را برگرداند."
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:252
+msgid "Email Address"
+msgstr "نشانی ایمیل"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:252
+msgid "Full name"
+msgstr "نام کامل"
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:265
+msgid "API key or campaign is missing."
+msgstr "کلید API یا کمپین وجود ندارد."
+
+#: _to_delete/includes/modules/class-zappoppop-getresponse.php:267 _to_delete/includes/modules/class-zappoppop-mailchimp.php:304
+msgid "Invalid email address."
+msgstr "نشانی ایمیل نامعتبر."
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:246
+msgid "MailChimp returned HTTP %d."
+msgstr "MailChimp کد HTTP %d را برگرداند."
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:263 _to_delete/includes/modules/class-zappoppop-mailchimp.php:277
+msgid "Select an audience first."
+msgstr "ابتدا یک مخاطب‌فهرست (Audience) انتخاب کنید."
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:266
+msgid "Email address"
+msgstr "نشانی ایمیل"
+
+#: _to_delete/includes/modules/class-zappoppop-mailchimp.php:302
+msgid "API key or audience is missing."
+msgstr "کلید API یا مخاطب‌فهرست وجود ندارد."
+
+#: _to_delete/includes/modules/class-zappoppop-protect.php:207 _to_delete/includes/modules/class-zappoppop-protect.php:215 _to_delete/includes/modules/class-zappoppop-protect.php:278
+msgid "ZapPopPop submissions"
+msgstr "ارسال‌های ZapPopPop"
+
+#: _to_delete/includes/modules/class-zappoppop-side-tabs.php:117
+msgid "Offer"
+msgstr "پیشنهاد"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:372
+msgid "(no title)"
+msgstr "(بدون عنوان)"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:391 _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:397 assets/js/zappoppop-pro-i18n-catalog.js:17
+msgid "All roles"
+msgstr "همهٔ نقش‌ها"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:391 _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:398
+msgid "Visitors (logged out)"
+msgstr "بازدیدکنندگان (خارج‌شده از حساب)"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:399 _to_delete/includes/modules/class-zappoppop-woo-cart.php:722
+msgid "Search..."
+msgstr "جست‌وجو..."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:400 _to_delete/includes/modules/class-zappoppop-woo-cart.php:723
+msgid "Nothing found."
+msgstr "چیزی یافت نشد."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:401 assets/js/zappoppop-pro-i18n-catalog.js:90
+msgid "Popup Targeting"
+msgstr "هدف‌گیری پنجرهٔ بازشو"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:402 assets/js/zappoppop-pro-i18n-catalog.js:132
+msgid "Turn the entire Targeting Triggers setting on or off"
+msgstr "کل تنظیم محرک‌های هدف‌گیری را روشن یا خاموش کنید"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:403 assets/js/zappoppop-pro-i18n-catalog.js:58
+msgid "Enable Targeting Triggers"
+msgstr "فعال‌سازی محرک‌های هدف‌گیری"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:404
+msgid "OnLoad"
+msgstr "هنگام بارگذاری"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:405
+msgid "OnScroll"
+msgstr "هنگام اسکرول"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:406
+msgid "OnExit"
+msgstr "هنگام خروج"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:407
+msgid "OnInactivity"
+msgstr "هنگام بی‌فعالیتی"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:408 assets/js/zappoppop-pro-i18n-catalog.js:39
+msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
+msgstr "انتخاب کنید پنجرهٔ بازشو کی ظاهر شود. تا زمانی که یکی انتخاب نشود، پنجره رفتار پیش‌فرض خود را حفظ می‌کند."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:409 assets/js/zappoppop-pro-i18n-catalog.js:121
+msgid "Target Properties"
+msgstr "ویژگی‌های هدف"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:410 assets/js/zappoppop-pro-i18n-catalog.js:88
+msgid "Periodicity"
+msgstr "تناوب"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:411 assets/js/zappoppop-pro-i18n-catalog.js:60
+msgid "Every time"
+msgstr "هر بار"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:412 assets/js/zappoppop-pro-i18n-catalog.js:82
+msgid "Once only"
+msgstr "فقط یک‌بار"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:413 assets/js/zappoppop-pro-i18n-catalog.js:83
+msgid "Once per period"
+msgstr "یک‌بار در هر بازه"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:414 assets/js/zappoppop-pro-i18n-catalog.js:108
+msgid "Show again after"
+msgstr "نمایش دوباره پس از"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:415
+msgid "hrs"
+msgstr "ساعت"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:416 assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118
+msgid "Start delay"
+msgstr "تأخیر شروع"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:417
+msgid "sec"
+msgstr "ثانیه"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:418 assets/js/zappoppop-pro-i18n-catalog.js:41
+msgid "Close delay"
+msgstr "تأخیر بستن"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:419
+msgid "Close delay 0 keeps the popup open until it is closed."
+msgstr "تأخیر بستن ۰ پنجرهٔ بازشو را تا بسته‌شدن دستی باز نگه می‌دارد."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:420 assets/js/zappoppop-pro-i18n-catalog.js:101
+msgid "Scrolling offset"
+msgstr "جابه‌جایی اسکرول"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:421 assets/js/zappoppop-pro-i18n-catalog.js:102
+msgid "Scrolling offset unit"
+msgstr "واحد جابه‌جایی اسکرول"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:422 assets/js/zappoppop-pro-i18n-catalog.js:67
+msgid "Inactivity delay"
+msgstr "تأخیر بی‌فعالیتی"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:423 assets/js/zappoppop-pro-i18n-catalog.js:14
+msgid "Activity"
+msgstr "فعالیت"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:424 assets/js/zappoppop-pro-i18n-catalog.js:20
+msgid "Always"
+msgstr "همیشه"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:425 assets/js/zappoppop-pro-i18n-catalog.js:36
+msgid "Certain period"
+msgstr "بازهٔ زمانی مشخص"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:426 includes/class-pro-module-html-strings.php:76
+msgid "From"
+msgstr "از"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:427
+msgid "End"
+msgstr "پایان"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:428 assets/js/zappoppop-pro-i18n-catalog.js:137
+msgid "User Roles"
+msgstr "نقش‌های کاربر"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:429 assets/js/zappoppop-pro-i18n-catalog.js:113
+msgid "Site Area"
+msgstr "ناحیهٔ سایت"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:430 assets/js/zappoppop-pro-i18n-catalog.js:114
+msgid "Sitewide"
+msgstr "سراسر سایت"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:431 assets/js/zappoppop-pro-i18n-catalog.js:65
+msgid "Homepage"
+msgstr "صفحهٔ اصلی"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:432 assets/js/zappoppop-pro-i18n-catalog.js:92
+msgid "Posts"
+msgstr "نوشته‌ها"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:433 assets/js/zappoppop-pro-i18n-catalog.js:87
+msgid "Pages"
+msgstr "صفحه‌ها"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:434
+msgid "URL"
+msgstr "نشانی"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:435 assets/js/zappoppop-pro-i18n-catalog.js:35
+msgid "Categories"
+msgstr "دسته‌ها"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
+msgid "All"
+msgstr "همه"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:437 assets/js/zappoppop-pro-i18n-catalog.js:115
+msgid "Specific"
+msgstr "مشخص"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:438 assets/js/zappoppop-pro-i18n-catalog.js:18
+msgid "Also show on category archive pages"
+msgstr "در صفحه‌های بایگانی دسته هم نمایش بده"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:439 assets/js/zappoppop-pro-i18n-catalog.js:120
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:440 assets/js/zappoppop-pro-i18n-catalog.js:19
+msgid "Also show on tag archive pages"
+msgstr "در صفحه‌های بایگانی برچسب هم نمایش بده"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:441 assets/js/zappoppop-pro-i18n-catalog.js:12
+msgid "A post matches when it is in any selected category, tag or post list."
+msgstr "نوشته وقتی مطابقت دارد که در هر دسته، برچسب یا فهرست نوشتهٔ انتخاب‌شده باشد."
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:442 assets/js/zappoppop-pro-i18n-catalog.js:16
+msgid "All pages"
+msgstr "همهٔ صفحه‌ها"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:443 assets/js/zappoppop-pro-i18n-catalog.js:116
+msgid "Specific pages"
+msgstr "صفحه‌های مشخص"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:444
+msgid "URL contains"
+msgstr "نشانی شامل"
+
+#: _to_delete/includes/modules/class-zappoppop-targeting-triggers.php:445 assets/js/zappoppop-pro-i18n-catalog.js:84
+msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
+msgstr "هر خط یکی. پنجرهٔ بازشو وقتی نمایش داده می‌شود که نشانی صفحه شامل هر یک از آن‌ها باشد. خالی = هر نشانی."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:703 includes/class-pro-module-strings.php:68
+msgid "WooCommerce Cart"
+msgstr "سبد خرید WooCommerce"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:704 assets/js/zappoppop-pro-i18n-catalog.js:131
+msgid "Turn the WooCommerce cart features for this popup on or off"
+msgstr "ویژگی‌های سبد خرید WooCommerce را برای این پنجرهٔ بازشو روشن یا خاموش کنید"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:705 assets/js/zappoppop-pro-i18n-catalog.js:59
+msgid "Enable WooCommerce Cart"
+msgstr "فعال‌سازی سبد خرید WooCommerce"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:706 assets/js/zappoppop-pro-i18n-catalog.js:34
+msgid "Cart-aware display rules and live cart text for this popup."
+msgstr "قوانین نمایش آگاه از سبد خرید و متن زندهٔ سبد خرید برای این پنجرهٔ بازشو."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:707 assets/js/zappoppop-pro-i18n-catalog.js:140
+msgid "WooCommerce is not active on this site, so the cart rules are ignored."
+msgstr "WooCommerce در این سایت فعال نیست، پس قوانین سبد خرید نادیده گرفته می‌شوند."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:708 assets/js/zappoppop-pro-i18n-catalog.js:111
+msgid "Show this popup when the cart is"
+msgstr "نمایش این پنجرهٔ بازشو وقتی سبد خرید"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:709
+msgid "Any"
+msgstr "هر"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:710 assets/js/zappoppop-pro-i18n-catalog.js:64
+msgid "Has items"
+msgstr "دارای آیتم"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:711 assets/js/zappoppop-pro-i18n-catalog.js:55
+msgid "Empty"
+msgstr "خالی"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:712 assets/js/zappoppop-pro-i18n-catalog.js:56
+msgid "Empty ignores the conditions below."
+msgstr "خالی بودن شرایط زیر را نادیده می‌گیرد."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:713 assets/js/zappoppop-pro-i18n-catalog.js:31
+msgid "Cart conditions"
+msgstr "شرایط سبد خرید"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:714 assets/js/zappoppop-pro-i18n-catalog.js:72
+msgid "Minimum items"
+msgstr "حداقل آیتم‌ها"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:715 assets/js/zappoppop-pro-i18n-catalog.js:73
+msgid "Minimum subtotal"
+msgstr "حداقل جمع جزء"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:716 assets/js/zappoppop-pro-i18n-catalog.js:69
+msgid "Maximum subtotal"
+msgstr "حداکثر جمع جزء"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:717
+msgid "items"
+msgstr "آیتم"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:718
+msgid "A value of 0 turns that condition off."
+msgstr "مقدار ۰ آن شرط را خاموش می‌کند."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:719 assets/js/zappoppop-pro-i18n-catalog.js:94
+msgid "Product IDs"
+msgstr "شناسه‌های محصول"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:720 assets/js/zappoppop-pro-i18n-catalog.js:43
+msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
+msgstr "جداشده با کاما. پنجرهٔ بازشو وقتی نمایش داده می‌شود که هر یک از این محصولات در سبد خرید باشد. خالی = خاموش."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:721 assets/js/zappoppop-pro-i18n-catalog.js:95
+msgid "Product categories"
+msgstr "دسته‌های محصول"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:724 assets/js/zappoppop-pro-i18n-catalog.js:76
+msgid "No product categories found."
+msgstr "دستهٔ محصولی یافت نشد."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:725 assets/js/zappoppop-pro-i18n-catalog.js:125
+msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
+msgstr "وقتی سبد خرید محصولی از هر دستهٔ انتخاب‌شده دارد، پنجرهٔ بازشو نمایش داده می‌شود. هیچ‌کدام انتخاب‌نشده = خاموش."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:726 assets/js/zappoppop-pro-i18n-catalog.js:110
+msgid "Show right after an item is added to the cart"
+msgstr "بلافاصله پس از افزودن یک آیتم به سبد خرید نمایش بده"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:727 assets/js/zappoppop-pro-i18n-catalog.js:141
+msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
+msgstr "با افزودن به سبد خرید AJAX و بلوک سبد خرید کار می‌کند. در هر بازدید صفحه یک‌بار نمایش داده می‌شود، و فقط وقتی شرایط بالا مطابقت دارد."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:728 assets/js/zappoppop-pro-i18n-catalog.js:62
+msgid "Free shipping"
+msgstr "ارسال رایگان"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:729 assets/js/zappoppop-pro-i18n-catalog.js:63
+msgid "Free shipping threshold"
+msgstr "آستانهٔ ارسال رایگان"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:730
+msgid "0 = detect it from your WooCommerce free shipping method."
+msgstr "۰ = از روش ارسال رایگان WooCommerce شما تشخیص داده شود."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:731 assets/js/zappoppop-pro-i18n-catalog.js:51
+msgid "Dynamic text"
+msgstr "متن پویا"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:732
+msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
+msgstr "این‌ها را در هر لایهٔ متن بنویسید. پیش‌نمایش زنده مقادیر نمونه را نشان می‌دهد؛ بازدیدکنندگان سبد خرید خودشان را می‌بینند."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:733 assets/js/zappoppop-pro-i18n-catalog.js:33
+msgid "Cart total"
+msgstr "جمع کل سبد خرید"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:734 assets/js/zappoppop-pro-i18n-catalog.js:32
+msgid "Cart subtotal"
+msgstr "جمع جزء سبد خرید"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:735 assets/js/zappoppop-pro-i18n-catalog.js:80
+msgid "Number of items"
+msgstr "تعداد آیتم‌ها"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:736 assets/js/zappoppop-pro-i18n-catalog.js:21
+msgid "Amount left for free shipping"
+msgstr "مبلغ باقی‌مانده تا ارسال رایگان"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:737 assets/js/zappoppop-pro-i18n-catalog.js:23
+msgid "Applied coupon code"
+msgstr "کد کوپن اعمال‌شده"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:738 assets/js/zappoppop-pro-i18n-catalog.js:46
+msgid "Coupon"
+msgstr "کوپن"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:739 assets/js/zappoppop-pro-i18n-catalog.js:47
+msgid "Coupon code"
+msgstr "کد کوپن"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:740
+msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
+msgstr "یک کوپن موجود WooCommerce. {coupon_code} و شمارش معکوس را پر می‌کند. کد در منبع صفحه نمایان است، پس از کد خصوصی استفاده نکنید."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:741 assets/js/zappoppop-pro-i18n-catalog.js:25
+msgid "Apply it to the cart automatically"
+msgstr "به‌طور خودکار روی سبد خرید اعمال شود"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:742 assets/js/zappoppop-pro-i18n-catalog.js:139
+msgid "When the popup opens"
+msgstr "هنگام باز شدن پنجرهٔ بازشو"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:743 assets/js/zappoppop-pro-i18n-catalog.js:138
+msgid "When a button is clicked"
+msgstr "هنگام کلیک روی یک دکمه"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:744
+msgid "Give a button the link #zpp-apply-coupon."
+msgstr "به یک دکمه پیوند #zpp-apply-coupon را بدهید."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:745 assets/js/zappoppop-pro-i18n-catalog.js:85
+msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
+msgstr "فقط این کد قابل اعمال است. اگر نامعتبر یا منقضی باشد، اتفاقی نمی‌افتد."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:746 assets/js/zappoppop-pro-i18n-catalog.js:48
+msgid "Coupon countdown"
+msgstr "شمارش معکوس کوپن"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:747 assets/js/zappoppop-pro-i18n-catalog.js:49
+msgid "Coupon expiry date"
+msgstr "تاریخ انقضای کوپن"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:748 assets/js/zappoppop-pro-i18n-catalog.js:109
+msgid "Show on pages"
+msgstr "نمایش در صفحه‌ها"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:749 assets/js/zappoppop-pro-i18n-catalog.js:22
+msgid "Anywhere"
+msgstr "هر جا"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:750 assets/js/zappoppop-pro-i18n-catalog.js:97
+msgid "Product pages"
+msgstr "صفحه‌های محصول"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:751 assets/js/zappoppop-pro-i18n-catalog.js:104
+msgid "Selected products"
+msgstr "محصولات انتخاب‌شده"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:752
+msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
+msgstr "صفحه‌های محصول: پنجرهٔ بازشو در هیچ صفحهٔ دیگری نمایش داده نمی‌شود. محصولات انتخاب‌شده: فقط در محصولات یا دسته‌های زیر (هیچ‌کدام انتخاب‌نشده = هر صفحهٔ محصول)."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:753 assets/js/zappoppop-pro-i18n-catalog.js:98
+msgid "Products"
+msgstr "محصولات"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:754 assets/js/zappoppop-pro-i18n-catalog.js:42
+msgid "Comma-separated product IDs. Empty = off."
+msgstr "شناسه‌های محصول جداشده با کاما. خالی = خاموش."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:755 assets/js/zappoppop-pro-i18n-catalog.js:96
+msgid "Product page categories"
+msgstr "دسته‌های صفحهٔ محصول"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:756 assets/js/zappoppop-pro-i18n-catalog.js:127
+msgid "This rule is checked on the server, so it also works with full-page caches."
+msgstr "این قانون در سرور بررسی می‌شود، پس با حافظه‌های نهان تمام‌صفحه هم کار می‌کند."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:757 assets/js/zappoppop-pro-i18n-catalog.js:133
+msgid "Upsell"
+msgstr "فروش تکمیلی (Upsell)"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:758 assets/js/zappoppop-pro-i18n-catalog.js:81
+msgid "Offer an upsell product"
+msgstr "پیشنهاد یک محصول تکمیلی (upsell)"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:759 assets/js/zappoppop-pro-i18n-catalog.js:40
+msgid "Chosen by you"
+msgstr "انتخاب‌شده توسط شما"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:760 assets/js/zappoppop-pro-i18n-catalog.js:27
+msgid "Automatic"
+msgstr "خودکار"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:761 assets/js/zappoppop-pro-i18n-catalog.js:134
+msgid "Upsell product ID"
+msgstr "شناسهٔ محصول تکمیلی"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:762 assets/js/zappoppop-pro-i18n-catalog.js:126
+msgid "The product to offer. A variation ID is allowed."
+msgstr "محصولی که باید پیشنهاد شود. شناسهٔ تنوع مجاز است."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:763
+msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
+msgstr "«خودکار» ابتدا از فروش‌های مکمل (cross-sell) سبد خرید بازدیدکننده و سپس فروش‌های تکمیلی (upsell) محصولات داخل آن استفاده می‌کند. آن‌ها را روی هر محصول WooCommerce تنظیم کنید."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:764 assets/js/zappoppop-pro-i18n-catalog.js:124
+msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
+msgstr "وقتی هیچ محصول تکمیلی در دسترس نباشد، مثلاً وقتی محصول از قبل در سبد خرید یا ناموجود است، پنجرهٔ بازشو نمایش داده نمی‌شود."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:765
+msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
+msgstr "به یک دکمه پیوند #zpp-add-upsell را بدهید تا محصول به سبد خرید افزوده شود (سپس پنجره بسته می‌شود)، یا #zpp-view-upsell تا صفحهٔ آن باز شود. محصولات متغیر فقط می‌توانند از پیوند مشاهده استفاده کنند."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:766 assets/js/zappoppop-pro-i18n-catalog.js:135
+msgid "Upsell product name"
+msgstr "نام محصول تکمیلی"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:767 assets/js/zappoppop-pro-i18n-catalog.js:136
+msgid "Upsell product price"
+msgstr "قیمت محصول تکمیلی"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:768 assets/js/zappoppop-pro-i18n-catalog.js:13
+msgid "Abandoned cart email"
+msgstr "ایمیل سبد خرید رهاشده"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:769 assets/js/zappoppop-pro-i18n-catalog.js:106
+msgid "Send a cart reminder email"
+msgstr "ارسال ایمیل یادآوری سبد خرید"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:770
+msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
+msgstr "یک‌بار برای بازدیدکنندگانی ارسال می‌شود که فرم این پنجرهٔ بازشو را با کادر رضایت علامت‌خورده و آیتم‌هایی در سبد خرید ارسال می‌کنند. بدون رضایت چیزی ذخیره نمی‌شود."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:771 assets/js/zappoppop-pro-i18n-catalog.js:107
+msgid "Send after"
+msgstr "ارسال پس از"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:772
+msgid "minutes"
+msgstr "دقیقه"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:773 assets/js/zappoppop-pro-i18n-catalog.js:45
+msgid "Consent field name"
+msgstr "نام فیلد رضایت"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:774
+msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
+msgstr "یک لایهٔ کادر انتخاب به فرم بیفزایید (مثلاً «یادآوری سبد خریدم را ایمیل کنید») و همان نام را در پیشرفته > نام فیلد آن بنویسید. علامت‌نخورده = چیزی ذخیره نمی‌شود."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:775 assets/js/zappoppop-pro-i18n-catalog.js:54
+msgid "Email subject"
+msgstr "موضوع ایمیل"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:776 _to_delete/includes/modules/class-zappoppop-woo-recover.php:385 assets/js/zappoppop-pro-i18n-catalog.js:142
+msgid "You left something in your cart"
+msgstr "چیزی در سبد خریدتان جا گذاشته‌اید"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:777 assets/js/zappoppop-pro-i18n-catalog.js:53
+msgid "Email message"
+msgstr "پیام ایمیل"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:778 _to_delete/includes/modules/class-zappoppop-woo-recover.php:393 assets/js/zappoppop-pro-i18n-catalog.js:143
+msgid "Your cart is saved. Come back any time to finish your order."
+msgstr "سبد خرید شما ذخیره شد. هر زمان برگردید و سفارشتان را کامل کنید."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:779
+msgid "Coupon code (optional)"
+msgstr "کد کوپن (اختیاری)"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:780 assets/js/zappoppop-pro-i18n-catalog.js:112
+msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
+msgstr "در ایمیل نشان داده می‌شود و وقتی بازدیدکننده به سبد خرید برمی‌گردد اعمال می‌شود. از یک کوپن واقعی WooCommerce استفاده کنید."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:781
+msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
+msgstr "اگر سفارشی با همان نشانی ثبت شده باشد ایمیلی ارسال نمی‌شود. هر ایمیل پیوند لغو اشتراک دارد؛ نشانی‌های لغوشده هرگز دوباره ذخیره نمی‌شوند. ارسال از cron وردپرس و wp_mail() استفاده می‌کند."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:782
+msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
+msgstr "شمارش معکوس و تاریخ انقضا از تاریخ انقضای واقعی کوپن در WooCommerce می‌آید."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-cart.php:783
+msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
+msgstr "نوار ارسال رایگان: یک لایهٔ نوار پیشرفت بیفزایید، حالتش را روی «خودکار: ارسال رایگان WooCommerce» بگذارید و برچسبش را این‌گونه بنویسید: برای ارسال رایگان {shipping_remaining} بیفزایید || ارسال شما رایگان شد!"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:401
+msgid "Use code %s at checkout."
+msgstr "از کد %s در تسویه‌حساب استفاده کنید."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:408
+msgid "Return to your cart"
+msgstr "بازگشت به سبد خرید"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:411
+msgid "You are receiving this because you asked for a cart reminder on %s."
+msgstr "این را دریافت می‌کنید چون در %s یادآوری سبد خرید خواسته‌اید."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:412 _to_delete/includes/modules/class-zappoppop-woo-recover.php:433
+msgid "Unsubscribe"
+msgstr "لغو اشتراک"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:432
+msgid "You have been unsubscribed. We will not send you cart reminders again."
+msgstr "اشتراک شما لغو شد. دیگر یادآوری سبد خرید برایتان ارسال نمی‌کنیم."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:432
+msgid "This unsubscribe link is not valid."
+msgstr "این پیوند لغو اشتراک معتبر نیست."
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:506 _to_delete/includes/modules/class-zappoppop-woo-recover.php:514
+msgid "ZapPopPop abandoned cart emails"
+msgstr "ایمیل‌های سبد خرید رهاشدهٔ ZapPopPop"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:530
+msgid "Abandoned cart emails"
+msgstr "ایمیل‌های سبد خرید رهاشده"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:533
+msgid "Email"
+msgstr "ایمیل"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
+msgid "Status"
+msgstr "وضعیت"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:535
+msgid "Saved on"
+msgstr "ذخیره‌شده در"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:536
+msgid "Cart lines"
+msgstr "اقلام سبد خرید"
+
+#: _to_delete/includes/modules/class-zappoppop-woo-recover.php:558
+msgid "The address is kept on a do-not-email list because the person unsubscribed."
+msgstr "این نشانی چون فرد اشتراک خود را لغو کرده در فهرست «ایمیل نزن» نگه داشته می‌شود."
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:163
+msgid "Maximum of 20 custom backgrounds."
+msgstr "حداکثر ۲۰ پس‌زمینهٔ سفارشی."
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:170
+msgid "Delete this background?"
+msgstr "این پس‌زمینه حذف شود؟"
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:179
+msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
+msgstr "رسانهٔ وردپرس در دسترس نیست. نشانی تصویر (JPG/PNG) را وارد کنید:"
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:199
+msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
+msgstr "لطفاً یک تصویر JPEG یا PNG انتخاب کنید (.jpg، .jpeg، .png)."
+
+#: _to_delete/modules/acc-popup-overlay/admin.js:202
+msgid "Please enter the animation HTML / JS."
+msgstr "لطفاً HTML / JS انیمیشن را وارد کنید."
+
 #: assets/js/stats.js:31 assets/js/stats.js:45
 msgid "Error"
 msgstr "خطا"
@@ -43,69 +715,17 @@ msgstr "10 ستاره"
 msgid "5 Stars"
 msgstr "5 ستاره"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:12 includes/modules/class-zappoppop-targeting-triggers.php:441
-msgid "A post matches when it is in any selected category, tag or post list."
-msgstr "نوشته وقتی مطابقت دارد که در هر دسته، برچسب یا فهرست نوشتهٔ انتخاب‌شده باشد."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:13 includes/modules/class-zappoppop-woo-cart.php:768
-msgid "Abandoned cart email"
-msgstr "ایمیل سبد خرید رهاشده"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:14 includes/modules/class-zappoppop-targeting-triggers.php:423
-msgid "Activity"
-msgstr "فعالیت"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:15
 msgid "Add field"
 msgstr "افزودن فیلد"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:16 includes/modules/class-zappoppop-targeting-triggers.php:442
-msgid "All pages"
-msgstr "همهٔ صفحه‌ها"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:17 includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:397
-msgid "All roles"
-msgstr "همهٔ نقش‌ها"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:18 includes/modules/class-zappoppop-targeting-triggers.php:438
-msgid "Also show on category archive pages"
-msgstr "در صفحه‌های بایگانی دسته هم نمایش بده"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:19 includes/modules/class-zappoppop-targeting-triggers.php:440
-msgid "Also show on tag archive pages"
-msgstr "در صفحه‌های بایگانی برچسب هم نمایش بده"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:20 includes/modules/class-zappoppop-targeting-triggers.php:424
-msgid "Always"
-msgstr "همیشه"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:21 includes/modules/class-zappoppop-woo-cart.php:736
-msgid "Amount left for free shipping"
-msgstr "مبلغ باقی‌مانده تا ارسال رایگان"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:22 includes/modules/class-zappoppop-woo-cart.php:749
-msgid "Anywhere"
-msgstr "هر جا"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:23 includes/modules/class-zappoppop-woo-cart.php:737
-msgid "Applied coupon code"
-msgstr "کد کوپن اعمال‌شده"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:24
 msgid "Apply Image Select Size Preset"
 msgstr "اعمال پیش‌تنظیم اندازهٔ انتخاب تصویر"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:25 includes/modules/class-zappoppop-woo-cart.php:741
-msgid "Apply it to the cart automatically"
-msgstr "به‌طور خودکار روی سبد خرید اعمال شود"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:26 templates/builder/elements/elem-08-progress.php:13
 msgid "Auto: WooCommerce free shipping"
 msgstr "خودکار: ارسال رایگان WooCommerce"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:27 includes/modules/class-zappoppop-woo-cart.php:760
-msgid "Automatic"
-msgstr "خودکار"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:28
 msgid "Bottom center"
@@ -119,30 +739,6 @@ msgstr "پایین چپ"
 msgid "Bottom right"
 msgstr "پایین راست"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:31 includes/modules/class-zappoppop-woo-cart.php:713
-msgid "Cart conditions"
-msgstr "شرایط سبد خرید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:32 includes/modules/class-zappoppop-woo-cart.php:734
-msgid "Cart subtotal"
-msgstr "جمع جزء سبد خرید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:33 includes/modules/class-zappoppop-woo-cart.php:733
-msgid "Cart total"
-msgstr "جمع کل سبد خرید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:34 includes/modules/class-zappoppop-woo-cart.php:706
-msgid "Cart-aware display rules and live cart text for this popup."
-msgstr "قوانین نمایش آگاه از سبد خرید و متن زندهٔ سبد خرید برای این پنجرهٔ بازشو."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:35 includes/modules/class-zappoppop-targeting-triggers.php:435
-msgid "Categories"
-msgstr "دسته‌ها"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:36 includes/modules/class-zappoppop-targeting-triggers.php:425
-msgid "Certain period"
-msgstr "بازهٔ زمانی مشخص"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:37
 msgid "Change Progress Bar"
 msgstr "تغییر نوار پیشرفت"
@@ -151,129 +747,33 @@ msgstr "تغییر نوار پیشرفت"
 msgid "Change Progress Mode"
 msgstr "تغییر حالت پیشرفت"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:39 includes/modules/class-zappoppop-targeting-triggers.php:408
-msgid "Choose when the popup appears. Until one is selected the popup keeps its default behavior."
-msgstr "انتخاب کنید پنجرهٔ بازشو کی ظاهر شود. تا زمانی که یکی انتخاب نشود، پنجره رفتار پیش‌فرض خود را حفظ می‌کند."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:40 includes/modules/class-zappoppop-woo-cart.php:759
-msgid "Chosen by you"
-msgstr "انتخاب‌شده توسط شما"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:41 includes/modules/class-zappoppop-targeting-triggers.php:418
-msgid "Close delay"
-msgstr "تأخیر بستن"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:42 includes/modules/class-zappoppop-woo-cart.php:754
-msgid "Comma-separated product IDs. Empty = off."
-msgstr "شناسه‌های محصول جداشده با کاما. خالی = خاموش."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:43 includes/modules/class-zappoppop-woo-cart.php:720
-msgid "Comma-separated. The popup shows when any of these products is in the cart. Empty = off."
-msgstr "جداشده با کاما. پنجرهٔ بازشو وقتی نمایش داده می‌شود که هر یک از این محصولات در سبد خرید باشد. خالی = خاموش."
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:44
 msgid "Confirmation URL"
 msgstr "نشانی تأیید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:45 includes/modules/class-zappoppop-woo-cart.php:773
-msgid "Consent field name"
-msgstr "نام فیلد رضایت"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:46 includes/modules/class-zappoppop-woo-cart.php:738
-msgid "Coupon"
-msgstr "کوپن"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:47 includes/modules/class-zappoppop-woo-cart.php:739
-msgid "Coupon code"
-msgstr "کد کوپن"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:48 includes/modules/class-zappoppop-woo-cart.php:746
-msgid "Coupon countdown"
-msgstr "شمارش معکوس کوپن"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:49 includes/modules/class-zappoppop-woo-cart.php:747
-msgid "Coupon expiry date"
-msgstr "تاریخ انقضای کوپن"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:50
 msgid "Default Rating"
 msgstr "امتیاز پیش‌فرض"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:51 includes/modules/class-zappoppop-woo-cart.php:731
-msgid "Dynamic text"
-msgstr "متن پویا"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:52
 msgid "Email me a reminder about my cart"
 msgstr "یادآوری سبد خریدم را ایمیل کنید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:53 includes/modules/class-zappoppop-woo-cart.php:777
-msgid "Email message"
-msgstr "پیام ایمیل"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:54 includes/modules/class-zappoppop-woo-cart.php:775
-msgid "Email subject"
-msgstr "موضوع ایمیل"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:55 includes/modules/class-zappoppop-woo-cart.php:711
-msgid "Empty"
-msgstr "خالی"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:56 includes/modules/class-zappoppop-woo-cart.php:712
-msgid "Empty ignores the conditions below."
-msgstr "خالی بودن شرایط زیر را نادیده می‌گیرد."
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:57 includes/class-pro-module-html-strings.php:64
 msgid "Enable Double Opt-In"
 msgstr "فعال‌سازی تأیید دومرحله‌ای"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:58 includes/modules/class-zappoppop-targeting-triggers.php:403
-msgid "Enable Targeting Triggers"
-msgstr "فعال‌سازی محرک‌های هدف‌گیری"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:59 includes/modules/class-zappoppop-woo-cart.php:705
-msgid "Enable WooCommerce Cart"
-msgstr "فعال‌سازی سبد خرید WooCommerce"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:60 includes/modules/class-zappoppop-targeting-triggers.php:411
-msgid "Every time"
-msgstr "هر بار"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:61
 msgid "Fill the rating from a URL query parameter, e.g. ?rating=4."
 msgstr "امتیاز را از یک پارامتر پرس‌وجوی نشانی اینترنتی پر می‌کند، مثلاً ?rating=4."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:62 includes/modules/class-zappoppop-woo-cart.php:728
-msgid "Free shipping"
-msgstr "ارسال رایگان"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:63 includes/modules/class-zappoppop-woo-cart.php:729
-msgid "Free shipping threshold"
-msgstr "آستانهٔ ارسال رایگان"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:64 includes/modules/class-zappoppop-woo-cart.php:710
-msgid "Has items"
-msgstr "دارای آیتم"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:65 includes/modules/class-zappoppop-targeting-triggers.php:431
-msgid "Homepage"
-msgstr "صفحهٔ اصلی"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:66
 msgid "How many stars or icons the rating scale shows."
 msgstr "تعداد ستاره یا آیکونی که مقیاس امتیاز نشان می‌دهد."
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:67 includes/modules/class-zappoppop-targeting-triggers.php:422
-msgid "Inactivity delay"
-msgstr "تأخیر بی‌فعالیتی"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:68
 msgid "Insert subscriber value"
 msgstr "درج مقدار مشترک"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:69 includes/modules/class-zappoppop-woo-cart.php:716
-msgid "Maximum subtotal"
-msgstr "حداکثر جمع جزء"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:70
 msgid "Middle left"
@@ -283,14 +783,6 @@ msgstr "وسط چپ"
 msgid "Middle right"
 msgstr "وسط راست"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:72 includes/modules/class-zappoppop-woo-cart.php:714
-msgid "Minimum items"
-msgstr "حداقل آیتم‌ها"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:73 includes/modules/class-zappoppop-woo-cart.php:715
-msgid "Minimum subtotal"
-msgstr "حداقل جمع جزء"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:74
 msgid "New Image Select Preset"
 msgstr "پیش‌تنظیم جدید انتخاب تصویر"
@@ -298,10 +790,6 @@ msgstr "پیش‌تنظیم جدید انتخاب تصویر"
 #: assets/js/zappoppop-pro-i18n-catalog.js:75
 msgid "No field selected"
 msgstr "فیلدی انتخاب نشده"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:76 includes/modules/class-zappoppop-woo-cart.php:724
-msgid "No product categories found."
-msgstr "دستهٔ محصولی یافت نشد."
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:77
 msgid "No rating"
@@ -315,81 +803,21 @@ msgstr "هیچ (فقط پوشش رنگی)"
 msgid "Number of Stars"
 msgstr "تعداد ستاره‌ها"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:80 includes/modules/class-zappoppop-woo-cart.php:735
-msgid "Number of items"
-msgstr "تعداد آیتم‌ها"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:81 includes/modules/class-zappoppop-woo-cart.php:758
-msgid "Offer an upsell product"
-msgstr "پیشنهاد یک محصول تکمیلی (upsell)"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:82 includes/modules/class-zappoppop-targeting-triggers.php:412
-msgid "Once only"
-msgstr "فقط یک‌بار"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:83 includes/modules/class-zappoppop-targeting-triggers.php:413
-msgid "Once per period"
-msgstr "یک‌بار در هر بازه"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:84 includes/modules/class-zappoppop-targeting-triggers.php:445
-msgid "One per line. The popup shows when the page address contains any of them. Empty = every URL."
-msgstr "هر خط یکی. پنجرهٔ بازشو وقتی نمایش داده می‌شود که نشانی صفحه شامل هر یک از آن‌ها باشد. خالی = هر نشانی."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:85 includes/modules/class-zappoppop-woo-cart.php:745
-msgid "Only this code can be applied. If it is invalid or expired, nothing happens."
-msgstr "فقط این کد قابل اعمال است. اگر نامعتبر یا منقضی باشد، اتفاقی نمی‌افتد."
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:86
 msgid "Open"
 msgstr "باز"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:87 includes/modules/class-zappoppop-targeting-triggers.php:433
-msgid "Pages"
-msgstr "صفحه‌ها"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:88 includes/modules/class-zappoppop-targeting-triggers.php:410
-msgid "Periodicity"
-msgstr "تناوب"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:89
 msgid "Picture"
 msgstr "تصویر"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:90 includes/modules/class-zappoppop-targeting-triggers.php:401
-msgid "Popup Targeting"
-msgstr "هدف‌گیری پنجرهٔ بازشو"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:91 includes/class-pro-module-html-strings.php:99
 msgid "Popup position"
 msgstr "موقعیت پنجرهٔ بازشو"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:92 includes/modules/class-zappoppop-targeting-triggers.php:432
-msgid "Posts"
-msgstr "نوشته‌ها"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:93
 msgid "Pre-selected rating when the form loads. Choose No rating to leave it empty."
 msgstr "امتیاز از پیش انتخاب‌شده هنگام بارگذاری فرم. برای خالی گذاشتن «بدون امتیاز» را انتخاب کنید."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:94 includes/modules/class-zappoppop-woo-cart.php:719
-msgid "Product IDs"
-msgstr "شناسه‌های محصول"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:95 includes/modules/class-zappoppop-woo-cart.php:721
-msgid "Product categories"
-msgstr "دسته‌های محصول"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:96 includes/modules/class-zappoppop-woo-cart.php:755
-msgid "Product page categories"
-msgstr "دسته‌های صفحهٔ محصول"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:97 includes/modules/class-zappoppop-woo-cart.php:750
-msgid "Product pages"
-msgstr "صفحه‌های محصول"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:98 includes/modules/class-zappoppop-woo-cart.php:753
-msgid "Products"
-msgstr "محصولات"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:99
 msgid "Remove icon"
@@ -399,73 +827,13 @@ msgstr "حذف آیکون"
 msgid "Save Changes"
 msgstr "ذخیرهٔ تغییرات"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:101 includes/modules/class-zappoppop-targeting-triggers.php:420
-msgid "Scrolling offset"
-msgstr "جابه‌جایی اسکرول"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:102 includes/modules/class-zappoppop-targeting-triggers.php:421
-msgid "Scrolling offset unit"
-msgstr "واحد جابه‌جایی اسکرول"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:103
 msgid "Select icon"
 msgstr "انتخاب آیکون"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:104 includes/modules/class-zappoppop-woo-cart.php:751
-msgid "Selected products"
-msgstr "محصولات انتخاب‌شده"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:105 includes/class-pro-module-html-strings.php:110
 msgid "Send Welcome Email"
 msgstr "ارسال ایمیل خوش‌آمد"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:106 includes/modules/class-zappoppop-woo-cart.php:769
-msgid "Send a cart reminder email"
-msgstr "ارسال ایمیل یادآوری سبد خرید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:107 includes/modules/class-zappoppop-woo-cart.php:771
-msgid "Send after"
-msgstr "ارسال پس از"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:108 includes/modules/class-zappoppop-targeting-triggers.php:414
-msgid "Show again after"
-msgstr "نمایش دوباره پس از"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:109 includes/modules/class-zappoppop-woo-cart.php:748
-msgid "Show on pages"
-msgstr "نمایش در صفحه‌ها"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:110 includes/modules/class-zappoppop-woo-cart.php:726
-msgid "Show right after an item is added to the cart"
-msgstr "بلافاصله پس از افزودن یک آیتم به سبد خرید نمایش بده"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:111 includes/modules/class-zappoppop-woo-cart.php:708
-msgid "Show this popup when the cart is"
-msgstr "نمایش این پنجرهٔ بازشو وقتی سبد خرید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:112 includes/modules/class-zappoppop-woo-cart.php:780
-msgid "Shown in the email and applied when the visitor returns to the cart. Use a real WooCommerce coupon."
-msgstr "در ایمیل نشان داده می‌شود و وقتی بازدیدکننده به سبد خرید برمی‌گردد اعمال می‌شود. از یک کوپن واقعی WooCommerce استفاده کنید."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:113 includes/modules/class-zappoppop-targeting-triggers.php:429
-msgid "Site Area"
-msgstr "ناحیهٔ سایت"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:114 includes/modules/class-zappoppop-targeting-triggers.php:430
-msgid "Sitewide"
-msgstr "سراسر سایت"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:115 includes/modules/class-zappoppop-targeting-triggers.php:437
-msgid "Specific"
-msgstr "مشخص"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:116 includes/modules/class-zappoppop-targeting-triggers.php:443
-msgid "Specific pages"
-msgstr "صفحه‌های مشخص"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:117 includes/class-pro-module-html-strings.php:118 includes/modules/class-zappoppop-targeting-triggers.php:416
-msgid "Start delay"
-msgstr "تأخیر شروع"
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:118
 msgid "Store the submitted rating with the lead record."
@@ -475,14 +843,6 @@ msgstr "امتیاز ارسال‌شده را همراه با رکورد سرن�
 msgid "Subscriber values"
 msgstr "مقادیر مشترک"
 
-#: assets/js/zappoppop-pro-i18n-catalog.js:120 includes/modules/class-zappoppop-targeting-triggers.php:439
-msgid "Tags"
-msgstr "برچسب‌ها"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:121 includes/modules/class-zappoppop-targeting-triggers.php:409
-msgid "Target Properties"
-msgstr "ویژگی‌های هدف"
-
 #: assets/js/zappoppop-pro-i18n-catalog.js:122 includes/class-pro-module-html-strings.php:127
 msgid "Thank you. We have already got your request."
 msgstr "سپاسگزاریم. درخواست شما را قبلاً دریافت کرده‌ایم."
@@ -490,22 +850,6 @@ msgstr "سپاسگزاریم. درخواست شما را قبلاً دریافت
 #: assets/js/zappoppop-pro-i18n-catalog.js:123
 msgid "The URL parameter to read, e.g. rating for ?rating=4."
 msgstr "پارامتر نشانی اینترنتی که باید خوانده شود، مثلاً rating برای ?rating=4."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:124 includes/modules/class-zappoppop-woo-cart.php:764
-msgid "The popup is not shown when no upsell is available, for example when the product is already in the cart or out of stock."
-msgstr "وقتی هیچ محصول تکمیلی در دسترس نباشد، مثلاً وقتی محصول از قبل در سبد خرید یا ناموجود است، پنجرهٔ بازشو نمایش داده نمی‌شود."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:125 includes/modules/class-zappoppop-woo-cart.php:725
-msgid "The popup shows when the cart holds a product from any selected category. None selected = off."
-msgstr "وقتی سبد خرید محصولی از هر دستهٔ انتخاب‌شده دارد، پنجرهٔ بازشو نمایش داده می‌شود. هیچ‌کدام انتخاب‌نشده = خاموش."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:126 includes/modules/class-zappoppop-woo-cart.php:762
-msgid "The product to offer. A variation ID is allowed."
-msgstr "محصولی که باید پیشنهاد شود. شناسهٔ تنوع مجاز است."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:127 includes/modules/class-zappoppop-woo-cart.php:756
-msgid "This rule is checked on the server, so it also works with full-page caches."
-msgstr "این قانون در سرور بررسی می‌شود، پس با حافظه‌های نهان تمام‌صفحه هم کار می‌کند."
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:128
 msgid "Top center"
@@ -518,62 +862,6 @@ msgstr "بالا چپ"
 #: assets/js/zappoppop-pro-i18n-catalog.js:130
 msgid "Top right"
 msgstr "بالا راست"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:131 includes/modules/class-zappoppop-woo-cart.php:704
-msgid "Turn the WooCommerce cart features for this popup on or off"
-msgstr "ویژگی‌های سبد خرید WooCommerce را برای این پنجرهٔ بازشو روشن یا خاموش کنید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:132 includes/modules/class-zappoppop-targeting-triggers.php:402
-msgid "Turn the entire Targeting Triggers setting on or off"
-msgstr "کل تنظیم محرک‌های هدف‌گیری را روشن یا خاموش کنید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:133 includes/modules/class-zappoppop-woo-cart.php:757
-msgid "Upsell"
-msgstr "فروش تکمیلی (Upsell)"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:134 includes/modules/class-zappoppop-woo-cart.php:761
-msgid "Upsell product ID"
-msgstr "شناسهٔ محصول تکمیلی"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:135 includes/modules/class-zappoppop-woo-cart.php:766
-msgid "Upsell product name"
-msgstr "نام محصول تکمیلی"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:136 includes/modules/class-zappoppop-woo-cart.php:767
-msgid "Upsell product price"
-msgstr "قیمت محصول تکمیلی"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:137 includes/modules/class-zappoppop-targeting-triggers.php:428
-msgid "User Roles"
-msgstr "نقش‌های کاربر"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:138 includes/modules/class-zappoppop-woo-cart.php:743
-msgid "When a button is clicked"
-msgstr "هنگام کلیک روی یک دکمه"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:139 includes/modules/class-zappoppop-woo-cart.php:742
-msgid "When the popup opens"
-msgstr "هنگام باز شدن پنجرهٔ بازشو"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:140 includes/modules/class-zappoppop-woo-cart.php:707
-msgid "WooCommerce is not active on this site, so the cart rules are ignored."
-msgstr "WooCommerce در این سایت فعال نیست، پس قوانین سبد خرید نادیده گرفته می‌شوند."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:141 includes/modules/class-zappoppop-woo-cart.php:727
-msgid "Works with AJAX add to cart and the cart block. Shown once per page view, and only when the conditions above match."
-msgstr "با افزودن به سبد خرید AJAX و بلوک سبد خرید کار می‌کند. در هر بازدید صفحه یک‌بار نمایش داده می‌شود، و فقط وقتی شرایط بالا مطابقت دارد."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:142 includes/modules/class-zappoppop-woo-cart.php:776 includes/modules/class-zappoppop-woo-recover.php:385
-msgid "You left something in your cart"
-msgstr "چیزی در سبد خریدتان جا گذاشته‌اید"
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:143 includes/modules/class-zappoppop-woo-cart.php:778 includes/modules/class-zappoppop-woo-recover.php:393
-msgid "Your cart is saved. Come back any time to finish your order."
-msgstr "سبد خرید شما ذخیره شد. هر زمان برگردید و سفارشتان را کامل کنید."
-
-#: assets/js/zappoppop-pro-i18n-catalog.js:144 includes/modules/class-zappoppop-double-optin.php:22
-msgid "Your email address successfully confirmed."
-msgstr "نشانی ایمیل شما با موفقیت تأیید شد."
 
 #: assets/js/zappoppop-pro-i18n-catalog.js:145
 msgid "e.g. rating"
@@ -649,11 +937,11 @@ msgstr[1] "%s ستاره"
 msgid "Please select a rating."
 msgstr "لطفاً یک امتیاز انتخاب کنید."
 
-#: includes/class-pro-admin.php:25 includes/class-pro-admin.php:36 templates/license-edd.php:30 templates/license-page.php:6 templates/license-page.php:15
+#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 templates/license-edd.php:30 templates/license-page.php:6
 msgid "License"
 msgstr "مجوز"
 
-#: includes/class-pro-admin.php:41 includes/class-pro-admin.php:66 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
+#: includes/class-pro-admin.php:34 includes/class-pro-admin.php:59 includes/ab/class-pro-ab.php:55 includes/stats/class-pro-stats.php:60
 msgid "You do not have sufficient permissions to access this page."
 msgstr "شما مجوز کافی برای دسترسی به این صفحه را ندارید."
 
@@ -661,23 +949,23 @@ msgstr "شما مجوز کافی برای دسترسی به این صفحه را
 msgid "ZapPopPop Pro add-on."
 msgstr "افزونهٔ ZapPopPop Pro."
 
-#: includes/class-pro-edd.php:119
+#: includes/class-pro-edd.php:117
 msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
 msgstr "صدور مجوز هنوز راه‌اندازی نشده است. نشانی فروشگاه و شناسهٔ محصول را به wp-config.php بیفزایید."
 
-#: includes/class-pro-edd.php:133
+#: includes/class-pro-edd.php:131
 msgid "The licence server did not answer. Please try again later."
 msgstr "سرور مجوز پاسخ نداد. لطفاً بعداً دوباره تلاش کنید."
 
-#: includes/class-pro-edd.php:137
+#: includes/class-pro-edd.php:135
 msgid "The licence server sent an unexpected answer."
 msgstr "سرور مجوز پاسخ غیرمنتظره‌ای فرستاد."
 
-#: includes/class-pro-edd.php:148 includes/class-pro-edd.php:188
+#: includes/class-pro-edd.php:146 includes/class-pro-edd.php:189
 msgid "Enter your licence key."
 msgstr "کلید مجوز خود را وارد کنید."
 
-#: includes/class-pro-edd.php:161
+#: includes/class-pro-edd.php:159
 msgid "Licence activated. Thank you!"
 msgstr "مجوز فعال شد. سپاسگزاریم!"
 
@@ -685,83 +973,87 @@ msgstr "مجوز فعال شد. سپاسگزاریم!"
 msgid "There is no licence to deactivate."
 msgstr "مجوزی برای غیرفعال‌سازی وجود ندارد."
 
-#: includes/class-pro-edd.php:181
+#: includes/class-pro-edd.php:182
 msgid "Licence deactivated for this site."
 msgstr "مجوز برای این سایت غیرفعال شد."
 
-#: includes/class-pro-edd.php:202
+#: includes/class-pro-edd.php:203
 msgid "Your licence is active."
 msgstr "مجوز شما فعال است."
 
-#: includes/class-pro-edd.php:224
+#: includes/class-pro-edd.php:225
 msgid "Security check failed. Please go back and try again."
 msgstr "بررسی امنیتی ناموفق بود. لطفاً برگردید و دوباره تلاش کنید."
 
-#: includes/class-pro-edd.php:227
+#: includes/class-pro-edd.php:228
 msgid "You do not have sufficient permissions to manage the licence."
 msgstr "شما مجوز کافی برای مدیریت مجوز را ندارید."
 
-#: includes/class-pro-edd.php:267
+#: includes/class-pro-edd.php:241
+msgid "Add-on licences synced."
+msgstr "مجوزهای افزودنی‌ها همگام‌سازی شد."
+
+#: includes/class-pro-edd.php:272
 msgid "Lifetime"
 msgstr "مادام‌العمر"
 
-#: includes/class-pro-edd.php:275 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
+#: includes/class-pro-edd.php:280 includes/class-pro-pass.php:396 templates/license-edd.php:18 templates/ab/table.php:106 templates/ab/toolbar.php:8
 msgid "Active"
 msgstr "فعال"
 
-#: includes/class-pro-edd.php:276 templates/license-edd.php:21
+#: includes/class-pro-edd.php:281 includes/class-pro-pass.php:399 templates/license-edd.php:21
 msgid "Expired"
 msgstr "منقضی‌شده"
 
-#: includes/class-pro-edd.php:277 includes/class-pro-edd.php:284 templates/license-edd.php:15
+#: includes/class-pro-edd.php:282 includes/class-pro-edd.php:289 templates/license-edd.php:15
 msgid "Not activated"
 msgstr "فعال نشده"
 
-#: includes/class-pro-edd.php:278
+#: includes/class-pro-edd.php:283
 msgid "Not activated on this site"
 msgstr "در این سایت فعال نشده"
 
-#: includes/class-pro-edd.php:279
+#: includes/class-pro-edd.php:284
 msgid "Disabled"
 msgstr "غیرفعال"
 
-#: includes/class-pro-edd.php:280
+#: includes/class-pro-edd.php:285
 msgid "Revoked"
 msgstr "لغوشده"
 
-#: includes/class-pro-edd.php:281 includes/class-pro-edd.php:282
+#: includes/class-pro-edd.php:286 includes/class-pro-edd.php:287
 msgid "Invalid key"
 msgstr "کلید نامعتبر"
 
-#: includes/class-pro-edd.php:292
+#: includes/class-pro-edd.php:297
 msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
 msgstr "این مجوز در %s منقضی شد. ویژگی‌های Pro در سایت‌هایی که قبلاً فعال بوده‌اند به کار خود ادامه می‌دهند؛ برای دریافت به‌روزرسانی و پشتیبانی آن را تمدید کنید."
 
-#: includes/class-pro-edd.php:293
+#: includes/class-pro-edd.php:298
 msgid "This licence has expired. Renew it to receive updates and support."
 msgstr "این مجوز منقضی شده است. برای دریافت به‌روزرسانی و پشتیبانی آن را تمدید کنید."
 
-#: includes/class-pro-edd.php:296
+#: includes/class-pro-edd.php:301
 msgid "This licence key is not valid. Please check it and try again."
 msgstr "این کلید مجوز معتبر نیست. لطفاً آن را بررسی کنید و دوباره تلاش کنید."
 
-#: includes/class-pro-edd.php:298
+#: includes/class-pro-edd.php:303
 msgid "This licence has no activations left. Deactivate it on another site or upgrade your plan."
 msgstr "این مجوز فعال‌سازی باقی‌مانده‌ای ندارد. آن را در سایت دیگری غیرفعال کنید یا طرح خود را ارتقا دهید."
 
-#: includes/class-pro-edd.php:301
+#: includes/class-pro-edd.php:306
 msgid "This licence is not active on this site. Activate it again."
 msgstr "این مجوز در این سایت فعال نیست. دوباره آن را فعال کنید."
 
-#: includes/class-pro-edd.php:304
+#: includes/class-pro-edd.php:309
 msgid "This licence has been disabled. Please contact support."
 msgstr "این مجوز غیرفعال شده است. لطفاً با پشتیبانی تماس بگیرید."
 
-#: includes/class-pro-edd.php:307
+#: includes/class-pro-edd.php:312
 msgid "This key belongs to a different product."
 msgstr "این کلید متعلق به محصول دیگری است."
 
-#: includes/class-pro-edd.php:309
+#: includes/class-pro-edd.php:314
 msgid "The licence could not be verified. Please try again or contact support."
 msgstr "راستی‌آزمایی مجوز ممکن نشد. لطفاً دوباره تلاش کنید یا با پشتیبانی تماس بگیرید."
 
@@ -769,7 +1061,7 @@ msgstr "راستی‌آزمایی مجوز ممکن نشد. لطفاً دوبا�
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr "به مجوز فعال ZapPopPop Pro نیاز دارد. انتخاب ذخیره‌شدهٔ شما حفظ می‌شود."
 
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:158 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
 msgid "Activate licence"
 msgstr "فعال‌سازی مجوز"
 
@@ -976,10 +1268,6 @@ msgstr "فیلدهایی که کلید داده‌های شخصی را نگه م
 #: includes/class-pro-module-html-strings.php:75
 msgid "Fireworks (needs Canvas Fireworks library)"
 msgstr "آتش‌بازی (نیازمند کتابخانهٔ Canvas Fireworks)"
-
-#: includes/class-pro-module-html-strings.php:76 includes/modules/class-zappoppop-targeting-triggers.php:426
-msgid "From"
-msgstr "از"
 
 #: includes/class-pro-module-html-strings.php:77
 msgid "Guests Only"
@@ -1197,10 +1485,6 @@ msgstr "از دکمهٔ برچسب برای درج مقادیر مشترک اس�
 msgid "Visitor Authentication"
 msgstr "احراز هویت بازدیدکننده"
 
-#: includes/class-pro-module-html-strings.php:135 includes/modules/class-zappoppop-autoresponder.php:95
-msgid "Welcome! Here is your reward"
-msgstr "خوش آمدید! این هم پاداش شما"
-
 #: includes/class-pro-module-html-strings.php:136
 msgid "Zooming Entrances"
 msgstr "ورودهای بزرگ‌نمایی"
@@ -1321,35 +1605,59 @@ msgstr "هدف‌گیری"
 msgid "Visitor authentication, targeting and attribution rules."
 msgstr "احراز هویت بازدیدکننده، هدف‌گیری و قوانین انتساب."
 
-#: includes/class-pro-module-strings.php:68 includes/modules/class-zappoppop-woo-cart.php:703
-msgid "WooCommerce Cart"
-msgstr "سبد خرید WooCommerce"
-
 #: includes/class-pro-module-strings.php:69
 msgid "Show popups by cart contents and fill live cart values into popup text."
 msgstr "نمایش پنجره‌های بازشو بر اساس محتوای سبد خرید و درج مقادیر زندهٔ سبد در متن پنجره."
 
-#: includes/class-pro-plugin.php:109
+#: includes/class-pro-pass.php:77
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: includes/class-pro-pass.php:78
+msgid "Subscribe popup form submissions to Mailchimp audiences with merge fields, groups, tags and double opt-in."
+msgstr "ارسال‌های فرم پاپ‌آپ را با فیلدهای ادغام، گروه‌ها، برچسب‌ها و تأیید دوگانه در مخاطبان Mailchimp مشترک کنید."
+
+#: includes/class-pro-pass.php:83
+msgid "GetResponse"
+msgstr "GetResponse"
+
+#: includes/class-pro-pass.php:84
+msgid "Add popup form submissions to GetResponse campaigns with custom field mapping."
+msgstr "ارسال‌های فرم پاپ‌آپ را با نگاشت فیلدهای سفارشی به کمپین‌های GetResponse اضافه کنید."
+
+#: includes/class-pro-pass.php:278
+msgid "All Access"
+msgstr "All Access"
+
+#: includes/class-pro-pass.php:393
+msgid "Not installed"
+msgstr "نصب نشده"
+
+#: includes/class-pro-pass.php:402
+msgid "Not in your licence"
+msgstr "در مجوز شما نیست"
+
+#: includes/class-pro-plugin.php:122
 msgid "Outdated %1$s: minimum required %2$s"
 msgstr "%1$s قدیمی: حداقل نسخهٔ لازم %2$s"
 
-#: includes/class-pro-plugin.php:111
+#: includes/class-pro-plugin.php:124
 msgid "Missing %1$s: minimum required %2$s"
 msgstr "%1$s موجود نیست: حداقل نسخهٔ لازم %2$s"
 
-#: includes/class-pro-plugin.php:116
+#: includes/class-pro-plugin.php:129
 msgid "This plugin is not fully active."
 msgstr "این افزونه کاملاً فعال نیست."
 
-#: includes/class-pro-plugin.php:142
+#: includes/class-pro-plugin.php:155
 msgid "ZapPopPop Pro needs the ZapPopPop plugin. Install and activate ZapPopPop first."
 msgstr "ZapPopPop Pro به افزونهٔ ZapPopPop نیاز دارد. ابتدا ZapPopPop را نصب و فعال کنید."
 
-#: includes/class-pro-plugin.php:146
+#: includes/class-pro-plugin.php:159
 msgid "ZapPopPop Pro needs a newer version of ZapPopPop. Please update ZapPopPop."
 msgstr "ZapPopPop Pro به نسخهٔ جدیدتر ZapPopPop نیاز دارد. لطفاً ZapPopPop را به‌روزرسانی کنید."
 
-#: includes/class-pro-plugin.php:156
+#: includes/class-pro-plugin.php:169
 msgid "ZapPopPop Pro is not activated. Pro templates and modules stay locked until you enter your licence key."
 msgstr "ZapPopPop Pro فعال نشده است. تا وارد کردن کلید مجوز، قالب‌ها و ماژول‌های Pro قفل می‌مانند."
 
@@ -1497,262 +1805,6 @@ msgstr "کوپن با موفقیت روی سبد خرید اعمال شد!"
 msgid "Unable to apply coupon to cart."
 msgstr "اعمال کوپن روی سبد خرید ممکن نشد."
 
-#: includes/modules/class-zappoppop-ajax-getresponse.php:21 includes/modules/class-zappoppop-ajax-mailchimp.php:22
-msgid "Permission denied."
-msgstr "دسترسی رد شد."
-
-#: includes/modules/class-zappoppop-ajax-getresponse.php:25
-msgid "Enter a valid GetResponse API key."
-msgstr "یک کلید API معتبر GetResponse وارد کنید."
-
-#: includes/modules/class-zappoppop-ajax-mailchimp.php:26
-msgid "Enter a valid MailChimp API key (for example 0123456789abcdef-us21)."
-msgstr "یک کلید API معتبر MailChimp وارد کنید (مثلاً 0123456789abcdef-us21)."
-
-#: includes/modules/class-zappoppop-autoresponder.php:96
-msgid "Thank you for subscribing!\n\nEnjoy your offer."
-msgstr "از اشتراک شما سپاسگزاریم!\n\nاز پیشنهاد خود لذت ببرید."
-
-#: includes/modules/class-zappoppop-double-optin.php:18
-msgid "Please confirm your email address"
-msgstr "لطفاً نشانی ایمیل خود را تأیید کنید"
-
-#: includes/modules/class-zappoppop-double-optin.php:19
-msgid "Dear visitor!\n\nPlease confirm your email address by clicking the following link:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nThanks."
-msgstr "بازدیدکنندهٔ گرامی!\n\nلطفاً با کلیک روی پیوند زیر نشانی ایمیل خود را تأیید کنید:\n<a href=\"{{confirmation-url}}\">{{confirmation-url}}</a>\n\nسپاس."
-
-#: includes/modules/class-zappoppop-double-optin.php:22
-msgid "Thank you!"
-msgstr "سپاسگزاریم!"
-
-#: includes/modules/class-zappoppop-getresponse.php:210 includes/modules/class-zappoppop-mailchimp.php:222
-msgid "Invalid API key."
-msgstr "کلید API نامعتبر."
-
-#: includes/modules/class-zappoppop-getresponse.php:232
-msgid "GetResponse returned HTTP %d."
-msgstr "GetResponse کد HTTP %d را برگرداند."
-
-#: includes/modules/class-zappoppop-getresponse.php:252
-msgid "Email Address"
-msgstr "نشانی ایمیل"
-
-#: includes/modules/class-zappoppop-getresponse.php:252
-msgid "Full name"
-msgstr "نام کامل"
-
-#: includes/modules/class-zappoppop-getresponse.php:265
-msgid "API key or campaign is missing."
-msgstr "کلید API یا کمپین وجود ندارد."
-
-#: includes/modules/class-zappoppop-getresponse.php:267 includes/modules/class-zappoppop-mailchimp.php:304
-msgid "Invalid email address."
-msgstr "نشانی ایمیل نامعتبر."
-
-#: includes/modules/class-zappoppop-mailchimp.php:246
-msgid "MailChimp returned HTTP %d."
-msgstr "MailChimp کد HTTP %d را برگرداند."
-
-#: includes/modules/class-zappoppop-mailchimp.php:263 includes/modules/class-zappoppop-mailchimp.php:277
-msgid "Select an audience first."
-msgstr "ابتدا یک مخاطب‌فهرست (Audience) انتخاب کنید."
-
-#: includes/modules/class-zappoppop-mailchimp.php:266
-msgid "Email address"
-msgstr "نشانی ایمیل"
-
-#: includes/modules/class-zappoppop-mailchimp.php:302
-msgid "API key or audience is missing."
-msgstr "کلید API یا مخاطب‌فهرست وجود ندارد."
-
-#: includes/modules/class-zappoppop-protect.php:207 includes/modules/class-zappoppop-protect.php:215 includes/modules/class-zappoppop-protect.php:278
-msgid "ZapPopPop submissions"
-msgstr "ارسال‌های ZapPopPop"
-
-#: includes/modules/class-zappoppop-side-tabs.php:117
-msgid "Offer"
-msgstr "پیشنهاد"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:372
-msgid "(no title)"
-msgstr "(بدون عنوان)"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:391 includes/modules/class-zappoppop-targeting-triggers.php:398
-msgid "Visitors (logged out)"
-msgstr "بازدیدکنندگان (خارج‌شده از حساب)"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:399 includes/modules/class-zappoppop-woo-cart.php:722
-msgid "Search..."
-msgstr "جست‌وجو..."
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:400 includes/modules/class-zappoppop-woo-cart.php:723
-msgid "Nothing found."
-msgstr "چیزی یافت نشد."
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:404
-msgid "OnLoad"
-msgstr "هنگام بارگذاری"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:405
-msgid "OnScroll"
-msgstr "هنگام اسکرول"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:406
-msgid "OnExit"
-msgstr "هنگام خروج"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:407
-msgid "OnInactivity"
-msgstr "هنگام بی‌فعالیتی"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:415
-msgid "hrs"
-msgstr "ساعت"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:417
-msgid "sec"
-msgstr "ثانیه"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:419
-msgid "Close delay 0 keeps the popup open until it is closed."
-msgstr "تأخیر بستن ۰ پنجرهٔ بازشو را تا بسته‌شدن دستی باز نگه می‌دارد."
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:427
-msgid "End"
-msgstr "پایان"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:434
-msgid "URL"
-msgstr "نشانی"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:436 templates/ab/toolbar.php:7
-msgid "All"
-msgstr "همه"
-
-#: includes/modules/class-zappoppop-targeting-triggers.php:444
-msgid "URL contains"
-msgstr "نشانی شامل"
-
-#: includes/modules/class-zappoppop-woo-cart.php:709
-msgid "Any"
-msgstr "هر"
-
-#: includes/modules/class-zappoppop-woo-cart.php:717
-msgid "items"
-msgstr "آیتم"
-
-#: includes/modules/class-zappoppop-woo-cart.php:718
-msgid "A value of 0 turns that condition off."
-msgstr "مقدار ۰ آن شرط را خاموش می‌کند."
-
-#: includes/modules/class-zappoppop-woo-cart.php:730
-msgid "0 = detect it from your WooCommerce free shipping method."
-msgstr "۰ = از روش ارسال رایگان WooCommerce شما تشخیص داده شود."
-
-#: includes/modules/class-zappoppop-woo-cart.php:732
-msgid "Type these into any text layer. Live Preview shows sample values; visitors see their own cart."
-msgstr "این‌ها را در هر لایهٔ متن بنویسید. پیش‌نمایش زنده مقادیر نمونه را نشان می‌دهد؛ بازدیدکنندگان سبد خرید خودشان را می‌بینند."
-
-#: includes/modules/class-zappoppop-woo-cart.php:740
-msgid "An existing WooCommerce coupon. It fills {coupon_code} and the countdown. The code is visible in the page source, so do not use a private code."
-msgstr "یک کوپن موجود WooCommerce. {coupon_code} و شمارش معکوس را پر می‌کند. کد در منبع صفحه نمایان است، پس از کد خصوصی استفاده نکنید."
-
-#: includes/modules/class-zappoppop-woo-cart.php:744
-msgid "Give a button the link #zpp-apply-coupon."
-msgstr "به یک دکمه پیوند #zpp-apply-coupon را بدهید."
-
-#: includes/modules/class-zappoppop-woo-cart.php:752
-msgid "Product pages: the popup is not shown on any other page. Selected products: only on the products or categories below (none selected = every product page)."
-msgstr "صفحه‌های محصول: پنجرهٔ بازشو در هیچ صفحهٔ دیگری نمایش داده نمی‌شود. محصولات انتخاب‌شده: فقط در محصولات یا دسته‌های زیر (هیچ‌کدام انتخاب‌نشده = هر صفحهٔ محصول)."
-
-#: includes/modules/class-zappoppop-woo-cart.php:763
-msgid "Automatic uses the cross-sells of the visitor's cart, then the upsells of the products in it. Set them on each WooCommerce product."
-msgstr "«خودکار» ابتدا از فروش‌های مکمل (cross-sell) سبد خرید بازدیدکننده و سپس فروش‌های تکمیلی (upsell) محصولات داخل آن استفاده می‌کند. آن‌ها را روی هر محصول WooCommerce تنظیم کنید."
-
-#: includes/modules/class-zappoppop-woo-cart.php:765
-msgid "Give a button the link #zpp-add-upsell to add the product to the cart (the popup then closes), or #zpp-view-upsell to open its page. Variable products can only use the view link."
-msgstr "به یک دکمه پیوند #zpp-add-upsell را بدهید تا محصول به سبد خرید افزوده شود (سپس پنجره بسته می‌شود)، یا #zpp-view-upsell تا صفحهٔ آن باز شود. محصولات متغیر فقط می‌توانند از پیوند مشاهده استفاده کنند."
-
-#: includes/modules/class-zappoppop-woo-cart.php:770
-msgid "Sent once to visitors who submit this popup's form with the consent box ticked and items in their cart. Nothing is saved without consent."
-msgstr "یک‌بار برای بازدیدکنندگانی ارسال می‌شود که فرم این پنجرهٔ بازشو را با کادر رضایت علامت‌خورده و آیتم‌هایی در سبد خرید ارسال می‌کنند. بدون رضایت چیزی ذخیره نمی‌شود."
-
-#: includes/modules/class-zappoppop-woo-cart.php:772
-msgid "minutes"
-msgstr "دقیقه"
-
-#: includes/modules/class-zappoppop-woo-cart.php:774
-msgid "Add a checkbox layer to the form (for example \"Email me a reminder about my cart\") and type the same name in its Advanced > Field name. Unticked = nothing is saved."
-msgstr "یک لایهٔ کادر انتخاب به فرم بیفزایید (مثلاً «یادآوری سبد خریدم را ایمیل کنید») و همان نام را در پیشرفته > نام فیلد آن بنویسید. علامت‌نخورده = چیزی ذخیره نمی‌شود."
-
-#: includes/modules/class-zappoppop-woo-cart.php:779
-msgid "Coupon code (optional)"
-msgstr "کد کوپن (اختیاری)"
-
-#: includes/modules/class-zappoppop-woo-cart.php:781
-msgid "No email is sent if an order was placed with the same address. Every email has an unsubscribe link; unsubscribed addresses are never saved again. Sending uses WordPress cron and wp_mail()."
-msgstr "اگر سفارشی با همان نشانی ثبت شده باشد ایمیلی ارسال نمی‌شود. هر ایمیل پیوند لغو اشتراک دارد؛ نشانی‌های لغوشده هرگز دوباره ذخیره نمی‌شوند. ارسال از cron وردپرس و wp_mail() استفاده می‌کند."
-
-#: includes/modules/class-zappoppop-woo-cart.php:782
-msgid "The countdown and expiry date come from the coupon's real expiry date in WooCommerce."
-msgstr "شمارش معکوس و تاریخ انقضا از تاریخ انقضای واقعی کوپن در WooCommerce می‌آید."
-
-#: includes/modules/class-zappoppop-woo-cart.php:783
-msgid "Free shipping bar: add a Progress Bar layer, set its mode to \"Auto: WooCommerce free shipping\" and write its label like: Add {shipping_remaining} for free shipping || You got free shipping!"
-msgstr "نوار ارسال رایگان: یک لایهٔ نوار پیشرفت بیفزایید، حالتش را روی «خودکار: ارسال رایگان WooCommerce» بگذارید و برچسبش را این‌گونه بنویسید: برای ارسال رایگان {shipping_remaining} بیفزایید || ارسال شما رایگان شد!"
-
-#: includes/modules/class-zappoppop-woo-recover.php:401
-msgid "Use code %s at checkout."
-msgstr "از کد %s در تسویه‌حساب استفاده کنید."
-
-#: includes/modules/class-zappoppop-woo-recover.php:408
-msgid "Return to your cart"
-msgstr "بازگشت به سبد خرید"
-
-#: includes/modules/class-zappoppop-woo-recover.php:411
-msgid "You are receiving this because you asked for a cart reminder on %s."
-msgstr "این را دریافت می‌کنید چون در %s یادآوری سبد خرید خواسته‌اید."
-
-#: includes/modules/class-zappoppop-woo-recover.php:412 includes/modules/class-zappoppop-woo-recover.php:433
-msgid "Unsubscribe"
-msgstr "لغو اشتراک"
-
-#: includes/modules/class-zappoppop-woo-recover.php:432
-msgid "You have been unsubscribed. We will not send you cart reminders again."
-msgstr "اشتراک شما لغو شد. دیگر یادآوری سبد خرید برایتان ارسال نمی‌کنیم."
-
-#: includes/modules/class-zappoppop-woo-recover.php:432
-msgid "This unsubscribe link is not valid."
-msgstr "این پیوند لغو اشتراک معتبر نیست."
-
-#: includes/modules/class-zappoppop-woo-recover.php:506 includes/modules/class-zappoppop-woo-recover.php:514
-msgid "ZapPopPop abandoned cart emails"
-msgstr "ایمیل‌های سبد خرید رهاشدهٔ ZapPopPop"
-
-#: includes/modules/class-zappoppop-woo-recover.php:530
-msgid "Abandoned cart emails"
-msgstr "ایمیل‌های سبد خرید رهاشده"
-
-#: includes/modules/class-zappoppop-woo-recover.php:533
-msgid "Email"
-msgstr "ایمیل"
-
-#: includes/modules/class-zappoppop-woo-recover.php:534 includes/stats/class-admin-stats.php:94 templates/license-edd.php:73 templates/ab/table.php:24
-msgid "Status"
-msgstr "وضعیت"
-
-#: includes/modules/class-zappoppop-woo-recover.php:535
-msgid "Saved on"
-msgstr "ذخیره‌شده در"
-
-#: includes/modules/class-zappoppop-woo-recover.php:536
-msgid "Cart lines"
-msgstr "اقلام سبد خرید"
-
-#: includes/modules/class-zappoppop-woo-recover.php:558
-msgid "The address is kept on a do-not-email list because the person unsubscribed."
-msgstr "این نشانی چون فرد اشتراک خود را لغو کرده در فهرست «ایمیل نزن» نگه داشته می‌شود."
-
 #: includes/modules/class-zappoppop-woocommerce.php:98
 msgid "Generated by ZapPopPop campaign"
 msgstr "تولیدشده توسط کمپین ZapPopPop"
@@ -1817,27 +1869,7 @@ msgstr "هفته‌ای یک‌بار"
 msgid "No activity recorded."
 msgstr "فعالیتی ثبت نشده است."
 
-#: modules/acc-popup-overlay/admin.js:163
-msgid "Maximum of 20 custom backgrounds."
-msgstr "حداکثر ۲۰ پس‌زمینهٔ سفارشی."
-
-#: modules/acc-popup-overlay/admin.js:170
-msgid "Delete this background?"
-msgstr "این پس‌زمینه حذف شود؟"
-
-#: modules/acc-popup-overlay/admin.js:179
-msgid "WordPress Media is unavailable. Enter image URL (JPG/PNG):"
-msgstr "رسانهٔ وردپرس در دسترس نیست. نشانی تصویر (JPG/PNG) را وارد کنید:"
-
-#: modules/acc-popup-overlay/admin.js:199
-msgid "Please choose a JPEG or PNG image (.jpg, .jpeg, .png)."
-msgstr "لطفاً یک تصویر JPEG یا PNG انتخاب کنید (.jpg، .jpeg، .png)."
-
-#: modules/acc-popup-overlay/admin.js:202
-msgid "Please enter the animation HTML / JS."
-msgstr "لطفاً HTML / JS انیمیشن را وارد کنید."
-
-#: templates/license-edd.php:44 templates/license-page.php:24
+#: templates/license-edd.php:44
 msgid "Licensing is not set up yet"
 msgstr "صدور مجوز هنوز راه‌اندازی نشده است"
 
@@ -1853,7 +1885,7 @@ msgstr "نشانی صفحهٔ اصلی فروشگاه (https)"
 msgid "Download ID of ZapPopPop Pro in your store"
 msgstr "شناسهٔ دانلود ZapPopPop Pro در فروشگاه شما"
 
-#: templates/license-edd.php:52 templates/license-page.php:32 templates/locked-page.php:23
+#: templates/license-edd.php:52 templates/locked-page.php:23
 msgid "Your campaigns, statistics and settings are safe. Everything you created stays stored and keeps working on your site."
 msgstr "کمپین‌ها، آمار و تنظیمات شما امن هستند. هر چه ساخته‌اید ذخیره می‌ماند و در سایت شما به کار خود ادامه می‌دهد."
 
@@ -1893,37 +1925,41 @@ msgstr "کلید را در رسید خرید و در حساب خود در فرو
 msgid "Only a network administrator can change the licence."
 msgstr "فقط مدیر شبکه می‌تواند مجوز را تغییر دهد."
 
-#: templates/license-edd.php:102
+#: templates/license-edd.php:103
 msgid "Licence server"
 msgstr "سرور مجوز"
 
-#: templates/license-edd.php:105
+#: templates/license-edd.php:106
 msgid "Store"
 msgstr "فروشگاه"
 
-#: templates/license-edd.php:107 templates/license-page.php:28
+#: templates/license-edd.php:108
 msgid "Product ID"
 msgstr "شناسهٔ محصول"
 
-#: templates/license-edd.php:109
+#: templates/license-edd.php:110
 msgid "This site"
 msgstr "این سایت"
 
-#: templates/license-edd.php:112
+#: templates/license-edd.php:113
 msgid "Activating uses one site slot. Deactivate the licence before you move the site to another domain. Updates arrive in Dashboard > Updates while the licence is active."
 msgstr "فعال‌سازی یک جایگاه سایت را مصرف می‌کند. پیش از انتقال سایت به دامنهٔ دیگر، مجوز را غیرفعال کنید. تا زمانی که مجوز فعال است به‌روزرسانی‌ها در پیشخوان > به‌روزرسانی‌ها می‌رسند."
 
-#: templates/license-page.php:26
-msgid "ZapPopPop Pro uses Freemius for licence keys, updates and your account. Add the product details from your Freemius Developer Dashboard (Products > ZapPopPop Pro > SDK Integration) to zappoppop-pro.php, or define them in wp-config.php:"
-msgstr "ZapPopPop Pro از Freemius برای کلیدهای مجوز، به‌روزرسانی‌ها و حساب شما استفاده می‌کند. جزئیات محصول را از پیشخوان توسعه‌دهندهٔ Freemius (Products > ZapPopPop Pro > SDK Integration) به zappoppop-pro.php بیفزایید یا در wp-config.php تعریف کنید:"
+#: templates/license-products.php:21
+msgid "Add-ons on this licence"
+msgstr "افزودنی‌های این مجوز"
 
-#: templates/license-page.php:29
-msgid "Public key (starts with pk_)"
-msgstr "کلید عمومی (با pk_ شروع می‌شود)"
+#: templates/license-products.php:35
+msgid "Your key does not cover every add-on. An All Access Pass unlocks Pro and all add-ons with one key."
+msgstr "کلید شما همهٔ افزودنی‌ها را پوشش نمی‌دهد. All Access Pass با یک کلید، Pro و همهٔ افزودنی‌ها را باز می‌کند."
 
-#: templates/license-page.php:30
-msgid "Product slug"
-msgstr "نامک محصول"
+#: templates/license-products.php:37
+msgid "Install an add-on like any plugin. It is activated with the key above and updated from Dashboard > Updates."
+msgstr "یک افزودنی را مانند هر افزونهٔ دیگر نصب کنید. با کلید بالا فعال می‌شود و از پیشخوان > به‌روزرسانی‌ها به‌روز می‌شود."
+
+#: templates/license-products.php:43
+msgid "Sync add-ons"
+msgstr "همگام‌سازی افزودنی‌ها"
 
 #: templates/settings-library-rows.php:15
 msgid "Canvas Confetti"

@@ -49,6 +49,15 @@ class ZapPopPop_Pro_Plugin {
         return self::$core_ok;
     }
 
+    /* ZAPPOPPOP_PRO_WOO_COMPAT: Pro declares its own WooCommerce feature compatibility (it was done by the Woo Cart module). */
+    public static function declare_woo_compat() {
+        if (!class_exists('Automattic\\WooCommerce\\Utilities\\FeaturesUtil') || !defined('ZAPPOPPOP_PRO_FILE')) {
+            return;
+        }
+        \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility('custom_order_tables', ZAPPOPPOP_PRO_FILE, true);
+        \Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility('cart_checkout_blocks', ZAPPOPPOP_PRO_FILE, true);
+    }
+
     public static function on_core_loaded() {
         if (!defined('ZAPPOPPOP_API_VERSION') || (int) ZAPPOPPOP_API_VERSION < ZAPPOPPOP_PRO_MIN_API) {
             return;
@@ -56,7 +65,7 @@ class ZapPopPop_Pro_Plugin {
         self::$core_ok = true;
 
         foreach (array('class-pro-gate.php', 'class-pro-settings.php', 'ab/class-admin-ab-query.php', 'ab/class-front-ab.php',
-                       'ab/class-ajax-campaigns.php', 'ab/class-pro-ab.php', 'stats/class-admin-stats.php', 'stats/class-pro-stats.php', 'elements/class-pro-elements.php', 'modules/class-pro-modules.php', 'modules/class-pro-pipeline.php', 'class-pro-extensions.php', 'class-pro-protection.php') as $file) {
+                       'ab/class-ajax-campaigns.php', 'ab/class-pro-ab.php', 'stats/class-admin-stats.php', 'stats/class-pro-stats.php', 'elements/class-pro-elements.php', 'modules/class-pro-modules.php', 'modules/class-pro-integrations.php', 'modules/class-pro-pipeline.php', 'class-pro-extensions.php', 'class-pro-protection.php') as $file) {
             require_once ZAPPOPPOP_PRO_PATH . 'includes/' . $file;
         }
         ZapPopPop_Pro_Settings::hooks();
@@ -64,7 +73,11 @@ class ZapPopPop_Pro_Plugin {
         ZapPopPop_Pro_Stats::boot();
         ZapPopPop_Pro_Elements::boot();
         ZapPopPop_Pro_Modules::boot();
-        ZapPopPop_Woo_Cart::boot(); /* ZPP_WC_CART: autoloaded from includes/modules/ */
+        if (did_action('before_woocommerce_init')) {
+            self::declare_woo_compat();
+        } else {
+            add_action('before_woocommerce_init', array(__CLASS__, 'declare_woo_compat'));
+        }
         ZapPopPop_Pro_Pipeline::boot();
         ZapPopPop_Pro_Extensions::hooks();
         ZapPopPop_Pro_Protection::hooks();

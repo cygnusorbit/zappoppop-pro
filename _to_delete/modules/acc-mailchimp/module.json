@@ -1,0 +1,25 @@
+{
+    "schema": 1,
+    "slug": "acc-mailchimp",
+    "name": "MailChimp",
+    "version": "1.0.1",
+    "author": "ZapPopPop",
+    "description": "Subscribe form submissions to MailChimp audiences: merge fields, groups, tags, double opt-in and conditional logic.",
+    "image": "icon.svg",
+    "category": "all-modules",
+    "default_active": false,
+    "order": 230,
+    "on_missing": "skip",
+    "requires": [],
+    "accordion": "accordion.html",
+    "allow_edit": true,
+	"allow_delete": false,
+    "data_keys": [
+        "mailchimp"
+    ],
+    "in_use": [
+        "mailchimp"
+    ],
+    "min_version": "",
+    "deprecated": false
+}

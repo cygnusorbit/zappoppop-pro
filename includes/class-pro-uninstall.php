@@ -5,17 +5,13 @@ if (!defined('ABSPATH')) {
 
 /**
  * Removes Pro's data when the plugin is deleted. This replaces uninstall.php: WordPress ignores a plugin's
- * uninstall hook when uninstall.php exists, and the Freemius SDK relies on that hook. With Freemius on, the SDK's
- * hook calls run() through its after_uninstall action; without it, register() registers run() directly.
+ * uninstall hook when uninstall.php exists, so register() registers run() directly.
  * On a network every site is cleaned in turn. Delete Pro before ZapPopPop: ZapPopPop's own cleanup removes the
  * "Clean on uninstall" setting that Pro reads here.
  */
 class ZapPopPop_Pro_Uninstall {
 
     public static function register() {
-        if (ZapPopPop_Pro_Freemius::is_configured()) {
-            return;
-        }
         register_uninstall_hook(ZAPPOPPOP_PRO_FILE, array(__CLASS__, 'run'));
     }
 
@@ -23,6 +19,10 @@ class ZapPopPop_Pro_Uninstall {
         delete_site_transient('zappoppop_pro_update_cache');
         delete_site_transient('zappoppop_pro_edd_update');
         delete_site_option('zappoppop_pro_edd_license');
+        delete_site_option('zappoppop_pro_edd_products');
+        if (class_exists('ZapPopPop_Pro_Pass')) {
+            ZapPopPop_Pro_Pass::clear_cache();
+        }
         ZapPopPop_Pro_Multisite::each_site(array(__CLASS__, 'run_site'));
     }
 
