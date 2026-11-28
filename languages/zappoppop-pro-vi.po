@@ -936,7 +936,7 @@ msgstr[0] "%s sao"
 msgid "Please select a rating."
 msgstr "Vui lòng chọn một đánh giá."
 
-#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 templates/license-edd.php:30 templates/license-page.php:6
+#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 includes/class-pro-edd-updater.php:60 templates/license-edd.php:30 templates/license-page.php:6
 msgid "License"
 msgstr "Giấy phép"
 
@@ -944,13 +944,25 @@ msgstr "Giấy phép"
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Bạn không có đủ quyền để truy cập trang này."
 
+#: includes/class-pro-edd-updater.php:58 includes/class-pro-edd.php:298
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "Giấy phép này đã hết hạn. Hãy gia hạn để nhận bản cập nhật và hỗ trợ."
+
 #: includes/class-pro-edd-updater.php:58
+msgid "Activate your licence to enable automatic updates for this plugin."
+msgstr "Hãy kích hoạt giấy phép của bạn để bật cập nhật tự động cho plugin này."
+
+#: includes/class-pro-edd-updater.php:60 includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "Kích hoạt giấy phép"
+
+#: includes/class-pro-edd-updater.php:77
 msgid "ZapPopPop Pro add-on."
 msgstr "Tiện ích Pro của ZapPopPop."
 
 #: includes/class-pro-edd.php:117
-msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
-msgstr "Chưa thiết lập cấp phép. Hãy thêm URL cửa hàng và ID sản phẩm vào wp-config.php."
+msgid "Licensing cannot connect. The store address is empty or not https. Remove the override in wp-config.php, or set a valid https store URL."
+msgstr "Không thể kết nối cấp phép. Địa chỉ cửa hàng trống hoặc không dùng https. Hãy xóa phần ghi đè trong wp-config.php, hoặc đặt URL cửa hàng https hợp lệ."
 
 #: includes/class-pro-edd.php:131
 msgid "The licence server did not answer. Please try again later."
@@ -1028,10 +1040,6 @@ msgstr "Khóa không hợp lệ"
 msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
 msgstr "Giấy phép này đã hết hạn vào %s. Các tính năng Pro vẫn hoạt động trên những trang đã kích hoạt trước đó; hãy gia hạn để nhận bản cập nhật và hỗ trợ."
 
-#: includes/class-pro-edd.php:298
-msgid "This licence has expired. Renew it to receive updates and support."
-msgstr "Giấy phép này đã hết hạn. Hãy gia hạn để nhận bản cập nhật và hỗ trợ."
-
 #: includes/class-pro-edd.php:301
 msgid "This licence key is not valid. Please check it and try again."
 msgstr "Khóa giấy phép này không hợp lệ. Vui lòng kiểm tra và thử lại."
@@ -1059,10 +1067,6 @@ msgstr "Không thể xác minh giấy phép. Vui lòng thử lại hoặc liên 
 #: includes/class-pro-extensions.php:108
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr "Cần giấy phép ZapPopPop Pro đang hoạt động. Lựa chọn đã lưu của bạn được giữ nguyên."
-
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
-msgid "Activate licence"
-msgstr "Kích hoạt giấy phép"
 
 #: includes/class-pro-module-html-strings.php:24
 msgid "#c2185b"
@@ -1869,12 +1873,12 @@ msgid "No activity recorded."
 msgstr "Chưa ghi nhận hoạt động."
 
 #: templates/license-edd.php:44
-msgid "Licensing is not set up yet"
-msgstr "Chưa thiết lập cấp phép"
+msgid "Licensing cannot connect"
+msgstr "Không thể kết nối cấp phép"
 
 #: templates/license-edd.php:46
-msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
-msgstr "ZapPopPop Pro kiểm tra khóa giấy phép và cung cấp bản cập nhật qua Easy Digital Downloads. Hãy thêm thông tin cửa hàng vào wp-config.php, phía trên dòng có nội dung \"That's all, stop editing!\":"
+msgid "ZapPopPop Pro connects to zappoppop.com by default, so this notice only appears when the store address was overridden with an empty or non-https value. Remove that override from wp-config.php, or set it to your store's https address (for example a staging store):"
+msgstr "ZapPopPop Pro mặc định kết nối tới zappoppop.com, nên thông báo này chỉ xuất hiện khi địa chỉ cửa hàng bị ghi đè bằng giá trị trống hoặc không phải https. Hãy xóa phần ghi đè đó khỏi wp-config.php, hoặc đặt thành địa chỉ https của cửa hàng bạn (ví dụ: cửa hàng thử nghiệm):"
 
 #: templates/license-edd.php:48
 msgid "Store home URL (https)"

@@ -937,7 +937,7 @@ msgstr[1] "%s csillag"
 msgid "Please select a rating."
 msgstr "Kérjük, válassz értékelést."
 
-#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 templates/license-edd.php:30 templates/license-page.php:6
+#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 includes/class-pro-edd-updater.php:60 templates/license-edd.php:30 templates/license-page.php:6
 msgid "License"
 msgstr "Licenc"
 
@@ -945,13 +945,25 @@ msgstr "Licenc"
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Nincs elegendő jogosultsága az oldal eléréséhez."
 
+#: includes/class-pro-edd-updater.php:58 includes/class-pro-edd.php:298
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "Ez a licenc lejárt. Újítsa meg a frissítések és a támogatás igénybevételéhez."
+
 #: includes/class-pro-edd-updater.php:58
+msgid "Activate your licence to enable automatic updates for this plugin."
+msgstr "Aktiválja a licencét, hogy engedélyezze a bővítmény automatikus frissítéseit."
+
+#: includes/class-pro-edd-updater.php:60 includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "Licenc aktiválása"
+
+#: includes/class-pro-edd-updater.php:77
 msgid "ZapPopPop Pro add-on."
 msgstr "ZapPopPop Pro bővítmény."
 
 #: includes/class-pro-edd.php:117
-msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
-msgstr "A licencelés még nincs beállítva. Adja hozzá az áruház URL-jét és a termékazonosítót a wp-config.php fájlhoz."
+msgid "Licensing cannot connect. The store address is empty or not https. Remove the override in wp-config.php, or set a valid https store URL."
+msgstr "A licencelés nem tud csatlakozni. Az áruház címe üres, vagy nem https. Távolítsa el a felülbírálást a wp-config.php fájlból, vagy adjon meg érvényes https áruház-URL-t."
 
 #: includes/class-pro-edd.php:131
 msgid "The licence server did not answer. Please try again later."
@@ -1029,10 +1041,6 @@ msgstr "Érvénytelen kulcs"
 msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
 msgstr "Ez a licenc %s napján lejárt. A Pro funkciók továbbra is működnek azokon a webhelyeken, ahol már aktív volt; újítsa meg a frissítések és a támogatás igénybevételéhez."
 
-#: includes/class-pro-edd.php:298
-msgid "This licence has expired. Renew it to receive updates and support."
-msgstr "Ez a licenc lejárt. Újítsa meg a frissítések és a támogatás igénybevételéhez."
-
 #: includes/class-pro-edd.php:301
 msgid "This licence key is not valid. Please check it and try again."
 msgstr "Ez a licenckulcs érvénytelen. Ellenőrizze, és próbálja újra."
@@ -1060,10 +1068,6 @@ msgstr "A licenc nem ellenőrizhető. Kérjük, próbálja újra, vagy lépjen k
 #: includes/class-pro-extensions.php:108
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr "Aktív ZapPopPop Pro licenc szükséges. A mentett választása megmarad."
-
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
-msgid "Activate licence"
-msgstr "Licenc aktiválása"
 
 #: includes/class-pro-module-html-strings.php:24
 msgid "#c2185b"
@@ -1870,12 +1874,12 @@ msgid "No activity recorded."
 msgstr "Nincs rögzített tevékenység."
 
 #: templates/license-edd.php:44
-msgid "Licensing is not set up yet"
-msgstr "A licencelés még nincs beállítva"
+msgid "Licensing cannot connect"
+msgstr "A licencelés nem tud csatlakozni"
 
 #: templates/license-edd.php:46
-msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
-msgstr "A ZapPopPop Pro az Easy Digital Downloadson keresztül ellenőrzi a licenckulcsot és szállítja a frissítéseket. Adja hozzá az áruház adatait a wp-config.php fájlhoz, a \"That's all, stop editing!\" feliratú sor fölé:"
+msgid "ZapPopPop Pro connects to zappoppop.com by default, so this notice only appears when the store address was overridden with an empty or non-https value. Remove that override from wp-config.php, or set it to your store's https address (for example a staging store):"
+msgstr "A ZapPopPop Pro alapértelmezés szerint a zappoppop.com oldalhoz csatlakozik, ezért ez az értesítés csak akkor jelenik meg, ha az áruház címét üres vagy nem https értékkel felülbírálták. Távolítsa el ezt a felülbírálást a wp-config.php fájlból, vagy állítsa az áruház https címére (például egy tesztáruházra):"
 
 #: templates/license-edd.php:48
 msgid "Store home URL (https)"

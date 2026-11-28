@@ -33,6 +33,7 @@ class ZapPopPop_Pro_Pass {
         add_filter('zappoppop_addon_catalog', array(__CLASS__, 'catalog'));
         add_filter('pre_set_site_transient_update_plugins', array(__CLASS__, 'inject'), 20);
         add_filter('plugins_api', array(__CLASS__, 'plugin_info'), 20, 3);
+        add_action('admin_notices', array(__CLASS__, 'admin_notice'));
     }
 
     /* ------------------------------------------------------------------ product list */
@@ -106,6 +107,33 @@ class ZapPopPop_Pro_Pass {
             'description' => (isset($p['description']) && is_string($p['description'])) ? sanitize_text_field($p['description']) : '',
             'icon'        => (isset($p['icon']) && is_string($p['icon']) && preg_match('/^dashicons-[a-z0-9-]+$/', $p['icon'])) ? $p['icon'] : 'dashicons-admin-plugins',
         );
+    }
+
+    /** One notice (ZPP-COMBINED-NOTICE) for every ACTIVE add-on the licence does not cover. Add-ons stay silent when this exists. */
+    public static function admin_notice() {
+        if (!current_user_can('activate_plugins')) {
+            return;
+        }
+        $screen = function_exists('get_current_screen') ? get_current_screen() : null;
+        if (!$screen || strpos((string) $screen->id, 'zappoppop') === false) {
+            return;
+        }
+        if (!function_exists('is_plugin_active')) {
+            require_once ABSPATH . 'wp-admin/includes/plugin.php';
+        }
+        $names = array();
+        foreach (self::products() as $slug => $p) {
+            if (self::is_unlocked($slug) || !is_plugin_active($p['basename'])) {
+                continue;
+            }
+            $names[] = esc_html($p['name']);
+        }
+        if (!$names) {
+            return;
+        }
+        /* translators: %s: comma separated list of add-on names */
+        $text = esc_html__('These add-ons are installed but your licence does not cover them, so their settings are locked: %s. Popups that already use them keep working and nothing is lost.', 'zappoppop-pro');
+        echo '<div class="notice notice-warning"><p>' . wp_kses(sprintf($text, implode(', ', $names)), array()) . ' <a href="' . esc_url(admin_url('admin.php?page=zappoppop-license')) . '">' . esc_html__('Check your licence', 'zappoppop-pro') . '</a></p></div>';
     }
 
     /** Add-ons that can be licensed right now (slug => data): planned ones plus those registered through the filter. */

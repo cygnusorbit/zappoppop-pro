@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
  * disabled, revoked or deactivated, locks Pro. A store that cannot be reached never locks a site: the last
  * known status is kept. Status lives in a site option, so a multisite network shares one licence.
  *
- * Needs two constants in wp-config.php: ZAPPOPPOP_PRO_EDD_URL and ZAPPOPPOP_PRO_EDD_ITEM_ID.
+ * Defaults to the zappoppop.com store. ZAPPOPPOP_PRO_EDD_URL and ZAPPOPPOP_PRO_EDD_ITEM_ID in wp-config.php are optional overrides (for example a staging store).
  */
 class ZapPopPop_Pro_EDD {
 
@@ -114,7 +114,7 @@ class ZapPopPop_Pro_EDD {
     /** One call to the store. Returns the decoded JSON array or a WP_Error. */
     public static function request($action, $key, array $extra = array()) {
         if (!self::is_configured()) {
-            return new WP_Error('zappoppop_edd_config', __('Licensing is not set up yet. Add the store URL and product ID to wp-config.php.', 'zappoppop-pro'));
+            return new WP_Error('zappoppop_edd_config', __('Licensing cannot connect. The store address is empty or not https. Remove the override in wp-config.php, or set a valid https store URL.', 'zappoppop-pro'));
         }
         $body = array_merge(array(
             'edd_action'  => $action,

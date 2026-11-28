@@ -936,7 +936,7 @@ msgstr[0] "星%s個"
 msgid "Please select a rating."
 msgstr "評価を選択してください。"
 
-#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 templates/license-edd.php:30 templates/license-page.php:6
+#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 includes/class-pro-edd-updater.php:60 templates/license-edd.php:30 templates/license-page.php:6
 msgid "License"
 msgstr "ライセンス"
 
@@ -944,13 +944,25 @@ msgstr "ライセンス"
 msgid "You do not have sufficient permissions to access this page."
 msgstr "このページにアクセスする権限がありません。"
 
+#: includes/class-pro-edd-updater.php:58 includes/class-pro-edd.php:298
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "このライセンスは期限切れです。アップデートとサポートを受けるには更新してください。"
+
 #: includes/class-pro-edd-updater.php:58
+msgid "Activate your licence to enable automatic updates for this plugin."
+msgstr "このプラグインの自動更新を有効にするには、ライセンスを認証してください。"
+
+#: includes/class-pro-edd-updater.php:60 includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "ライセンスを有効化"
+
+#: includes/class-pro-edd-updater.php:77
 msgid "ZapPopPop Pro add-on."
 msgstr "ZapPopPop Proアドオン。"
 
 #: includes/class-pro-edd.php:117
-msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
-msgstr "ライセンスがまだ設定されていません。ストアのURLと製品IDをwp-config.phpに追加してください。"
+msgid "Licensing cannot connect. The store address is empty or not https. Remove the override in wp-config.php, or set a valid https store URL."
+msgstr "ライセンス認証に接続できません。ストアのアドレスが空であるか、https ではありません。wp-config.php の上書き設定を削除するか、有効な https のストアURLを設定してください。"
 
 #: includes/class-pro-edd.php:131
 msgid "The licence server did not answer. Please try again later."
@@ -1028,10 +1040,6 @@ msgstr "無効なキー"
 msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
 msgstr "このライセンスは%sに期限が切れました。すでに有効化されているサイトではPro機能が引き続き使えますが、アップデートとサポートを受けるには更新してください。"
 
-#: includes/class-pro-edd.php:298
-msgid "This licence has expired. Renew it to receive updates and support."
-msgstr "このライセンスは期限切れです。アップデートとサポートを受けるには更新してください。"
-
 #: includes/class-pro-edd.php:301
 msgid "This licence key is not valid. Please check it and try again."
 msgstr "このライセンスキーは無効です。確認して、もう一度お試しください。"
@@ -1059,10 +1067,6 @@ msgstr "ライセンスを確認できませんでした。もう一度お試し
 #: includes/class-pro-extensions.php:108
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr "有効なZapPopPop Proライセンスが必要です。保存済みの選択は保持されます。"
-
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
-msgid "Activate licence"
-msgstr "ライセンスを有効化"
 
 #: includes/class-pro-module-html-strings.php:24
 msgid "#c2185b"
@@ -1869,12 +1873,12 @@ msgid "No activity recorded."
 msgstr "アクティビティは記録されていません。"
 
 #: templates/license-edd.php:44
-msgid "Licensing is not set up yet"
-msgstr "ライセンスがまだ設定されていません"
+msgid "Licensing cannot connect"
+msgstr "ライセンス認証に接続できません"
 
 #: templates/license-edd.php:46
-msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
-msgstr "ZapPopPop Proは、Easy Digital Downloadsを通じてライセンスキーの確認とアップデートの配信を行います。wp-config.phpの「That's all, stop editing!」の行の上に、ストアの情報を追加してください："
+msgid "ZapPopPop Pro connects to zappoppop.com by default, so this notice only appears when the store address was overridden with an empty or non-https value. Remove that override from wp-config.php, or set it to your store's https address (for example a staging store):"
+msgstr "ZapPopPop Pro は既定で zappoppop.com に接続するため、この通知は、ストアのアドレスが空または https 以外の値で上書きされている場合にのみ表示されます。wp-config.php からその上書き設定を削除するか、ストアの https アドレス（例：ステージングストア）に設定してください："
 
 #: templates/license-edd.php:48
 msgid "Store home URL (https)"

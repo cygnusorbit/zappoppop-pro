@@ -937,7 +937,7 @@ msgstr[1] "%s stjärnor"
 msgid "Please select a rating."
 msgstr "Välj ett betyg."
 
-#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 templates/license-edd.php:30 templates/license-page.php:6
+#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 includes/class-pro-edd-updater.php:60 templates/license-edd.php:30 templates/license-page.php:6
 msgid "License"
 msgstr "Licens"
 
@@ -945,13 +945,25 @@ msgstr "Licens"
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Du har inte tillräcklig behörighet för att komma åt den här sidan."
 
+#: includes/class-pro-edd-updater.php:58 includes/class-pro-edd.php:298
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "Den här licensen har gått ut. Förnya den för att få uppdateringar och support."
+
 #: includes/class-pro-edd-updater.php:58
+msgid "Activate your licence to enable automatic updates for this plugin."
+msgstr "Aktivera din licens för att aktivera automatiska uppdateringar av det här tillägget."
+
+#: includes/class-pro-edd-updater.php:60 includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "Aktivera licens"
+
+#: includes/class-pro-edd-updater.php:77
 msgid "ZapPopPop Pro add-on."
 msgstr "ZapPopPop Pro-tillägg."
 
 #: includes/class-pro-edd.php:117
-msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
-msgstr "Licensiering är inte konfigurerad än. Lägg till butiks-URL och produkt-ID i wp-config.php."
+msgid "Licensing cannot connect. The store address is empty or not https. Remove the override in wp-config.php, or set a valid https store URL."
+msgstr "Licensieringen kan inte ansluta. Butiksadressen är tom eller inte https. Ta bort åsidosättningen i wp-config.php eller ange en giltig https-butiks-URL."
 
 #: includes/class-pro-edd.php:131
 msgid "The licence server did not answer. Please try again later."
@@ -1029,10 +1041,6 @@ msgstr "Ogiltig nyckel"
 msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
 msgstr "Den här licensen gick ut den %s. Pro-funktionerna fortsätter fungera på webbplatser där den redan var aktiv; förnya den för att få uppdateringar och support."
 
-#: includes/class-pro-edd.php:298
-msgid "This licence has expired. Renew it to receive updates and support."
-msgstr "Den här licensen har gått ut. Förnya den för att få uppdateringar och support."
-
 #: includes/class-pro-edd.php:301
 msgid "This licence key is not valid. Please check it and try again."
 msgstr "Den här licensnyckeln är inte giltig. Kontrollera den och försök igen."
@@ -1060,10 +1068,6 @@ msgstr "Licensen kunde inte verifieras. Försök igen eller kontakta supporten."
 #: includes/class-pro-extensions.php:108
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr "Kräver en aktiv ZapPopPop Pro-licens. Ditt sparade val behålls."
-
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
-msgid "Activate licence"
-msgstr "Aktivera licens"
 
 #: includes/class-pro-module-html-strings.php:24
 msgid "#c2185b"
@@ -1870,12 +1874,12 @@ msgid "No activity recorded."
 msgstr "Ingen aktivitet registrerad."
 
 #: templates/license-edd.php:44
-msgid "Licensing is not set up yet"
-msgstr "Licensiering är inte konfigurerad än"
+msgid "Licensing cannot connect"
+msgstr "Licensieringen kan inte ansluta"
 
 #: templates/license-edd.php:46
-msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
-msgstr "ZapPopPop Pro kontrollerar din licensnyckel och levererar uppdateringar via Easy Digital Downloads. Lägg till dina butiksuppgifter i wp-config.php, ovanför raden som lyder \"That's all, stop editing!\":"
+msgid "ZapPopPop Pro connects to zappoppop.com by default, so this notice only appears when the store address was overridden with an empty or non-https value. Remove that override from wp-config.php, or set it to your store's https address (for example a staging store):"
+msgstr "ZapPopPop Pro ansluter till zappoppop.com som standard, så den här aviseringen visas bara när butiksadressen har åsidosatts med ett tomt eller icke-https-värde. Ta bort åsidosättningen från wp-config.php eller ställ in den på butikens https-adress (till exempel en stagingbutik):"
 
 #: templates/license-edd.php:48
 msgid "Store home URL (https)"

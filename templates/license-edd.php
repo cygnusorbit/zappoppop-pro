@@ -41,9 +41,9 @@ $show_note  = isset($_GET['zappoppop_edd']) && $lic['message'] !== ''; // phpcs:
         <div class="zpp-lic-card">
             <div class="zpp-lic-head">
                 <span class="dashicons dashicons-admin-network"></span>
-                <h3><?php esc_html_e('Licensing is not set up yet', 'zappoppop-pro'); ?></h3>
+                <h3><?php esc_html_e('Licensing cannot connect', 'zappoppop-pro'); ?></h3>
             </div>
-            <p><?php esc_html_e('ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says "That\'s all, stop editing!":', 'zappoppop-pro'); ?></p>
+            <p><?php esc_html_e('ZapPopPop Pro connects to zappoppop.com by default, so this notice only appears when the store address was overridden with an empty or non-https value. Remove that override from wp-config.php, or set it to your store\'s https address (for example a staging store):', 'zappoppop-pro'); ?></p>
             <ul class="zpp-lic-list">
                 <li><code>ZAPPOPPOP_PRO_EDD_URL</code> &mdash; <?php esc_html_e('Store home URL (https)', 'zappoppop-pro'); ?></li>
                 <li><code>ZAPPOPPOP_PRO_EDD_ITEM_ID</code> &mdash; <?php esc_html_e('Download ID of ZapPopPop Pro in your store', 'zappoppop-pro'); ?></li>

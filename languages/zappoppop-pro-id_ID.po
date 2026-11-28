@@ -936,7 +936,7 @@ msgstr[0] "%s bintang"
 msgid "Please select a rating."
 msgstr "Pilih peringkat."
 
-#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 templates/license-edd.php:30 templates/license-page.php:6
+#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 includes/class-pro-edd-updater.php:60 templates/license-edd.php:30 templates/license-page.php:6
 msgid "License"
 msgstr "Lisensi"
 
@@ -944,13 +944,25 @@ msgstr "Lisensi"
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Anda tidak memiliki izin yang cukup untuk mengakses halaman ini."
 
+#: includes/class-pro-edd-updater.php:58 includes/class-pro-edd.php:298
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "Lisensi ini telah kedaluwarsa. Perpanjang untuk menerima pembaruan dan dukungan."
+
 #: includes/class-pro-edd-updater.php:58
+msgid "Activate your licence to enable automatic updates for this plugin."
+msgstr "Aktifkan lisensi Anda untuk mengaktifkan pembaruan otomatis plugin ini."
+
+#: includes/class-pro-edd-updater.php:60 includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "Aktifkan lisensi"
+
+#: includes/class-pro-edd-updater.php:77
 msgid "ZapPopPop Pro add-on."
 msgstr "Add-on ZapPopPop Pro."
 
 #: includes/class-pro-edd.php:117
-msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
-msgstr "Lisensi belum diatur. Tambahkan URL toko dan ID produk ke wp-config.php."
+msgid "Licensing cannot connect. The store address is empty or not https. Remove the override in wp-config.php, or set a valid https store URL."
+msgstr "Lisensi tidak dapat terhubung. Alamat toko kosong atau bukan https. Hapus penimpaan di wp-config.php, atau setel URL toko https yang valid."
 
 #: includes/class-pro-edd.php:131
 msgid "The licence server did not answer. Please try again later."
@@ -1028,10 +1040,6 @@ msgstr "Kunci tidak valid"
 msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
 msgstr "Lisensi ini kedaluwarsa pada %s. Fitur Pro tetap berfungsi di situs yang sudah aktif; perpanjang untuk menerima pembaruan dan dukungan."
 
-#: includes/class-pro-edd.php:298
-msgid "This licence has expired. Renew it to receive updates and support."
-msgstr "Lisensi ini telah kedaluwarsa. Perpanjang untuk menerima pembaruan dan dukungan."
-
 #: includes/class-pro-edd.php:301
 msgid "This licence key is not valid. Please check it and try again."
 msgstr "Kunci lisensi ini tidak valid. Silakan periksa dan coba lagi."
@@ -1059,10 +1067,6 @@ msgstr "Lisensi tidak dapat diverifikasi. Silakan coba lagi atau hubungi dukunga
 #: includes/class-pro-extensions.php:108
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr "Memerlukan lisensi ZapPopPop Pro aktif. Pilihan tersimpan Anda tetap dipertahankan."
-
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
-msgid "Activate licence"
-msgstr "Aktifkan lisensi"
 
 #: includes/class-pro-module-html-strings.php:24
 msgid "#c2185b"
@@ -1869,12 +1873,12 @@ msgid "No activity recorded."
 msgstr "Tidak ada aktivitas yang tercatat."
 
 #: templates/license-edd.php:44
-msgid "Licensing is not set up yet"
-msgstr "Lisensi belum diatur"
+msgid "Licensing cannot connect"
+msgstr "Lisensi tidak dapat terhubung"
 
 #: templates/license-edd.php:46
-msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
-msgstr "ZapPopPop Pro memeriksa kunci lisensi Anda dan mengirim pembaruan melalui Easy Digital Downloads. Tambahkan detail toko Anda ke wp-config.php, di atas baris yang berbunyi \"That's all, stop editing!\":"
+msgid "ZapPopPop Pro connects to zappoppop.com by default, so this notice only appears when the store address was overridden with an empty or non-https value. Remove that override from wp-config.php, or set it to your store's https address (for example a staging store):"
+msgstr "ZapPopPop Pro terhubung ke zappoppop.com secara default, jadi pemberitahuan ini hanya muncul saat alamat toko ditimpa dengan nilai kosong atau non-https. Hapus penimpaan tersebut dari wp-config.php, atau setel ke alamat https toko Anda (misalnya toko staging):"
 
 #: templates/license-edd.php:48
 msgid "Store home URL (https)"

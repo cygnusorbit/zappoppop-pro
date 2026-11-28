@@ -3,7 +3,7 @@
  * Plugin Name: ZapPopPop Pro
  * Plugin URI: https://zappoppop.com/
  * Description: Pro add-on for ZapPopPop: extra builder elements, modules, templates, A/B Campaigns and Statistics.
- * Version: 1.0.14
+ * Version: 1.0.15
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * Author: ZapPopPop
@@ -21,7 +21,7 @@ if (defined('ZAPPOPPOP_PRO_VERSION')) {
     return;
 }
 
-define('ZAPPOPPOP_PRO_VERSION', '1.0.14');
+define('ZAPPOPPOP_PRO_VERSION', '1.0.15');
 define('ZAPPOPPOP_PRO_FILE', __FILE__);
 define('ZAPPOPPOP_PRO_PATH', plugin_dir_path(__FILE__));
 define('ZAPPOPPOP_PRO_URL', plugin_dir_url(__FILE__));
@@ -53,12 +53,27 @@ if (!defined('ZAPPOPPOP_PRO_EDD_ITEM_ID')) {
  * and never contacts the store. Define them in wp-config.php (a wp-config.php value wins) or fill them in here once
  * the downloads exist:  ZAPPOPPOP_PRO_EDD_ID_WOO_CART, ZAPPOPPOP_PRO_EDD_ID_MAILCHIMP, ZAPPOPPOP_PRO_EDD_ID_GETRESPONSE.
  */
-foreach (array('ZAPPOPPOP_PRO_EDD_ID_WOO_CART', 'ZAPPOPPOP_PRO_EDD_ID_MAILCHIMP', 'ZAPPOPPOP_PRO_EDD_ID_GETRESPONSE', 'ZAPPOPPOP_PRO_EDD_ID_SUCCESS_CELEBRATION', 'ZAPPOPPOP_PRO_EDD_ID_POPUP_OVERLAY', 'ZAPPOPPOP_PRO_EDD_ID_POPUP_POSITIONS', 'ZAPPOPPOP_PRO_EDD_ID_TARGETING_TRIGGERS', 'ZAPPOPPOP_PRO_EDD_ID_TARGETING', 'ZAPPOPPOP_PRO_EDD_ID_SIDE_TABS', 'ZAPPOPPOP_PRO_EDD_ID_ANIMATION', 'ZAPPOPPOP_PRO_EDD_ID_DOUBLE_OPTIN', 'ZAPPOPPOP_PRO_EDD_ID_AUTORESPONDER', 'ZAPPOPPOP_PRO_EDD_ID_SECURITY') as $zappoppop_pro_const) {
+/* ZPP_LIVE_IDS: Download IDs on zappoppop.com. A wp-config.php value still wins. */
+foreach (array(
+    'ZAPPOPPOP_PRO_EDD_ID_WOO_CART' => 3681,
+    'ZAPPOPPOP_PRO_EDD_ID_MAILCHIMP' => 3683,
+    'ZAPPOPPOP_PRO_EDD_ID_GETRESPONSE' => 3685,
+    'ZAPPOPPOP_PRO_EDD_ID_SUCCESS_CELEBRATION' => 3661,
+    'ZAPPOPPOP_PRO_EDD_ID_POPUP_OVERLAY' => 3663,
+    'ZAPPOPPOP_PRO_EDD_ID_POPUP_POSITIONS' => 3665,
+    'ZAPPOPPOP_PRO_EDD_ID_TARGETING_TRIGGERS' => 3667,
+    'ZAPPOPPOP_PRO_EDD_ID_TARGETING' => 3669,
+    'ZAPPOPPOP_PRO_EDD_ID_SIDE_TABS' => 3671,
+    'ZAPPOPPOP_PRO_EDD_ID_ANIMATION' => 3673,
+    'ZAPPOPPOP_PRO_EDD_ID_DOUBLE_OPTIN' => 3675,
+    'ZAPPOPPOP_PRO_EDD_ID_AUTORESPONDER' => 3677,
+    'ZAPPOPPOP_PRO_EDD_ID_SECURITY' => 3679,
+) as $zappoppop_pro_const => $zappoppop_pro_id) {
     if (!defined($zappoppop_pro_const)) {
-        define($zappoppop_pro_const, 0);
+        define($zappoppop_pro_const, $zappoppop_pro_id);
     }
 }
-unset($zappoppop_pro_const);
+unset($zappoppop_pro_const, $zappoppop_pro_id);
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-edd-updater.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-edd.php';
 require_once ZAPPOPPOP_PRO_PATH . 'includes/class-pro-pass.php';

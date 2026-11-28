@@ -40,3 +40,4 @@ __pycache__
 *.pyc
 .claude
 /_to_delete
+*.bak*

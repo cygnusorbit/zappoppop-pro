@@ -941,7 +941,7 @@ msgstr[5] "%s نجمة"
 msgid "Please select a rating."
 msgstr "يرجى اختيار تقييم."
 
-#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 templates/license-edd.php:30 templates/license-page.php:6
+#: includes/class-pro-admin.php:21 includes/class-pro-admin.php:29 includes/class-pro-edd-updater.php:60 templates/license-edd.php:30 templates/license-page.php:6
 msgid "License"
 msgstr "الترخيص"
 
@@ -949,13 +949,25 @@ msgstr "الترخيص"
 msgid "You do not have sufficient permissions to access this page."
 msgstr "ليس لديك صلاحيات كافية للوصول إلى هذه الصفحة."
 
+#: includes/class-pro-edd-updater.php:58 includes/class-pro-edd.php:298
+msgid "This licence has expired. Renew it to receive updates and support."
+msgstr "انتهى هذا الترخيص. جدّده لتلقي التحديثات والدعم."
+
 #: includes/class-pro-edd-updater.php:58
+msgid "Activate your licence to enable automatic updates for this plugin."
+msgstr "فعّل ترخيصك لتمكين التحديثات التلقائية لهذه الإضافة."
+
+#: includes/class-pro-edd-updater.php:60 includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
+msgid "Activate licence"
+msgstr "تفعيل الترخيص"
+
+#: includes/class-pro-edd-updater.php:77
 msgid "ZapPopPop Pro add-on."
 msgstr "إضافة ZapPopPop Pro."
 
 #: includes/class-pro-edd.php:117
-msgid "Licensing is not set up yet. Add the store URL and product ID to wp-config.php."
-msgstr "لم يتم إعداد الترخيص بعد. أضف عنوان URL للمتجر ومعرّف المنتج في wp-config.php."
+msgid "Licensing cannot connect. The store address is empty or not https. Remove the override in wp-config.php, or set a valid https store URL."
+msgstr "تعذّر الاتصال بخدمة الترخيص. عنوان المتجر فارغ أو لا يستخدم https. أزل التجاوز في wp-config.php، أو عيّن عنوان URL صالحًا للمتجر يبدأ بـ https."
 
 #: includes/class-pro-edd.php:131
 msgid "The licence server did not answer. Please try again later."
@@ -1033,10 +1045,6 @@ msgstr "مفتاح غير صالح"
 msgid "This licence expired on %s. Pro features keep working on sites where it was already active; renew it to receive updates and support."
 msgstr "انتهى هذا الترخيص في %s. تستمر ميزات Pro في العمل على المواقع التي كان مفعّلًا عليها بالفعل؛ جدّده لتلقي التحديثات والدعم."
 
-#: includes/class-pro-edd.php:298
-msgid "This licence has expired. Renew it to receive updates and support."
-msgstr "انتهى هذا الترخيص. جدّده لتلقي التحديثات والدعم."
-
 #: includes/class-pro-edd.php:301
 msgid "This licence key is not valid. Please check it and try again."
 msgstr "مفتاح الترخيص هذا غير صالح. يرجى التحقق منه والمحاولة مرة أخرى."
@@ -1064,10 +1072,6 @@ msgstr "تعذّر التحقق من الترخيص. يرجى المحاولة �
 #: includes/class-pro-extensions.php:108
 msgid "Needs an active ZapPopPop Pro licence. Your saved choice is kept."
 msgstr "يتطلب ترخيص ZapPopPop Pro نشطًا. يتم الاحتفاظ باختيارك المحفوظ."
-
-#: includes/class-pro-extensions.php:110 includes/class-pro-plugin.php:171 templates/license-edd.php:89 templates/locked-page.php:25 templates/settings-security.php:19
-msgid "Activate licence"
-msgstr "تفعيل الترخيص"
 
 #: includes/class-pro-module-html-strings.php:24
 msgid "#c2185b"
@@ -1874,12 +1878,12 @@ msgid "No activity recorded."
 msgstr "لم يتم تسجيل أي نشاط."
 
 #: templates/license-edd.php:44
-msgid "Licensing is not set up yet"
-msgstr "الترخيص لم يُعدّ بعد"
+msgid "Licensing cannot connect"
+msgstr "تعذّر الاتصال بخدمة الترخيص"
 
 #: templates/license-edd.php:46
-msgid "ZapPopPop Pro checks your licence key and delivers updates through Easy Digital Downloads. Add your store details to wp-config.php, above the line that says \"That's all, stop editing!\":"
-msgstr "يتحقق ZapPopPop Pro من مفتاح الترخيص ويقدّم التحديثات عبر Easy Digital Downloads. أضف تفاصيل متجرك إلى wp-config.php، فوق السطر الذي يقول \"That's all, stop editing!\":"
+msgid "ZapPopPop Pro connects to zappoppop.com by default, so this notice only appears when the store address was overridden with an empty or non-https value. Remove that override from wp-config.php, or set it to your store's https address (for example a staging store):"
+msgstr "يتصل ZapPopPop Pro بالموقع zappoppop.com افتراضيًا، لذا لا يظهر هذا الإشعار إلا عندما يتم تجاوز عنوان المتجر بقيمة فارغة أو بقيمة لا تستخدم https. أزل هذا التجاوز من wp-config.php، أو عيّنه على عنوان https الخاص بمتجرك (مثل متجر تجريبي):"
 
 #: templates/license-edd.php:48
 msgid "Store home URL (https)"

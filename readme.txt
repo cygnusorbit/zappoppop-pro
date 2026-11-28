@@ -5,7 +5,7 @@ Tags: popup, modal, popup builder, optin, lead generation
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.14
+Stable tag: 1.0.15
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,5 +63,42 @@ ZapPopPop Pro communicates with external services only when the site administrat
 
 == Changelog ==
 
-= Complete =
+= 1.0.15 - 2026-11-28 =
+* Tweak: One notice on ZapPopPop screens lists every active add-on your licence does not cover, with a Check your licence link.
+
+= 1.0.14 - 2026-11-28 =
+* New: All Access Pass licensing. One licence key from zappoppop.com unlocks ZapPopPop Pro and every ZapPopPop Pro add-on.
+* New: Pro modules are now separate "ZapPopPop Pro - ..." add-ons (Success Celebration, Targeting, Targeting Triggers, Woo Cart and more), installed and updated from the Extend page.
+* New: The licence page shows which add-ons your key covers.
+* New: Elementor-style update notice on the Plugins screen with an "Activate licence" link when automatic updates are unavailable, and a "View details" popup with this changelog.
+* Tweak: Freemius SDK removed. Licensing and updates now run through zappoppop.com.
+* Fix: Module loading fixes.
+
+= 1.0.13 - 2026-11-26 =
+* Tweak: More languages added and translations updated.
+
+= 1.0.12 - 2026-11-24 =
+* Tweak: Builder and module screens are fully translatable, including built-in interface strings.
+* Tweak: Builder fine-tuning.
+
+= 1.0.10 - 2026-11-22 =
+* Tweak: Translation ready. Text domain loading and translatable strings added across the modules (Mailchimp, GetResponse, SMS, Double Opt-in, Side Tabs, Targeting Triggers, Woo Cart and more).
+
+= 1.0.09 - 2026-11-22 =
+* Tweak: Popup Overlay animations now load their script as a properly enqueued file.
+* Tweak: Internal prefix cleanup in A/B Campaigns, Statistics and the licence screen.
+
+= 1.0.08 - 2026-11-21 =
+* New: Woo Cart module. Show popups based on cart contents and recover abandoned carts.
+* Tweak: Targeting Triggers respect Woo Cart rules, so a blocked popup view is not counted as seen.
+
+= 1.0.07 - 2026-11-20 =
+* Tweak: The "Apply Image Select Preset" button was removed. The 200 x 50 preset now applies automatically to new Image Select layers.
+
+= 1.0.06 - 2026-11-20 =
+* New: Licence page and automatic updates from zappoppop.com (Easy Digital Downloads).
+* New: Wave Overlay library preset.
+* Tweak: Module icons added.
+
+= 1.0.15 =
 * Initial release of ZapPopPop Pro, the companion add-on for ZapPopPop.
